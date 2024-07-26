@@ -1,0 +1,13 @@
+prefix=/Users/heiditam/Desktop/lit_review/SDOH_transportation/.conda
+exec_prefix=/Users/heiditam/Desktop/lit_review/SDOH_transportation/.conda
+libdir=/Users/heiditam/Desktop/lit_review/SDOH_transportation/.conda/lib
+sharedlibdir=/Users/heiditam/Desktop/lit_review/SDOH_transportation/.conda/lib
+includedir=/Users/heiditam/Desktop/lit_review/SDOH_transportation/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

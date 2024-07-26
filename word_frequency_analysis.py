@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+# from nltk.stem import PorterStemmer
 
 tree = ET.parse('sources.xml')
 root = tree.getroot()
@@ -35,4 +36,8 @@ for word in all_words:
         word_counts[word] = 1
     else:
         word_counts[word] += 1
+
+# sort by the second element (the value) in descending order, and then sort by the key alphabetically
 print(sorted(word_counts.items(), key=lambda x: (-x[1], x[0])))
+
+# print(word_counts)
