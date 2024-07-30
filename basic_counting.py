@@ -42,4 +42,5 @@ for word in all_words:
         word_counts[word] += 1
 
 # sort by the second element (the value) in descending order, and then sort by the key alphabetically
-print(sorted(word_counts.items(), key=lambda x: (-x[1], x[0])))
+sorted_words = sorted(word_counts.items(), key=lambda x: (-x[1], x[0]))
+print(sorted_words)
