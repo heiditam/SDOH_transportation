@@ -7,12 +7,15 @@ root = tree.getroot()
 
 abstracts = ''
 word_counts = {}
+stemming_dict = {}
 
 # word frequency analysis
 for abstract_elem in root.findall('.//abstract'):
     abstracts += abstract_elem.text.lower()
 
 abstracts = abstracts.strip().split()
+
+# print(abstracts)
 
 def word_only(word):
     while len(word) > 0 and not word[0].isalnum():
@@ -39,12 +42,4 @@ for word in all_words:
         word_counts[word] += 1
 
 # sort by the second element (the value) in descending order, and then sort by the key alphabetically
-# print(sorted(word_counts.items(), key=lambda x: (-x[1], x[0])))
-
-# download("en_core_web_sm")
-nlp = spacy.load("en_core_web_sm")
-string_text = nlp(' '.join(word_counts.keys()))
-
-for token in string_text:
-    print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_,
-            token.shape_, token.is_alpha, token.is_stop)
+print(sorted(word_counts.items(), key=lambda x: (-x[1], x[0])))
