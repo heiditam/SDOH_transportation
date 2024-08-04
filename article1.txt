@@ -1,0 +1,1113 @@
+Abstract
+
+   Health-care–related transportation insecurity is common in the
+   United States. Patients with cancer are especially vulnerable
+   because cancer care is episodic in nature, occurs over a
+   prolonged period, is marked by frequent clinical encounters,
+   requires intense treatments, and results in substantial
+   financial hardship. As a result of transportation insecurity,
+   patients with cancer may forego, miss, delay, alter, and/or
+   prematurely terminate necessary care. Limited data suggest that
+   these alterations in care have the potential to increase the
+   rates of cancer recurrence and mortality and exacerbate
+   disparities in cancer incidence, severity, and outcomes.
+   Transportation insecurity also negatively impacts at the
+   informal caregiver, provider, health system, and societal
+   levels. Recognizing that transportation is a critical
+   determinant of outcomes for patients with cancer, there are
+   ongoing efforts to develop evidence-based protocols to identify
+   at-risk patients and address transportation insecurity at
+   federal policy, health system, not-for-profit, and industry
+   levels. In 2021, the National Cancer Policy Forum of the
+   National Academies of Science, Engineering, and Medicine
+   sponsored a series of webinars addressing key social
+   determinants of health including food, housing, and
+   transportation among patients with cancer. This commentary
+   summarizes the formal presentations and discussions related to
+   transportation insecurity and will 1) discuss the heterogeneous
+   nature of transportation insecurity among patients with cancer;
+   2) characterize its prevalence along the cancer continuum; 3)
+   examine its multilevel consequences; 4) discuss measurement and
+   screening tools; 5) highlight ongoing efforts to address
+   transportation insecurity; 6) suggest policy levers; and 7)
+   outline a research agenda to address critical knowledge gaps.
+
+   Dorothy Baily (name changed to protect her privacy) is a
+   71-year-old woman with emphysema and lung cancer requiring
+   continuous oxygen. She would need to walk 5 blocks to take a
+   bus to her oncologist’s office. Although this may seem like a
+   short distance for a person in good health, 5 blocks is too far
+   for Dorothy to feel comfortable walking because of her poor
+   performance status and her need to carry her supplemental
+   oxygen equipment. She relies on her grandson, the only person
+   in the family with a car, to drive her for chemotherapy
+   infusions. The grandson is a single parent working 2 part-time
+   jobs; he is not eligible for unpaid leave benefits to care for
+   his grandmother. Although he rescheduled his work to take his
+   grandmother for chemotherapy, Ms Baily would occasionally miss
+   her infusions when her grandson was too tired to drive to and
+   from the infusion center. However, she was too embarrassed to
+   tell her oncologist about her transportation insecurity.
+
+   Health-care–related transportation insecurity is a condition in
+   which one is unable to regularly move from place to place in a
+   safe and timely manner because of the lack of material,
+   economic, or social resources necessary for transportation to
+   maintain health ([138]1,[139]2). In the United States,
+   transportation insecurity was estimated to effect 5.8 million
+   people in 2017 ([140]3) and disproportionately burdens racial
+   and ethnic minority, low-income, elderly, and rural populations
+   ([141]1,[142]4,[143]5). Transportation insecurity is a
+   particularly important problem for patients with cancer for a
+   number of reasons. First, patients with cancer are particularly
+   susceptible to transportation as a barrier to medical care,
+   with higher rates of transportation insecurity relative to
+   similar patients without a history of cancer ([144]6,[145]7).
+   Second, transportation insecurity among patients with cancer is
+   common. Although the precise prevalence of transportation
+   insecurity among patients with cancer is unknown
+   ([146]6,[147]8,[148]9), according to the National Breast and
+   Cervical Cancer Early Detection Program, up to 90% of women
+   receiving assistance self-report lack of transportation as a
+   barrier to screening ([149]10). Third, the consequences of
+   transportation insecurity among patients with cancer are
+   substantial. Transportation insecurity may result in patients
+   with cancer foregoing, missing, delaying, and/or altering
+   necessary clinical care ([150]4). Limited data suggest that
+   transportation insecurity may be associated with oncologic
+   outcomes ([151]7). However, extrapolating from other studies
+   evaluating treatment delays and nonadherence among patients
+   with cancer, it is recognized that transportation insecurity
+   has the potential to increase the rates of cancer recurrence
+   and mortality as well as exacerbate disparities in cancer
+   incidence, severity, and outcomes ([152]11,[153]12).
+
+   During 2021, the National Cancer Policy Forum of the National
+   Academies of Science Engineering and Medicine sponsored a
+   series of webinars addressing key social determinants of health
+   including food, housing, and transportation insecurity among
+   patients with cancer. These webinars summarized research
+   evidence for the association of social determinants of health
+   and disparities in cancer care and patient outcomes and
+   identified promising interventions and opportunities for
+   practice and policy to improve health equity. This commentary
+   summarizes the formal presentations and webinar discussion
+   related to transportation insecurity ([154]13) and will 1)
+   discuss the heterogeneous nature of transportation insecurity
+   among patients with cancer; 2) characterize its prevalence
+   along the cancer care continuum; 3) examine its multilevel
+   consequences; 4) discuss measurement and screening tools; 5)
+   highlight ongoing efforts to address transportation insecurity;
+   6) suggest policy levers; and 7) outline a research agenda to
+   address critical knowledge gaps.
+
+Multifaceted Nature of Transportation Insecurity Among Patients With
+Cancer
+
+   Transportation insecurity among patients with cancer results
+   from a diverse array of barriers. For example, transportation
+   insecurity may arise from the inability to pay for gas,
+   parking, public transit, or temporary lodging near specialty
+   centers; insufficient public transportation infrastructure;
+   lack of access to a vehicle; lack of an informal caregiver able
+   to drive to and from clinical encounters; or the physical
+   inability to travel long distances ([155]4,[156]14-16).
+   Transportation insecurity is also a state, not a trait. Whereas
+   some patients have long-term, consistent challenges accessing
+   adequate transportation to and from cancer care facilities,
+   others have unpredictable access to transportation because of
+   unstable incomes, public transportation choices that are prone
+   to disruptions, or personal vehicles that are unreliable
+   ([157]6). As the COVID-19 pandemic reinforced,
+   transportation-related barriers may arise as the external
+   environment changes. Patients with cancer who previously relied
+   on public transportation were suddenly unable to use this
+   method because of concerns about its safety, and others were
+   left with new transportation barriers when previously
+   established methods were temporarily suspended (eg, American
+   Cancer Society Road to Recovery). This dynamic and
+   time-dependent nature of transportation insecurity is critical
+   for patients with cancer who require available and affordable
+   transportation for optimal prevention, screening, diagnosis,
+   treatment initiation, completion of cancer-directed therapy,
+   palliation, and survivorship care ([158]2,[159]7).
+   Transportation insecurity is also context specific. Barriers to
+   transportation among urban populations (eg, access to public
+   transportation, neighborhood safety) may be quite different
+   from barriers among rural populations (eg, travel distance)
+   ([160]4,[161]17). Finally, transportation insecurity often
+   doesn’t exist in isolation but rather is intermixed with other
+   social needs including inadequate social support, financial
+   toxicity, food insecurity, and housing insecurity
+   ([162]9,[163]18,[164]19).
+
+Prevalence of Transportation Insecurity Among Patients With Cancer
+
+   Patients with cancer are particularly susceptible to
+   transportation as a barrier to medical care. As shown in
+   [165]Table 1, there are a number of factors that result in
+   patients with cancer being an especially vulnerable population
+   for transportation insecurity. These potential considerations
+   have been validated empirically, as a number of studies have
+   demonstrated higher rates of transportation insecurity among
+   patients with cancer relative to those without a history of
+   cancer ([166]6,[167]7). Although transportation insecurity
+   among patients with cancer is thought to be common, prevalence
+   estimates range widely across published studies. For example,
+   nearly 90% of women in the National Breast and Cervical Cancer
+   Early Detection Program and 75% of adults in the Colorectal
+   Cancer Control Program self-reported lack of transportation as
+   a barrier to screening ([168]10). These programs assist
+   low-income adults without adequate health insurance coverage in
+   receiving screening. However, in a sample of veterans with
+   colorectal cancer, 2 studies estimated that approximately 20%
+   of patients self-reported transportation as a barrier to cancer
+   care ([169]8,[170]9). Finally, a recent analysis of the
+   nationally representative National Health Interview Survey
+   found that only 3.1% of cancer survivors self-reported delaying
+   care because of transportation barriers ([171]6). These widely
+   disparate prevalence estimates may reflect differences related
+   to timing along the cancer care continuum (screening,
+   treatment, survivorship), clinical population (breast cancer,
+   colorectal cancer, all types of cancer), health insurance
+   coverage and associated programs to address transportation
+   insecurity (primarily Medicaid and underinsured, coverage
+   through the Veterans Affairs Health System, inclusion of
+   patients with Medicare or private insurance), or differences in
+   sampling technique and study design (single institution study,
+   national samples from household surveys).
+   Table 1.
+
+   Patients with cancer are an especially vulnerable population to
+   transportation insecurity
+   Predisposing factors .  Examples .
+   Cancer care is episodic in nature, occurs over a prolonged
+   period, is marked by frequent clinical encounters, and requires
+   intense treatments, resulting in many opportunities for
+   transportation insecurity. Need for inpatient and outpatient
+   care resulting in diverse transportation requirements
+   Need for (and/or lack of) coordinated multidisciplinary
+   clinical appointments
+   Need for imaging, lab draws, and other services in advance of
+   appointments for treatment resulting in multiple clinical
+   encounters
+   Need for protracted, recurring, daily treatments (eg, radiation
+   therapy, which is usually prescribed daily for 1-6 weeks)
+   The physical and psychological toxicity of cancer and its
+   treatment precludes certain modes of transportation and creates
+   additional logistical transportation challenges. Physical
+   difficulty utilizing certain transportation modalities
+   Concerns about safety of public transportation in setting of
+   weakened immune system
+   Need for informal caregiver to physically travel with the
+   patient results in challenges coordinating with caregiver’s
+   work and other responsibilities
+   Stress and worry about life-threatening illness
+   Financial toxicity is increasingly prevalent among patients
+   with cancer, amplifying transportation insecurity. High patient
+   out-of-pocket costs during treatment
+   Lasting effects of new debt during treatment
+   Changes in employment, income loss, and access to
+   employer-sponsored health insurance coverage for patients and
+   informal caregivers
+   Prevalence of delaying care because of cost more common among
+   cancer survivors than counterparts without a cancer history
+   Highly specialized care at regionalized centers of excellence
+   necessitates a greater travel burden relative to other chronic
+   conditions. Increased travel distance or time results in
+   increased transportation challenges
+   Need for temporary lodging
+   Greater time away from work for patients and informal
+   caregivers
+   The inability to deliver cancer-directed therapy virtually
+   precludes some potential telemedicine-based interventions. Need
+   for specialized equipment for radiation therapy
+   Monitoring for reactions during infusion therapy
+   Predisposing factors .  Examples .
+   Cancer care is episodic in nature, occurs over a prolonged
+   period, is marked by frequent clinical encounters, and requires
+   intense treatments, resulting in many opportunities for
+   transportation insecurity. Need for inpatient and outpatient
+   care resulting in diverse transportation requirements
+   Need for (and/or lack of) coordinated multidisciplinary
+   clinical appointments
+   Need for imaging, lab draws, and other services in advance of
+   appointments for treatment resulting in multiple clinical
+   encounters
+   Need for protracted, recurring, daily treatments (eg, radiation
+   therapy, which is usually prescribed daily for 1-6 weeks)
+   The physical and psychological toxicity of cancer and its
+   treatment precludes certain modes of transportation and creates
+   additional logistical transportation challenges. Physical
+   difficulty utilizing certain transportation modalities
+   Concerns about safety of public transportation in setting of
+   weakened immune system
+   Need for informal caregiver to physically travel with the
+   patient results in challenges coordinating with caregiver’s
+   work and other responsibilities
+   Stress and worry about life-threatening illness
+   Financial toxicity is increasingly prevalent among patients
+   with cancer, amplifying transportation insecurity. High patient
+   out-of-pocket costs during treatment
+   Lasting effects of new debt during treatment
+   Changes in employment, income loss, and access to
+   employer-sponsored health insurance coverage for patients and
+   informal caregivers
+   Prevalence of delaying care because of cost more common among
+   cancer survivors than counterparts without a cancer history
+   Highly specialized care at regionalized centers of excellence
+   necessitates a greater travel burden relative to other chronic
+   conditions. Increased travel distance or time results in
+   increased transportation challenges
+   Need for temporary lodging
+   Greater time away from work for patients and informal
+   caregivers
+   The inability to deliver cancer-directed therapy virtually
+   precludes some potential telemedicine-based interventions. Need
+   for specialized equipment for radiation therapy
+   Monitoring for reactions during infusion therapy
+   Table 1.
+
+   Patients with cancer are an especially vulnerable population to
+   transportation insecurity
+   Predisposing factors .  Examples .
+   Cancer care is episodic in nature, occurs over a prolonged
+   period, is marked by frequent clinical encounters, and requires
+   intense treatments, resulting in many opportunities for
+   transportation insecurity. Need for inpatient and outpatient
+   care resulting in diverse transportation requirements
+   Need for (and/or lack of) coordinated multidisciplinary
+   clinical appointments
+   Need for imaging, lab draws, and other services in advance of
+   appointments for treatment resulting in multiple clinical
+   encounters
+   Need for protracted, recurring, daily treatments (eg, radiation
+   therapy, which is usually prescribed daily for 1-6 weeks)
+   The physical and psychological toxicity of cancer and its
+   treatment precludes certain modes of transportation and creates
+   additional logistical transportation challenges. Physical
+   difficulty utilizing certain transportation modalities
+   Concerns about safety of public transportation in setting of
+   weakened immune system
+   Need for informal caregiver to physically travel with the
+   patient results in challenges coordinating with caregiver’s
+   work and other responsibilities
+   Stress and worry about life-threatening illness
+   Financial toxicity is increasingly prevalent among patients
+   with cancer, amplifying transportation insecurity. High patient
+   out-of-pocket costs during treatment
+   Lasting effects of new debt during treatment
+   Changes in employment, income loss, and access to
+   employer-sponsored health insurance coverage for patients and
+   informal caregivers
+   Prevalence of delaying care because of cost more common among
+   cancer survivors than counterparts without a cancer history
+   Highly specialized care at regionalized centers of excellence
+   necessitates a greater travel burden relative to other chronic
+   conditions. Increased travel distance or time results in
+   increased transportation challenges
+   Need for temporary lodging
+   Greater time away from work for patients and informal
+   caregivers
+   The inability to deliver cancer-directed therapy virtually
+   precludes some potential telemedicine-based interventions. Need
+   for specialized equipment for radiation therapy
+   Monitoring for reactions during infusion therapy
+   Predisposing factors .  Examples .
+   Cancer care is episodic in nature, occurs over a prolonged
+   period, is marked by frequent clinical encounters, and requires
+   intense treatments, resulting in many opportunities for
+   transportation insecurity. Need for inpatient and outpatient
+   care resulting in diverse transportation requirements
+   Need for (and/or lack of) coordinated multidisciplinary
+   clinical appointments
+   Need for imaging, lab draws, and other services in advance of
+   appointments for treatment resulting in multiple clinical
+   encounters
+   Need for protracted, recurring, daily treatments (eg, radiation
+   therapy, which is usually prescribed daily for 1-6 weeks)
+   The physical and psychological toxicity of cancer and its
+   treatment precludes certain modes of transportation and creates
+   additional logistical transportation challenges. Physical
+   difficulty utilizing certain transportation modalities
+   Concerns about safety of public transportation in setting of
+   weakened immune system
+   Need for informal caregiver to physically travel with the
+   patient results in challenges coordinating with caregiver’s
+   work and other responsibilities
+   Stress and worry about life-threatening illness
+   Financial toxicity is increasingly prevalent among patients
+   with cancer, amplifying transportation insecurity. High patient
+   out-of-pocket costs during treatment
+   Lasting effects of new debt during treatment
+   Changes in employment, income loss, and access to
+   employer-sponsored health insurance coverage for patients and
+   informal caregivers
+   Prevalence of delaying care because of cost more common among
+   cancer survivors than counterparts without a cancer history
+   Highly specialized care at regionalized centers of excellence
+   necessitates a greater travel burden relative to other chronic
+   conditions. Increased travel distance or time results in
+   increased transportation challenges
+   Need for temporary lodging
+   Greater time away from work for patients and informal
+   caregivers
+   The inability to deliver cancer-directed therapy virtually
+   precludes some potential telemedicine-based interventions. Need
+   for specialized equipment for radiation therapy
+   Monitoring for reactions during infusion therapy
+
+Consequences of Transportation Insecurity Among Patients With Cancer
+
+   The deleterious consequences of transportation insecurity occur
+   at multiple levels ([174]Table 2). Patients may forego, miss,
+   delay, alter, or prematurely terminate necessary cancer care
+   along the continuum ([175]20,[176]21) leading to missed or
+   delayed administration of systemic therapies, radiation, and
+   surgery ([177]11), potentially impairing these efforts and
+   resulting in higher rates of cancer recurrence and worse
+   survival ([178]7). In addition to the direct cost of travel,
+   time spent traveling to and from care represents an opportunity
+   cost—time that cannot be spent at work or in usual activities.
+   Patient ([179]22,[180]23) and caregiver ([181]24) time costs
+   associated with cancer-directed therapy can be substantial, at
+   the individual and national levels. A recent study estimated
+   that for patients with advanced cancer, treatment-related time
+   toxicity (ie, loss of time incurred receiving cancer treatment)
+   may offset modest survival gains offered by some treatments
+   ([182]25). From the provider and health system perspective,
+   when a patient cancels an appointment at the last minute or
+   fails to arrive because of a transportation barrier, the
+   complex cancer treatment process is interrupted. For health
+   systems, transportation insecurity can result in lost revenue
+   due to rescheduling patients and/or making alternative
+   arrangements as well as underutilization and vacancies (eg,
+   clinic, infusion suites, radiology). There is, thus, a strong
+   financial incentive for health systems to minimize
+   transportation-related barriers to cancer care.
+   Table 2.
+
+   Multilevel consequences of transportation insecurity for
+   patients with cancer
+   Stakeholder .  Consequences .
+   Patient Delays in screening, seeking medical attention, and
+   along the cancer care continuum; stage migration
+   Treatment nonadherence (ie, forego, miss, delay, alter, or
+   prematurely terminate necessary cancer care)
+   Direct cost of travel; opportunity cost of missed work and
+   other activities
+   Inability to participate in clinical trials
+   Increased distress, decreased quality of life
+   Higher rates of cancer recurrence; worse survival
+   Informal caregiver Increased distress, decreased quality of
+   life
+   Delays in own care
+   Direct cost of travel; opportunity cost of missed work
+   Physician Inefficiencies of missed appointments
+   Stress of rescheduling
+   Need to restructure treatment pathways and protocols
+   Health system Outpatient: lost revenue through increased work
+   to reschedule patients or make alternative arrangements,
+   underutilization, and vacancies (clinic, infusion suites,
+   radiology)
+   Inpatient: inefficiencies in discharge times and hospital or
+   health-care facility throughput
+   Lower patient satisfaction (outpatient and inpatient settings)
+   Society Inefficient use of health-care resources
+   Loss of productivity
+   Disparities in cancer outcomes
+   Potentially avoidable mortality
+   Stakeholder .  Consequences .
+   Patient Delays in screening, seeking medical attention, and
+   along the cancer care continuum; stage migration
+   Treatment nonadherence (ie, forego, miss, delay, alter, or
+   prematurely terminate necessary cancer care)
+   Direct cost of travel; opportunity cost of missed work and
+   other activities
+   Inability to participate in clinical trials
+   Increased distress, decreased quality of life
+   Higher rates of cancer recurrence; worse survival
+   Informal caregiver Increased distress, decreased quality of
+   life
+   Delays in own care
+   Direct cost of travel; opportunity cost of missed work
+   Physician Inefficiencies of missed appointments
+   Stress of rescheduling
+   Need to restructure treatment pathways and protocols
+   Health system Outpatient: lost revenue through increased work
+   to reschedule patients or make alternative arrangements,
+   underutilization, and vacancies (clinic, infusion suites,
+   radiology)
+   Inpatient: inefficiencies in discharge times and hospital or
+   health-care facility throughput
+   Lower patient satisfaction (outpatient and inpatient settings)
+   Society Inefficient use of health-care resources
+   Loss of productivity
+   Disparities in cancer outcomes
+   Potentially avoidable mortality
+   Table 2.
+
+   Multilevel consequences of transportation insecurity for
+   patients with cancer
+   Stakeholder .  Consequences .
+   Patient Delays in screening, seeking medical attention, and
+   along the cancer care continuum; stage migration
+   Treatment nonadherence (ie, forego, miss, delay, alter, or
+   prematurely terminate necessary cancer care)
+   Direct cost of travel; opportunity cost of missed work and
+   other activities
+   Inability to participate in clinical trials
+   Increased distress, decreased quality of life
+   Higher rates of cancer recurrence; worse survival
+   Informal caregiver Increased distress, decreased quality of
+   life
+   Delays in own care
+   Direct cost of travel; opportunity cost of missed work
+   Physician Inefficiencies of missed appointments
+   Stress of rescheduling
+   Need to restructure treatment pathways and protocols
+   Health system Outpatient: lost revenue through increased work
+   to reschedule patients or make alternative arrangements,
+   underutilization, and vacancies (clinic, infusion suites,
+   radiology)
+   Inpatient: inefficiencies in discharge times and hospital or
+   health-care facility throughput
+   Lower patient satisfaction (outpatient and inpatient settings)
+   Society Inefficient use of health-care resources
+   Loss of productivity
+   Disparities in cancer outcomes
+   Potentially avoidable mortality
+   Stakeholder .  Consequences .
+   Patient Delays in screening, seeking medical attention, and
+   along the cancer care continuum; stage migration
+   Treatment nonadherence (ie, forego, miss, delay, alter, or
+   prematurely terminate necessary cancer care)
+   Direct cost of travel; opportunity cost of missed work and
+   other activities
+   Inability to participate in clinical trials
+   Increased distress, decreased quality of life
+   Higher rates of cancer recurrence; worse survival
+   Informal caregiver Increased distress, decreased quality of
+   life
+   Delays in own care
+   Direct cost of travel; opportunity cost of missed work
+   Physician Inefficiencies of missed appointments
+   Stress of rescheduling
+   Need to restructure treatment pathways and protocols
+   Health system Outpatient: lost revenue through increased work
+   to reschedule patients or make alternative arrangements,
+   underutilization, and vacancies (clinic, infusion suites,
+   radiology)
+   Inpatient: inefficiencies in discharge times and hospital or
+   health-care facility throughput
+   Lower patient satisfaction (outpatient and inpatient settings)
+   Society Inefficient use of health-care resources
+   Loss of productivity
+   Disparities in cancer outcomes
+   Potentially avoidable mortality
+
+Screening for Transportation Insecurity Among Patients With Cancer
+
+   Because of increasing evidence that interventions addressing
+   social needs such as transportation may improve health outcomes
+   and decrease the cost of care ([185]26,[186]27), there is
+   growing consensus about the importance of screening for
+   transportation insecurity ([187]28). Among patients with
+   cancer, transportation insecurity can be assessed using a
+   variety of different approaches. One strategy measures
+   insecurity by assessing travel difficulty via proxy measures
+   such as time spent traveling to a provider, travel distance to
+   available facilities, cost of transportation, and car ownership
+   ([188]1,[189]4,[190]20). Transportation insecurity can also be
+   assessed by its consequences such as disruption of care or
+   delays in care ([191]3,[192]7). Single items within broader
+   point-of-service measures using this approach are available for
+   screening in clinical (eg, Accountable Health Communities
+   Screening Tool, American Academy of Family Physicians Social
+   Needs Screening Tool) and research (eg, National Health
+   Interview Survey) domains. Transportation insecurity can also
+   be assessed by direct patient report via structured assessments
+   such as the Transportation Barriers Measure ([193]17) or
+   open-ended questions such as “do you have difficulty with
+   transportation to get to or from treatment?” ([194]9). Finally,
+   the Gravity Project is a multistakeholder national public
+   collaborative launched in May 2019 that seeks to develop
+   consensus-based data standards of individual-level social
+   determinants of health (including transportation) for
+   integration into digital platforms using International
+   Classification of Disease and Related Health Problems–10 or
+   Systematized Nomenclature of Medicine - Clinical Terms
+   (SNOMED-CT) codes ([195]2).
+
+Efforts to Address Transportation Insecurity for Patients With Cancer
+
+   [196]Table 3 highlights ongoing efforts to address
+   transportation insecurity at the policy, health system,
+   not-for-profit, and industry levels. Transportation insecurity
+   is optimally addressed using an upstream approach; as such,
+   federal and state policy is critical ([197]19). Nonemergency
+   medical transportation (NEMT), which provides rides to medical
+   appointments for eligible Medicaid beneficiaries, is the
+   largest program addressing health-care–related transportation.
+   In fiscal year 2018, state and federal spending on
+   fee-for-service NEMT was $2.6 billion ([198]29). However, when
+   Medicaid-managed care organizations costs are included, NEMT
+   expenditures were estimated at nearly $5.5 billion ([199]30).
+   Although there are relatively robust federal programs for
+   health-care–related transportation for Medicaid beneficiaries
+   and veterans, there is a large gap in federal policy for
+   Medicare beneficiaries, those with private insurance, and those
+   with no health insurance coverage. One program specifically
+   targeting Medicare beneficiaries is the Repetitive Scheduled
+   Non-Emergency Ambulance Transport. This small and specialized
+   program involves ambulance transportation for those needing at
+   least 1 round trip per week for at least 3 weeks. Medicare
+   Advantage enrollees also have access to transportation benefits
+   if their plan adopts transportation as a supplemental benefit.
+   To date, there has been almost no adoption of transportation
+   benefits within private employer–based programs or individual
+   exchange markets.
+   Table 3.
+   [200]
+
+   Ongoing efforts to address transportation insecurity for
+   patients with cancer
+   Level .  Initiatives .
+   Policy Medicaid nonemergency medical transportation.
+   Veterans Transportation Program: beneficiary travel, veterans
+   transportation service, highly rural transportation grants
+   Medicare Advantage Supplemental benefits (Medicare Part C)
+   Health system Provision of ride services to patients in need,
+   through philanthropy, grants, or operational funds
+   Link transportation services to a hospital’s community health
+   needs assessment and implementation plan
+   Not-for-profit organizations[201]^a American Cancer Society
+   Road to Recovery; transportation grants; Hope Lodges
+   Patient advocate foundation
+   CancerCare
+   Industry[202]^a Rideshare platforms (Lyft, Uber)
+   NEMT brokers: traditional (ModivCare, MTM, Southeastrans) and
+   technology-forward (Kaizen Health, SafeRide Health, Ride
+   Health, and Roundtrip)
+   Clinical trial sponsor–based initiatives
+   Level .  Initiatives .
+   Policy Medicaid nonemergency medical transportation.
+   Veterans Transportation Program: beneficiary travel, veterans
+   transportation service, highly rural transportation grants
+   Medicare Advantage Supplemental benefits (Medicare Part C)
+   Health system Provision of ride services to patients in need,
+   through philanthropy, grants, or operational funds
+   Link transportation services to a hospital’s community health
+   needs assessment and implementation plan
+   Not-for-profit organizations[203]^a American Cancer Society
+   Road to Recovery; transportation grants; Hope Lodges
+   Patient advocate foundation
+   CancerCare
+   Industry[204]^a Rideshare platforms (Lyft, Uber)
+   NEMT brokers: traditional (ModivCare, MTM, Southeastrans) and
+   technology-forward (Kaizen Health, SafeRide Health, Ride
+   Health, and Roundtrip)
+   Clinical trial sponsor–based initiatives
+   ^a
+
+   Selected organizations.
+   Table 3.
+   [205]
+
+   Ongoing efforts to address transportation insecurity for
+   patients with cancer
+   Level .  Initiatives .
+   Policy Medicaid nonemergency medical transportation.
+   Veterans Transportation Program: beneficiary travel, veterans
+   transportation service, highly rural transportation grants
+   Medicare Advantage Supplemental benefits (Medicare Part C)
+   Health system Provision of ride services to patients in need,
+   through philanthropy, grants, or operational funds
+   Link transportation services to a hospital’s community health
+   needs assessment and implementation plan
+   Not-for-profit organizations[206]^a American Cancer Society
+   Road to Recovery; transportation grants; Hope Lodges
+   Patient advocate foundation
+   CancerCare
+   Industry[207]^a Rideshare platforms (Lyft, Uber)
+   NEMT brokers: traditional (ModivCare, MTM, Southeastrans) and
+   technology-forward (Kaizen Health, SafeRide Health, Ride
+   Health, and Roundtrip)
+   Clinical trial sponsor–based initiatives
+   Level .  Initiatives .
+   Policy Medicaid nonemergency medical transportation.
+   Veterans Transportation Program: beneficiary travel, veterans
+   transportation service, highly rural transportation grants
+   Medicare Advantage Supplemental benefits (Medicare Part C)
+   Health system Provision of ride services to patients in need,
+   through philanthropy, grants, or operational funds
+   Link transportation services to a hospital’s community health
+   needs assessment and implementation plan
+   Not-for-profit organizations[208]^a American Cancer Society
+   Road to Recovery; transportation grants; Hope Lodges
+   Patient advocate foundation
+   CancerCare
+   Industry[209]^a Rideshare platforms (Lyft, Uber)
+   NEMT brokers: traditional (ModivCare, MTM, Southeastrans) and
+   technology-forward (Kaizen Health, SafeRide Health, Ride
+   Health, and Roundtrip)
+   Clinical trial sponsor–based initiatives
+   ^a
+
+   Selected organizations.
+
+   At a more downstream level, health systems have developed
+   programs to address transportation insecurity among patients
+   with cancer. One example is the University of Illinois Health’s
+   PROgram for Non-emergency TranspOrtation (PRONTO) program
+   ([210]31). PRONTO is a partnership between the University of
+   Illinois Health and Kaizen Health (a local health-access
+   start-up) that provides free rides to patients being
+   transitioned home from inpatient and ambulatory clinics (eg,
+   the cancer center), addressing transportation insecurity for
+   patients with cancer like Dorothy Baily—the patient featured at
+   the start of this commentary. PRONTO offers free rides to
+   approximately 100 to 120 patients per month of whom 80% travel
+   to areas that score high on the Centers for Disease Control and
+   Prevention Social Vulnerability Index ([211]32). One study
+   evaluating the efficacy of a rideshare-based intervention found
+   that it did not decrease missed appointments ([212]33).
+   However, 2 recent studies among cancer patients with
+   transportation barriers undergoing radiation therapy showed
+   that rideshare programs are acceptable ([213]34) and that
+   transportation logistics hubs utilizing rideshare-based
+   transportation may decrease no-show rates and result in
+   cost-savings to the health system ([214]35). In addition, other
+   studies have suggested that transportation vouchers are an
+   acceptable method of addressing transportation insecurity among
+   patients with cancer, with 1 study reporting that
+   transportation vouchers were the preferred method ([215]35).
+
+   Not-for-profit organizations such as the American Cancer
+   Society have developed programs to address transportation
+   insecurity among patients with cancer. American Cancer
+   Society’s Road to Recovery Program uses volunteer drivers who
+   donate their time and personal automobiles to assist patients
+   with cancer who need a ride to or from a clinical encounter.
+   This program operates in all 50 states and has provided more
+   than 9 million rides to more than 400 000 patients with cancer
+   since 1981. Since 2016, the American Cancer Society has also
+   awarded more than $3 million to 225 hospitals through its
+   transportation grants program, providing 7500 patients with
+   cancer in rural or unsafe urban areas with 100 000 rides.
+   Finally, for patients with cancer who face extended periods of
+   daily treatment and require specialized centers of excellence,
+   the solution to transportation insecurity may be provision of
+   housing. Through its Hope Lodge program, the American Cancer
+   Society offers cancer patients and their caregivers a free
+   place to stay when their best hope for effective treatment is
+   in another city. Despite the long-standing history and high
+   utilization of programs such as those provided by the American
+   Cancer Society, further research is needed to evaluate the
+   impact of these programs on patient-centered outcomes.
+
+   Corporations are also developing innovative platforms to
+   address transportation insecurity among patients with cancer.
+   Rideshare companies have developed business-to-business
+   platforms for sending and scheduling rides that can be used by
+   case managers and nurses. These platforms, which do not require
+   the passenger to have the company’s app or a cell phone, have
+   the potential to address the unmet need for on-demand
+   cost-effective NEMT solutions ([216]30) for inpatient and
+   outpatient discharges and on-demand ride to screening and
+   clinical appointments ([217]11). In addition to brokers that
+   have historically provided NEMT such as ModivCare (formerly
+   LogistiCare), MTM, and Southeastrans, there are newer,
+   technology-forward NEMT brokers and coordination platforms such
+   as Kaizen Health, SafeRide Health, Ride Health, and Roundtrip
+   that partner with health-care organizations, health plans, and
+   transportation providers to schedule on-demand patient
+   transportation. Recognizing the critical role of transportation
+   to oncology clinical trial participation ([218]36,[219]37),
+   trial sponsors have developed initiatives to address
+   transportation insecurity via vendor-sponsored travel
+   agreements for patients with transportation barriers who wish
+   to participate in clinical trials.
+
+Policy Agenda for Addressing Transportation Insecurity for Patients
+With Cancer
+
+   There are numerous potential state and federal policy levers to
+   address transportation insecurity for patients with cancer.
+   Regulators and payors put standards in place to assure both
+   quality of care and cost management. Some of these are
+   regulated at the federal level, some at the state level, and
+   some by individual private payors. All parties recognize that
+   high-quality care not only results in the best outcomes for
+   patients but is potentially less costly than low-quality care.
+   Federal and state policy makers (or payors) could consider a
+   directive to require or incentivize screening for
+   transportation insecurity and provision of interventions to
+   overcome transportation barriers as part of other initiatives
+   to enhance the delivery of high-quality care. A number of
+   organizations that seek to catalyze improvements in the quality
+   of health-care delivery such as the National Quality Forum and
+   National Committee for Quality Assurance have advocated for
+   similar proposals in recent years ([220]38,[221]39). It is
+   likely that a modest investment to provide transportation to
+   patients in need would have a positive return on investment, as
+   has already been demonstrated for cancer screening ([222]40).
+   These efforts could be managed at the level of the oncology
+   practice with a modest administrative burden. Ultimately,
+   transportation assistance for patients in need could be viewed
+   as another critical aspect of high-quality cancer care.
+
+   There are also a number of changes to existing federal and
+   state policy that govern NEMT that could help address
+   transportation insecurity among patients with cancer. First,
+   NEMT could be a benefit for all Medicare enrollees instead of
+   only as a supplemental benefit for those enrolled in eligible
+   Medicare Advantage plans. Second, policy efforts could remove
+   unnecessary restrictions that limit uptake of services. For
+   example, Medicaid NEMT in some states require planning trips
+   72 hours in advance for prior authorization, which can limit
+   use of Medicaid NEMT following hospital discharge. Third,
+   changes to existing policy governing NEMT could enhance
+   equitable participation in clinical trials ([223]5). Starting
+   in January 2022, the Center for Medicaid and Children’s Health
+   Insurance Program services outlined new Medicaid state plan
+   requirements for assuring coverage of routine patient costs
+   associated with participation in qualifying clinical trials for
+   Medicaid beneficiaries ([224]41). However, some states have
+   limited the NEMT benefits as part of Medicaid expansion. To
+   realize the full benefit of this coverage mandate in terms of
+   trial participation, additional state and federal policy steps
+   to provide Medicaid NEMT benefits for trial-associated
+   appointments for those with transportation insecurity appear
+   necessary ([225]5). Fourth, policy makers could consider
+   national paid leave. Such a policy would not only enable
+   working patients the time to receive care but would also allow
+   informal caregivers to accompany patients to and from their
+   cancer care. Finally, recognizing that transportation
+   insecurity often co-exists with other social needs such as
+   financial toxicity, food insecurity, and housing insecurity
+   ([226]9,[227]18,[228]19), future policy changes could explore
+   opportunities for synergy and coordination across public sector
+   transportation and social service programs. For example,
+   although there is substantial overlap between Supplemental
+   Nutrition Assistance Program and Medicaid beneficiaries, most
+   Medicaid programs don’t allow for trips to the grocery store to
+   use Supplemental Nutrition Assistance Program benefits.
+   Leveraging transportation-based solutions to address food
+   insecurity has the potential to improve outcomes along the
+   continuum for patients with cancer.
+
+Data Infrastructure Research Agenda to Address Transportation
+Insecurity for Patients With Cancer
+
+   Despite substantial progress characterizing, understanding, and
+   addressing health-care–related transportation insecurity among
+   patients with cancer, there is still a critical need for
+   research and evidence across several fronts ([229]Table 4).
+   First, there is lack of precise data about the prevalence of,
+   and risk factors for, transportation insecurity specifically
+   among patients with cancer. To date, transportation insecurity
+   research has focused primarily on general medical care, not
+   specifically cancer care ([230]4). Among the studies that have
+   evaluated the prevalence of transportation insecurity related
+   to cancer care, estimates have ranged widely, from 3.1% to
+   86.6% ([231]6,[232]10). Despite the wide variation in point
+   estimates, it is clear that patients with cancer face special
+   transportation-related challenges and are at high risk for
+   transportation insecurity relative to patients without cancer
+   ([233]6,[234]7). Characterizing the scope of transportation
+   insecurity among patients with cancer is thus a critical next
+   step. In addition, there is likely heterogeneity within
+   different oncology patient populations. Patients with cancer
+   can experience specific impairments that affect mobility,
+   cognition, and physical function; these impairments can vary
+   substantially based on specific cancer diagnoses, locations,
+   and treatment decisions. This variability may dictate the types
+   of needed services (eg, gurney vans, bus pass, ridesharing) at
+   different points along the course of treatment. Understanding
+   which patients with cancer need what level of service at what
+   point(s) in their cancer care journey is critically important
+   to achieving more patient-centered and efficient service.
+   Table 4.
+   [235]
+
+   Transportation insecurity knowledge gaps and proposed research
+   agenda for data infrastructure and research initiatives
+   Gap .  Research initiative .
+   Lack of cancer-specific data about the prevalence and risk
+   factors for transportation insecurity Improved data
+   infrastructure at National Cancer Institute–designated or
+   Commission on Cancer–accredited cancer centers
+   Integration of social needs screening information from
+   electronic health records
+   Data and other linkages with safety-net facilities
+   Inclusion of social needs questions in large national surveys
+   and cohort studies
+   Development of transportation insecurity risk models
+   Lack of evidence-based guidelines for screening for
+   transportation insecurity among patients with cancer
+   Development of validated tools for patients with cancer
+   receiving treatment
+   Evaluation of longitudinal data about trajectory of
+   transportation insecurity
+   Evaluation of relevant outcome measures of social needs
+   screening, including appointment or treatment adherence,
+   delays, and health outcomes
+   Assessment of the frequency and type of co-occurring unmet
+   social needs
+   Lack of data about the association of transportation insecurity
+   with outcomes among patients with cancer Patient: evaluation of
+   treatment adherence; clinical, psychosocial, quality of life,
+   and financial outcomes; clinical trial participation, survival
+   Informal caregiver: evaluation of psychosocial, quality of
+   life, and financial outcomes
+   Provider: evaluation of the effect on missed appointments,
+   guideline-adherent treatment
+   Payor: economic consequences
+   Health system: economic consequences
+   Society: evaluation of disparities in cancer outcomes
+   Estimation of economic costs of transportation insecurity from
+   the perspective of patients, providers, health systems, and
+   society more broadly
+   Lack of data about the effectiveness and cost-effectiveness of
+   policy, health system, not-for-profit, and corporate
+   interventions to address transportation insecurity Assessment
+   of the effectiveness of existing efforts in reducing treatment
+   no-shows, adherence to treatment plans, enrollment in clinical
+   trials, and downstream health outcomes
+   Assessment of the cost and cost-effectiveness of ongoing
+   initiatives
+   Assessment of the role of managing social needs that co-occur
+   with transportation insecurity
+   Gap .  Research initiative .
+   Lack of cancer-specific data about the prevalence and risk
+   factors for transportation insecurity Improved data
+   infrastructure at National Cancer Institute–designated or
+   Commission on Cancer–accredited cancer centers
+   Integration of social needs screening information from
+   electronic health records
+   Data and other linkages with safety-net facilities
+   Inclusion of social needs questions in large national surveys
+   and cohort studies
+   Development of transportation insecurity risk models
+   Lack of evidence-based guidelines for screening for
+   transportation insecurity among patients with cancer
+   Development of validated tools for patients with cancer
+   receiving treatment
+   Evaluation of longitudinal data about trajectory of
+   transportation insecurity
+   Evaluation of relevant outcome measures of social needs
+   screening, including appointment or treatment adherence,
+   delays, and health outcomes
+   Assessment of the frequency and type of co-occurring unmet
+   social needs
+   Lack of data about the association of transportation insecurity
+   with outcomes among patients with cancer Patient: evaluation of
+   treatment adherence; clinical, psychosocial, quality of life,
+   and financial outcomes; clinical trial participation, survival
+   Informal caregiver: evaluation of psychosocial, quality of
+   life, and financial outcomes
+   Provider: evaluation of the effect on missed appointments,
+   guideline-adherent treatment
+   Payor: economic consequences
+   Health system: economic consequences
+   Society: evaluation of disparities in cancer outcomes
+   Estimation of economic costs of transportation insecurity from
+   the perspective of patients, providers, health systems, and
+   society more broadly
+   Lack of data about the effectiveness and cost-effectiveness of
+   policy, health system, not-for-profit, and corporate
+   interventions to address transportation insecurity Assessment
+   of the effectiveness of existing efforts in reducing treatment
+   no-shows, adherence to treatment plans, enrollment in clinical
+   trials, and downstream health outcomes
+   Assessment of the cost and cost-effectiveness of ongoing
+   initiatives
+   Assessment of the role of managing social needs that co-occur
+   with transportation insecurity
+   Table 4.
+   [236]
+
+   Transportation insecurity knowledge gaps and proposed research
+   agenda for data infrastructure and research initiatives
+   Gap .  Research initiative .
+   Lack of cancer-specific data about the prevalence and risk
+   factors for transportation insecurity Improved data
+   infrastructure at National Cancer Institute–designated or
+   Commission on Cancer–accredited cancer centers
+   Integration of social needs screening information from
+   electronic health records
+   Data and other linkages with safety-net facilities
+   Inclusion of social needs questions in large national surveys
+   and cohort studies
+   Development of transportation insecurity risk models
+   Lack of evidence-based guidelines for screening for
+   transportation insecurity among patients with cancer
+   Development of validated tools for patients with cancer
+   receiving treatment
+   Evaluation of longitudinal data about trajectory of
+   transportation insecurity
+   Evaluation of relevant outcome measures of social needs
+   screening, including appointment or treatment adherence,
+   delays, and health outcomes
+   Assessment of the frequency and type of co-occurring unmet
+   social needs
+   Lack of data about the association of transportation insecurity
+   with outcomes among patients with cancer Patient: evaluation of
+   treatment adherence; clinical, psychosocial, quality of life,
+   and financial outcomes; clinical trial participation, survival
+   Informal caregiver: evaluation of psychosocial, quality of
+   life, and financial outcomes
+   Provider: evaluation of the effect on missed appointments,
+   guideline-adherent treatment
+   Payor: economic consequences
+   Health system: economic consequences
+   Society: evaluation of disparities in cancer outcomes
+   Estimation of economic costs of transportation insecurity from
+   the perspective of patients, providers, health systems, and
+   society more broadly
+   Lack of data about the effectiveness and cost-effectiveness of
+   policy, health system, not-for-profit, and corporate
+   interventions to address transportation insecurity Assessment
+   of the effectiveness of existing efforts in reducing treatment
+   no-shows, adherence to treatment plans, enrollment in clinical
+   trials, and downstream health outcomes
+   Assessment of the cost and cost-effectiveness of ongoing
+   initiatives
+   Assessment of the role of managing social needs that co-occur
+   with transportation insecurity
+   Gap .  Research initiative .
+   Lack of cancer-specific data about the prevalence and risk
+   factors for transportation insecurity Improved data
+   infrastructure at National Cancer Institute–designated or
+   Commission on Cancer–accredited cancer centers
+   Integration of social needs screening information from
+   electronic health records
+   Data and other linkages with safety-net facilities
+   Inclusion of social needs questions in large national surveys
+   and cohort studies
+   Development of transportation insecurity risk models
+   Lack of evidence-based guidelines for screening for
+   transportation insecurity among patients with cancer
+   Development of validated tools for patients with cancer
+   receiving treatment
+   Evaluation of longitudinal data about trajectory of
+   transportation insecurity
+   Evaluation of relevant outcome measures of social needs
+   screening, including appointment or treatment adherence,
+   delays, and health outcomes
+   Assessment of the frequency and type of co-occurring unmet
+   social needs
+   Lack of data about the association of transportation insecurity
+   with outcomes among patients with cancer Patient: evaluation of
+   treatment adherence; clinical, psychosocial, quality of life,
+   and financial outcomes; clinical trial participation, survival
+   Informal caregiver: evaluation of psychosocial, quality of
+   life, and financial outcomes
+   Provider: evaluation of the effect on missed appointments,
+   guideline-adherent treatment
+   Payor: economic consequences
+   Health system: economic consequences
+   Society: evaluation of disparities in cancer outcomes
+   Estimation of economic costs of transportation insecurity from
+   the perspective of patients, providers, health systems, and
+   society more broadly
+   Lack of data about the effectiveness and cost-effectiveness of
+   policy, health system, not-for-profit, and corporate
+   interventions to address transportation insecurity Assessment
+   of the effectiveness of existing efforts in reducing treatment
+   no-shows, adherence to treatment plans, enrollment in clinical
+   trials, and downstream health outcomes
+   Assessment of the cost and cost-effectiveness of ongoing
+   initiatives
+   Assessment of the role of managing social needs that co-occur
+   with transportation insecurity
+
+   Second, there is a lack of evidence-based guidelines for
+   screening for transportation insecurity among patients with
+   cancer. Screening for transportation insecurity and documenting
+   how patients are connected to resources is beginning to occur
+   in the primary care setting ([237]42-45), however, it does not
+   routinely occur in the context of cancer care. This practice
+   gap reflects a lack of evidence related to who to screen (eg,
+   everyone, risk adjusted), the screening instruments to use (eg,
+   widely accepted, validated screening instruments with construct
+   validity among patients with cancer), when to screen (eg,
+   before cancer treatment, during cancer treatment), how
+   frequently to screen (eg, regularly, event based), where to
+   screen (eg, in communities, in clinics), how to screen (eg,
+   paper based, electronic health record, phone survey), who
+   should be involved in the screening (eg, social workers, cancer
+   clinicians), and whether patients find social needs screening
+   questions acceptable while undergoing cancer treatment.
+   Accurate identification of patients with transportation
+   insecurity using evidence-based screening tools is key to
+   appropriately allocating transportation-related resources.
+
+   Third, more data about consequences of transportation
+   insecurity at the patient, caregiver, provider, health system,
+   and society levels are necessary. Transportation insecurity
+   also frequently co-occurs with other social needs such as food
+   and housing insecurity; the independent and combined effects of
+   these different social needs among patients with cancer need to
+   be characterized to inform the development, implementation, and
+   evaluation of interventions aimed at addressing transportation
+   insecurity. On one hand, interventions to address
+   transportation insecurity have the potential for efficiency and
+   synergy if they can be leveraged to address concurrent social,
+   housing, and food insecurity. On the other hand, if attempts to
+   address transportation insecurity ignore other social needs,
+   the impact of these programs may be limited. Providing a ride
+   home from the hospital but failing to address concurrent
+   social, housing, or food needs may lessen the effectiveness and
+   impact of transportation insecurity interventions. High-quality
+   comprehensive longitudinal data are needed to help untangle
+   these complex relationships and evaluate the consequences of
+   ongoing and future interventions to decrease transportation
+   insecurity among patients with cancer.
+
+   Fourth, more research is needed to evaluate the effectiveness
+   and economic impact of transportation insecurity initiatives at
+   the federal and state policy, health system, not-for-profit,
+   and corporate levels, particularly among patients with cancer.
+   To date, studies have assessed the effectiveness of medical
+   transportation interventions using proximal outcomes such as
+   health-care utilization and missed appointments ([238]30). More
+   robust data about patient health outcomes are needed. In
+   addition, the economic impacts of transportation in cancer care
+   may consider a more expansive perspective for payers and
+   providers, including long-term savings from early cancer
+   detection and fewer cancer treatment disruptions resulting in
+   better treatment outcomes and a reduction in cancer
+   disparities. Even more critical, transportation could be a
+   stabilizing factor for patients undergoing cancer care who are
+   more likely to experience medical financial hardship
+   ([239]46,[240]47) and lean on informal caregivers who similarly
+   benefit from the time and financial costs saved by stable and
+   reliable transportation. Articulating the economic impacts of
+   addressing transportation insecurity for payors, providers, and
+   patients can inform policy and payment changes, evidence that
+   is urgently needed to support and address social needs, risk
+   factors, and determinants of health that have long afflicted
+   patients along the cancer care continuum.
+
+   Health-care–related transportation insecurity is one of the
+   most important barriers to care for patients with cancer
+   ([241]20) as disruptions in care can lead to poor outcomes and
+   preventable death. Recognizing that transportation is a
+   critical determinant of guideline-concordant care and related
+   outcomes for patients with cancer, there has been substantial
+   progress in our understanding of the multifaceted nature of
+   this condition and its consequences for patients, caregivers,
+   oncologists, health systems, and society. There are ongoing
+   efforts to develop evidence-based protocols to identify
+   patients at risk for transportation insecurity and address
+   transportation insecurity at federal policy, health system,
+   not-for-profit, and industry levels. However, critical
+   knowledge gaps exist in each of these areas. A research agenda
+   across several fronts is proposed to enhance our ability to
+   understand and address health-care–related transportation
+   insecurity among patients with cancer. Reducing transportation
+   barriers to care should be a priority of our health-care system
+   and has tremendous potential to impact outcomes for patients,
+   caregivers, oncologists, and health systems.
