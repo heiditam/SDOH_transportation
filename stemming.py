@@ -38,4 +38,4 @@ for token in nlp(abstracts):
 
 sorted_dict = sorted(stemming_dict.items(), key=lambda x: (-x[1], x[0]))
 sorted_verbs = sorted(verbs.items(), key=lambda x: (-x[1], x[0]))
-print(sorted_verbs, verb_count)
+print(sorted_dict)
