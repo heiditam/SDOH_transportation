@@ -1,6 +1,7 @@
 import spacy, re, nltk
 import pandas as pd
 from collections import Counter
+from scipy import stats
 from scipy.stats import pearsonr
 from textblob import TextBlob
 
@@ -156,10 +157,36 @@ neg = sum(count_keywords(article_text.split(), negative_keywords)) #3
 
 # article text as full sentences
 sentiment_polarity = []
+ses_polarity = []
 full_text = TextBlob(' '.join([' '.join([word for word in lst]) for lst in no_blanks]))
 for sentence in full_text.sentences:
     sentiment_polarity.append(sentence.sentiment.polarity)
+    words = sentence.words
+    if any(word.lower() in ses_words for word in words):
+        ses_polarity.append(sentence.sentiment.polarity)
 
 # see if there is a positive or negative sentiment for sentences that contain SES words
 # take the average
-print(sentiment_polarity)
+overall_sentiment = sum(sentiment_polarity) / len(sentiment_polarity)
+
+if ses_polarity:
+    ses_sentiment = sum(ses_polarity) / len(ses_polarity)
+else:
+    ses_sentiment = 0
+ 
+ # overall sentiment: 0.0207
+ # sentiment with SES-related words: 0.026
+
+'''2-sample t-test to see if there is a significant difference between the overall sentiment of ALL words in the text 
+and those containing SES related words'''
+# H0: Sentiment between all sentences and sentences that contain SES words are similar
+# H1: Sentences that contain SES-related words have a sentiment that is significantly less than the overall sentiment of the passage. 
+t, p = stats.ttest_ind(ses_polarity, sentiment_polarity, alternative='less')
+alpha = 0.05 # significance level
+if p < alpha:
+    print(f'Since {p} < 0.05, we reject H0. Sentences that contains SES-related words do have a sentiment that is\
+    significantly less than the overall sentiment of the passage.')
+else:
+    print(f'Since {p} > 0.05, we fail to reject H0. Sentences that contain SES-related words do not have a significantly different\
+    sentiment compared to the overall passage. ')
+    # This is what ended up happening; t = -0.271 and p = 0.393
