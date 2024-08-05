@@ -155,6 +155,11 @@ neg = sum(count_keywords(article_text.split(), negative_keywords)) #3
 # print(ses, pos, neg)
 
 # article text as full sentences
+sentiment_polarity = []
 full_text = TextBlob(' '.join([' '.join([word for word in lst]) for lst in no_blanks]))
 for sentence in full_text.sentences:
-    print(sentence.sentiment.polarity)
+    sentiment_polarity.append(sentence.sentiment.polarity)
+
+# see if there is a positive or negative sentiment for sentences that contain SES words
+# take the average
+print(sentiment_polarity)
