@@ -1,8 +1,8 @@
-import spacy
-import re
+import spacy, re, nltk
 import pandas as pd
 from collections import Counter
 from scipy.stats import pearsonr
+from textblob import TextBlob
 
 nlp = spacy.load("en_core_web_sm")
 
@@ -61,6 +61,19 @@ privilege_words = [
 ]
 privilege_lemma = [word.lemma_ for word in nlp(' '.join(privilege_words))]
 
+# keywords used to identify the sentiment of the article
+positive_keywords = [
+    "happy", "joy", "satisfied", "content", "positive", "good", "great", "excellent", 
+    "fortunate", "successful", "prosperous", "benefit", "advantage", "healthy", 
+    "well", "safe", "secure", "comfortable", "enjoy", "fortunate"
+]
+
+negative_keywords = [
+    "sad", "unhappy", "dissatisfied", "discontent", "negative", "bad", "poor", 
+    "terrible", "unfortunate", "unsuccessful", "struggling", "disadvantage", 
+    "harm", "sick", "ill", "unsafe", "insecure", "uncomfortable", "suffer", 
+    "unlucky"
+]
 
 # cleaning the words:
 def word_only(word):
@@ -80,13 +93,13 @@ def word_only(word):
 # placing the words from the article in a list / string
 with open ('article1.txt', 'r') as f:
     lines = f.readlines()
-    stripped_words = [[word.strip().lower() for word in line.split() if len(word) > 0] for line in lines]
+    stripped_words = [[word.strip() for word in line.split() if len(word) > 0] for line in lines]
     for lst in stripped_words:
         if len(lst) > 0:
             no_blanks.append(lst)
 
 # count word frequencies
-article_text = ' '.join([' '.join([word_only(word) for word in lst if type(word_only(word)) != list]) for lst in no_blanks])
+article_text = ' '.join([' '.join([word_only(word).lower() for word in lst if type(word_only(word)) != list]) for lst in no_blanks])
 
 # divide text into sections by label
 def split_by_label(text, labels):
@@ -129,8 +142,19 @@ data = {
     'Privilege': privilege_count_list
 }
 freq_table = pd.DataFrame(data)
-# corr, p = pearsonr(freq_table['Health'], freq_table['SES']) # corr = 0.814, p = 4.012 * 10^-5
-# corr, p = pearsonr(freq_table['SDOH'], freq_table['Health']) # corr = 0.892, p = 6.468 * 10^-7
-corr, p = pearsonr(freq_table['Health'], freq_table['Privilege'])
+corr1, p1 = pearsonr(freq_table['Health'], freq_table['SES']) # corr = 0.814, p = 4.012 * 10^-5
+corr2, p2 = pearsonr(freq_table['SDOH'], freq_table['Health']) # corr = 0.892, p = 6.468 * 10^-7
+corr3, p3 = pearsonr(freq_table['Health'], freq_table['Privilege']) # corr = 0.919, p = 7.182 * 10^-8
 
-print(corr, p)
+# determine whether there is a positive or negative correlation relationship between the presence of SES words + pos/neg words
+def count_keywords(words, keyword_list):
+    return [word in keyword_list for word in words]
+ses = sum(count_keywords(article_text.split(), ses_words)) #389
+pos = sum(count_keywords(article_text.split(), positive_keywords)) #17
+neg = sum(count_keywords(article_text.split(), negative_keywords)) #3
+# print(ses, pos, neg)
+
+# article text as full sentences
+full_text = TextBlob(' '.join([' '.join([word for word in lst]) for lst in no_blanks]))
+for sentence in full_text.sentences:
+    print(sentence.sentiment.polarity)
