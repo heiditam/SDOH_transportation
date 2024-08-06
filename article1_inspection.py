@@ -1,5 +1,6 @@
 import spacy, re, nltk
 import pandas as pd
+import xml.etree.ElementTree as ET
 from collections import Counter
 from scipy import stats
 from scipy.stats import pearsonr
@@ -189,4 +190,25 @@ if p < alpha:
 else:
     print(f'Since {p} > 0.05, we fail to reject H0. Sentences that contain SES-related words do not have a significantly different\
     sentiment compared to the overall passage. ')
-    # This is what ended up happening; t = -0.271 and p = 0.393
+# This is what ended up happening; t = -0.271 and p = 0.393
+
+# abstract sentiment analysis
+tree = ET.parse('sources.xml')
+root = tree.getroot()
+
+abstracts = ''
+word_counts = {}
+stemming_dict = {}
+
+for record in root.findall('.//record'):
+    title = record.find('.//titles/title')
+    if title is not None and title.text == 'Addressing Transportation Insecurity Among Patients With Cancer':
+        abstract_elem = record.find('.//abstract').text
+
+abstract_blob = TextBlob(abstract_elem)
+abstract_sentiment = []
+for sentence in abstract_blob.sentences:
+    abstract_sentiment.append(sentence.sentiment.polarity)
+t1, p1 = stats.ttest_ind(abstract_sentiment, sentiment_polarity, alternative='two-sided')
+abstract_sentiment_num = sum(abstract_sentiment) / len(abstract_sentiment)
+print(abstract_sentiment_num)
