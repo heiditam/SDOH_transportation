@@ -93,7 +93,7 @@ def word_only(word):
     return word
 
 # placing the words from the article in a list / string
-with open ('article1.txt', 'r') as f:
+with open ('./articles/article1.txt', 'r') as f:
     lines = f.readlines()
     stripped_words = [[word.strip() for word in line.split() if len(word) > 0] for line in lines]
     for lst in stripped_words:
@@ -209,6 +209,25 @@ abstract_blob = TextBlob(abstract_elem)
 abstract_sentiment = []
 for sentence in abstract_blob.sentences:
     abstract_sentiment.append(sentence.sentiment.polarity)
-t1, p1 = stats.ttest_ind(abstract_sentiment, sentiment_polarity, alternative='two-sided')
+
+'''Can you predict the sentiment of the passage from the abstract?'''
 abstract_sentiment_num = sum(abstract_sentiment) / len(abstract_sentiment)
-print(abstract_sentiment_num)
+# abstract sentiment: -0.092 -> slightly negative sentiment
+# recall from earlier: the overall sentiment of the passage is 0.027 -> slightly positive sentiment
+
+# H0: Sentiment between all sentences and the abstract are similar
+# H1: The abstract has a sentiment value that is significantly DIFFERENT than the sentiment value of the entire passage
+t1, p1 = stats.ttest_ind(abstract_sentiment, sentiment_polarity, alternative='two-sided')
+# if p1 < alpha:
+#     print(f'Since {p1} < 0.05, we reject H0. The abstract does have a sentiment value that is significantly different than the
+#           overall passage')
+# else:
+#     print(f'Since {p1} > 0.05, we fail to reject H0. The abstract does not have sentiment value that is significantly differently from
+#           the overall passage')
+if True:
+    print("hi")
+else:
+    print("not good")
+# This is what ended up happening; t1 = -1.816, p1 = 0.0708
+# Although the sentiment of the abstract was -0.092 and the sentiment of the overall passage was 0.027, this was not a large enough
+# difference to be statistically significant. 

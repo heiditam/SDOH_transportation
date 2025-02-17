@@ -101,8 +101,7 @@ Abstract
    6) suggest policy levers; and 7) outline a research agenda to
    address critical knowledge gaps.
 
-Multifaceted Nature of Transportation Insecurity Among Patients With
-Cancer
+Multifaceted Nature of Transportation Insecurity Among Patients With Cancer
 
    Transportation insecurity among patients with cancer results
    from a diverse array of barriers. For example, transportation
@@ -729,8 +728,7 @@ Efforts to Address Transportation Insecurity for Patients With Cancer
    agreements for patients with transportation barriers who wish
    to participate in clinical trials.
 
-Policy Agenda for Addressing Transportation Insecurity for Patients
-With Cancer
+Policy Agenda for Addressing Transportation Insecurity for Patients With Cancer
 
    There are numerous potential state and federal policy levers to
    address transportation insecurity for patients with cancer.
@@ -797,8 +795,7 @@ With Cancer
    insecurity has the potential to improve outcomes along the
    continuum for patients with cancer.
 
-Data Infrastructure Research Agenda to Address Transportation
-Insecurity for Patients With Cancer
+Data Infrastructure Research Agenda to Address Transportation Insecurity for Patients With Cancer
 
    Despite substantial progress characterizing, understanding, and
    addressing health-care–related transportation insecurity among

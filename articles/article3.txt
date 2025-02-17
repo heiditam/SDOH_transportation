@@ -1,0 +1,939 @@
+ABSTRACT
+Transportation systems generate certain health-promoting benefits such as access to social, economic, and
+cultural resources, but they also are a source of air pollution, noise, safety hazards, and barriers that
+diminish social cohesion in neighborhoods. Streets, in particular, are among the most important forms of
+public space in cities, yet they also are a main source of exposure to the negative externalities of traffic. It
+is estimated that between 4 and 19 percent of the U.S. population lives close to high-traffic roads,
+depending on assumptions about distance and types of roadway. These proportions are higher for
+minority and low-income populations. Although the relationships between traffic exposure, race, and
+socio-economic status have been consistent and reproducible, they have also been spatially heterogeneous
+with limited investigation into the patterns or causes of the heterogeneity. Using spatially-explicit
+statistical techniques, we examined variation in residential exposure to traffic at regional and
+neighborhood levels with race and socio-economic status as variables of interest. We found that minority
+and lower socio-economic status are systematically linked to higher exposure to traffic in Denver,
+Colorado at both regional- and neighborhood-level scales.
+
+ii
+
+TABLE OF CONTENTS
+1. INTRODUCTION................................................................................................................... 1
+2. LITERATURE AND BACKGROUND ................................................................................ 3
+2.1 Poverty and segregation ................................................................................................................... 3
+2.2 Neighborhood physical and social environments ............................................................................ 3
+2.3 Health outcomes .............................................................................................................................. 5
+2.3.1 Chronic stress ......................................................................................................................... 5
+2.3.2 Behavior ................................................................................................................................. 6
+
+3. DATA AND METHODS ........................................................................................................ 7
+3.1 Study Area ....................................................................................................................................... 7
+3.2 Data Sources .................................................................................................................................... 8
+3.3 Analytical Approach ........................................................................................................................ 9
+3.3.1 Estimation of the Traffic (Exposure) Surface ........................................................................ 9
+3.3.2 Extraction of Exposure to Block Groups ............................................................................... 9
+3.3.3 Statistical Modeling ............................................................................................................. 10
+
+4. RESULTS .............................................................................................................................. 12
+4.1 Descriptive Results ........................................................................................................................ 12
+4.2 Durbin Regression Results ............................................................................................................. 13
+4.3 Geographically Weighted Regression Results ............................................................................... 15
+4.3.1 Exposure to Traffic by College Education ........................................................................... 15
+4.3.2 Exposure to Traffic by Race and Ethnicity .......................................................................... 16
+4.3.3 Exposure to Traffic by Poverty ............................................................................................ 16
+
+5. DISCUSSION ........................................................................................................................ 19
+5.1 Global and Local Models ............................................................................................................... 19
+5.1.1 Traffic Exposure and Regional and Neighborhood Processes ............................................. 19
+5.1.2 Traffic Exposure and Smart Growth Policies and Trends .................................................... 19
+5.2 Limitations ..................................................................................................................................... 20
+
+6. CONCLUSIONS ................................................................................................................... 21
+7. REFERENCES ...................................................................................................................... 22
+APPENDIX .................................................................................................................................. 28
+
+iii
+
+LIST OF TABLES
+Table 4.1
+
+Descriptive Summary of Untransformed Model Variables ..................................................... 12
+
+Table 4.2
+
+Output of Durbin Regression .................................................................................................. 13
+
+LIST OF FIGURES
+Figure 3.1 Context of the Denver Metropolitan Region ............................................................................. 8
+Figure 4.1 Spatial Distribution of Untransformed Variables .................................................................... 14
+Figure 4.2 GWR Percent No-College Results .......................................................................................... 15
+Figure 4.3 GWR Percent Minority Results ............................................................................................... 16
+Figure 4.4 GWR Percent Poverty Results................................................................................................. 18
+
+iv
+
+EXECUTIVE SUMMARY
+Research from public health, sociology, geography, and urban planning has called for a deeper
+examination into the relatively under-studied—but overarching, problem of how urban development
+patterns in cities and regions influence health disparities (Briggs, 2005; Morenoff and Lynch, 2004;
+Osypuk and Acevedo-Garcia, 2010). This study focused on a ubiquitous transportation outcome of these
+land use decisions—how transportation and land use, working together, influence residents’ exposure to
+traffic. Exposure to high traffic volumes can lead to adverse health outcomes such as respiratory disease,
+cardiovascular disease, adverse birth outcomes, injury, and depression (Anderson et al., 2012; Babisch,
+2014; Gee and Takeuchi, 2004; Morency et al., 2012; Sapkota et al., 2010; Song et al., 2007). In addition,
+high traffic volumes are a known barrier to walking, bicycling, and access to transit, and a contributor to
+diminished social capital in neighborhoods (Anciaes et al., 2016; Appleyard and Lintell, 1972; LoukaitouSideris, 2006).
+Estimates of the U.S. population living close to high-traffic roads range from 4 to 19 percent, depending
+on the definition of the road type and assumptions about what defines “close.” These proportions have
+been shown to be higher for minority, foreign-born, and low-income households, representing persistent
+racial and socio-economic inequalities in exposure to traffic (Boehmer et al., 2013; Gunier et al., 2003;
+Houston et al., 2004; Rowangould, 2013; Tian et al., 2013). For example, in California, children of color
+are three times as likely to live close to high traffic volumes as white children, and minority and lowincome neighborhoods have twice the traffic density of the regional average (Gunier et al., 2003; Houston
+et al., 2004).
+We extend previous research design by representing exposure as a continuous variable, thus avoiding
+errors due to categorization (such as categorizing a road as “high traffic” based on an arbitrary threshold).
+In addition, we use spatially-explicit statistical modeling that allows us to account for nonstationarity
+These improved methods allowed for exploration into how different types of urban development (e.g.,
+redevelopment districts, transit-oriented development, exurban residential areas) associate with hazardous
+and protective traffic environments for different populations.
+The 2010 average annual daily traffic (AADT) estimates for each road segment in the 10-county Denver
+metropolitan region were used to represent traffic. Socioeconomic and demographic data for the region
+are from the American Community Survey (ACS) five-year block group estimates for 2006-2010
+(Minnesota Population Center, 2011). We used multiple regression with traffic density as the dependent
+variable, and three socio-economic and demographic variables as independent variables with the census
+block group as the unit of analysis. The three independent variables were: (1) percent of persons in the
+block group that are not non-Hispanic white; (2) percent of block group households living at or below the
+local poverty level; and (3) percent of persons in the block group without a college degree. We used a
+geographically weighted regression (GWR) to examine local spatial patterns in the relationship between
+traffic density and poverty, college, and race.
+All global model variables for the Denver metropolitan region were significant. This is consistent with
+results of previous studies, and reinforces the premise that minority and lower socio-economic status in
+the U.S. is systematically linked to higher exposure to traffic. The global model showed that for the
+Denver metropolitan region, racial and ethnic minority residents, lower income residents, and residents
+without college education are significantly more afflicted by the nuisance of traffic than their white,
+higher-income, and college-educated counterparts. Poverty was the most consistent predictor of traffic
+density in the region. This contrasts with Rowangould (2013), who found that race was a more consistent
+predictor in the nation, as a whole, than income, as well as Tian et al. (2013), who found the effect of
+poverty to be marginal. Whether this is unique to the Denver region or a result of differences in variables
+v
+
+and methods is unclear. We also found that the lack of college education in the Denver metro region
+predicts exposure to traffic independently of race and poverty.
+Methods used in previous studies could identify differential exposure, but could not attribute this
+observed inequality to potential mechanisms, whether such mechanisms might be aspatial aspects of
+economic phenomena or inherently spatial aspects of local land use and planning. Our use of spatiallyexplicit models shows that it is possible to examine spatial patterns of traffic exposure with respect to
+demographic and socio-economic patterns in a way not previously explored. Our results suggest that both
+regional processes (e.g., suburban housing patterns) and localized processes (e.g., siting of transit-oriented
+development next to freeways) may drive inequalities in the exposure to traffic. These are areas for future
+research.
+Our findings, in combination with prior research, indicate that regardless of cause, it is necessary for
+transportation and land use decision-making to ameliorate differential exposures to traffic. The challenge,
+based on this analysis, is finding the appropriate scale of policy action. Certain underlying processes, such
+as the protective effects of surburban form, appear to be regional in scale and market-oriented. Other
+processes, such as redevelopment and transit-oriented development, are within the scope of local land use
+control.
+Exurbanization, redevelopment and revitalization projects, transit-oriented development, the increasing
+poverty in suburbs, and the siting of highways appear to be some of the mechanisms that affect disparities
+in traffic exposure. Some of these mechanisms are at least partially in the purview of planning and policy
+at the local, regional, or even national scale, whereas others may be outcomes of larger economic and
+demographic trends not easily controlled by policy. While more work remains to be done with methods
+that can establish causes, effects, and magnitudes of different processes, this represents an important step
+to better understand the spatial aspects of differential traffic exposure.
+
+vi
+
+1.
+
+INTRODUCTION
+
+Research from public health, sociology, geography, and urban planning has called for a deeper
+examination into how development patterns in metropolitan regions influence health disparities (Osypuk
+and Acevedo-Garcia, 2010; Briggs, 2005; Morenoff and Lynch, 2004). For example, residential
+segregation and environmental racism are among the underlying causes of health disparities, and these
+phenomena can operate through zoning codes, housing markets, and decisions about siting hazardous land
+uses (e.g., toxic waste facilities and freight centers) (Sampson, 2013; Wilson et al., 2008; Sanchez et al.,
+2004; Williams and Collins, 2001; Bullard, 1990). This study examined exposure to traffic as another
+type of built environment mechanism related to health disparities by race, ethnicity, and socio-economic
+status.
+One motivation for focusing on traffic is the recognition that it affects public health in manifold ways.
+High traffic volumes—in combination with roadway design and land use patterns—generate exposures to
+air pollution, noise, traffic stress, and safety hazards. In turn, these exposures can lead to adverse health
+outcomes such as respiratory disease, cardiovascular disease, low birth weight, injury, and depression
+(Babisch, 2014; Morency et al., 2012; Anderson et al., 2012; Sapkota et al., 2010; Song et al., 2007; Gee
+and Takeuchi, 2004).
+In addition, high traffic volumes are a known barrier to walking, bicycling, and access to transit, and a
+contributor to community severance and diminished social capital (Anciaes et al., 2016; LoukaitouSideris, 2006; Appleyard and Lintell, 1972). The link between high traffic volumes and social capital
+could be as important to the transportation-public health connection as air pollution. Streets are among the
+most important forms of public space in cities, serving the manifold demands of mobility and social life.
+High traffic volumes, street design, land use patterns, and urban design work in concert to expose
+populations to material signs of social problems and neglect that streets host, such as graffiti, drug and
+alcohol use, and squalor. These exposures are known social-ecological pathways that affect health and
+health disparities, but traffic on streets is rarely considered a factor in social problems. Thus, traffic is a
+consequential feature in the relationship between public health and the built environment, even in a future
+scenario where cleaner fuels and vehicles could mitigate air pollution and greenhouse gas emissions.
+A second motivation is the recognition that exposure to heavy traffic is not equally distributed across
+populations. Estimates of the U.S. population living close to high-traffic roads range from 4 to 19 percent,
+depending on the definition of road type and assumptions about what defines “close.” These percentages
+are higher for minority, foreign-born, and low-income households (Boehmer et al., 2013; Rowangould,
+2013; Tian et al., 2013; Houston et al., 2004; Gunier et al., 2003). In California, compared to white
+children, children of color are three times as likely to live close to heavy traffic, and minority and lowincome neighborhoods have twice the traffic density of the regional average (Houston et al., 2004; Gunier
+et al., 2003).
+These previous findings of differential exposure to traffic have been consistent and reproducible, but the
+specific patterns of differential exposure vary by the scale of analysis and the region. For example, lowincome and minority households are, on average nationally, more likely to live near high volume
+roadways. Yet, there are counties “where no disparities are present, or where disparities work in the
+opposite direction” (Rowangould, 2013). Generally, the unit of analysis has been the census block group.
+Exposure has been calculated as a binary measure of proximity to a high traffic road (i.e. close or not
+close, although studies also may use multiple distance categories, e.g., 100, 300, or 500 meters away from
+a high traffic road) (Boehmer et al., 2013; Rowangould, 2013; Tian et al., 2013; Houston et al., 2004).
+
+1
+
+In this analysis, two related research questions were asked. First, do minority race/ethnicity and lower
+socio-economic status associate with higher traffic exposure when accounting for spatial dependency?
+Previous research was extended by representing exposure as a continuous variable, thus avoiding errors
+due to categorization (such as categorizing a road as “high traffic” based on an arbitrary threshold). In
+addition, spatially-explicit statistical modeling was used to account for nonstationarity in the spatial
+relationship between high exposure and minority and low-income populations.
+Second, Geographically Weighted Regression (GWR) was used to evaluate spatial patterns in the
+relationship between traffic and demographic and socio-economic variables. Although land use or policy
+variables were not included in the statistical modeling, the GWR approach allowed evaluation of whether
+disparities in exposure displayed any neighborhood-level or regional-level patterns that would suggest
+land use and policy variables for future investigation. The exploratory analysis is a critical step toward
+identifying relevant policy factors that can influence disparities in exposure, such as the siting of
+affordable housing developments, the location of redevelopment districts, and policies promoting public
+transit.
+The next sections situate transportation and land use within the broader field of health and place, for
+example, outlining how stress associated with streets and traffic translates into health behaviors and
+outcomes. Data and methods used in the analysis of traffic exposure for the Denver metropolitan region
+are discussed, and how the findings can inform transportation and land use decisions at the local, regional,
+and state levels.
+
+2
+
+2.
+
+LITERATURE AND BACKGROUND
+
+This study draws upon the multi-disciplinary literature of “health and place.” The field of population
+health has investigated neighborhood-level social and physical determinants of health because personal
+characteristics, health behaviors, and access to quality healthcare do not sufficiently explain the causes
+and distribution of disease (Diez-Roux & Mair, 2010; Frumkin, 2005; Evans and Stoddart, 1990). In
+particular, the social, economic, and built environments of neighborhoods—and the broader regional
+processes that shape them—influence health inequities by race, ethnicity, and socio-economic status in
+the short run and over a lifetime of exposure (Hedman et al., 2013; Osypuk & Acevedo-Garcia, 2010;
+Diez-Roux & Mair, 2010; Do, 2009; Cummins et al., 2007; Adler and Newman, 2002). Three major areas
+of research are relevant to the role of transportation and land use as social determinants of health: (1)
+poverty and segregation; (2) neighborhood social and physical environments; and (3) health outcomes
+associated with transportation.
+
+2.1
+
+Poverty and Segregation
+
+At an upstream level, neighborhoods contribute to health and health disparities because they are a
+physical manifestation of society’s resource distribution (Ellen et al., 2001). Individuals and families
+realize advantages of education, income, and occupation through privileged access to protective social
+and physical environments (Adler and Newman, 2002; Angell, 1993). In general, people who experience
+poverty live, work, and conduct activities in places with relatively poor environmental quality, and this
+pathway leads to poorer health outcomes (Cushing et al., 2015). Yet, specific mechanisms of the
+neighborhood-health relationship, such as the role of transportation and land use, are not fully understood.
+Nor is it fully understood how the neighborhood-health relationship varies by gender, race, ethnicity,
+occupation, and other personal characteristics.
+In addition to health disparities by socioeconomic status, neighborhood-built and social environments
+contribute to racial and ethnic health disparities (Cummins et al., 2007; Acevedo-Garcia et al., 2003).
+Specifically, racial segregation makes it difficult to use residential sorting to invest in health through the
+selection of residential location (Hipp, 2011; Massey and Denton, 1993). Chronic exposure to
+neighborhood poverty caused by racial and ethnic segregation is a major cause of health disparities in the
+United States and is associated with mortality, teenage childbearing, tuberculosis, cardiovascular disease,
+inaccessibility to healthy food, and exposure to air pollution and toxics. (Do, 2009; Acevedo-Garcia et al.,
+2003).
+In combination, transportation and land use shape the landscape of poverty and segregation through intergovernmental policies that determine infrastructure investment, employment and housing patterns in
+regional economies, and local land use decisions (Thompson Fullilove, 2005; Hayden, 2003; LoukaitouSideris, 1997; Logan and Molotch, 1987; Jackson, 1985; Liebs, 1985; Mollenkopf, 1983).
+Transportation’s relationship to racial, ethnic, and socio-economic inequalities has been direct, such as
+through higher investment in public transit for higher income riders, and indirect, such as through
+differential access to education, employment, and other opportunities (Golub et al., 2013; Sanchez et al.,
+2004; Bullard, 2004).
+
+2.2
+
+Neighborhood Physical and Social Environments
+
+It is well known that exposure to traffic is a significant health burden because of externalities such as air
+pollution, noise, and safety hazards. For example, an extensive public health literature has established the
+connection between air pollution and respiratory disease, certain types of cancer, cardiovascular disease,
+3
+
+and adverse birth outcomes (Anderson et al., 2012; Babisch, 2014; Sapkota et al., 2010). High traffic
+volumes also are associated with higher injury rates, especially on arterial roads and in lower income
+neighborhoods (Morency et al., 2012).
+Persistent racial and socio-economic inequalities in exposure to high traffic volumes are another
+challenge. Estimates of the U.S. population living close to high-traffic roads range from 4 to 19 percent,
+depending on the definition of the road type and assumptions about distance. These proportions are higher
+for people of color and low-income households, and for people who are foreign born and people who do
+not speak English at home (Boehmer et al., 2013; Rowangould, 2013). In California, children of color are
+three times more likely to live close to high traffic volumes as white children, and minority and lowincome neighborhoods have twice the traffic density of the regional average (Gunier et al., 2003; Houston
+et al., 2004; Tian et al., 2013).
+Research on transportation and health has captured these physical pathways, but the social pathways
+through which traffic, streets, and land use influence health are not well understood. Based on the public
+health literature, we know that the interconnected social and physical environments of neighborhoods are
+necessary for health promotion (Diez-Roux and Mair, 2010; Winkel et al., 2009; Cummins et al., 2007;
+Yen and Syme, 1999). We also know that place-based community factors such as social cohesion,
+collective efficacy, social networks, physical and relational accessibility, and the maintenance of social
+norms are related linked to health (Diez-Roux and Mair, 2010; Ellen et al., 2001; Sampson and
+Raudenbush, 1999; Yen and Syme, 1999). What is not yet known is how transportation and land use
+operate as neighborhood-level social and physical factors that influence health outcomes.
+The presence of neglect and physical decay in neighborhoods—and the perception of neglect and physical
+decay, may be a critical social pathway for transportation and land use. For instance, bus stops, residential
+back alleys, commercial strips, and arterial roads with high traffic volumes all have been associated with
+neglect and physical decay (McAndrews and Marcus, 2014; Wolch et al., 2010; McAndrews et al. 2006;
+Liggett et al., 2001; Loukaitou-Sideris, 1999; Appleyard, 1981).
+Evidence of neglect and physical decay is part of a larger “broken windows” theory: that litter, graffiti,
+abandoned lots, and blight represent diminished social control in public spaces, which, in turn, invites
+more neglect, physical decay, and even crime. What is important for the transportation-health relationship
+is that these incivilities in neighborhoods can be sources of chronic stress, and they can shape healthrelated behaviors in both urban and nonmetropolitan places (Skogen, 2012; Ellaway et al., 2009;
+Frumkin, 2005; Reisig and Cancino, 2004; Ross and Mirowsky, 2001; Ross and Mirowsky, 1999; Wilson
+and Kelling, 1982). Nevertheless, it is not clear whether actions to improve quality of life through
+“broken windows policing” or other methods is effective at reducing felony crime or even street-level
+incivilities. Its effectiveness depends on the type of police enforcement used and the negative
+consequences of zero-tolerance policing on community cohesion (Braga and Bond, 2008).
+Interpreting neglect and physical decay in transportation environments requires a nuanced understanding
+of public space and how norms operate in transportation environments. For the case of Jakarta, Indonesia,
+Hutabarat (2009) framed the public space of streets and transit networks as the coincidence of two things:
+the flows of global networks and places for everyday life. The public spaces of streets serve as the place
+where global flows and the places of everyday life intersect. Therefore, streets also are places that reflect
+resistance to the spatial logic of global development and consequences of being excluded from this global
+development. This is why material traces of street-level poverty also can be understood as markers of
+political conflict, the source of which is an ongoing contest about distribution of the costs and benefits of
+road networks, information networks, and other material and non-material engagement with global flows.
+Pedestrians are a case in point. In some contexts, walking is a symbol of health and economic vitality.
+Cities conduct analyses of the economic benefit of pedestrian spaces. In other contexts, walking is a
+4
+
+symbol of poverty, where walking is not considered a problem of mobility or transportation but rather a
+problem of the poor. In a similar way, we can read signs of neglect and decay in the public spaces of
+streets as part of these larger social, economic, and political struggles.
+
+2.3
+
+Health Outcomes
+
+Transportation has a strong social framework. Understood with a first-order perspective, travel is
+inherently social because it captures the geography of daily life in time and space. Travel behavior is
+influenced by social and ecological factors such as family, work, and infrastructure. Understood with a
+second-order perspective, the provision and consumption of transportation services, including
+infrastructure, vehicles, operations, and programming, results in social and economic impacts such as
+changes in travel time, cost, and options; accessibility; and community cohesion (Geurs et al., 2009;
+Forkenbrock and Weisbrod, 2001; FHWA, 1996). In many instances, formal analysis of the social
+impacts of transportation projects is legally mandated by Title VI of the 1964 Civil Rights Act, the 1969
+National Environmental Policy Act, the 1991 Intermodal Surface Transportation Efficiency Act, and the
+1994 Executive Order 12898 on Environmental Justice. However, practitioners in transportation work
+with “insufficient methods, tools, and techniques” to fully assess the social impacts of transportation
+projects (Forkenbrock and Weisbrod, 2001).
+One of the missing tools is fundamental knowledge of how the social impacts of transportation interact
+with its health impacts. Two potential pathways that link the social impacts of transportation to health
+impacts are chronic stress and behavior, which are proposed causal pathways between neighborhoods and
+health (Ellen et al., 2001).
+
+2.3.1 Chronic Stress
+Chronic stress is a potential mechanism relating neighborhoods and health, particularly mental health and
+depressive symptoms (Gilster, 2014; Aneshensel, 2010; Kim, 2008; Mair et al., 2008). Chronic stress can
+result from the perception that aspects of the physical and social environment are exceedingly
+burdensome (Cohen et al., 2007; Pearlin et al., 1981). It is associated with diseases such as clinical
+depression, cardiovascular disease, human immunodeficiency virus, and cancer (Cohen et al., 2007), and
+it affects people differentially by individual characteristics such as race (Gilster, 2014).
+For instance, the health of people who live close to sources of pollution (e.g., toxic waste sites, refineries,
+and incinerators) can be damaged in two primary ways. First, they suffer exposure to harmful chemicals.
+Second, they suffer chronic stress caused by their awareness of this exposure, and this chronic stress
+results in additional adverse mental health outcomes (Yang and Matthews, 2010; Neutra et al., 1991). In
+Philadelphia, Kondo et al. (2014) conducted focus groups with neighbors of a refinery and found that
+their awareness of the pollution, the sense of stigma they experienced because of living in a polluted
+neighborhood, and their fear of displacement contributed to chronic stress. This is one example of
+emerging research on the effects of non-chemical pathways associated with environmental hazards. It
+could serve as a model for understanding the impacts of transportation and land use.
+Exposure to motorized traffic has been included among various aspects of the physical environment that
+may contribute to stress. Gee and Takeuchi (2004) and Song et al. (2007) used multi-level statistical
+models to investigate how both perceived traffic stress and objective measures of the transportation
+environment affected measures of general health and depressive symptoms. Traffic stress was selfreported, and centered on the degree to which one was bothered by traffic, auto maintenance, and traffic
+crashes. Environmental stress also was self-reported, and centered on physical conditions of the
+neighborhood, noise, pollution, and crime. Vehicular burden in the neighborhood was measured as the
+5
+
+percent of persons age 16 or older who drive or take public transportation to work in a given census tract,
+but no measure of on-street traffic volumes was included. The study found that those who reported traffic
+stress and who lived in neighborhoods with a high vehicular burden had significantly lower well-being
+than those living in areas with lower vehicular burden, as measured by both general health status and
+depressive symptoms. The perception of poor neighborhood conditions was associated with depression,
+but this association was no longer significant after traffic stress was included in the model. Song et al.
+(2007) replicated the original study with more detailed information about the built environment. This
+second study’s results were consistent with those of the first study, and they found that ratio of land area
+devoted to parks moderated the relationship between traffic stress and well-being. In addition,
+neighborhoods with more major streets were more problematic, and the presence of restorative green
+spaces may mitigate these negative traffic and roadway externalities. In these studies, measure of traffic
+stress and environmental stress may suffer from problems of construct validity because it is unclear
+whether the stress results from exposure to vehicular traffic, from traveling in motor vehicles, or some
+other combination of traffic and travel-related exposure.
+Using traffic volume measures in multi-level models, Yang and Matthews (2010) and Matthews and
+Yang (2010) found that two explanatory variables—high traffic volumes and a composite measure of the
+physical environment—were associated with higher self-reported stress. They also found that
+neighborhood-level socioeconomic status and neighborhood levels of crime were not associated with selfreported stress after controlling for the built environment. With respect to the study’s design, it is possible
+that survey respondents found it easier to respond to visual cues of social threats than to other
+representations of social threats, and therefore these methods could overstate the effect of the built
+environment on stress (Yang and Matthews, 2010). These studies did not report specific thresholds for
+traffic volumes that associate with higher stress.
+In addition to chronic stress, relationships between personality and neighborhood environments might be
+meaningful for health. A multi-level study investigating the relationships between physical environments
+and psychological well-being found an association between the ambient stressors of neighborhoods (air
+pollution, noise, and traffic) and cynical hostility, which is a personality trait associated with heart disease
+and depression (King, 2012). Thus, there are a number of ways that everyday exposure to traffic and
+streets could influence individual-level health and health behaviors.
+
+2.3.2 Behavior
+Walkability is another field that has adopted a social-ecological framing of transportation environments.
+Land use, connectivity, and the density of activities are known to influence mode choice, and therefore
+physical activity through active modes of travel (Ding et al., 2011). In addition, environmental qualities,
+such as aesthetics, naturalness and presence of vegetation, and perceived safety influence active travel
+(Nasar, 2015).
+A variety of social factors also influence the propensity to walk. For instance, perceived safety is
+important, and the construct of safety often takes two meanings. One meaning is fear of traffic. A second
+meaning is fear of crime. These two factors also may interact. Fear of crime and social disorder are cited
+as factors central to individuals’ decisions to walk (Roman and Chalfin, 2008; Griffin et al., 2007). If
+disorder in the built and social environments leads to stress and fear, this may affect health directly
+through stress mechanisms, and indirectly by discouraging health-promoting behavior such as walking or
+using parks and playgrounds (Loukaitou-Sideris, 2006; Ross and Mirowsky, 2001). However, empirical
+evidence about the crime-physical activity connection is mixed, potentially because of different constructs
+and methodologies used (Saelens and Handy, 2008; Loukaitou-Sideris, 2006).
+
+6
+
+3.
+
+DATA AND METHODS
+
+3.1
+
+Study Area
+
+The Denver metropolitan region provides a case study to examine exposure to traffic and population
+characteristics such as race, ethnicity, and socio-economic status. The Denver metropolitan region is a
+high-growth urban area in the western region of the United States and it exhibits land development and
+traffic pressures similar to those found in other “Sun Belt” metropolitan regions. Unlike other Sun Belt
+metropolitan regions that experienced strong economic and population growth in the 1990s but slowed
+down in the 2000s, particularly after the 2008 recession, Denver's growth has remained strong over this
+period (Frey, 2012).
+The Denver metropolitan region has invested heavily in transit projects in response to development
+pressures. In 1999, voters approved tax increases to fund 40 miles of light rail along I-25, the region’s
+busiest traffic corridor, in addition to an expansion of the interstate itself. In 2004, voters again supported
+a tax increase to expand the light rail system regionally. The transit investment was paired with
+supportive land use policy, including zones for transit-oriented development (TOD). The TOD zones not
+only included new zoning and regulations around transit stops, but also provided access to funds for
+affordable housing credits not available outside of the zones. These policies for TOD are congruent with
+national guidelines about sustainable transportation set forth by the Environmental Protection Agency, the
+Department of Housing and Urban Development and the Department of Transportation (US EPA, 2013).
+TOD zones are one of many land use instruments outlined in the Denver Regional Council of
+Government's (DRCOG) MetroVision plans, including (nominally) an urban growth boundary for the
+region and the designation of “Regional and Neighborhood Centers” where zoning allows for greater
+density than would otherwise be available to developers. Together, these instruments have the goal of
+managing urban growth by simultaneously decreasing demand for automobile infrastructure and land for
+greenfield development. Thus, the Denver metropolitan region is an example of how local governments
+are implementing strategies inspired by the Smart Growth movement.
+In addition to the growth management policies pursued at the regional level, the region includes Boulder
+County, which has some of the strictest growth management regulations in the nation. Boulder County
+residents approved the first green space preservation tax in the nation in 1967, and the county has
+continually acquired open space to prevent greenfield urban development ever since. This combination of
+development and land use policy in the region provides the specific context for interpreting patterns of
+traffic exposure. Figure 3.1 shows the Denver Metro region.
+
+7
+
+Figure 3.1 Context of the Denver Metropolitan Region
+
+3.2
+
+Data Sources
+
+To represent traffic, we used 2010 Average Annual Daily Traffic (AADT) estimates for each road
+segment in the 10-county Denver metropolitan region. The Denver Regional Council of Governments
+(DRCOG) generates these estimates with an activity-based regional travel model. The activity-based
+model uses more than 10,000 in-depth travel journals—in addition to land use, demographic and socioeconomic, and traffic count data, to estimate the travel demand of households to job and activity centers
+according to their household characteristics. DRCOG serves as the Denver metropolitan region's
+Metropolitan Planning Organization, as mandated by federal transportation policy, and forecasting travel
+patterns for the region is one of its core functions.
+Socioeconomic and demographic data for the region are from the American Community Survey (ACS)
+five-year block group estimates for 2006-2010 (Minnesota Population Center, 2011). Block groups are
+the smallest spatial unit available that include the socio-economic information necessary for the study.
+Specifically, education and poverty data are not available at the census block level.
+
+8
+
+3.3
+
+Analytical Approach
+
+3.3.1 Estimation of the Traffic (Exposure) Surface
+Previous research on differential exposure to traffic has computed traffic density for census blocks or
+block groups by drawing a buffer of 200 or 250 meters around the census unit before summing vehiclemiles of travel (VMT) within the buffer (Gunier et al., 2003; Rowangould, 2013). This buffer method
+accounts for traffic on roads within dispersion distance. However, this method does not account for how
+exposure to the negative effects of traffic (e.g., noise, pollutants, nuisance) decreases with distance from
+the roadway. With the buffer method, any road that bisects a census unit, forms its border, or runs parallel
+to its border outside of the census unit would contribute equally to the calculated traffic density of the
+unit.
+To represent the decreasing intensity of exposure to traffic with distance, a traffic density surface was
+created using a biweight kernel density function with a 300m bandwidth. We used a 6m x 6m output cell
+size, a resolution computationally tractable, while being much smaller than the census block group unit of
+analysis. The unit of the output was standardized to units of VMT per square mile of the block group. The
+mean of traffic density for each block group was extracted from the traffic density surface. Environmental
+factors, such as wind direction, that influence the dispersion of specific pollutants were not investigated
+because the study focused on exposure to traffic as its own multidimensional environmental hazard.
+
+3.3.2 Extraction of Exposure to Block Groups
+Census blocks groups are sized to have similar populations over time, and as such have highly variable
+areas depending on the population density of the area. Large non-urban block groups potentially suffer
+from a number of methodological issues, such as overestimation of traffic exposures in cases where hightraffic roads are far from actual population centers despite being in the same block group. Therefore,
+estimates of traffic exposure at the unit of the block group could be susceptible to certain biases based on
+the size of the block group. Specifically, estimates of traffic exposure in suburban block groups could be
+underestimated relative to urban ones due to the larger size of the block groups.
+These analytical issues that result from extracting values from the traffic density surface to the block
+group are aspects of the modifiable areal unit problem. The modifiable areal unit problem is “a problem
+arising from the imposition of artificial units of spatial reporting on continuous geographical phenomenon
+resulting in the generation of artificial spatial patterns” (Heywood et al., 1998). To minimize these errors,
+we used population counts from constituent census blocks to weight exposure at the block group level.
+Census blocks are much smaller than block groups, thus being more congruent with the scale at which
+patterns of exposure occur. In addition, because they are defined by road networks, as opposed to
+population, they have a more consistent spatial size. We define traffic exposure at the block group level
+as:
+
+9
+
+Where:
+n = Number of block within block group
+EBG = Weighted exposure of block group
+EB = Exposure of block
+PB = Population of block
+PBG = Population of block group
+Exposure at the block level was calculated by taking the average value of the traffic exposure surface over
+the block using a zonal statistics algorithm.
+To explore sensitivity of the analysis, a second analysis was conducted using parcel-level land use data.
+Census blocks were clipped to the area in which residential parcels were located, maintaining population
+attributes of the block and extracting exposure surface to the area where housing was located. Results of
+this second analysis confirmed the original analysis. Yet, a shortcoming of the parcel-level data was its
+limited geographic coverage of the region. Therefore, only the original analysis is presented.
+
+3.3.3 Statistical Modeling
+Multiple regression with traffic density was used as the dependent variable, and three socio-economic and
+demographic variables as independent variables with the census block group as the unit of analysis. The
+three independent variables were: (1) percent of persons in the block group that are not non-Hispanic
+white; (2) percent of block group households living at or below the local poverty level; and (3) percent of
+persons in the block group without a college degree. These independent variables were selected based on
+their theorized association with exposure to traffic, previous literature, and because they were significant
+predictors of traffic density (Boehmer et al., 2013; Gunier et al., 2003; Rowangould, 2013; Tian et al.,
+2013).
+Correlations and collinearity were examined among the independent variables and high correlations were
+found (Pearson’s correlation coefficients between 0.42-0.66), but not enough collinearity to violate
+assumptions of the ordinary least squares model with the highest condition index of 9.7 being well below
+the suggested threshold of 30 (Belsley and Kuh, 1980). All analyses were weighted by block group
+population.
+Normality of traffic density, poverty, education, and race variables were assessed and a high amount of
+skew was found that was not normalized with a natural logarithm or other common transformation.
+Because there was no a priori distribution that any of the variables were empirically or theoretically
+expected to follow, their distributions were normalized using Box-Cox family methods to estimate the
+proper transformation. Though at a sacrifice to interpretability, the exact lambda coefficients of the
+normality diagnostics were used due to the fact that the smaller sample sizes of the localized regression
+used in the Geographically Weighted Regression are sensitive to skew. The transformations improved
+model fit.
+Because of the high spatial clustering present in the independent variables and the error term in the model
+(global Moran's I statistics were significant for all at α=0.01), spatial error dependence and a missing
+spatially-lagged dependent variable was tested for using Lagrange multiplier diagnostics. These Lagrange
+multiplier statistics test whether the presence of spatial autocorrelation among variables violates the
+assumptions of the OLS model (Anselin and Rey, 1991). Both statistics were significant at α = 0.01,
+indicating a need to correct for both types of spatial autocorrelation. Therefore, a mixed spatial error-lag
+
+10
+
+model (spatial Durbin model) was used. The neighbor weights matrix used for the model was based on
+“queen” style polygon contiguity.
+A geographically weighted regression (GWR) was used to examine the local spatial patterns in the
+relationship between traffic density and poverty, college, and race. An adaptive kernel bandwidth was
+used due to the irregular size of the block groups. The bandwidth selection algorithm found optimal
+bandwidth to be 70 neighbors using a bisquare kernel. A Monte Carlo technique was used to test for
+spatial nonstationarity of the local coefficients of the model. All three independent variables were found
+to be statistically significantly nonstationary, with percent no college and percent minority being
+significant at the α=0.01 level, and with percent poverty being significant at the α=0.10 level. This means
+that the relationship between the dependent and independent variables varies by space for all variables.
+This strongly suggests that there are important omitted effects (perhaps localized, neighborhood level
+processes) that mediate the relationship of socio-economic and demographic variables and traffic
+exposure. The fact that the poverty variable has a lower p-value may indicate, although not statistically
+rigorously, that the processes that drive increased exposure due to socio-economic status are somewhat
+less driven by local processes and somewhat more driven by global processes. As a result of these tests,
+all three independent variables were included in the GWR.
+
+11
+
+4.
+
+RESULTS
+
+4.1
+
+Descriptive Results
+
+Table 4.1 presents a descriptive summary of the untransformed variables in the regression model, which
+have asymmetric distributions around the mean. The unit for traffic density is 1,000 VMT per square
+mile, and the unit for population is persons.
+The spatial distribution of the four untransformed variables is shown in Figure 4.1. For interpretability,
+the figure does not include the full extent of the region included in the regression model.
+Table 4.1 Descriptive Summary of Untransformed Model Variables
+N=2,029 Census block groups
+Traffic
+density (1,000 Non-white
+VMT / mi2)
+(%)
+Minimum
+First quartile
+Median
+Mean
+Third quartile
+Maximum
+Moran's I
+
+0.1
+24.8
+53.4
+74.1
+94.1
+667.3
+0.68
+
+0.0 %
+11.8 %
+23.7 %
+31.3 %
+45.9 %
+100.0 %
+0.65
+
+Poverty
+(%)
+
+No college
+(%)
+
+Total
+population
+
+0.0 %
+2.3 %
+7.0 %
+12.1 %
+17.9 %
+100.0 %
+0.44
+
+0.0 %
+44.3 %
+63.4 %
+61.5 %
+79.3 %
+100.0 %
+0.7
+
+92
+900
+1,266
+1,387
+1,708
+8,582
+--
+
+12
+
+4.2
+
+Durbin Regression Results
+
+Table 4.2 presents the results of the Durbin regression. These global model results are consistent with
+those of previous studies: variables that indicate lower socio-economic status and racial/ethnic identities
+of less privileged populations are associated with higher traffic exposure. Specifically, block groups with
+higher percentages of minority and lower income populations are associated with higher traffic exposure,
+while block groups with higher percentages of college-educated populations are associated with less
+exposure. The lag variables measure the effect on exposure of variables in neighboring block groups. For
+the purposes of our model, these lagged variables serve to control for spatial autocorrelation.
+Table 4.2 Output of Durbin Regression
+Estimate
+
+Std. error
+
+Z-value
+
+P-value
+
+Intersect
+
+50.0
+
+2.61
+
+19.2
+
+< 0.001
+
+Percent minority
+
+0.37
+
+0.15
+
+2.47
+
+0.0140
+
+Percent no college
+
+0.03
+
+0.01
+
+2.41
+
+0.0160
+
+Percent poverty
+
+0.77
+
+0.14
+
+5.44
+
+< 0.001
+
+Lag percent minority
+
+0.47
+
+0.39
+
+1.19
+
+0.2340
+
+Lag percent no college
+
+-0.13
+
+0.03
+
+-3.84
+
+< 0.001
+
+Lag percent poverty
+
+2.86
+
+0.39
+
+7.34
+
+< 0.001
+
+N = 2029 block groups
+AIC = 15393 (vs 16527 for the aspatial regression)
+
+13
+
+Figure 4.1 Spatial Distribution of Untransformed Variables
+
+14
+
+A model also was estimated that did not correct for spatial autocorrelation of the variables. For
+comparison, all variables were significant at α=0.01, however the percent no college coefficient was
+negative rather than positive. The adjusted R-squared of the aspatial regression was was 0.187; although it
+is not possible to obtain an R-squared statistic from a Durbin regression the lower AIC as compared to the
+aspatial regression shows that the Durbin regression has better fit.
+
+4.3
+
+Geographically Weighted Regression Results
+
+4.3.1 Exposure to Traffic by College Education
+In the Durbin model, the adjusted coefficient for the no college variable was positive, indicating that
+block groups with high concentrations of college educated persons have a tendency to be “protected”
+from traffic exposure. Results of the GWR, however, show that the protective effect of a college
+education is not observed evenly throughout the region. The negative association—the protective effect,
+between college and traffic exposure tends to be locally statistically significant in outer suburbs. Yet, the
+majority of the metropolitan region’s urban core does not show the same protective effect. Instead, certain
+areas in the core show a positive association between exposure to traffic and college education.
+One location, marked as “A” in Figure 4.2, includes the New Urbanist Stapleton Airport redevelopment,
+which is a neighborhood of both high college education and high traffic density. The location marked as
+“B” in Figure 4.2 included the areas around the University of Denver, which includes block groups of
+both high college education and high traffic density.
+
+Figure 4.2 GWR Percent No-College Results
+15
+
+4.3.2 Exposure to Traffic by Race and Ethnicity
+The sign of the racial and ethnic minority coefficient in the global spatially-adjusted regression was
+positive, indicating that minority racial and ethnic groups have systematically higher exposure to traffic.
+In contrast to the relationship between college and traffic density, which had a strong regional pattern, the
+spatial pattern of exposure by race and ethnicity does not appear to be regional, and instead shows
+stronger neighborhood-level effects.
+For instance, the GWR found that in certain neighborhoods whiteness is associated with increased
+exposure, shown in area “A” in Figure 4.3. This area includes Denver's central business district and
+historically high minority neighborhoods. Although all of area “A” has high traffic density relative to the
+region, the highest traffic densities are co-located with new luxury apartment developments.
+Area “B” in Figure 4.3 is an area around the Denver Tech Center, the second-largest concentration of jobs
+in the region, after the Central Business District. The vast majority of housing is low-density and singlefamily. In addition, there are newer transit-oriented developments along the light rail corridor next to
+Interstate 25, the region's busiest roadway. The zones of transit-oriented developments contain a large
+proportion of that area's multifamily housing. As such, while the area is very white relative to the region,
+the few block groups with larger minority populations also are more likely to have multifamily housing
+directly adjacent to the busiest roads. In this area, whiteness suggest protection from traffic exposure.
+
+Figure 4.3 GWR Percent Minority Results
+16
+
+4.3.3 Exposure to Traffic by Poverty
+The global coefficient of the poverty variable was positive, indicating higher poverty in a block group is
+associated with increased traffic exposure. The coefficient is the largest of the three dependent variables.
+Even when accounting for the variable transformations, poverty has the greatest effect on a block group's
+expected traffic exposure. The strength of poverty's association with traffic exposure also appears in the
+GWR analysis. The localized coefficients, shown in Figure 4.4, are significant for large areas in the
+region as opposed to the smaller patches seen with the other variables. In addition, few areas show a
+significant negative association.
+The area showing a negative significant association between poverty and exposure, labeled “A” in Figure
+4.4, borders more affluent areas along I-25 to the east and inner-ring suburbs to the west in the city of
+Aurora, which have experienced an increase in poverty in recent decades that similar suburbs have
+experienced across the nation (Howell and Timberlake, 2014; Kneebone and Garr, 2010).
+In Figure 4.4 the distribution of the beta coefficients of the GWR was included in addition to the t-values.
+Not only does the majority of the region show a significant positive correlation between poverty and
+traffic exposure, but there also is a wide variation in how positive the coefficient is, with some block
+groups having a coefficient approaching 10 times the global value of 0.79. One such area, labeled “B” on
+Figure 4.4, is located in the City of Boulder in Boulder County where strict growth management policies
+make residential land scarce.
+The area labeled “C” in Figure 4.4 is Denver's heavy industry corridor where residences are intermixed
+with traffic, rail, and other noxious uses. Few residential neighborhoods in Denver are less buffered from
+traffic than these are, where, in some cases, houses and stores are located close to the interstate.
+Cartograms for the information presented in Figures 4.2-4.4, with space distorted to represent population,
+are included in the online supplementary material.
+
+17
+
+Figure 4.4 GWR Percent Poverty Results
+
+18
+
+5.
+
+DISCUSSION
+
+5.1
+
+Global and Local Models
+
+The fact that all global model variables for the Denver Region were significant is consistent with the
+results of previous studies and reinforces the premise that minority and lower socio-economic status in the
+United States is systematically linked to higher exposure to traffic. Neither previous studies, nor this
+study, can attribute this observed inequality to specific mechanisms, such as aspatial aspects of economic
+phenomena or inherently spatial aspects of local land use and planning, but the GWR method used allows
+for visual inspection of results to suggest the types of mechanisms that may be important.
+
+5.1.1 Traffic Exposure and Regional and Neighborhood Processes
+Spatial patterns of the no college and minority coefficients suggest that both regional processes and
+localized processes may drive inequalities in the exposure to traffic. The general “ring” pattern around the
+urban core (Figure 4.2) in which the GWR no college education coefficient is negative, shows that the
+relationship between college education and traffic density has a regional pattern, which suggests regional
+processes.
+In Figure 4.4, the area marked as “A” shows that the suburban built form (associated with environmental
+privilege) can fulfill the function of protecting residents from traffic even when these residents have
+higher poverty. Although increasing poverty in suburbs has had many deleterious effects, for example
+lower accessibility to services and community assets than found in more central places, this analysis
+shows that in certain areas newer residents may benefit from the suburban form originally created for
+affluent residents.
+In contrast, areas highlighted in Figure 4.2 as “A” and “B” are places where residents with college
+education tend to co-locate with traffic. That these are neighborhood-level places with higher exposure
+suggests that more localized effects also may play a part. These two examples reflect the newer so-called
+“back to the city” cultural and economic trend supported through relatively local policy processes such as
+redevelopment and zoning for TOD.
+
+5.1.2 Traffic Exposure and Smart Growth Policies and Trends
+Without additional study, particularly a longitudinal analysis that could examine effects of specific
+planning interventions, it cannot be proven that specific planning processes caused any areas of inequality
+identified from the results of the GWR analysis. However, certain areas identified in this study are
+characterized by planning interventions. For instance, “A” in Figure 4.3 is linked to infill development
+strategies and “B in Figure 4.3 is linked to dense multifamily housing located near a light rail station.
+Based on these patterns, more attention should be given to possible effects of these and other smart
+growth policies on traffic exposure. This is particularly important because contemporary transit
+infrastructure investments—usually central to smart growth ideas, often are co-located next to freeway
+infrastructure due to availability of right of way in these locations (Loukaitou-Sideris et al., 2013). In
+particular, the development policies in Boulder County may have the effect of amplifying need for lower
+income populations to seek cheaper land close to high-traffic roadways.
+
+19
+
+5.2
+
+Limitations
+
+GWR models are sensitive to spatial contrast. In this analysis, the GWR coefficients are estimates of the
+local relationships between socio-economic variables and exposure, but the exact visual representation of
+areas with statistical significance must be interpreted with care. Areas with significant local coefficients
+generally are found along borders between different types of neighborhoods. For example, the area
+represented by “A” in Figure 4.2 is not centered on the Stapleton airport redevelopment, but rather is
+generated by the contrast between Stapleton and its surrounding areas.
+Areas with significant coefficients in the local model tend to be co-located with the highest traffic
+roadways because areas around high traffic roads have gradients necessary in traffic exposure (the
+dependent variable) to find significance. There are likely similar relationships present around major
+arterial roads in addition to the freeways; however, they do not tend to provide the traffic density
+gradients necessary for the model to find significance with the sample size used for the local regressions.
+More fundamentally, the cross sectional design of this study makes it impossible to identify the causal
+effects of policy and planning interventions, such as TOD, on traffic exposure. Future work should use
+research designs that allow for identification of these causal mechanisms. For example, a time-series
+analysis examining the effect of light rail investments and associated TODs and housing on traffic
+exposure could identify potential causal relationships.
+In addition, and despite being weighted by census block population, census block groups may still be too
+coarse a spatial resolution to examine some of the micro level built environment and design
+characteristics that influence exposure to traffic, such as building setbacks and road design. This would be
+particularly true for large block groups in suburban areas. A finer spatial unit of analysis, such as parcellevel data, would help examine the relationship between these micro level design features of the built
+environment and traffic exposure.
+
+20
+
+6.
+
+CONCLUSIONS
+
+Use of spatially-explicit models in this research confirms that minority and lower socio-economic status is
+systematically linked to higher exposure to traffic. In the case of Denver, these associations between race
+and socio-economic status, and traffic exposure are spatially dependent, and their analysis requires use of
+spatial models to account for spatial auto correlation. The importance of spatially explicit models is
+highlighted by comparing the results of the ordinary least squares and spatial Durbin models. The percent
+of the population without college degree had a negative relationship with traffic exposure in the ordinary
+least squares model, but showed positive association with traffic exposure in the spatial Durbin model.
+This positive relationship is more consistent with previous research on income, which is a marker of
+socio-economic status.
+The global model showed that for the Denver metropolitan region, racial and ethnic minority residents,
+lower income residents, and residents without college education are significantly more afflicted by the
+nuisance of traffic than their white, higher income, and college educated counterparts. Whereas previous
+studies have found similar relationships on a national scale, the GWR analysis suggested that these
+disparities operate at the level of the metropolitan region, and even at the neighborhood level. Further
+study is needed to understand specific types of urban development that may sort residents by proximity to
+traffic.
+It was found that poverty was the most consistent predictor of traffic density in the metropolitan region.
+This contrasts with Rowangould (2013), who found that race was a more consistent predictor in the
+nation, as a whole, than income, as well as Tian et al. (2013), who found the effect of poverty to be very
+marginal. Whether this is unique to the Denver region or a result of differences in variables and methods
+is unclear. It was also found that the lack of college education in the Denver metro region predicts
+exposure to traffic independently of race and poverty.
+These findings, in combination with prior research, indicate that regardless of cause, it is necessary for
+transportation and land use decision-making to ameliorate differential exposures to traffic. The challenge,
+based on this analysis, is finding the appropriate scale of policy action. The GWR analysis, though
+exploratory, is innovative because it showed how to evaluate spatial patterns of traffic exposure with
+respect to demographic and socio-economic patterns. Certain underlying processes, such as the protective
+effects of surburban form, appear to be regional in scale and market-oriented. Other processes, such as
+redevelopment and TOD, are within the scope of local land use control.
+Exurbanization, redevelopment and revitalization projects, transit-oriented development, the increasing
+poverty in suburbs, and the siting of highways appear to be some of the mechanisms that affect disparities
+in traffic exposure. Some of these mechanisms are at least partially in the purview of planning and policy
+at the local, regional, or even national scale, whereas others may be outcomes of larger economic and
+demographic trends not easily controlled by policy. While more work remains to be done with methods
+that can establish causes, effects, and magnitudes of different processes, it is believed this represents an
+important step to better understand the spatial aspects of differential traffic exposure.
+
+21
