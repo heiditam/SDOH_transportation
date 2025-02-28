@@ -1,593 +1,562 @@
 Abstract
 
-    It is well recognized that transportation is a barrier to healthcare access for rural-dwelling residents, particularly
-    older adults. Healthcare restructuring initiatives seldom take into consideration the complexity of transportation,
-    which acts as a barrier to appropriate and timely access to healthcare services for older adults in rural com­
-    munities. This article presents findings of a qualitative research study that explored the complex nature of
-    transportation challenges that rural-dwelling older adults experience in Western Canada when trying to access
-    primary and community care services. Data were derived from a larger study of service user views on a
-    healthcare restructuring initiative intended to facilitate aging-in-place. We conducted 15 focus groups and 9
-    interviews with a diverse sample of 83 older adults living in one urban centre and nine rural and small rural
-    towns in British Columbia (BC)’s interior. We used content analysis to determine codes and derive themes. Study
-    findings showed that transportation was a top priority for improving primary and community care. Older adult
-    participants identified a range of transportation challenges in trying to get to healthcare services and care
-    providers getting to them. Transportation was a social determinant of health (SDOH) for all participants,
-    regardless of whether they lived in the urban centre or in a rural or small rural town. Our study provides more
-    evidence to support that transportation is a key SDOH for rural-dwelling older adults. As such, transportation
-    should be specifically addressed in healthcare restructuring initiatives that aim to support aging-in-place. Service
-    providers need to advocate for system-wide solutions such as integrating transportation into the healthcare
-    system, while it is imperative that decision-makers act on these solutions.
+It is well recognized that transportation is a barrier to healthcare access for rural-dwelling residents, particularly
+older adults. Healthcare restructuring initiatives seldom take into consideration the complexity of transportation,
+which acts as a barrier to appropriate and timely access to healthcare services for older adults in rural com­
+munities. This article presents findings of a qualitative research study that explored the complex nature of
+transportation challenges that rural-dwelling older adults experience in Western Canada when trying to access
+primary and community care services. Data were derived from a larger study of service user views on a
+healthcare restructuring initiative intended to facilitate aging-in-place. We conducted 15 focus groups and 9
+interviews with a diverse sample of 83 older adults living in one urban centre and nine rural and small rural
+towns in British Columbia (BC)’s interior. We used content analysis to determine codes and derive themes. Study
+findings showed that transportation was a top priority for improving primary and community care. Older adult
+participants identified a range of transportation challenges in trying to get to healthcare services and care
+providers getting to them. Transportation was a social determinant of health (SDOH) for all participants,
+regardless of whether they lived in the urban centre or in a rural or small rural town. Our study provides more
+evidence to support that transportation is a key SDOH for rural-dwelling older adults. As such, transportation
+should be specifically addressed in healthcare restructuring initiatives that aim to support aging-in-place. Service
+providers need to advocate for system-wide solutions such as integrating transportation into the healthcare
+system, while it is imperative that decision-makers act on these solutions.
 
 Introduction
-    As older adults living in rural and semi urban areas increase in age,
-    their mobility often decreases (Mattson, 2010). One key component of
-    their mobility is transportation (Webber, Porter, & Menec, 2010).
-    Reliable transportation provides access to needed healthcare services,
-    helps maintain social connections, and is vital for communities to be
-    considered healthy. People with limited access to transportation may
-    experience delayed medical appointments, poor health outcomes, and
-    increased utilization of health care services – all of which increase
-    healthcare costs (Health Research & Educational Trust, 2017). However,
-    the restructuring of healthcare services does not always take into
-    consideration transportation as a social determinant of health (SDOH)
-    and the complex role it plays in impacting health outcomes of older
-    adults, particularly those who live in rural and remote regions. This
-    paper reports on the multifaceted nature of transportation as a social
+As older adults living in rural and semi urban areas increase in age,
+their mobility often decreases (Mattson, 2010). One key component of
+their mobility is transportation (Webber, Porter, & Menec, 2010).
+Reliable transportation provides access to needed healthcare services,
+helps maintain social connections, and is vital for communities to be
+considered healthy. People with limited access to transportation may
+experience delayed medical appointments, poor health outcomes, and
+increased utilization of health care services – all of which increase
+healthcare costs (Health Research & Educational Trust, 2017). However,
+the restructuring of healthcare services does not always take into
+consideration transportation as a social determinant of health (SDOH)
+and the complex role it plays in impacting health outcomes of older
+adults, particularly those who live in rural and remote regions. This
+paper reports on the multifaceted nature of transportation as a social
 
-    determinant of health by drawing on the perspective of older adults
-    living in the interior of British Columbia (BC), Canada. The paper un­
-    earths the lack of transportation options, particularly in BC’s rural re­
-    gions, and discusses their negative impact on older adults’ ability to age
-    in place.
+determinant of health by drawing on the perspective of older adults
+living in the interior of British Columbia (BC), Canada. The paper un­
+earths the lack of transportation options, particularly in BC’s rural re­
+gions, and discusses their negative impact on older adults’ ability to age
+in place.
 Background
-    In designing a restructuring initiative to promote aging-in-place,
-    Interior Health (IH), one of six health authorities in BC, decided that
-    specific social determinants of health (SDOH) “need to be addressed and
-    mitigated” and specifically named transportation, along with housing,
-    food security, limited financial resources, and social connectedness
-    (Kamloops Local Action Team [LAT], 2015, p. 3). SDOH are the social
-    and environmental factors that negatively impact health and cause or
-    exacerbate disease. The most well-known and utilized Canadian SDOH
+In designing a restructuring initiative to promote aging-in-place,
+Interior Health (IH), one of six health authorities in BC, decided that
+specific social determinants of health (SDOH) “need to be addressed and
+mitigated” and specifically named transportation, along with housing,
+food security, limited financial resources, and social connectedness
+(Kamloops Local Action Team [LAT], 2015, p. 3). SDOH are the social
+and environmental factors that negatively impact health and cause or
+exacerbate disease. The most well-known and utilized Canadian SDOH
 
-    models include 12 (Mikkonen & Raphael, 2010) or 14 (Health Canada,
-    2019) determinants, including income (distribution and social status),
-    education, housing, employment and working conditions, gender, social
-    exclusion/supports, (access to) health services, and childhood devel­
-    opment/experiences. While neither of these models include trans­
-    portation, the crucial role of transportation for older adults’ access to
-    health care services is widely understood by social gerontologists and
-    geographers (Chappell, 2021), and addressed within the context of rural
-    transportation options (Hansen et al., 2021). While Kamloops LAT
-    (2015) did include transportation as a SDOH, the recommendations
-    arising from their health service restructuring plan for older adults did
-    not include solutions to mitigate known and unknown transportation
-    problems experienced by older adults, particularly those dwelling in
-    rural areas.
-    The Office of the Seniors Advocate, (2018) identified the following
-    options for those BC seniors who can no longer drive: ask family and
-    friends, walk, use public transit, take HandyDART, call a taxicab, and
-    use volunteer driver programs. HandyDART is a free public trans­
-    portation service for older adults and persons with disabilities; clients
-    need to register with HandyDART, and pre-book all trips two business
-    days in advance. Volunteer driver programs are run by non-profit or­
-    ganizations like the Canadian Cancer Society or by local seniors’ centers,
-    neighborhood houses, and faith communities; 85 such programs
-    currently exist in BC (Office of the Seniors Advocate, 2018). Not all of
-    these transportation options are available throughout the province,
-    however.
-    According to the BC Ministry of Health (BC MOH, 2015), there are
-    differences in the types and availability of transportation options be­
-    tween remote communities (<1000 people), small rural towns (1000 to
-    3500 people), rural towns (3500 to 20,000 people), small urban (20,000
-    to 75,000), urban (75,000 to 175,000 people), and large urban (more
-    than 175,000 people). For example, there is no taxi service in some rural
-    communities in interior BC and HandyDART does not pick up or drop off
-    Elders who live “on reserve” (i.e., in First Nation communities). How­
-    ever, First Nation Elders who are residents of BC are eligible to receive
-    medical transportation benefits from the First Nations Health Authority
-    (FNHA, 2019), and this covers some of the costs of accommodation,
-    meals, and mileage. Older adults and their families and communities
-    must fill in the gaps and assume any additional costs.
-    Due to the limited or unaffordable transportation options available,
-    advocacy groups like the BC Alliance for Healthy Living (2019) call for
-    increased transportation options for small towns and rural communities,
-    noting the need to expand HandyDART service to include evenings,
-    Sundays, and holidays; and engage the health authorities in creating
-    ways to ensure health care access. For older adults who must travel to
-    urban centers for non-emergency medical appointments, there is also
-    the Health Connections bus which runs up to two days per week between
-    rural and small rural towns and urban centers and must be booked two
-    business days in advance. Using this service requires a lot of coordina­
-    tion and results in a long day. Rural residents traveling for non-medical
-    reasons can take the bus as well; however, this is subject to space and
-    thus older adults cannot be assured of accompaniment when they travel
-    for medical appointments. This poses a significant barrier for older
-    adults experiencing frailty, cognitive or sensory impairments, or mental
-    health challenges, should they require assistance traveling to and/or
-    attending medical appointments.
-    Studies on health care restructuring find transportation to be a bar­
-    rier to older adults accessing health care services, particularly in rural
-    and remote communities. Case study research in Atlantic Canada found
-    discrepancies between rural and urban geographies, including fewer
-    services and practitioners and poor transportation (Davenport, Rath­
-    well, & Rosenberg, 2005). Further, a critical ethnography of rural aging
-    and health disparities in the southwestern United States stressed that
-    restructuring efforts need to address transportation solutions for older
-    adults in isolated communities if improved community-based care is the
-    goal (Averill, 2012). Through focus groups with clients, informal
+models include 12 (Mikkonen & Raphael, 2010) or 14 (Health Canada,
+2019) determinants, including income (distribution and social status),
+education, housing, employment and working conditions, gender, social
+exclusion/supports, (access to) health services, and childhood devel­
+opment/experiences. While neither of these models include trans­
+portation, the crucial role of transportation for older adults’ access to
+health care services is widely understood by social gerontologists and
+geographers (Chappell, 2021), and addressed within the context of rural
+transportation options (Hansen et al., 2021). While Kamloops LAT
+(2015) did include transportation as a SDOH, the recommendations
+arising from their health service restructuring plan for older adults did
+not include solutions to mitigate known and unknown transportation
+problems experienced by older adults, particularly those dwelling in
+rural areas.
+The Office of the Seniors Advocate, (2018) identified the following
+options for those BC seniors who can no longer drive: ask family and
+friends, walk, use public transit, take HandyDART, call a taxicab, and
+use volunteer driver programs. HandyDART is a free public trans­
+portation service for older adults and persons with disabilities; clients
+need to register with HandyDART, and pre-book all trips two business
+days in advance. Volunteer driver programs are run by non-profit or­
+ganizations like the Canadian Cancer Society or by local seniors’ centers,
+neighborhood houses, and faith communities; 85 such programs
+currently exist in BC (Office of the Seniors Advocate, 2018). Not all of
+these transportation options are available throughout the province,
+however.
+According to the BC Ministry of Health (BC MOH, 2015), there are
+differences in the types and availability of transportation options be­
+tween remote communities (<1000 people), small rural towns (1000 to
+3500 people), rural towns (3500 to 20,000 people), small urban (20,000
+to 75,000), urban (75,000 to 175,000 people), and large urban (more
+than 175,000 people). For example, there is no taxi service in some rural
+communities in interior BC and HandyDART does not pick up or drop off
+Elders who live “on reserve” (i.e., in First Nation communities). How­
+ever, First Nation Elders who are residents of BC are eligible to receive
+medical transportation benefits from the First Nations Health Authority
+(FNHA, 2019), and this covers some of the costs of accommodation,
+meals, and mileage. Older adults and their families and communities
+must fill in the gaps and assume any additional costs.
+Due to the limited or unaffordable transportation options available,
+advocacy groups like the BC Alliance for Healthy Living (2019) call for
+increased transportation options for small towns and rural communities,
+noting the need to expand HandyDART service to include evenings,
+Sundays, and holidays; and engage the health authorities in creating
+ways to ensure health care access. For older adults who must travel to
+urban centers for non-emergency medical appointments, there is also
+the Health Connections bus which runs up to two days per week between
+rural and small rural towns and urban centers and must be booked two
+business days in advance. Using this service requires a lot of coordina­
+tion and results in a long day. Rural residents traveling for non-medical
+reasons can take the bus as well; however, this is subject to space and
+thus older adults cannot be assured of accompaniment when they travel
+for medical appointments. This poses a significant barrier for older
+adults experiencing frailty, cognitive or sensory impairments, or mental
+health challenges, should they require assistance traveling to and/or
+attending medical appointments.
+Studies on health care restructuring find transportation to be a bar­
+rier to older adults accessing health care services, particularly in rural
+and remote communities. Case study research in Atlantic Canada found
+discrepancies between rural and urban geographies, including fewer
+services and practitioners and poor transportation (Davenport, Rath­
+well, & Rosenberg, 2005). Further, a critical ethnography of rural aging
+and health disparities in the southwestern United States stressed that
+restructuring efforts need to address transportation solutions for older
+adults in isolated communities if improved community-based care is the
+goal (Averill, 2012). Through focus groups with clients, informal
 
-    caregivers, and health care providers on system improvements, Lafor­
-    tune, Huson, Santi, and Stolee (2015) identified transportation as a
-    barrier, but only for rural participants. Similarly, a study to identify
-    imminent changes for health care providers in Northern BC (Hanlon &
-    Halseth, 2005) found a lack of services for older adults and recom­
-    mended housing and transportation be examined for older adults in
-    rural communities.
-    A key element of aging-in-place determined by an Australian study
-    with community-dwelling older adults was transport (Grimmer, Kay,
-    Foot, & Pastakia, 2015). Another study found inadequate transportation
-    to be a barrier to social support for older Chinese and Malay adults living
-    alone in rural areas of Malaysia (Evans, Allotey, Imelda, Reidpath, &
-    Pool, 2018). Likewise, public transportation was a recommended policy
-    intervention to facilitate aging in rural Canada (Bascu et al., 2014; see
-    also Seniors Advocate of BC, 2018). Groups of older adults are more
-    adversely affected by transportation barriers than others, including low
-    income, female, less educated, older and minority individuals (Syed,
-    Gerber, & Sharp, 2013). For example, Call et al.’s (2006) survey research
-    on access to health care services found that 39% of American Indians
-    experienced transportation barriers in contrast to only 18% of nonHispanic White Americans. Older adults living with disabilities are not
-    included in Syed et al.’s (2013) list of those more impacted by trans­
-    portation barriers, yet this is likely due to the biomedicalization of aging
-    or the equating of ‘older’ with ‘disabled’.
-    Transportation challenges are not easy to resolve. A survey of 1373
-    people in 56 communities in Manitoba (Canadian province) examined
-    age-friendliness and showed that “transportation options” was one of
-    the few community characteristics of age-friendliness that are difficult
-    to improve due to the inability of rural communities to provide transport
-    services (Menec et al., 2013). To respond to the few studies exploring
-    regional transportation needs of older adults, a northern BC study by
-    Ryser and Halseth (2012) drew upon several qualitative studies
-    involving 365 key informants to conclude that mobility constraints
-    hinder rural seniors’ access to regionalized care and health services.
-    They also highlighted the need for senior-appropriate transport services
-    that connect with First Nation reserves. While the studies stress the need
-    for health care administrators and policy makers to act on transportation
-    to improve rural aging, they do not present a service user perspective on
-    the complex nature of transportation as it pertains to health care
-    restructuring initiatives. The purpose of this paper is to describe trans­
-    portation issues from the perspective of older adults living in an urban
-    center (UC), two rural towns (RTs), and seven small rural towns (SRTs)
-    who took part in the ROAR (Researching Older Adults’ Repositioning)
-    study, which sought to explore older adults’ views on a restructuring
-    initiative in BC’s interior (Hulko, Mirza, & Seeley, 2020).
+caregivers, and health care providers on system improvements, Lafor­
+tune, Huson, Santi, and Stolee (2015) identified transportation as a
+barrier, but only for rural participants. Similarly, a study to identify
+imminent changes for health care providers in Northern BC (Hanlon &
+Halseth, 2005) found a lack of services for older adults and recom­
+mended housing and transportation be examined for older adults in
+rural communities.
+A key element of aging-in-place determined by an Australian study
+with community-dwelling older adults was transport (Grimmer, Kay,
+Foot, & Pastakia, 2015). Another study found inadequate transportation
+to be a barrier to social support for older Chinese and Malay adults living
+alone in rural areas of Malaysia (Evans, Allotey, Imelda, Reidpath, &
+Pool, 2018). Likewise, public transportation was a recommended policy
+intervention to facilitate aging in rural Canada (Bascu et al., 2014; see
+also Seniors Advocate of BC, 2018). Groups of older adults are more
+adversely affected by transportation barriers than others, including low
+income, female, less educated, older and minority individuals (Syed,
+Gerber, & Sharp, 2013). For example, Call et al.’s (2006) survey research
+on access to health care services found that 39% of American Indians
+experienced transportation barriers in contrast to only 18% of nonHispanic White Americans. Older adults living with disabilities are not
+included in Syed et al.’s (2013) list of those more impacted by trans­
+portation barriers, yet this is likely due to the biomedicalization of aging
+or the equating of ‘older’ with ‘disabled’.
+Transportation challenges are not easy to resolve. A survey of 1373
+people in 56 communities in Manitoba (Canadian province) examined
+age-friendliness and showed that “transportation options” was one of
+the few community characteristics of age-friendliness that are difficult
+to improve due to the inability of rural communities to provide transport
+services (Menec et al., 2013). To respond to the few studies exploring
+regional transportation needs of older adults, a northern BC study by
+Ryser and Halseth (2012) drew upon several qualitative studies
+involving 365 key informants to conclude that mobility constraints
+hinder rural seniors’ access to regionalized care and health services.
+They also highlighted the need for senior-appropriate transport services
+that connect with First Nation reserves. While the studies stress the need
+for health care administrators and policy makers to act on transportation
+to improve rural aging, they do not present a service user perspective on
+the complex nature of transportation as it pertains to health care
+restructuring initiatives. The purpose of this paper is to describe trans­
+portation issues from the perspective of older adults living in an urban
+center (UC), two rural towns (RTs), and seven small rural towns (SRTs)
+who took part in the ROAR (Researching Older Adults’ Repositioning)
+study, which sought to explore older adults’ views on a restructuring
+initiative in BC’s interior (Hulko, Mirza, & Seeley, 2020).
 Methods
-    The Research Ethics Boards of the University (101229) and the local
-    health authority (2016-17-011-I) approved this study. Data were
-    collected from July to November 2016. Ten communities participated
+The Research Ethics Boards of the University (101229) and the local
+health authority (2016-17-011-I) approved this study. Data were
+collected from July to November 2016. Ten communities participated
 
-    (see Table 1), including one UC (Kamloops), two RTs (Merritt and
-    Williams Lake), and seven SRTs (Ashcroft, 100 Mile House, Logan Lake,
-    Lillooet, Clearwater, Barriere, and Chase). These communities were
-    selected based on their proximity to Kamloops and because they access
-    the Royal Inland Hospital in Kamloops rather than any other tertiary
-    health care center within BC’s interior, known as Thompson Cariboo
-    Shuswap, or IH West (see Fig. 1). Kamloops is an UC approximately 220
-    miles northeast of Vancouver, BC. Kamloops has a population of
-    approximately 103,000 and is one of two health care hubs (the other
-    being Kelowna) that serve BC’s interior. The distance from Kamloops to
-    the farthest participating community (Williams Lake) is approximately
-    180 miles.
-    Through convenience and snowball sampling, we recruited 83
-    community-dwelling participants from IH’s home and community care
-    program, walk-in clinics, organizations such as the Council on Aging,
-    and seniors’ social groups and centers in the participating communities.
-    We included adults who were 65 years or older and had used primary
-    and community care services in their home communities. We made a
-    particular effort to include older adults who lived with chronic health
-    conditions. The research assistants (RAs) circulated study information
-    through community agencies and senior centers and made trips to put up
-    posters and recruit participants. The team also made efforts to recruit
-    Indigenous and South Asian participants by visiting a First Nation
-    community and the Aboriginal Friendship Society, as well as a Sikh
-    temple. All study participants were provided with an honorarium of $20
-    Canadian.
-    We collected data through 15 focus groups and nine interviews
-    across the 10 communities, using a structured interview guide. In­
-    terviews were audio-recorded by the research team and then converted
-    into text by a professional transcriptionist. We used NVivo 10 software
-    to support the qualitative data analysis process. Through content anal­
-    ysis Hsieh and Shannon (2005), we determined codes and then clustered
-    and collapsed them into themes. We consulted with the ROAR research
-    advisory committee (consisting of IH decision-makers and knowledge
-    users) to help us interpret the study findings. We also returned to the
-    participating communities to share our results as part of an integrated
-    knowledge translation process. We derived four themes from our anal­
-    ysis: (1) unfamiliarity with IH’s repositioning; (2) optimism versus skepti­
-    cism; (3) improving primary care and community care (through better
+(see Table 1), including one UC (Kamloops), two RTs (Merritt and
+Williams Lake), and seven SRTs (Ashcroft, 100 Mile House, Logan Lake,
+Lillooet, Clearwater, Barriere, and Chase). These communities were
+selected based on their proximity to Kamloops and because they access
+the Royal Inland Hospital in Kamloops rather than any other tertiary
+health care center within BC’s interior, known as Thompson Cariboo
+Shuswap, or IH West (see Fig. 1). Kamloops is an UC approximately 220
+miles northeast of Vancouver, BC. Kamloops has a population of
+approximately 103,000 and is one of two health care hubs (the other
+being Kelowna) that serve BC’s interior. The distance from Kamloops to
+the farthest participating community (Williams Lake) is approximately
+180 miles.
+Through convenience and snowball sampling, we recruited 83
+community-dwelling participants from IH’s home and community care
+program, walk-in clinics, organizations such as the Council on Aging,
+and seniors’ social groups and centers in the participating communities.
+We included adults who were 65 years or older and had used primary
+and community care services in their home communities. We made a
+particular effort to include older adults who lived with chronic health
+conditions. The research assistants (RAs) circulated study information
+through community agencies and senior centers and made trips to put up
+posters and recruit participants. The team also made efforts to recruit
+Indigenous and South Asian participants by visiting a First Nation
+community and the Aboriginal Friendship Society, as well as a Sikh
+temple. All study participants were provided with an honorarium of $20
+Canadian.
+We collected data through 15 focus groups and nine interviews
+across the 10 communities, using a structured interview guide. In­
+terviews were audio-recorded by the research team and then converted
+into text by a professional transcriptionist. We used NVivo 10 software
+to support the qualitative data analysis process. Through content anal­
+ysis Hsieh and Shannon (2005), we determined codes and then clustered
+and collapsed them into themes. We consulted with the ROAR research
+advisory committee (consisting of IH decision-makers and knowledge
+users) to help us interpret the study findings. We also returned to the
+participating communities to share our results as part of an integrated
+knowledge translation process. We derived four themes from our anal­
+ysis: (1) unfamiliarity with IH’s repositioning; (2) optimism versus skepti­
+cism; (3) improving primary care and community care (through better
 
-    home care, improved transportation, and more doctors); and, (4) playing
-    an active role to effect change (Hulko et al., 2020).
-    Improved transportation was one of the ROAR participants’ top
-    priorities for the restructuring of primary and community care, the other
-    two being (1) better home care services and (2) more doctors, better
-    doctors, and “proper” doctors (Hulko et al., 2020). During the data
-    analysis process, we discovered that transportation was a far more
-    complex issue than we had anticipated. While we summarized the
-    transportation issues in our 2020 publication, this article includes our
-    full results and situates our findings on transportation as a SDOH within
-    the context of transportation options currently available for older adults
-    in BC, and the impact this has on rural older adults’ access to health care
-    services.
+home care, improved transportation, and more doctors); and, (4) playing
+an active role to effect change (Hulko et al., 2020).
+Improved transportation was one of the ROAR participants’ top
+priorities for the restructuring of primary and community care, the other
+two being (1) better home care services and (2) more doctors, better
+doctors, and “proper” doctors (Hulko et al., 2020). During the data
+analysis process, we discovered that transportation was a far more
+complex issue than we had anticipated. While we summarized the
+transportation issues in our 2020 publication, this article includes our
+full results and situates our findings on transportation as a SDOH within
+the context of transportation options currently available for older adults
+in BC, and the impact this has on rural older adults’ access to health care
+services.
 Findings
-    The 83 community-dwelling older adults (56 women, 27 men) that
-    participated in the ROAR study consisted of residents from Kamloops
-    (26.5%) as well as rural towns (73.5%). Their average age was 75 years
-    (range: 62 to 89), 53% had complex chronic disease (i.e., two or more
-    chronic conditions), 16% identified as Indigenous, and 8% were South
-    Asian. More than half (58%) of participants lived on an income of less
-    than $30,000 per year. Unsurprisingly, transportation was a major topic
-    of conversation in all the focus groups (FG) and interviews (INT),
-    regardless of community size.
-    Our study shows that the complexity of transportation relates to
-    older adults getting themselves to primary and community care in their
-    own or a neighboring community, as well as receiving home and com­
-    munity care from health care providers who must travel in from an
-    urban center. As one participant said, “Sometimes it isn’t always people
-    need[ing] to come to health care, health care needs to come to the people”
-    (FG 2, SRT 1). Specialists from urban centers are not able to travel to
-    rural towns year around. For example, the Diabetic Nurse Specialist
-    makes monthly visits, except for winter and holidays, and “…the cardi­
-    ologist comes up to [hospital in nearby rural town], but he won’t, and un­
-    derstandably so, [come up] in the Winter. You know, who wants to risk
-    driving off the road [in the mountains]?” (FG 2, SRT 5).
-    Inclement weather impacts not only health care providers, but also
-    rural-dwelling older adults needing to travel to urban centers for health
+The 83 community-dwelling older adults (56 women, 27 men) that
+participated in the ROAR study consisted of residents from Kamloops
+(26.5%) as well as rural towns (73.5%). Their average age was 75 years
+(range: 62 to 89), 53% had complex chronic disease (i.e., two or more
+chronic conditions), 16% identified as Indigenous, and 8% were South
+Asian. More than half (58%) of participants lived on an income of less
+than $30,000 per year. Unsurprisingly, transportation was a major topic
+of conversation in all the focus groups (FG) and interviews (INT),
+regardless of community size.
+Our study shows that the complexity of transportation relates to
+older adults getting themselves to primary and community care in their
+own or a neighboring community, as well as receiving home and com­
+munity care from health care providers who must travel in from an
+urban center. As one participant said, “Sometimes it isn’t always people
+need[ing] to come to health care, health care needs to come to the people”
+(FG 2, SRT 1). Specialists from urban centers are not able to travel to
+rural towns year around. For example, the Diabetic Nurse Specialist
+makes monthly visits, except for winter and holidays, and “…the cardi­
+ologist comes up to [hospital in nearby rural town], but he won’t, and un­
+derstandably so, [come up] in the Winter. You know, who wants to risk
+driving off the road [in the mountains]?” (FG 2, SRT 5).
+Inclement weather impacts not only health care providers, but also
+rural-dwelling older adults needing to travel to urban centers for health
 
-    care: “I would say [transportation is] one of the biggest issues I’d say for a lot
-    of us, especially come Wintertime, when you’re looking at travelling on nasty
-    roads, not too pleasant” (INT, SRT 2). Participants had to deal with “nasty
-    weather” in addition to long distances when traveling to one of two
-    small cities (Kamloops, Kelowna) to access the ER, lab, x-ray, and spe­
-    cialists. Coordinating these visits for medical appointments was difficult
-    for those reliant on public transportation: “When you make an appoint­
-    ment with a specialist in Kamloops or Kelowna, they haven’t got time to think
-    about how you are going to get there, so for old people, if somehow…they
-    could coordinate the appointment with the buses” (FG, RT 2). Those having
-    to travel to urban centers noted appointments were not always the same
-    day, meaning they needed to pay for hotels and meals in addition to
-    finding someone to drive them:
-    Well, my neighbor had to go to Kelowna for a 20-min procedure and
-    it cost him two nights in a hotel and meals, plus driving back and forth
-    [~288 miles round trip]. And getting someone to do it for him because
-    he can’t drive with his condition, so the system has downloaded a lot of
-    costs to the sector which can least afford it – the patient (FG, SRT 3).
-    The long distance to medical appointments in urban centers and the
-    cost of this travel was raised frequently, with one participant suggesting
-    older adults miss appointments to save money and time: “…there’s three
-    hours travel time to go into Kamloops and back out again. Kelowna, well,
-    even longer…plus the price of gas. For me, okay, I can suck it up, but for a lot
-    of people [they might think]: ‘Oh my goodness! I don’t know whether or not
-    I can afford to run in there for that length of time’” (INT, SRT 2).
-    Some opted to drive back and forth rather than paying for a hotel and
-    those eligible for the $70 reimbursement for travel costs from First
-    Nations Health Authority noted it does not cover the actual travel costs,
-    particularly for those driving old (non-fuel-efficient) vehicles. As one
-    Indigenous Elder stated,
+care: “I would say [transportation is] one of the biggest issues I’d say for a lot
+of us, especially come Wintertime, when you’re looking at travelling on nasty
+roads, not too pleasant” (INT, SRT 2). Participants had to deal with “nasty
+weather” in addition to long distances when traveling to one of two
+small cities (Kamloops, Kelowna) to access the ER, lab, x-ray, and spe­
+cialists. Coordinating these visits for medical appointments was difficult
+for those reliant on public transportation: “When you make an appoint­
+ment with a specialist in Kamloops or Kelowna, they haven’t got time to think
+about how you are going to get there, so for old people, if somehow…they
+could coordinate the appointment with the buses” (FG, RT 2). Those having
+to travel to urban centers noted appointments were not always the same
+day, meaning they needed to pay for hotels and meals in addition to
+finding someone to drive them:
+Well, my neighbor had to go to Kelowna for a 20-min procedure and
+it cost him two nights in a hotel and meals, plus driving back and forth
+[~288 miles round trip]. And getting someone to do it for him because
+he can’t drive with his condition, so the system has downloaded a lot of
+costs to the sector which can least afford it – the patient (FG, SRT 3).
+The long distance to medical appointments in urban centers and the
+cost of this travel was raised frequently, with one participant suggesting
+older adults miss appointments to save money and time: “…there’s three
+hours travel time to go into Kamloops and back out again. Kelowna, well,
+even longer…plus the price of gas. For me, okay, I can suck it up, but for a lot
+of people [they might think]: ‘Oh my goodness! I don’t know whether or not
+I can afford to run in there for that length of time’” (INT, SRT 2).
+Some opted to drive back and forth rather than paying for a hotel and
+those eligible for the $70 reimbursement for travel costs from First
+Nations Health Authority noted it does not cover the actual travel costs,
+particularly for those driving old (non-fuel-efficient) vehicles. As one
+Indigenous Elder stated,
 
-    medical appointments in large urban centers (e.g., Vancouver) was
-    deemed an extremely valuable service, but does not eliminate all
-    transportation challenges, as this dialogue indicates:
-    P1: One of the bonuses is the Health Connections Bus though. It’s a
-    five dollar, ten round-trip [cost]. But you do have to get in to [small
-    rural town from a remote location] to connect with it.
-    P2: And they get picked up and dropped at certain places in Kam­
-    loops (FG 2, SRT 1).
-    As a solution, study participants suggested “a total health center” or
-    “one-stop shopping”, which meant the co-location of health care services:
-    “I think the one-stop shopping thing… all sort of [health care services]
-    bundled into one, so that you could go to one place … I think [this] would take
-    a huge load off senior care” (FG, RT 2). This way one will not have to “go
-    back and forth, here and there, especially for [Indigenous] Elders [who] don’t
-    have enough energy to run all over the place” (INT, RT 1).
-    The complexity of transportation issues for rural-dwelling older
-    adults pertains to barriers (financial, environmental, linguistic, cultural)
-    to accessing medically necessary health care services in urban centers as
-    well as receiving care in their home communities from health care
-    providers traveling out from urban centers. While Box 1 summarizes the
-    transportation issues experienced by rural-dwelling older adults, the
-    hypothetical case presented next provides an example of what these
-    transportation issues look like for an older adult.
-    A case of a rural-dwelling older adult’s access to health care
-    services
-    An older adult living in Williams Lake, a rural town three hours (180
-    miles) northwest of Kamloops, must ensure their medical appointment
-    (s) in Kamloops are booked for between 11 am and 3 pm on a Monday as
-    the Health Connections bus only services Williams Lake the one day. To
-    take advantage of the Health Connections bus which leaves Williams
-    Lake at 7:30 am every Monday, they would need to book their seat by
-    Thursday of the previous week and book the first HandyDART ride of the
-    day (at 7 am) to ensure they arrive at the Health Connections bus stop in
-    time for 7:30 am. If there are no delays due to weather (e.g., snow and
-    ice) and/or road conditions (e.g., landslide or flooding), the Health
-    Connections bus will arrive in Kamloops at 11:30 am. The older adult
-    will then have approximately three-and-a-half hours in Kamloops for
-    their medical appointment(s) and any errands (e.g., shopping) before
-    the bus departs again at 3 pm, arriving in Williams Lake at the Health
-    Connections bus stop by 7 pm. They would then take HandyDART to
-    their home provided they booked two days in advance. If this traveler is
-    an Indigenous Elder (with legal “status”) living on reserve, then they
-    would need to arrange a ride to and from the Health Connections bus
-    stop – unless their community is serviced by HandyDART – and can
-    expect to be reimbursed $10 for all their meals during this (>12-h) trip.
-    This arduous trip – in terms of both planning and duration – is one that
-    older adults may need to repeat weekly and could have to take alone if
-    there is no room on the bus for a family member or friend to accompany
-    them.
+medical appointments in large urban centers (e.g., Vancouver) was
+deemed an extremely valuable service, but does not eliminate all
+transportation challenges, as this dialogue indicates:
+P1: One of the bonuses is the Health Connections Bus though. It’s a
+five dollar, ten round-trip [cost]. But you do have to get in to [small
+rural town from a remote location] to connect with it.
+P2: And they get picked up and dropped at certain places in Kam­
+loops (FG 2, SRT 1).
+As a solution, study participants suggested “a total health center” or
+“one-stop shopping”, which meant the co-location of health care services:
+“I think the one-stop shopping thing… all sort of [health care services]
+bundled into one, so that you could go to one place … I think [this] would take
+a huge load off senior care” (FG, RT 2). This way one will not have to “go
+back and forth, here and there, especially for [Indigenous] Elders [who] don’t
+have enough energy to run all over the place” (INT, RT 1).
+The complexity of transportation issues for rural-dwelling older
+adults pertains to barriers (financial, environmental, linguistic, cultural)
+to accessing medically necessary health care services in urban centers as
+well as receiving care in their home communities from health care
+providers traveling out from urban centers. While Box 1 summarizes the
+transportation issues experienced by rural-dwelling older adults, the
+hypothetical case presented next provides an example of what these
+transportation issues look like for an older adult.
+A case of a rural-dwelling older adult’s access to health care
+services
+An older adult living in Williams Lake, a rural town three hours (180
+miles) northwest of Kamloops, must ensure their medical appointment
+(s) in Kamloops are booked for between 11 am and 3 pm on a Monday as
+the Health Connections bus only services Williams Lake the one day. To
+take advantage of the Health Connections bus which leaves Williams
+Lake at 7:30 am every Monday, they would need to book their seat by
+Thursday of the previous week and book the first HandyDART ride of the
+day (at 7 am) to ensure they arrive at the Health Connections bus stop in
+time for 7:30 am. If there are no delays due to weather (e.g., snow and
+ice) and/or road conditions (e.g., landslide or flooding), the Health
+Connections bus will arrive in Kamloops at 11:30 am. The older adult
+will then have approximately three-and-a-half hours in Kamloops for
+their medical appointment(s) and any errands (e.g., shopping) before
+the bus departs again at 3 pm, arriving in Williams Lake at the Health
+Connections bus stop by 7 pm. They would then take HandyDART to
+their home provided they booked two days in advance. If this traveler is
+an Indigenous Elder (with legal “status”) living on reserve, then they
+would need to arrange a ride to and from the Health Connections bus
+stop – unless their community is serviced by HandyDART – and can
+expect to be reimbursed $10 for all their meals during this (>12-h) trip.
+This arduous trip – in terms of both planning and duration – is one that
+older adults may need to repeat weekly and could have to take alone if
+there is no room on the bus for a family member or friend to accompany
+them.
 
-    If you haven’t got a car that will go at least 30 miles to the gallon, you
-    know, you have an old beater, they allow you $70 to go to Kamloops
-    and back [~225 miles roundtrip]. And that’s, you know, like my old
-    truck just to go to gas it up takes about 5 gallons of gas. You know, to
-    fill my truck up is $150. That won’t even give me half a tank and
-    won’t even get me to [name of a town halfway] and back [~122
-    miles] (FG2, SRT 1, Indigenous Elder).
-    A resident of a SRT indicated the multi-faceted nature of trans­
-    portation problems, noting the lack of a taxi service which results in
-    older adults needing to rely on neighbors and depend on HandyDART
-    drivers: “And we don’t have a taxi…so people are totally reliant upon their
-    neighbor for transportation. HandyDART exists…it is handled through BC
-    Transit, so when the bus, the one bus circulates through town, has done its
-    route, then it might have an hour to do its HandyDART trip on their terms and
-    their timing, not on your [the older adult’s] terms and your [the older
-    adult’s] timing or need” (FG 1, SRT 5).
-    HandyDART came up frequently, with those able to register with and
-    book HandyDART trips stating that they need to schedule trips in
-    advance (pick-up and drop-off times) yet cannot book appointments at
-    walk-in clinics nor arrive early enough to secure an appointment.
-    I have to have a vision test for my license, which is coming [up on]
-    Monday. I may not pass the vision part of it, so I am not sure how I
-    will be able to get to the walk-in clinic. I live out here in [outer part of
-    Kamloops], and the HandyDART doesn’t pick up people that early…
-    It’s expensive for a cab and I can’t wait around the bus stops, so it’s
-    very difficult, will be very difficult for me to get there, even if I can.
-    And I’m speaking for other people presumably (FG 1, UC).
+If you haven’t got a car that will go at least 30 miles to the gallon, you
+know, you have an old beater, they allow you $70 to go to Kamloops
+and back [~225 miles roundtrip]. And that’s, you know, like my old
+truck just to go to gas it up takes about 5 gallons of gas. You know, to
+fill my truck up is $150. That won’t even give me half a tank and
+won’t even get me to [name of a town halfway] and back [~122
+miles] (FG2, SRT 1, Indigenous Elder).
+A resident of a SRT indicated the multi-faceted nature of trans­
+portation problems, noting the lack of a taxi service which results in
+older adults needing to rely on neighbors and depend on HandyDART
+drivers: “And we don’t have a taxi…so people are totally reliant upon their
+neighbor for transportation. HandyDART exists…it is handled through BC
+Transit, so when the bus, the one bus circulates through town, has done its
+route, then it might have an hour to do its HandyDART trip on their terms and
+their timing, not on your [the older adult’s] terms and your [the older
+adult’s] timing or need” (FG 1, SRT 5).
+HandyDART came up frequently, with those able to register with and
+book HandyDART trips stating that they need to schedule trips in
+advance (pick-up and drop-off times) yet cannot book appointments at
+walk-in clinics nor arrive early enough to secure an appointment.
+I have to have a vision test for my license, which is coming [up on]
+Monday. I may not pass the vision part of it, so I am not sure how I
+will be able to get to the walk-in clinic. I live out here in [outer part of
+Kamloops], and the HandyDART doesn’t pick up people that early…
+It’s expensive for a cab and I can’t wait around the bus stops, so it’s
+very difficult, will be very difficult for me to get there, even if I can.
+And I’m speaking for other people presumably (FG 1, UC).
 
 Discussion
-    Our study carried out regionally unique research that makes visible
-    the multi-faceted nature of transportation issues for rural-dwelling older
-    adults in interior BC, including how this impacts service users and health
-    care providers. Transportation was consistently identified as an issue by
-    rural older adults in the studies mentioned previously (Averill, 2012;
-    Bascu et al., 2014; Davenport et al., 2005; Grimmer et al., 2015; Hanlon
-    & Halseth, 2005; Lafortune et al., 2015). Our study adds to the discus­
-    sion on the complex nature of transportation as a SDOH for ruraldwelling older adults, and as a key consideration for the restructuring
-    of health care services in rural areas. Study participants, most of whom
+Our study carried out regionally unique research that makes visible
+the multi-faceted nature of transportation issues for rural-dwelling older
+adults in interior BC, including how this impacts service users and health
+care providers. Transportation was consistently identified as an issue by
+rural older adults in the studies mentioned previously (Averill, 2012;
+Bascu et al., 2014; Davenport et al., 2005; Grimmer et al., 2015; Hanlon
+& Halseth, 2005; Lafortune et al., 2015). Our study adds to the discus­
+sion on the complex nature of transportation as a SDOH for ruraldwelling older adults, and as a key consideration for the restructuring
+of health care services in rural areas. Study participants, most of whom
 
-    At the same time, other participants were unable to access Handy­
-    DART at all: “…when I needed that HandyDART for that one day, they never
-    [came]. I applied for it two months before and right down to the last day, I
-    had to hire somebody to take me up [to the hospital] for my cataract. I was so
-    mad” (FG 3, UC, Indigenous Elder).
-    The Health Connections bus that takes rural-dwelling people to
-    4
+At the same time, other participants were unable to access Handy­
+DART at all: “…when I needed that HandyDART for that one day, they never
+[came]. I applied for it two months before and right down to the last day, I
+had to hire somebody to take me up [to the hospital] for my cataract. I was so
+mad” (FG 3, UC, Indigenous Elder).
+The Health Connections bus that takes rural-dwelling people to
+4
+
+were living on low incomes, identified their costs were higher when
+required to travel to urban centers. This corresponds with findings that
+having to travel to urban centers for health care is a drain on financial
+and emotional resources for older adults (Allan, Ball, & Alston, 2007;
+Office of the Seniors Advocate, 2018). Even participants from the urban
+center (Kamloops) faced challenges with transportation – e.g., Handy­
+DART not being able to pick up people very early or for same-day ap­
+pointments, resulting in people having to rely on taxis – an expensive
+option.
+Access to transportation is fundamental to healthy aging-in-place
+(Chappell, 2021), and its recognition as a SDOH is vital to ruraldwelling older adults who may require ongoing access to health care
+services (Hansen et al., 2021). Well-known SDOH models such as the
+one by Mikkonen and Raphael (2010) do not name transportation or
+geography (rural and remote) as a SDOH. Such SDOH models appear to
+be more conducive to urban rather than rural and remote situations
+where one’s housing may be located hundreds of miles away from health
+care services with little access through HandyDART.
+While the health care restructuring that IH is undertaking caters to
+key SDOH, including transportation, there is still a need for solutions to
+address the complex transportation challenges experienced by urbandwelling older adults as well as rural-dwelling older adults who are
+expected to travel to urban centers to access health care services (Han­
+sen et al., 2021). Like previous research that shows Indigenous people
+experience increased transportation barriers when accessing health care
+services (Call et al., 2006; Ryser & Halseth, 2012), rural- and urbandwelling First Nation Elders in our study also identified transportation
+as an issue. This emphasizes the need for restructuring efforts to also
+address barriers for those living in First Nation communities – whether
+rural or urban.
+Policy makers and planners should consider ways to acknowledge
+and compensate people who volunteer their time to drive family mem­
+bers, friends, or neighbors to appointments. The Office of the Seniors
+Advocate, (2018) recommends that volunteer drivers should be eligible
+to receive tax deductions, like those who use their vehicles for business.
+Yet, this may not adequately address the issue of transportation if those
+with a vehicle or an acquaintance (family, friend, neighbor) with a
+vehicle are more likely to access health care services when compared to
+those who lack access to a vehicle (Syed et al., 2013). Since there is
+inequitable distribution of health care professionals in rural and remote
+regions (Wilson et al., 2009), there is a need to reduce rural-dwelling
+older adults’ repeat visits to urban centers. Policies need to consider
+single-purpose resources available for multi-purpose uses (e.g., using
+school bus to transport older adults when not needed for school pick-up
+and drop-off); and health care teams going to the people rather than
+people coming to them. This should be a year-round service, not a sea­
+sonal one, as those with diabetes need access to a specialist in the winter
 
 Box 1
-    Transportation Issues Experienced by Rural-Dwelling Older Adults.
-    (Adapted from Hulko et al., 2020)
-    • Coordinating medical appointments (e.g., with specialists in urban centers) with transportation that is only available on certain days of the
-    week
-    • Scheduling HandyDART for medical appointments that cannot be booked ahead of time (e.g., visit to the walk-in clinic)
-    • Getting to the nearby Health Connections Bus stop on time in order to be taken to appointments in urban centers
-    • Experiencing language and communication (e.g., sensory impairment) barriers when interacting with bus drivers
-    • Depending on others (e.g., friends, neighbors, and family members) to help meet transportation needs
-    • Receiving travel reimbursement that is less than actual costs (e.g., fuel costs for old vehicles, cost incurred by accompanying friend or family
-    member)
-    • Dealing with difficult driving conditions (e.g., during winter) and long distances that block or delay access to health care services
-    • Receiving less frequent (e.g., monthly) and shorter visits by health professionals (e.g., Diabetes Nurse Specialist) during winter
+Transportation Issues Experienced by Rural-Dwelling Older Adults.
+(Adapted from Hulko et al., 2020)
+• Coordinating medical appointments (e.g., with specialists in urban centers) with transportation that is only available on certain days of the
+week
+• Scheduling HandyDART for medical appointments that cannot be booked ahead of time (e.g., visit to the walk-in clinic)
+• Getting to the nearby Health Connections Bus stop on time in order to be taken to appointments in urban centers
+• Experiencing language and communication (e.g., sensory impairment) barriers when interacting with bus drivers
+• Depending on others (e.g., friends, neighbors, and family members) to help meet transportation needs
+• Receiving travel reimbursement that is less than actual costs (e.g., fuel costs for old vehicles, cost incurred by accompanying friend or family
+member)
+• Dealing with difficult driving conditions (e.g., during winter) and long distances that block or delay access to health care services
+• Receiving less frequent (e.g., monthly) and shorter visits by health professionals (e.g., Diabetes Nurse Specialist) during winter
 
-    were living on low incomes, identified their costs were higher when
-    required to travel to urban centers. This corresponds with findings that
-    having to travel to urban centers for health care is a drain on financial
-    and emotional resources for older adults (Allan, Ball, & Alston, 2007;
-    Office of the Seniors Advocate, 2018). Even participants from the urban
-    center (Kamloops) faced challenges with transportation – e.g., Handy­
-    DART not being able to pick up people very early or for same-day ap­
-    pointments, resulting in people having to rely on taxis – an expensive
-    option.
-    Access to transportation is fundamental to healthy aging-in-place
-    (Chappell, 2021), and its recognition as a SDOH is vital to ruraldwelling older adults who may require ongoing access to health care
-    services (Hansen et al., 2021). Well-known SDOH models such as the
-    one by Mikkonen and Raphael (2010) do not name transportation or
-    geography (rural and remote) as a SDOH. Such SDOH models appear to
-    be more conducive to urban rather than rural and remote situations
-    where one’s housing may be located hundreds of miles away from health
-    care services with little access through HandyDART.
-    While the health care restructuring that IH is undertaking caters to
-    key SDOH, including transportation, there is still a need for solutions to
-    address the complex transportation challenges experienced by urbandwelling older adults as well as rural-dwelling older adults who are
-    expected to travel to urban centers to access health care services (Han­
-    sen et al., 2021). Like previous research that shows Indigenous people
-    experience increased transportation barriers when accessing health care
-    services (Call et al., 2006; Ryser & Halseth, 2012), rural- and urbandwelling First Nation Elders in our study also identified transportation
-    as an issue. This emphasizes the need for restructuring efforts to also
-    address barriers for those living in First Nation communities – whether
-    rural or urban.
-    Policy makers and planners should consider ways to acknowledge
-    and compensate people who volunteer their time to drive family mem­
-    bers, friends, or neighbors to appointments. The Office of the Seniors
-    Advocate, (2018) recommends that volunteer drivers should be eligible
-    to receive tax deductions, like those who use their vehicles for business.
-    Yet, this may not adequately address the issue of transportation if those
-    with a vehicle or an acquaintance (family, friend, neighbor) with a
-    vehicle are more likely to access health care services when compared to
-    those who lack access to a vehicle (Syed et al., 2013). Since there is
-    inequitable distribution of health care professionals in rural and remote
-    regions (Wilson et al., 2009), there is a need to reduce rural-dwelling
-    older adults’ repeat visits to urban centers. Policies need to consider
-    single-purpose resources available for multi-purpose uses (e.g., using
-    school bus to transport older adults when not needed for school pick-up
-    and drop-off); and health care teams going to the people rather than
-    people coming to them. This should be a year-round service, not a sea­
-    sonal one, as those with diabetes need access to a specialist in the winter
-
-    too.
-    The notion of a total health center or a one-stop shopping mentioned is
-    consistent with Ryser and Halseth’s (2012) idea about the “one-stop
-    shops” (p. 340) – a strategy which aims to combine travel information
-    and financial supports to streamline services for older adults. Munici­
-    palities, health authorities, and provincial and federal governments
-    need to make significant investments in transportation infrastructure,
-    programs, and personnel to assist rural dwelling older adults to age in
-    place. While Kamloops is already seeing this, newer training campuses
-    need to be initiated and established in rural communities for health care
-    professional students so they can be attracted and retained in rural and
-    remote communities.
+too.
+The notion of a total health center or a one-stop shopping mentioned is
+consistent with Ryser and Halseth’s (2012) idea about the “one-stop
+shops” (p. 340) – a strategy which aims to combine travel information
+and financial supports to streamline services for older adults. Munici­
+palities, health authorities, and provincial and federal governments
+need to make significant investments in transportation infrastructure,
+programs, and personnel to assist rural dwelling older adults to age in
+place. While Kamloops is already seeing this, newer training campuses
+need to be initiated and established in rural communities for health care
+professional students so they can be attracted and retained in rural and
+remote communities.
 Conclusion
-    By analyzing the multi-faceted nature of transportation, we recom­
-    mend that restructuring efforts aimed at improving community-based
-    care and aging-in-place include strategies that address transportation
-    infrastructure and promote equitable access to health care services. Our
-    study goes beyond a recognition that “transportation is an issue” to
-    describe – from the perspective of older adult service users – the specific
-    challenges that administrators, decision-makers and practitioners need
-    to address to support aging-in-place outside the urban centers of BC’s
-    interior. Transportation barriers need to be addressed immediately
-    through system-level solutions that begin with assessing transportation
-    needs and challenges of care recipients, linking up HandyDART and
-    primary and community care services, and ensuring that a greater range
-    of health care services are available in small cities and rural towns either
-    physically (e.g., lab) or remotely (e.g., telemedicine).
-    During the COVID-19 pandemic, IH had to reorient many of their
-    services to remote delivery (e.g., doctor’s visits, physiotherapy, social
-    work). It will be important to continue remote delivery once the
-    pandemic is over to guarantee access for rural and remote residents,
-    among other populations. This would prevent older adults from having
-    to make multiple trips for medical appointments or self-fund either the
-    return portion of their travel or the costs of an overnight stay. It would
-    also address some of the health inequities that diverse groups of rural
-    older adults have experienced during the pandemic (Hulko & Mirza,
-    2021). While our participants included older adults with physical dis­
-    abilities who used assistive and medical devices (canes, walkers,
-    wheelchairs, continuous oxygen therapy), they did not discuss their
-    assistive devices in relation to transportation issues. Given the trans­
-    portation related systemic issues identified, we can expect more and
-    distinct obstacles for disabled rural older adults seeking access to basic
-    health care.
-    Solutions need to be tailored to individual localities rather than
-    adopting a “cookie-cutter approach” (Hulko et al., 2020). System-wide
-    5
+By analyzing the multi-faceted nature of transportation, we recom­
+mend that restructuring efforts aimed at improving community-based
+care and aging-in-place include strategies that address transportation
+infrastructure and promote equitable access to health care services. Our
+study goes beyond a recognition that “transportation is an issue” to
+describe – from the perspective of older adult service users – the specific
+challenges that administrators, decision-makers and practitioners need
+to address to support aging-in-place outside the urban centers of BC’s
+interior. Transportation barriers need to be addressed immediately
+through system-level solutions that begin with assessing transportation
+needs and challenges of care recipients, linking up HandyDART and
+primary and community care services, and ensuring that a greater range
+of health care services are available in small cities and rural towns either
+physically (e.g., lab) or remotely (e.g., telemedicine).
+During the COVID-19 pandemic, IH had to reorient many of their
+services to remote delivery (e.g., doctor’s visits, physiotherapy, social
+work). It will be important to continue remote delivery once the
+pandemic is over to guarantee access for rural and remote residents,
+among other populations. This would prevent older adults from having
+to make multiple trips for medical appointments or self-fund either the
+return portion of their travel or the costs of an overnight stay. It would
+also address some of the health inequities that diverse groups of rural
+older adults have experienced during the pandemic (Hulko & Mirza,
+2021). While our participants included older adults with physical dis­
+abilities who used assistive and medical devices (canes, walkers,
+wheelchairs, continuous oxygen therapy), they did not discuss their
+assistive devices in relation to transportation issues. Given the trans­
+portation related systemic issues identified, we can expect more and
+distinct obstacles for disabled rural older adults seeking access to basic
+health care.
+Solutions need to be tailored to individual localities rather than
+adopting a “cookie-cutter approach” (Hulko et al., 2020). System-wide
+5
 
-    N.A. Mirza and W. Hulko
+N.A. Mirza and W. Hulko
 
-    Journal of Aging Studies 60 (2022) 101002
+Journal of Aging Studies 60 (2022) 101002
 
-    solutions are critical as well. Our recommendation is to continue inte­
-    grating transportation into the health care system through health care
-    restructuring initiatives that prioritize transportation as a key SDOH for
-    rural-dwelling older adults. Acting in this way could ensure that older
-    adults are able to age in place in rural and remote communities within
-    BC’s interior and receive health care that is affordable and equivalent to
-    their urban peers. Our research provides evidence to encourage policy
-    makers to tackle transportation as an important SDOH so health care can
-    be more accessible and conducive to the needs of rural communities. By
-    embracing rural-dwelling service users, administrators in local health
-    authorities can ensure that rural perspectives are given the opportunity
-    to influence health care decisions, thereby respecting the citizenship
-    rights of those aging in place beyond the urban core.
+solutions are critical as well. Our recommendation is to continue inte­
+grating transportation into the health care system through health care
+restructuring initiatives that prioritize transportation as a key SDOH for
+rural-dwelling older adults. Acting in this way could ensure that older
+adults are able to age in place in rural and remote communities within
+BC’s interior and receive health care that is affordable and equivalent to
+their urban peers. Our research provides evidence to encourage policy
+makers to tackle transportation as an important SDOH so health care can
+be more accessible and conducive to the needs of rural communities. By
+embracing rural-dwelling service users, administrators in local health
+authorities can ensure that rural perspectives are given the opportunity
+to influence health care decisions, thereby respecting the citizenship
+rights of those aging in place beyond the urban core.
 
-    Grimmer, K., Kay, D., Foot, J., & Pastakia, K. (2015). Consumer views about aging-inplace. Clinical Interventions in Aging, 10, 1803–1811. https://doi.org/10.2147/CIA.
-    S90672
-    Hanlon, N., & Halseth, G. (2005). The greying of resource communities in northern
-    British Columbia: Implications for health care delivery in already under-serviced
-    communities. Canadian Geographer / Le Géographe Canadien, 49(1), 1–24. https://
-    doi.org/10.1111/j.0008-3658.2005.00077.x
-    Hansen, S., Newbold, K. B., Scott, D. M., Vrkljan, B., Grenier, A., & Huang, K. (2021).
-    Rural ageing and transportation: How a lack of transportation options can leave
-    older rural populations stranded. In M. Skinner, R. Winterton, & K. Walsh (Eds.),
-    Rural gerontology: Towards critical perspectives on rural ageing (pp. 140–151). London:
-    Routledge.
-    Health Canada. (2019, June 28). What determines health. Retrieved from https://www.
-    canada.ca/en/public-health/services/health-promotion/population-health/what
-    -determines-health.html.
-    Health Research & Educational Trust. (2017 November). Social determinants of health
-    series: Transportation and the role of hospitals. Chicago, IL: Health Research &
-    Educational Trust. Retrieved on November 15, 2019 from www.aha.org/transporta
-    tion.
-    Hsieh, H.-F., & Shannon, S. E. (2005). Three approaches to qualitative content analysis.
-    Qualitative Health Research, 15(9), 1277–1288. https://doi.org/10.1177/
-    1049732305276687
-    Hulko, W., & Mirza, N. (May 13, 2021). In early media coverage of the COVID-19
-    pandemic older adults in rural areas were neglected. The Conversation. https://the
-    conversation.com/in-early-media-coverage-of-the-covid-19-pandemic-older-adultsin-rural-areas-were-neglected-154621.
-    Hulko, W., Mirza, N., & Seeley, L. (2020). Older adults’ views on the repositioning of
-    primary and community care. Canadian Journal on Aging / La Revue Canadienne Du
-    Vieillissement, 40(1), 114–126. https://doi.org/10.1017/S0714980819000540
-    Kamloops Local Action Team [LAT]. (2015, October). Taking the next steps:
-    Repositioning health care for older adults Kamloops final report. Interior Health.
-    Kamloops, BC.
-    Lafortune, C., Huson, K., Santi, S., & Stolee, P. (2015). Community-based primary health
-    care for older adults: A qualitative study of the perceptions of clients, caregivers and
-    health care providers. BioMed Central Geriatrics, 15(57), 1–11. https://doi.org/
-    10.1186/s12877-015-0052-x
-    Mattson, J. W. (2010). Aging and mobility in rural and small urban areas: A survey of
-    North Dakota. Journal of Applied Gerontology, 30(6), 700–718. https://doi.org/
-    10.1177/0733464810378107
-    Menec, V. H., Hutton, L., Newall, N., Nowicki, S., Spina, J., & Veselyuk, D. (2013). How
-    ‘age-friendly’ are rural communities and what community characteristics are related
-    to age-friendliness? The case of rural Manitoba, Canada. Ageing and Society, 35(1),
-    203–223. https://doi.org/10.1017/S0144686X13000627
-    Mikkonen, J., & Raphael, D. (2010). Social determinants of health: The Canadian facts.
-    Toronto, ON: York University School of Health Policy and Management.
-    Office of the Seniors Advocate. (2018, May 10). Seniors transportation: Affordable,
-    appropriate, and available. Office of the Seniors Advocate. Victoria, BC. Retrieved from
-    https://www.seniorsadvocatebc.ca/app/uploads/sites/4/2018/05/Seniors-Transp
-    ortation-Report.pdf.
-    Ryser, L., & Halseth, G. (2012). Resolving mobility constraints impeding rural seniors’
-    access to regionalized services. Journal of Aging & Social Policy, 24(3), 328–344.
-    https://doi.org/10.1080/08959420.2012.683329
-    Syed, S. T., Gerber, B. S., & Sharp, L. K. (2013). Traveling towards disease:
-    Transportation barriers to health care access. Journal of Community Health, 38(5),
-    976–993. https://doi.org/10.1007/s10900-013-9681-1
-    Webber, S. C., Porter, M. M., & Menec, V. H. (2010). Mobility in older adults: A
-    comprehensive framework. Gerontologist, 50(4), 443–450. https://doi.org/10.1093/
-    geront/gnq013
-    Wilson, N. W., Couper, I. D., De Vries, E., Reid, S., Fish, T., & Marais, B. J. (2009).
-    A critical review of interventions to redress the inequitable distribution of healthcare
-    professionals to rural and remote areas. Rural and Remote Health, 9(2), 1060.
+Grimmer, K., Kay, D., Foot, J., & Pastakia, K. (2015). Consumer views about aging-inplace. Clinical Interventions in Aging, 10, 1803–1811. https://doi.org/10.2147/CIA.
+S90672
+Hanlon, N., & Halseth, G. (2005). The greying of resource communities in northern
+British Columbia: Implications for health care delivery in already under-serviced
+communities. Canadian Geographer / Le Géographe Canadien, 49(1), 1–24. https://
+doi.org/10.1111/j.0008-3658.2005.00077.x
+Hansen, S., Newbold, K. B., Scott, D. M., Vrkljan, B., Grenier, A., & Huang, K. (2021).
+Rural ageing and transportation: How a lack of transportation options can leave
+older rural populations stranded. In M. Skinner, R. Winterton, & K. Walsh (Eds.),
+Rural gerontology: Towards critical perspectives on rural ageing (pp. 140–151). London:
+Routledge.
+Health Canada. (2019, June 28). What determines health. Retrieved from https://www.
+canada.ca/en/public-health/services/health-promotion/population-health/what
+-determines-health.html.
+Health Research & Educational Trust. (2017 November). Social determinants of health
+series: Transportation and the role of hospitals. Chicago, IL: Health Research &
+Educational Trust. Retrieved on November 15, 2019 from www.aha.org/transporta
+tion.
+Hsieh, H.-F., & Shannon, S. E. (2005). Three approaches to qualitative content analysis.
+Qualitative Health Research, 15(9), 1277–1288. https://doi.org/10.1177/
+1049732305276687
+Hulko, W., & Mirza, N. (May 13, 2021). In early media coverage of the COVID-19
+pandemic older adults in rural areas were neglected. The Conversation. https://the
+conversation.com/in-early-media-coverage-of-the-covid-19-pandemic-older-adultsin-rural-areas-were-neglected-154621.
+Hulko, W., Mirza, N., & Seeley, L. (2020). Older adults’ views on the repositioning of
+primary and community care. Canadian Journal on Aging / La Revue Canadienne Du
+Vieillissement, 40(1), 114–126. https://doi.org/10.1017/S0714980819000540
+Kamloops Local Action Team [LAT]. (2015, October). Taking the next steps:
+Repositioning health care for older adults Kamloops final report. Interior Health.
+Kamloops, BC.
+Lafortune, C., Huson, K., Santi, S., & Stolee, P. (2015). Community-based primary health
+care for older adults: A qualitative study of the perceptions of clients, caregivers and
+health care providers. BioMed Central Geriatrics, 15(57), 1–11. https://doi.org/
+10.1186/s12877-015-0052-x
+Mattson, J. W. (2010). Aging and mobility in rural and small urban areas: A survey of
+North Dakota. Journal of Applied Gerontology, 30(6), 700–718. https://doi.org/
+10.1177/0733464810378107
+Menec, V. H., Hutton, L., Newall, N., Nowicki, S., Spina, J., & Veselyuk, D. (2013). How
+‘age-friendly’ are rural communities and what community characteristics are related
+to age-friendliness? The case of rural Manitoba, Canada. Ageing and Society, 35(1),
+203–223. https://doi.org/10.1017/S0144686X13000627
+Mikkonen, J., & Raphael, D. (2010). Social determinants of health: The Canadian facts.
+Toronto, ON: York University School of Health Policy and Management.
+Office of the Seniors Advocate. (2018, May 10). Seniors transportation: Affordable,
+appropriate, and available. Office of the Seniors Advocate. Victoria, BC. Retrieved from
+https://www.seniorsadvocatebc.ca/app/uploads/sites/4/2018/05/Seniors-Transp
+ortation-Report.pdf.
+Ryser, L., & Halseth, G. (2012). Resolving mobility constraints impeding rural seniors’
+access to regionalized services. Journal of Aging & Social Policy, 24(3), 328–344.
+https://doi.org/10.1080/08959420.2012.683329
+Syed, S. T., Gerber, B. S., & Sharp, L. K. (2013). Traveling towards disease:
+Transportation barriers to health care access. Journal of Community Health, 38(5),
+976–993. https://doi.org/10.1007/s10900-013-9681-1
+Webber, S. C., Porter, M. M., & Menec, V. H. (2010). Mobility in older adults: A
+comprehensive framework. Gerontologist, 50(4), 443–450. https://doi.org/10.1093/
+geront/gnq013
+Wilson, N. W., Couper, I. D., De Vries, E., Reid, S., Fish, T., & Marais, B. J. (2009).
+A critical review of interventions to redress the inequitable distribution of healthcare
+professionals to rural and remote areas. Rural and Remote Health, 9(2), 1060.
 
 Funding sources
     This research study was awarded an Evidence-Informed Practice
     Grant [IHRGC_2016-11] by Interior Health.
     Declaration of competing interest
     The authors have no conflicts of interest to report.
-References
-    Allan, J., Ball, P., & Alston, M. (2007). Developing sustainable models of rural health
-    care: A community development approach. Rural and Remote Health, 7(4), 818.
-    Averill, J. (2012). Priorities for action in a rural older adults study. Family & Community
-    Health, 35(4), 358–372. https://doi.org/10.1097/FCH.0b013e318266686e
-    Bascu, J., Jeffery, B., Novik, N., Abonyi, S., Oosman, S., Johnson, S., & Martz, D. (2014).
-    Policy, community, and kin: Interventions that support rural healthy aging. Activities,
-    Adaptation, & Aging, 38(2), 138–155.
-    BC Ministry of Health [BC MOH]. (2015). Rural health services in B.C.: A policy
-    framework to provide a system of quality care. Retrieved from http://www.health.
-    gov.bc.ca/library/publications/year/2015/rural-health-policypaper.pdf.
-    British Columbia [BC] Alliance for Healthy Living. BC on the move in a healthier
-    direction: Submission to the Ministry of Transportation and Infrastructure.
-    Considering health in the province’s ten-year transportation plan. Retrieved on
-    November 22, 2019 from https://www.bchealthyliving.ca/bc-on-the-move-in-a-hea
-    lthier-direction-2/.
-    Call, K. T., McAlpine, D. D., Johnson, P. J., Beebe, T. J., McRae, J. A., & Song, Y. (2006).
-    Barriers to care among American Indians in public health care programs. Medical
-    Care, 44(6), 595–600. https://doi.org/10.1097/01.mlr.0000215901.37144.94
-    Chappell, N. L. (2021). Transportation for an aging society. In I. Rootman, P. Edwards,
-    M. Levasseur, & F. Grunberg (Eds.), Promoting the health of older adults: The Canadian
-    experience (pp. 122–134). Toronto: Canadian Scholars.
-    Davenport, J., Rathwell, T., & Rosenberg, M. (2005). Service provision for seniors:
-    Challenges for communities in Atlantic Canada. Longwoods Review, 3(3), 9–16.
-    https://doi.org/10.12927/hcq.2005.17716
-    Evans, N., Allotey, P., Imelda, J. D., Reidpath, D. D., & Pool, R. (2018). Social support
-    and care arrangements of older people living alone in rural Malaysia. Ageing and
-    Society, 38(10), 2061–2081. https://doi.org/10.1017/S0144686X17000472
-    First Nations Health Authority (FNHA). (2019, September). First Nations health benefits:
-    Medical transportation. Author. Retrieved from https://www.fnha.ca/Document
-    s/FNHA-First-Nations-Health-Medical-Transportation-Fact-Sheet.pdf.
