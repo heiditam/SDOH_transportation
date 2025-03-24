@@ -1,0 +1,9 @@
+Abstract
+
+Introduction: Lack of reliable transportation can be a barrier to keeping appointments or accessing other health care services. Increasingly, insurers and health care delivery systems subsidize transportation services for patients. This systematic review synthesizes existing research on nonemergency medical transportation interventions.
+
+Methods: We searched 3 databases (Embase, PubMed, Google) for studies of health care sector-sponsored programs that provided patients assistance with nonemergency transportation and directly assessed the impact of transportation assistance on health and health care utilization outcomes. Studies meeting inclusion criteria were graded for quality using standard grading criteria.
+
+Findings: Eight studies met all inclusion criteria. Most were rated as low quality. All studies included examined process or health care utilization outcomes, such as uptake of transportation services, return for follow-up, or missed appointment rates; only 1 included health outcomes, such as illness severity and blood pressure. Results were mixed. More rigorous studies showed low patient uptake of transportation services and inconsistent impacts on health and utilization outcomes.
+
+Conclusions: Despite considerable interest in subsidizing transportation services to improve health for patients facing transportation barriers, little rigorously conducted research has demonstrated the impact of transportation services on health or health care utilization. Some extant literature suggests that transportation assistance is more likely to be effective when offered with other interventions to reduce social and economic barriers to health.
