@@ -1,0 +1,404 @@
+Abstract
+We explore the regional disparities in economic and health benefits from the expansion of Japan’s high-speed railways and highways over 35 years. Utilizing market access and instrumental variables strategies, we establish a causal relationship between transportation expansion and its economic and health consequences, the latter of which are driven by air quality outcomes. Nationally, over 35 years, transportation expansion has significantly reduced the suspended particulate matter density by 2.96% and increased income by 15.80%. However, these benefits are largely concentrated in developed regions such as Tokyo, leaving other cities with only slight improvements in SPM reduction and income growth. Our estimates suggest the 35-year transportation expansions is estimated to have provided $817.60 and $4,701.20 per capita health and economic benefits, respectively. We discuss the transformation of the industry structures driving these changes. The asymmetrical benefits distribution poses challenges, emphasizing the necessity of addressing these disparities for future sustainable transportation development.
+Questions answered in this article
+BetaPowered by GenAI
+This is generative AI content and the quality may vary. 
+Learn more
+.
+
+How do direct and indirect effects of transportation infrastructure expansion differ in their impact on Market Access (MA)?
+
+What factors contribute to the varying effects of transportation expansion on income in Megacities, Cores, and Others?
+
+What are the two main aspects explored in relation to transportation infrastructure expansion?
+
+In what ways can the expansion of subway, HSR, and highway infrastructure enhance a city's Market Access (MA)?
+
+What criteria does the Japanese government use to define regional categories for analyzing transportation expansion impacts?
+Previous article in issue
+Next article in issue
+JEL classification
+R1R11R12L92
+Keywords
+High-speed railway Shinkansen Regional disparity Market access Agglomeration Highways
+1. Introduction
+1.1. Research objective
+The growth of transportation infrastructure, such as high-speed railways (HSRs) and highways, has the potential to increase well-being, by fostering economic development and mitigating air pollution through reduced traffic congestion and boosted rail use. However, it is uncertain whether these economic and health advantages are consistently realized across different regions. This paper delves into the potential disparities in the benefits brought about by such infrastructural advancements. In our inquiry, we first explore (1) the economic impact of transportation infrastructure expansion and (2) its effect on air quality. Ultimately, we turn to our focal research question: (3) are these benefits evenly distributed across regions?
+An exploration into research question (1) reveals some findings on the economic upsurges caused by transportation expansions for HSRs and highways. Studies have linked these infrastructural enhancements to positive shifts in land prices (Donaldson and Hornbeck, 2016), GDP growth (Herzog, 2021, Ahlfeldt and Feddersen, 2017), trade facilitation (Bernard et al., 2019), and regional specialization (Lin, 2017). Highways, specifically, are associated with heightened trade (Herzog, 2021, Michaels, 2008), increased economic output (Baum-Snow et al., 2020), urbanization in developing countries (Maparu and Mazumder, 2017), and improved firm productivity (Datta, 2012). However, the picture is not uniformly positive. For instance, Chen et al. (2016) found that HSRs in China can hinder the agricultural sector by limiting arable land availability, thus restricting the economy. Banerjee et al. (2020) noted that while transportation proximity elevates GDP per capita, it does not necessarily enhance its growth rate. Our research seeks to identify comprehensive implications of these multifaceted impacts, with a keen focus on both highways and HSRs.
+The answer to question (2) is less clear-cut. While some studies report that public transportation projects (Yang et al., 2018, Çolak et al., 2016, Saberi et al., 2020) or suitably tolled highways (Anas and Lindsey, 2011, Fu and Gu, 2017) can alleviate air pollution caused by road congestion, others find no discernible effect or yield ambiguous results (Duranton and Turner, 2011 and Chen and Whalley, 2012). These mixed results highlight the need for further empirical investigation into the causal relationships between transportation infrastructure expansion and air pollution.
+Our main focus is to answer question (3). Here, we delve into the equitable distribution of benefits from transportation projects, primarily funded by national taxes. Past studies indicate a trend: the benefits of highways and HSRs often flow to already developed regions, potentially exacerbating regional imbalances (Vickerman, 2015, Qin, 2017, Faber, 2014, Asher and Novosad, 2020, Deng et al., 2019). From an environmental perspective, Huang et al. (2023) and Zhao et al. (2020) found improved air quality primarily in developed cities, sometimes at the cost of local areas. Despite these insights, comprehensive research integrating both economic and environmental facets of transportation infrastructure expansion is sparse. Li et al. (2019) paved the way, evaluating Beijing’s subway impact through air pollution and congestion benefits. We extend this framework to assess transportation infrastructures, mainly, HSRs and highways, and their influence on regional disparities.
+We give particular attention to the endogeneity issue linked to infrastructure development, favoring already thriving cities. Such infrastructures may often reflect preexisting economic development rather than act as catalysts (Yoo et al., 2023 and Baum-Snow, 2007). Inspired by Faber (2014), we adopt the minimum spanning tree algorithms as instrumental variables (IVs) to probe this concern. This allows us to robustly evaluate the causal effects of transportation on both air quality and income levels. Moreover, to delve into transportation’s role in shaping regional disparities, we segment Japan into distinct categories: National, Tokyo area, Megacities, Core, and Others, adhering to Japan’s formal classifications. Further insights into this categorization can be found in Section 3.2.5, enabling a thorough analysis across varied regions.
+To decipher the regional disparities stemming from the environmental and economic consequences of transportation expansion, we employ a cost–benefit analysis that accounts for both economic and health outcomes. Within this framework, we attribute a per capita monetary value to the effects of HSRs and highways. This value is derived from two key facets: economic development and health outcomes. In particular, health outcomes are rooted in the established negative relationship between air pollution and health. Our quantification of health benefits builds upon prior research (Davis, 2008, Bel and Rosell, 2013, Li et al., 2019, Gallego et al., 2013, Lin et al., 2021, and Isphording and Pestel, 2021), and the concept of the value of a statistical life (VSL), as outlined by Aldy and Viscusi (2008), is considered. Guided by these objectives and methodologies, our study provides compelling evidence underscoring the need for balanced regional advantages in future transportation endeavors.
+1.2. Our contribution
+First, in our research, we aim to bridge the often separate discussions of the economic and environmental impacts of transportation infrastructure. While previous works such as Donaldson and Hornbeck (2016), Lin (2017), and Yu et al. (2019) primarily emphasized economic outcomes, others focused on environmental effects (Lin et al., 2021 and Chang and Zheng, 2022). Our study stands out by seamlessly blending both invaluable perspectives. The economic dimension underscores regional development, and the environmental side, especially regarding improved air quality, offers valuable insights into individual welfare and associated policy considerations. These two dimensions—economic prosperity and health, shaped in part by air quality—are foundational to individual well-being. In the realm of policy-making, economic benefits represent only one part of the story; health outcomes form another critical component. Hence, a holistic evaluation of the transportation infrastructure expansion necessitates the consideration of these dual facets, especially given their potential to manifest regional disparity. This nuanced approach gleans insights potentially overlooked when solely leaning on conventional economic metrics.
+Traditionally, the majority of research has focused primarily on either economic or health outcomes, with the most pronounced benefits observed in developed regions (Vickerman, 2015, Qin, 2017, Zhao et al., 2020, Huang et al., 2023). Our study broadens the scope of these findings by simultaneously delving into the economic and environmental dimensions. This comprehensive approach enables us to better grasp the impact of transportation infrastructure advancements on regional disparities. While economic disparity shed light on strategies for balanced economic development, health-related disparities underscore the imperative of policies aimed at addressing uneven well-being outcomes. By examining both dimensions in tandem, our study provides policy implications that consider the influence of economic and environmental factors in regional disparities.
+Our work’s second salient contribution revolves around a thorough analysis of both HSRs and highways, two crucial linchpins of modern transportation. Each mode serves distinct purposes within the transit ecosystem, yet their combined scrutiny reveals intricate intersections among regional dynamics. HSRs, catering primarily to passengers, operate at elevated speeds, fostering specialization in tertiary industries (Zheng et al., 2022). In contrast, highways, although not matching the rapidity of HSRs (Asher and Novosad, 2020), amplify regional connectivity. Their expansion can decentralize growth, potentially mitigating urban air pollution and catalyzing peripheral economies (Baum-Snow et al., 2017). This tandem exploration highlights their divergent economic and environmental imprints. For instance, HSRs require significant initial investments but provide rapid transit and potential emission reductions. Highways, however, exhibit varied outcomes based on the nature of the vehicular movement and density. Our encompassing analysis unveils nuanced transportation dynamics, enriching our grasp of broader implications.
+1.3. Research scope and global implications
+We chose Japan for our study due to its long-standing adoption of HSRs and highways. With the Shinkansen starting in 1964 and highways first established in 1963, Japan offers a unique longitudinal analysis opportunity. The continuous growth of these networks has likely led to changes in city structure and urban economic activities (Hanson, 2005), along with environmental impacts. This long-term evolution adds depth and significance to our findings. We further introduce a brief history of Japanese HSR and highways in Section 2.3.
+While our study is situated within the Japanese landscape, its implications resonate on a global scale. Many countries aim to bolster both economic prosperity and general well-being through transportation expansions (Delbosc, 2012). Our exploration into the regional economic and air quality disparities spurred by transportation infrastructure illuminates key well-being related considerations for policymakers worldwide. For instance, in nations like China, which is fervently expanding its HSR networks—as reflected in studies like (Lin, 2017) and discussions on tackling economic inequality and environmental outcomes (Zheng et al., 2022)—our findings offer instrumental guidance. Regions like Europe and the US, with their established HSR and highway infrastructures, can also glean insights from our research, especially as they pursue enhanced economic and health outcomes from transportation expansions (Yu and Fan, 2018). As the US deepens its commitment to HSR and highway expansions, turning to references such as Givoni (2006) and Herzog (2021), our work serves as an essential touchstone.
+Our paper is structured as follows. Section 2 introduces motivating facts and clarifies the institutional background. In Section 3, we elaborate on our empirical strategy. We present our findings in Section 4. Section 5 presents a cost–benefit analysis, and the outcomes are discussed. Finally, we conclude our paper in Section 6.
+2. Backgrounds
+In this section, we first demonstrate our motivating facts and air pollution trends in Sections 2.1 Motivating facts, 2.2 Air pollution in Japan, respectively, and then provide the institutional background, explaining the history of Japanese HSR networks (Shinkansen) and highways in Section 2.3.
+2.1. Motivating facts
+The Japanese government’s strategy for transportation infrastructure focuses on three key objectives, as outlined in Ministry of Land, Infrastructure, Transport and Tourism (2020): (1) enhancing the national economy, primarily by centering development around Tokyo with HSRs and highways, (2) interlinking regions for balanced development, and (3) creating environmentally sustainable transportation systems, with an emphasis on curbing air pollution. This involves advocating for HSR usage on long journeys and the efficient management of highway vehicle flows.
+Such initiatives have come at a significant cost. Between 1985 and 2019, HSR and highway projects required approximately $448.78 billion and $4437 billion, respectively, as detailed by Ministry of Land, Infrastructure, Transport and Tourism (2020). This expansion is ongoing, with more projects in the pipeline. However, despite the considerable investments, in-depth assessments of the effectiveness of these efforts are limited, especially those accounting for regional disparities. Without such comprehensive reviews, there is a risk of perpetuating imbalances in both development and environmental sustainability. Our research seeks to bridge these gaps.
+2.2. Air pollution in Japan
+Addressing air pollution, particularly suspended particulate matter (SPM), is paramount to safeguarding public health. SPM encompasses airborne particles with aerodynamic diameters up to 
+, closely mirroring 
+. Notably, studies such as Atkinson et al. (2014), Yorifuji et al. (2016), Ravindra et al. (2001), and WHO (2021) have illustrated that prolonged exposure to SPM aggravates respiratory and cardiovascular conditions, potentially causing lung cancer and elevating adult mortality rates. Thus, the need to curb SPM emissions is clear.
+Japan provides a relevant case study for understanding the impact of SPM on air pollution. Since the 1960s, Japan has been dealing with increasing air pollution concerns, especially SPM, due to urbanization, population growth, and environmental degradation (Yorifuji et al., 2016). Measures to reduce emissions, such as stricter emission standards for diesel vehicles implemented in the 1980s, have led to declines in SPM emissions and other pollutants.1 As a result, Tokyo’s annual average SPM concentration dropped to approximately 
+ in 2019, as reported by the Ministry of the Environment. However, despite substantial improvements in air quality over time, air pollution, particularly during winter, remains a concern in Tokyo and other major cities. Areas near industrial zones and major urban centers still face high air pollution levels, exceeding the US and WHO 24-h standards, highlighting the urgent need to address air pollution. Additionally, regional disparities in air pollution persist, with rural areas exhibiting higher SPM densities than Tokyo (Kanagawa and Nakata, 2007), posing a threat to the equitable distribution of health and health benefits across regions.
+2.3. History of Japanese HSR (Shinkansen) and highways
+This subsection explores the evolution of Japan’s transportation infrastructure, focusing on the HSR (or Shinkansen) and highways, to assess their influence on Japan’s environmental and economic trajectories.
+HSR (Shinkansen)
+Japan’s HSR journey began with the Tokaido Shinkansen’s launch in 1964, the first of its kind globally. Connecting Tokyo to Osaka not only reduced travel durations but also significantly lowered transaction and transportation costs (Okamoto and Sato, 2021). However, it amplified the population density around Tokyo. To counteract this trend and promote economic growth in other areas, the National Shinkansen Railway Improvement Act was introduced in 1970, outlining a 7200-km HSR network. Since then, the HSR has extended its reach to cities such as Nagoya, Osaka, Hiroshima, Fukuoka, Niigata, Sendai, Nagano, Kagoshima, Ishikawa, and Hokkaido.
+Highways
+In conjunction with HSR growth, Japan embarked on a broad highway construction strategy, aiming to link regional and central areas, alleviate regional economic differences, and improve air quality by decreasing traffic jams. The blueprint for the expressway network currently includes the 1966 “National Trunk Road Construction Law” and the 1987 “The Fourth Comprehensive National Land Development Plan”.2 The 1966 law aimed for an expressway network covering 7600 km, allowing any part of Japan to be accessible within approximately two hours. The 1987 plan bolstered this strategy with an added 3920 km of express national highways and 2480 km of general national motorways, targeting an interconnected network facilitating roughly one-hour access from regional cities, resulting in a 14,000-km trunk road network.
+3. Empirical strategy
+3.1. Comparative discussion of the methodologies applied in prior research
+This section delves into a comparative analysis of the methodologies employed in prior research and that used in this study. One of the key strengths of our research lies in the consideration of both ‘direct’ and ‘indirect’ increases in accessibility when evaluating the impacts of transportation infrastructure expansion. We look at the expansions of HSRs as an example. For example, prior studies such as Li et al. (2020) and Jia et al. (2017) applied a difference-in-differences (DID) approach to compare cities with and without new HSR stations; notably, cities with HSR stations were considered the treatment group, whereas cities without HSR stations were treated as the control group. We broaden this perspective. We contend that cities without new stations can still experience effects from HSR expansion. This occurs as residents from these unconnected cities often utilize the HSR network to travel, making transits at nearby cities with HSR stations an indirect effect (Yu and Fan, 2018). This approach enables us to discern how both direct and indirect influences exacerbate or alleviate regional disparities in economic and air quality. Concurrently, this approach allows us to comprehend the health and economic benefits derived from transportation expansion. In the context of highways, Levkovich et al. (2016) showed the impact of highway openings using the DID framework. While we provide examples grounded in the context of HSRs, the underlying rationale seamlessly extends to highways. Individuals living in cities without direct highway access can easily reach the nearest highway and then continue to their final destinations.
+To quantify the indirect effects of transportation infrastructure expansion, we employ and develop the ‘market access (MA)’ concept proposed by Donaldson and Hornbeck (2016). MA measures a city’s ability to facilitate resident transit to larger cities. MA increases when travel time and travel costs to larger cities drop and neighboring city populations grow (thus becoming a large city). Thus, MA can capture both direct effects, such as HSR station openings in a city, which decrease the travel time to/from/in a city, and indirect effects, such as residents from non-HSR cities accessing faster transit via nearby cities with HSR stations. This logic analysis is extended to highways, where travelers use regular roads to reach highway interchanges. Thus, our study offers a comprehensive view of infrastructure impacts, integrating these indirect effects. MA construction is detailed in Section 3.2.1.
+Our research distinguishes itself from prior MA-focused studies that primarily examined the impact of HSR alone (such as Yoo et al., 2023, Lin, 2017 and Zheng et al., 2022). While these analyses were invaluable, we introduce a novel and detailed approach by explicitly considering metro-HSR transitions. This is crucial when assessing HSR station accessibility, especially for relatively distant locations. A common observation is that commuters often rely on metros or traditional rail systems to reach HSR stations before embarking on long journeys.3 Thus, without accounting for metro-HSR transitions, the estimated MA index might undervalue the actual market access of a city with metro stations. By integrating these metro-HSR transit patterns into our MA calculations, we gain advanced insight into the ripple effects of HSR expansion, which are closely linked to the existing metro infrastructure layout.
+3.2. Data
+In this study, we employ four datasets: (1) market access (MA) data, (2) economic indicators, (3) air pollution (SPM density) data, and (4) weather-related variables. Each of these datasets is described in detail below.
+3.2.1. Constructing MA data
+Constructing the MA dataset involves a three-step process: (1) preparing the transportation network dataset, (2) estimating the travel cost matrix 
+ based on a set of assumptions, and (3) calculating the MA using the travel cost and market size. The sections that follow present a structured framework and brief explanations for the calculation of MA. Given the complexity of the MA computation procedure, for more comprehensive insights, we encourage readers to refer to the Supplementary Materials.
+(1) Preparation of the transportation network dataset.
+The computation of MA necessitates the calculation of several types of distance, such as:
+1.
+Distance from a city center to the closest train station,
+2.
+Distance from a city center to the closest highway interchange,
+3.
+Distance from a city center to another city center, and so on.
+To do so, we first obtain geographic information system (GIS) data on the railways (subways and HSRs) and highways of Japan from Digital National Land Information (DNLI), provided by MLIT of Japan. Using these data sources, we construct annual HSR, subway, and highway network datasets separately for the period between 1985 and 2019. The dataset enables us to determine the route an individual would take when using the railway or highway system, thereby enabling us to calculate the travel distance mentioned above.
+(2) Estimation of the travel cost matrix
+Utilizing the network dataset, we proceed to estimate the travel costs between all cities in Japan and construct a matrix that captures the travel cost for each pair of cities.4 During the calculation of travel costs, we make a series of assumptions regarding travel speed, cost per kilometer, and travel mode restrictions. These assumptions are detailed in the Supplementary Materials.
+For each combination of origin and destination, we assume the cost of travel to be that of the cheapest mode among the following five modes of travel: (a) using only the subway, (b) using only HSR, (c) transferring from subway to HSR, (d) using only the highway, and (e) using only other modes.
+(3) MA calculation
+In this paragraph, we present our approach to defining and calculating MA, expressed in equation form. MA, a key concept in transportation studies, represents a city’s potential reach to a large market, primarily determined by its geographical location (Redding and Venables, 2004). This concept is widely applied in the realms of both freight (Donaldson and Hornbeck, 2016) and passenger transportation (Lin, 2017). Guided by these studies, we define MA in our research as a city’s capacity to connect its residents to a large market. The MA of a city is enhanced when (1) intercity travel costs and times are reduced and (2) the population of surrounding cities grows, thereby expanding the nearby market potential. The expansion of subway, HSR and highway infrastructure can lead to two types of reductions in travel costs. Direct reductions emerge when new subway stations or highway routes are established within a city; indirect reductions arise when neighboring cities augment their transportation infrastructures, thereby indirectly boosting a city’s intercity connectivity and providing benefits to its residents.
+We define the MA of origin city 
+ as follows:
+(1)
+where 
+ is the travel cost from origin city 
+ to destination city 
+ in year 
+ when adopting travel mode assumption 
+ and 
+ is the population size of city 
+ in year 
+.
+In other words, the MA of a certain city is the sum of the connectivity with all other cities, and the connectivity to each destination is expressed as the population size of the destination divided by the travel cost to the 
+th power.5 Therefore, the MA of a city increases if people can travel to other cities with larger populations via travel modes with low costs. We set 
+ according to previous studies that have targeted passenger travel (Zheng et al., 2022, Lin, 2017).
+By excluding city 
+’s own population from 
+, we can estimate the effects of MA on economic and air pollution outcomes separately from the impact of population growth in city 
+. We propose three options for modes of travel: 
+. It is vital to highlight that MA All, MA HSR, and MA Highway each belong to unique and independent categories within the MA structure. MA All, in its broader sense, accounts for all transportation modes, with travelers choosing based on which mode offers the best cost–benefit, whether it be HSR, subway, or highway. This is not about just adding up the individual impacts of MA HSR and MA highways. Detailed descriptions of these three options can be found in the Supplementary Materials.
+3.2.2. Economic indicators
+City-level economic indicators, including taxable income, population, and the number of workers by sector, are obtained from the System of Social and Demographic Statistics (SSDS) provided by the Ministry of Internal Affairs and Communications.6 The data span a target period of 35 years, from 1985 to 2019. The annual total taxable income in each city, hereafter referred to as “income”, is reported from 1985 to 2019. Income is used as the main dependent variable to investigate the impact of MA on economic conditions.
+In this study, we propose that changes in the industrial structure, inspired by the work of Lin (2017), can explain the variations in air pollution and economic growth resulting from the expansion of transportation infrastructure.7 Thus, to explore the mechanisms of how MA impacts economic indicators and air pollution, data on the number of employees in three industrial sectors, namely, agriculture, the manufacturing industry, and the service industry, are utilized. The number of employees in each sector was reported every five years from 1981 to 2006 and then again in 2009 and 2014. To estimate the annual number of employees by sector, linear interpolation is conducted. Subsequently, the share of employees in each sector is calculated by dividing the number of employees in that sector by the total number of employees.
+3.2.3. Air pollution data
+The air pollution data in our study are sourced from the SPM density data provided by the Air Quality Monitoring Network (AQMN) in Japan. The AQMN has been monitoring SPM concentrations since the 1970s. For the purpose of our research, we gathered SPM data from the AQMN for the period from 1985 to 2019, with the observation stations covering approximately 47.6% of Japan’s total area.
+In instances where data points were missing due to practical limitations and the high costs of installing observation points, we applied a spatial interpolation technique in the selected GIS. The principle of spatial interpolation is to estimate values for unknown locations using measured values from nearby sampled locations. This approach enables us to generate spatially continuous data based on estimated results (Li and Heap, 2011). The estimated density of SPM is presented in Fig. 1. These estimates confirm that Japan’s western regions exhibit higher pollution levels than do the eastern regions. Notably, within the eastern regions, Tokyo has the highest pollution level.
+3.2.4. Weather-related data
+Next, we obtain annual city-level weather variables, namely, average temperature, average relative humidity, precipitation, wind speed, and wind direction, from the Japanese Meteorological Agency. As our analysis operates on an annual basis, we aggregate the wind speed and direction data at the annual level. We calculate daily wind direction and speed by employing a vector summation of annual wind direction and speed, subsequently categorizing daily wind direction into 16 groups. The incorporation of weather variables is vital in air pollution studies due to their direct influence on pollutant dispersion and atmospheric chemical reactions (Jacob and Winner, 2009). For instance, temperature can modulate the pace of photochemical reactions (Doherty et al., 2017), thereby affecting the generation of pollutants. Precipitation, on the other hand, can facilitate a washout effect, which reduces pollution levels (Cai et al., 2019). Moreover, wind speed and direction significantly impact air pollution, as they govern the movement of fine particulates (Li et al., 2019). Ignoring these weather variables may result in biased estimates of air pollution levels, possibly leading to erroneous attributions of changes in pollution levels to unrelated factors.
+
+Download: Download high-res image (856KB)
+Download: Download full-size image
+Fig. 1. Estimated SPM density in Japan.
+
+3.2.5. Regional categories
+To investigate potential regional disparities in the impacts of transportation expansion on health and economic outcomes, we adopt the regional categories officially defined by the Japanese government. These categories are based on factors such as population, level of economic development (e.g., GDP), and urbanization. Below, we briefly describe each category.
+1.
+National: The national category includes all prefectures of Japan, enabling us to estimate the nationwide impact of transportation expansion.
+2.
+Tokyo area: The Tokyo area category encompasses four prefectures: Tokyo, Kanagawa, Saitama, and Chiba. These prefectures, collectively known as the “Tokyo area” or ”one capital and three prefectures”, are recognized as Japan’s economic, industrial, and political hubs, boasting the country’s largest populations.
+3.
+Megacities: The Megacities category comprises prefectures that form the second- and third-largest metropolitan areas in Japan: the Osaka area and Nagoya area.
+4.
+Core: The Core category consists of the prefectures housing four local central cities: Sapporo, Sendai, Hiroshima, and Fukuoka. These cities are acknowledged as the economic heart of each region in Japan, playing essential roles in the regional economy, industry, politics, and population demographics (Ministry of Land, Infrastructure, Transport and Tourism, 2014).
+5.
+Others: Finally, the Others category includes the prefectures not covered in the above categories.
+Table 1 summarizes the percentage change in MA measured for (i) both HSR and highway expansion (All), (ii) HSR transfer (HSR), and (iii) highway and regular roads (Highway) from 1985 to 2019 based on the defined regional categories. In terms of the percentage change, the MA of Tokyo experienced a larger increase than those of the Megacity, Core and Others categories. This is in line with historical records, which suggest that the expansion of HSR and highways primarily occurred in regions in the Tokyo Area according to our categorization.
+The value of MA All is always no smaller than MA HSR and Highways for a given period, because MA All offers travelers a broader range of choices compared to MA HSR and Highways, which are exclusive to either HSR or highways. If a city possesses a highway network but lacks an HSR station (most of the cities in ‘Others’ category), its MA All and Highway values are higher than its MA HSR by construction. When a new HSR station is introduced in the city, the MA HSR value rises while the MA All will see only a modest increase. In this scenario, the growth rate in MA HSR exceeds that of MA All. Therefore, the percentage change in MA All over 35 years can be smaller than that of MA HSR.
+Finally, we describe our summary statistics in Table 2. We have three main sets of variables that are used in the analysis. First, Panel (A) describes variables related to MA, and Panel (B) presents the variables related to economic indicators, which we employ as dependent variables to investigate the impact of MA on the economic indicators. Finally, Panel (C) displays the air pollution data and weather-related variables. We set the target period to 35 years from 1985 to 2019, for which income data, one of our main outcome variables, are available.
+Table 1. The cumulative MA change over 35 years (1985–2019) (%).
+
+35-years MA change (%)	All	HSR	Highway
+National average	15.240	15.209	11.067
+Tokyo area	23.940	23.963	18.420
+Megacities	8.798	8.736	5.714
+Core	3.885	3.817	2.444
+Others	6.084	5.957	4.802
+Table 2. Mean and standard deviation of variables.
+
+Empty Cell	National	Tokyo area	Megacities	Core	Others
+Number of cities	1,739	212	164	295	1,068
+Panel (A): Market access-related variables
+MA All	2,957.92	11,786.65	7,424.04	993.79	1,134.73
+Std.dev	6,682.09	12,765.11	9,028.80	1,860.22	2,387.28
+MA HSR	2,956.48	11,780.69	7,420.41	993.73	1,134.11
+Std.dev	6,678.67	12,760.75	9,022.46	1,860.13	2,385.11
+MA Highway	2,328.61	8,673.83	5,764.258	852.00	999.44
+Std.dev	4,989.76	9,109.93	6,931.458	1,603.43	2,147.57
+Panel (B): Economic indicators
+Annual taxable income (Million JPY)	1.01	2.84	2.13	0.64	0.58
+Std.dev	2.93	5.73	4.76	2.37	1.15
+Percentage of industries in first sector	0.02	0.01	0.01	0.04	0.02
+Std.dev	0.04	0.01	0.01	0.05	0.03
+Percentage of industries in second sector	0.34	0.29	0.35	0.29	0.36
+Std.dev	0.13	0.13	0.13	0.11	0.13
+Percentage of industries in third sector	0.64	0.70	0.65	0.67	0.62
+Std.dev	0.13	0.13	0.13	0.11	0.13
+Panel (C): Air pollution- and weather-related variables
+SPM density (Annual mean, 
+g/
+)	0.03	0.03	0.03	0.02	0.03
+Std.dev	0.01	0.01	0.01	0.01	0.01
+Annual average temperature (°C)	13.02	15.27	14.98	9.43	13.41
+Std.dev	8.70	6.77	8.48	8.90	8.54
+Annual average temperature (max) (°C)	21.71	24.85	23.64	18.02	21.98
+Std.dev	10.25	7.56	9.67	10.61	10.12
+Annual average temperature (min) (°C)	5.69	7.69	7.61	1.98	6.15
+Std.dev	8.57	7.51	5.81	9.24	8.31
+Annual total rain (mm)	42,756.15	24,465.88	32,111.76	37,192.24	49,014.92
+Std.dev	81,002.56	63,127.42	65,053.52	61,166.01	89,647.87
+Annual average wind speed (m/s)	38.30	27.12	29.26	50.60	37.90
+Std.dev	87.40	84.42	73.01	98.49	85.88
+Note: Dummy variables (regarding wind directions) are excluded from the table.
+3.3. Model
+The main goal of this paper is to assess the regional disparity in the economic and SPM densities of the MA. For this purpose, we conduct two main regression analyses. We regress the logs of income and air pollution (which is measured by the SPM) in city 
+ in year 
+ (
+) based on the log of MA for each city (
+). Following Donaldson and Hornbeck (2016) and Li et al. (2019), we add other parameters to control weather-related variables (
+), a prefecture-by-year fixed effect (
+), and a city-level fixed effect (
+). Additionally, a cubic polynomial for city latitude and longitude interactions with year effects (
+) is included. Thus, our main empirical model is as follows:
+(2)
+ɛ
+where 
+, 
+ is the MA for the change in the mode m’ network when the population is fixed at the 2019 level. For example, if 
+ is HSR, we set 
+ to highway to estimate the impacts of HSR while controlling for highway network change. The calculation of 
+ and the detailed variations in specifications are described in the Supplementary Materials. 
+ɛ
+ is the error term. The weather-related variables (
+) are included only when air pollution is the dependent variable, given that temperature, wind, and precipitation should be controlled for, as highlighted in Li et al. (2019). We study the heterogeneous impact of MA on income and air pollution across regions to examine regional disparity by allowing the key coefficient 
+ to be region 
+ specific, where region 
+ is the larger category to which each city 
+ belongs. When 
+, entire prefectures are included in this sample, and our specification reduces to that of Donaldson and Hornbeck (2016). Please refer to the Supplementary Materials for information on the mapping from prefecture to region.
+The derived coefficients reflect the independence and variance of each MA category. For instance, if there is a clear preference for HSR over highways, MA HSR values would be higher than MA highways. However, this does not automatically imply that the coefficient of MA HSR would overshadow that of MA highways. Thus, it is vital to understand that these coefficients emerge as specific results from their respective MAs.
+Using the estimated coefficients from Eq. (2), we graphically depict the specific changes in the impact of transportation expansion across both economic and air pollution for each region, as detailed in Fig. 2 in Section 4.3. That is, we multiply the estimates of log MA on income and SPM with the actual change in MA for each region during the sample period.
+3.4. Instrumental variable (IV) strategy
+The initial specification in Eq. (2) addresses the potential issue of endogeneity, as mentioned in Section 1. The prefecture-year fixed-effect term and city fixed-effect term control for relative changes driven by prefecture-specific shocks and time-invariant city characteristics, which impact the expansion of the HSR and highway network.
+While our baseline specification addresses some concerns, residual endogeneity issues persist, as mentioned in Section 1. To counter these concerns, as highlighted in Section 1, we employ a hypothetical HSR and highway network as an instrumental variable for the actual network. In this hypothetical network, paths are based on geographical considerations, such as land cover and features, including water areas, mountains, etc., with the goal of determining cost-effective routes between specific nodes.8 The resulting estimates offer a glimpse into potential HSR and highway expansions if cost was the sole driver. This geography-driven network, while not primarily informed by socioeconomic factors, correlates with the baseline MA and thus, is a suitable IV. More detailed discussions of the IV approach can be found in the Supplementary Materials.
+3.5. Cost–benefit analysis
+Based on the regression coefficients, we perform a cost–benefit analysis using the estimated coefficients from IV regressions, focusing on two primary benefit channels. Our analysis aims to measure regional disparities by quantifying the health of transportation infrastructure and economic gains.
+The first channel revolves around health benefits, mainly from enhanced air quality, leading to decreased morbidity and mortality rates. Prolonged exposure to airborne particulates, such as SPM, is linked to increased cardiorespiratory disease rates (Jiang et al., 2017, Rojas-Rueda et al., 2016, Zhang et al., 2017, Xia et al., 2015). We quantify these benefits by assessing the mortality and morbidity reductions due to SPM decreases from transportation expansion. Using the value of a statistical life (VSL) concept, as introduced by Viscusi et al. (1979) and expanded by Aldy and Viscusi (2008), we derive monetary values for these health improvements. VSL gauges societal willingness to pay for a marginal reduction in mortality risk. We compute city-specific VSLs and divide them by the city population to translate health gains into monetary terms. The second channel pertains to economic benefits, manifested as income boosts, a subject well documented in the literature (Donaldson and Hornbeck, 2016, Bernard et al., 2019, Herzog, 2021).
+Recognizing the importance of considering benefits on a “per capita” basis owing to the varying populations across the groups we define, per capita benefits are obtained as the primary results, as described in Section 5.1. For readers interested in aggregate benefits in each regional category, details are provided in the Supplementary Materials. Notably, our analysis indicates that the core implications remain consistent between both the aggregate and per capita evaluations.
+4. Results
+To address the potential endogeneity concerns mentioned in the previous section, we use the 2SLS approach in Eq. (2) by employing LCP-based MA as an instrument for the actual MA of cities. We present and explain the results of our IV regression, which uses total income and SPM in each region as dependent variables. Table 3, Table 4 report the estimation results for income and SPM density for each regional category in each column, and each panel differs in how MA is measured. For example, the first column of Panel (A) shows the estimate of 
+ using Eq. (2), where 
+ is measured by considering highways and HSR together. Panel (B) presents the impact of MA changes from HSR, controlling for the MA of highways. Finally, Panel (C) presents the impact of MA changes in the highway network, controlling for the MA associated with HSR.
+4.1. Transportation expansion and income by region
+The change in MA due to transportation expansion increases income at the aggregate level but at the cost of regional disparity. In the first column of Panel (A), an increase in MA All leads to income growth nationwide. For instance, Panel (A) shows that a 1% increase in MA All increases income by approximately 1.037% in the Full Sample column. A 1% increase in MA also leads to a 1.784% increase in income in the Tokyo area. On the other hand, the impact of transportation expansion for Megacities, Cores and Others is smaller; that is, a 1% increase in MA increases income by approximately 0.599%, 1.127% and 0.762% in each case, respectively.
+We obtain similar results in terms of regional disparities when we focus on HSR or highways while controlling for other modes of transportation. In Panel (B), we control for the effect of highways and use MA HSR, and in Panel (C), we control for the effect of HSR and use MA Highway.
+Table 3. Transportation expansion and economic outcomes.
+
+Panel (A) MA All	National	Tokyo area	Megacities	Cores	Others
+(MA All)	1.037***	1.784***	0.599***	1.127***	0.762***
+Empty Cell	(0.0206)	(0.0889)	(0.0690)	(0.0332)	(0.0261)
+N	60,649	7,398	5,739	10,309	37,217
+R-squared	0.998	0.998	0.999	0.998	0.998
+Panel (B) MA HSR	National	Tokyo area	Megacities	Core	Others
+(MA HSR)	1.038***	1.766***	0.614***	1.132***	0.766***
+Empty Cell	(0.0205)	(0.0891)	(0.0689)	(0.0329)	(0.0260)
+N	60,649	7,398	5,739	10,309	37,217
+R-squared	0.998	0.998	0.990	0.998	0.998
+Panel (C) MA Highway	National	Tokyo area	Megacities	Core	Others
+(MA Highway)	1.016***	1.740***	0.603***	1.070***	0.759***
+Empty Cell	(0.0201)	(0.0641)	(0.0491)	(0.0338)	(0.0249)
+N	60,649	7,398	5,739	10,309	37,217
+R-squared	0.998	0.998	0.999	0.998	0.998
+Note: Standard errors are shown in parentheses. * p
+0.1, ** p
+0.05, and *** p
+0.01. All models include prefecture-by-year fixed effects, city fixed effects, cubic-polynomial fixed effects, and control variables, including the MA for other transportation modes (in the case of Panels (B) and (C)). However, these results are omitted from the table for simplicity.
+4.2. Impact on air pollution concentration by region
+Table 4 presents the results, with each panel differing based on mode of transportation, as in Table 3. The impact of transportation expansion is negative nationwide for all measures of MA. A 1% increase in MA from the expansion of both HSR and highways (Panel (A)) decreases SPM by 0.194% nationwide. However, the size of the SPM reduction is heterogeneous by region; the reduction is much larger in the Tokyo area than in the remaining cities. For example, a 1% increase in MA decreases SPM by 0.600% in the Tokyo area, 0.116% in Megacities, 0.101% in Cores, and 0.149% in Others. We find similar patterns when we examine the effects of HSR and highway expansion separately (Panels (B) and (C), respectively).
+Table 4. Transportation expansion and air pollution.
+
+Panel (A) MA All	National	Tokyo area	Megacities	Cores	Others
+(MA All)	−0.194***	−0.600***	−0.116***	−0.101***	−0.149***
+Empty Cell	(0.0151)	(0.0410)	(0.0429)	(0.0270)	(0.0146)
+N	60,653	7,398	5,726	10,309	37,220
+R-squared	0.986	0.992	0.991	0.985	0.980
+Panel (B) MA HSR	National	Tokyo area	Megacities	Core	Others
+(MA HSR)	−0.191***	−0.612***	−0.114***	−0.100***	−0.148***
+Empty Cell	(0.0151)	(0.0418)	(0.0436)	(0.0268)	(0.0146)
+N	60,653	7,398	5,726	10,309	37,220
+R-squared	0.986	0.992	0.990	0.985	0.980
+Panel (C) highway	National	Tokyo area	Megacities	Core	Others
+(MA Highway)	−0.199***	−0.594***	−0.123***	−0.0923***	−0.146***
+Empty Cell	(0.0148)	(0.0365)	(0.0422)	(0.0260)	(0.0143)
+N	60,653	7,398	5,726	10,309	37,220
+R-squared	0.986	0.992	0.990	0.985	0.980
+Note: Standard errors are shown in parentheses. * p
+0.1, ** p
+0.05, and *** p
+0.01. All models include prefecture-by-year fixed effects, city fixed effects, cubic-polynomial fixed effects, and control variables, including both weather conditions and MA of other transportation modes (in the case of Panels (B) and (C)). However, these results are omitted from the table for simplicity. The slight discrepancy in sample size compared to that in Table 3 is due to the availability of city-level weather data. Certain cities or periods lack sufficient or accurate weather data, leading to this marginal variation in the sample sizes between tables.
+4.3. Graphical illustrations of regional disparities
+In Fig. 2, the outcomes for three distinct scenarios are visualized: changes in MA attributable to both HSR and highway expansions (represented by the blue line), changes in MA due solely to HSR expansion (the purple line), and those resulting exclusively from highway expansion (shown by the pink line). Across all measures, a pronounced trend of regional disparity emerges. To elucidate, when considering MA changes associated with changes in both HSR and highways, the Tokyo area witnesses a substantial increase in income of approximately 42.71%. This contrasts starkly with the results for Megacities, Cores, and Others, with increases of 5.27%, 4.38%, and 4.64%, respectively.
+In parallel, the Tokyo area exhibits the most pronounced reductions in SPM levels. Specifically, under the combined influence of HSR and highways on MA, over 35 years, the Tokyo area experienced a remarkable decrease in SPM at a rate of 14.36%, while the remaining cities experienced a decrease of approximately 1%. It is important to highlight that the observed variations at the National scale are relatively muted. This can be attributed to the fact that the regions classified as Cores and Others collectively comprise over 75% of our sample set.
+
+Download: Download high-res image (481KB)
+Download: Download full-size image
+Fig. 2. MA-induced percentage change in total income/SPM by region 1985–2019. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)
+
+4.4. Specialization patterns and mechanisms of regional disparities
+We explore the mechanism of the estimation results, by examining regional industry specialization. We categorize industries into agriculture, manufacturing, and service, aligning with Japan’s Statistical Bureau classifications.9
+Table 5 presents the impact of respective MAs on the industry structure within various regional categories. Consistent with our prior results, we employ IV to mitigate endogeneity concerns. We note a surge in the service sector within the Tokyo area. In contrast, Cores and Others display an expansion in manufacturing, a contraction in services, and a decline in agriculture. Megacities experience a decrease in agriculture. This pattern aligns with findings from studies such as those of Yoo et al. (2023) and Zheng et al. (2022).
+1.
+Income growth in the Tokyo area The swelling service sector in the Tokyo area, as highlighted in Table 5, reflects the clustering of high-value-added services. Their inherent innovative potential likely boosts income in the area (Ahlfeldt and Feddersen, 2010).
+2.
+Moderated income growth in remaining cities Cores and Others display a declining service sector but a booming manufacturing scene. Since manufacturing generally corresponds to a lower value added than services, regions reliant on it might witness curtailed income growth. In Megacities, the mere reduction in agriculture without a corresponding rise in the service sector results in only modest income growth. These observations are consistent with those reported by Francois and Hoekman (2010).
+3.
+Why does SPM decrease more in the Tokyo area? The service sector growth in Tokyo indicates a shift from pollutant-heavy to cleaner industries, aligning with improved air quality (Zheng et al., 2022).
+4.
+Why does SPM decrease less in the remaining cities? The surge in the manufacturing sector results in increased pollution potential, although efficiencies from manufacturing agglomerations might offset this trend to some extent. Additionally, declines in agriculture can reduce SPM (Black and Henderson, 2003), but the magnitude of the decrease would be smaller than that in the Tokyo area. The combined pollution impact from these sectors warrants further study.
+In conclusion, sectoral shifts lead to regional disparities in income and air quality. The Tokyo area’s lean toward high-value-added services seems beneficial for both its economy and the environment.
+Table 5. Impact of the transportation infrastructure on the industry structure.
+
+DV: Industry structure	Model (1)	Model (2)	Model (3)	Model (4)	Model (5)
+Agriculture	Full Sample	Tokyo area	Megacities	Cores	Others
+Panel (A): ln (MA All)	−0.0202***	−0.0157***	−0.0099***	−0.0137***	−0.0325***
+Empty Cell	(0.00176)	(0.00241)	(0.00106)	(0.00228)	(0.00392)
+N	59,573	7,189	5,565	10,240	36,593
+R-squared	0.689	0.762	0.817	0.871	0.549
+Panel (B): ln (MA HSR)	−0.0202***	−0.0159***	−0.0099***	−0.0133***	−0.0329***
+Empty Cell	(0.00173)	(0.00244)	(0.00105)	(0.00230)	(0.00389)
+N	59,573	7,189	5,565	10,240	36,593
+R-squared	0.689	0.762	0.817	0.871	0.549
+Panel (C): ln (MA Highway)	−0.0190***	−0.0159***	−0.0098***	−0.0141***	−0.0301***
+Empty Cell	(0.00176)	(0.00234)	(0.00106)	(0.00222)	(0.00389)
+N	59,573	7,189	5,565	10,240	36,593
+R-squared	0.689	0.762	0.817	0.871	0.549
+Manufacture	National	Tokyo area	Megacities	Core	Others
+Panel (A): ln (MA All)	0.0628***	−0.0348	0.0004	0.105***	0.0741***
+Empty Cell	(0.00458)	(0.0215)	(0.0245)	(0.00628)	(0.00526)
+N	59,573	7,189	5,565	10,240	36,593
+R-squared	0.971	0.964	0.987	0.967	0.971
+Panel (B): ln (MA HSR)	0.0573***	−0.0357*	−0.005	0.103***	0.0662***
+Empty Cell	(0.00444)	(0.0211)	(0.0247)	(0.00588)	(0.00513)
+N	59,573	7,189	5,565	10,240	36,593
+R-squared	0.971	0.964	0.987	0.967	0.971
+Panel (C): ln (MA Highway)	−0.0422***	0.0630***	−0.0127	−0.0914***	−0.0430***
+Empty Cell	(0.00463)	(0.0219)	(0.0171)	(0.0240)	(0.00572)
+N	59,573	7,189	5,565	10,240	36,593
+R-squared	0.971	0.964	0.974	0.967	0.971
+Services	National	Tokyo area	Megacities	Cores	Others
+Panel (A): ln (MA All)	−0.0426***	0.0505**	0.0095	−0.0911***	−0.0416***
+Empty Cell	(0.00464)	(0.0217)	(0.0244)	(0.00613)	(0.00572)
+N	59,573	7,189	5,565	10,240	36,593
+R-squared	0.971	0.965	0.974	0.970	0.968
+Panel (B): ln (MA HSR)	−0.0377***	0.0569**	0.0152	−0.0801***	−0.0360***
+Empty Cell	(0.00446)	(0.0231)	(0.0245)	(0.00583)	(0.00548)
+N	59,573	7,189	5,565	10,240	36,593
+R-squared	0.971	0.965	0.974	0.970	0.968
+Panel (C): ln (MA Highway)	−0.0383***	0.0516**	0.0222	−0.0889***	−0.0361***
+Empty Cell	(0.00452)	(0.0212)	(0.0239)	(0.00576)	(0.00557)
+N	59,573	7,189	5,565	10,240	36,593
+R-squared	0.971	0.965	0.974	0.970	0.968
+Note: Standard errors are shown in parentheses. * p
+0.1, ** p
+0.05, and *** p
+0.01. All models include prefecture-by-year fixed effects, city fixed effects, cubic-polynomial fixed effects, and control variables, including the MA of other transportation modes (in the case of Panels (B) and (C)). However, these results are omitted from the table for simplicity. The slight discrepancy in sample size compared to that in Table 3 is attributed to the availability of city-level industry data, leading to the marginal variation in the sample sizes between tables.
+5. Discussion
+In this section, we first discuss the cost burden distribution strategy to relieve regional disparities (in Section 5.1) and then provide general policy implications in Section 5.2.
+5.1. Welfare implications under cost burden scenarios
+In this section, we discuss the per capita net benefits arising from transportation infrastructure changes and explore strategies to foster equitable benefits and cost distributions.
+We examine three key scenarios:
+•
+National Cost Scenario (Aligned with the Current Japanese Law): In this case, all Japanese citizens fund two-thirds of the construction cost, with the residents of the respective city categories covering the remaining third when new infrastructure is established.10
+•
+Tokyo-Pays-All Scenario (Hypothetical): Here, we suggest a shift in the Shinkansen’s construction expenses in the remaining cities by burdening the Tokyo area with all construction costs. This idea was proposed by Bröcker et al. (2010), who suggested that richer regions subsidize the development of their less prosperous counterparts, thus promoting resource redistribution.
+•
+Beneficiary-Pays Scenario (Hypothetical): Balancing the National Cost Scenario and Tokyo-pay-all Scenario, we redistribute the cost burden according to the share of benefits in each region compared to the total benefits.
+Table 6 presents the per capita net benefits (benefits minus costs) for each transportation scenario over 35 years. Panels (A), (B) and (C) detail benefits and costs under the National Cost Scenario, Tokyo-Pays-All Scenario and Beneficiary-Pays Scenario, respectively. Parts (a) and (b) depict the per capita health and economic benefits. Part (c) describes the construction and operational cost per capita, and part (d) gives the final net benefit, derived from summing (a) and (b) and then deducting (c).
+Table 6. Cumulative per capita construction cost benefits (USD) of 35 years.
+
+Panel (A) National Cost Scenario
+Empty Cell	National	Tokyo area	Megacities	Cores	Others
+Panel (A-1) all
+(a) Health benefit	817.60	1,992.90	343.10	182.50	394.20
+(b) Economic benefit	4,701.20	7,504.40	5,810.80	3,533.20	2,430.90
+(c) Cost	3,219.30	2,336.00	2,839.70	3,744.90	3,890.90
+(d) Total benefit-total cost ((A) ＋ (B) − (C))	2,292.20	7,161.30	3,314.20	−36.50	−1,065.80
+Panel (A-2) HSR
+(a) Health benefit	824.90	2,022.10	350.40	175.20	394.20
+(b) Economic benefit	4,730.40	7,511.70	5,810.80	3,606.20	2,474.70
+(c) Cost	525.60	372.30	350.40	525.60	737.30
+(d) Total benefit-total cost ((A) ＋ (B) − (C))	5,029.70	9,161.50	5,818.10	3,277.70	2,146.20
+Panel (C) highway
+Panel (A-3) highway
+(a) Health benefit	817.60	1,956.40	372.30	204.40	408.80
+(b) Economic benefit	4,628.20	7,373.00	5,686.70	3,401.80	2,452.80
+(c) Cost	2,686.40	1,963.70	2,489.30	3,226.60	3,153.60
+(d) Total benefit-total cost ((A) ＋ (B) − (C))	2,759.40	7,365.70	3,569.70	386.90	−292.00
+Panel (B) Tokyo-Pays-All Scenario
+Empty Cell	National	Tokyo area	Megacities	Cores	Others
+Panel (B-1) All
+(a) Health benefit	817.60	1,992.90	343.10	182.50	394.20
+(b) Economic benefit	4,701.20	7,504.40	5,810.80	3,533.20	2,430.90
+(c) Cost	3,219.30	11,271.20	–	–	–
+(d) Total benefit-total cost ((A) ＋ (B) − (C))	2,292.20	−1,766.60	6,153.90	3,708.40	2,825.10
+Panel (B-2) HSR
+(a) Health benefit	824.90	2,022.10	350.40	175.20	394.20
+(b) Economic benefit	4,730.40	7,511.70	5,840.00	3,606.20	2,474.70
+(c) Cost	525.60	1,854.20	–	–	–
+(d) Total benefit-total cost ((A) ＋ (B) − (C))	5,029.70	7,686.90	6,153.90	3,788.70	2,868.90
+Panel (B-3) highway					
+(a) Health benefit	817.60	1,956.40	372.30	204.40	411.92
+(b) Economic benefit	4,628.20	7,373.00	5,686.70	3,401.80	2,449.68
+(c) Cost	2,686.40	9,417.00	–	–	–
+(d) Total benefit-total cost ((A) ＋ (B) − (C))	2,759.40	−87.60	6,059.00	3,606.20	2,861.61
+Panel (C) Beneficiary-Pays Scenario
+Empty Cell	National	Tokyo area	Megacities	Cores	Others
+Panel (C-1) all
+(a) Health benefit	817.60	1,992.90	343.10	182.50	394.20
+(b) Economic benefit	4,701.20	7,504.40	5,810.80	3,533.20	2,430.90
+(c) Cost	3,219.30	5,540.70	3,591.60	2,168.10	1,649.80
+(d) Total benefit-total cost ((A) ＋ (B) − (C))	2,292.20	3,956.60	2,562.30	1,547.60	1,175.30
+Panel (C-2) HSR
+(a) Health benefit	824.90	2,022.10	350.40	175.20	394.20
+(b) Economic benefit	4,730.40	7,511.70	5,840.00	3,606.20	2,474.70
+(c) Cost	525.60	905.20	584.00	357.70	270.10
+(d) Total benefit-total cost ((A) ＋ (B) − (C))	5,022.40	8,628.60	5,569.90	3,423.70	2,591.50
+Panel (C-3) highway
+(a) Health benefit	817.60	1,956.40	372.30	204.40	408.80
+(b) Economic benefit	4,628.20	7,373.00	5,686.70	3,401.80	2,452.80
+(c) Cost	2,686.40	4,606.30	2,993.00	1,781.20	1,408.90
+(d) Total benefit-total cost ((A) ＋ (B) − (C))	2,759.40	4,723.10	3,073.30	1,825.00	1,452.70
+Under the National Cost Scenario (Panel (A)), benefits predominantly favor developed areas, disadvantaging other cities. For example, in Panel (A-1), Tokyo area residents gained a 35-year per capita benefit of $7,161.30 from infrastructure projects, whereas the Others category saw an economic deficit of -$1,065.80 due to costs surpassing benefits. Panels (A-2) and (A-3) similarly exhibit regional benefit disparities. In contrast, the Tokyo-Pays-All Scenario (Panel (B)) suggests that redistributing costs away from Megacities, Cores and Other cities might mitigate regional imbalances while maintaining national benefits. However, even though this scenario hints at the possibility of reducing regional disparities, whether it should be implemented warrants careful scrutiny, as it might create a reverse disparity effect in the Tokyo area.
+We also introduce the Beneficiary-Pays Scenario, represented in Panel (C). Under this proposed scenario, the regional disparity, as highlighted in part (d) of each panel, appears to diminish in comparison to that in the National Cost Scenario. Notably, this approach ensures that all regions garner a positive benefit, a distinct outcome not observed in the two previously mentioned scenarios. In conclusion, as transportation infrastructure projects have long-lasting impacts on economic and health outcomes, careful consideration of these scenarios is essential to shape policies that foster both national progress and regional equity.
+5.2. Broader implications
+Our study emphasizes the necessity of transportation evaluation incorporating economic and environmental gains while addressing regional disparities from these gains. A pivotal step is refining transportation evaluation methods to embrace environmental factors. While traditional cost–benefit analyses have primarily focused on economic outcomes (Banister and Berechman, 2001), contemporary studies such as Chen et al. (2020) and Jiang et al. (2021) argue for a holistic approach that integrates both economic and environmental dimensions. Adopting such an approach could shape transportation planning by simultaneously emphasizing economic and environmental enhancements (Guo et al., 2021).
+Additionally, the disparities in regions other than the Tokyo area are of particular concern, reflecting pronounced imbalances in economic and health benefits. This underscores the need to reconfigure evaluation methods to champion equitable benefit distribution over mere accessibility. The “connective infrastructure” concept from Bluhm et al. (2018) is instructive here, emphasizing a broader perspective on economic, societal, and environmental connections. Likewise, Lucas et al. (2016) advocated for the inclusion of ethical considerations in evaluation processes, underscoring the moral imperative to uplift marginalized areas. Given our observations regarding regional disparities, integrating such perspectives is essential for promoting balanced growth across regions.
+6. Conclusion
+Our study examines the regional disparities resulting from transportation infrastructure growth in Japan over 35 years. While past research has focused mainly on economic effects, we delve into both economic and health outcomes. We discover that HSR and highway expansions led to per capita economic benefits of $4,701.20 and health benefits of $817.60. These benefits, although significant, are mainly concentrated around the Tokyo area. Future policies should aim to reduce economic and health disparities from transportation expansion, and our results provide a foundation for essential policy dialog.
+Our study offers insights into the impacts of transportation infrastructure, yet we acknowledge some limitations. First, our analysis of air pollution predominantly relies on SPM as the primary indicator. While SPM is a crucial gauge for air quality, it offers a narrow lens, potentially overlooking other pollutants and their intricate interactions. A holistic assessment would benefit from incorporating a broader range of air quality indicators in future studies. Second, our employment and SPM data are partly based on interpolation. Even though we focused on minimizing the biases stemming from the data limitations, the interpolated data may not fully reflect intricate economic and environmental dynamics. While we aimed to address these concerns as best possible, future research addressing these challenges would further refine the understanding of the multifaceted impact of transportation infrastructure.
+CRediT authorship contribution statement
+Sunbin Yoo: Conceptualization, Methodology, Formal analysis, Writing – original draft, Writing – review & editing. Junya Kumagai: Methodology, Formal analysis, Writing – review & editing. Sungwan Hong: Writing – original draft, Methodology. Kohei Kawasaki: Methodology, Formal analysis, Writing – original draft. Bingqi Zhang: Methodology, Resources. Shunsuke Managi: Resources, Supervision.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+The authors are grateful for the helpful comments and suggestions from the Discussion Paper seminar participants at the Research Institute of Economy, Trade and Industry (RIETI), Japan. We also express our gratitude to the seminar participants from the Japan Aerospace Exploration Agency (JAXA) for their comments on this study. We appreciate the valuable comments and feedback from professors Amy Ando and Madhu Khanna from Illinois University. Our special thanks go to Locky Liu from Victoria University, Le Wen from The University of Auckland, and the seminar participants at the University of Tokyo (Japan) and Kyushu University (Japan) for their helpful comments. This work was supported by JSPS KAKENHI Grant Number JP23K17086. Any opinions, findings, and conclusions expressed in this material are those of the authors and do not necessarily reflect the views of the agencies.

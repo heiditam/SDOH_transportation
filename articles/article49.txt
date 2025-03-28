@@ -1,0 +1,206 @@
+Abstract
+Objective
+To identify self-reported social determinants of health (SDOH) among hospitalized patients that predict discharge to a skilled nursing facility (SNF).
+Design
+A retrospective cohort analysis of 134,807 hospitalized patients from electronic medical records.
+Setting and Participants
+All patients admitted to hospitals within a large multistate tertiary health system.
+Methods
+The primary outcome was hospital disposition (home discharge vs SNF). The cohort was split into derivation and validation sets (75/25). We adopted 2 regularized regression-based statistical approaches, namely, the stacked elastic net (SENET) and bootstrap imputation-stability selection (BISS), to implement variable selection with incomplete data. After variable selection, logistic regression with the selected variables was conducted to create the final predictive model. The prediction accuracy and model fairness were evaluated on the test dataset using the area under the curve (AUC), equal AUC, and calibration.
+Results
+In the sample, 8.72% of patients were discharged to an SNF. The final models included between 11 and 15 variables. Significant SDOH variables included alcohol consumption, dental check, employment status, financial resources, nutrition, physical activities, social connection, and transportation needs. The final models also included 1 clinical (Charlson Comorbidity Index) and 2 demographic (marital status and education level) characteristics. The final models were confirmed across methods and datasets, predicted well in the validation cohort (AUC around 0.77), and were well calibrated.
+Conclusions and Implications
+Multiple SDOH characteristics predict SNF disposition, especially the lack of a life partner or spouse, are potentially mitigable (nutrition, physical activities, and transportation needs), and offer actionable targets to increase home discharge rates. The collection and integration of SDOH data may optimize the appropriateness and efficiency discharge planning.
+Previous article in issue
+Next article in issue
+Keywords
+Social determinants of health hospital outcomes skilled nursing facility home discharge post-acute caredis charge prediction
+Optimizing care transition planning is important for improving health care value and quality, as misaligned hospital disposition lessens patient satisfaction, increases health care spending, and degrades care outcomes. Over the past 2 decades, considerable effort has been invested in making hospital discharges more patient-centered, with an increasing emphasis on successful return to the community. However, hospital-based approaches may emphasize clinical factors such as comorbidities, medications, and admission diagnoses with less attention to social factors, particularly early in a hospital stay.1, 2, 3
+Social determinants of health (SDOH) have emerged as potent drivers of poor hospital and post-acute care (PAC) outcomes.4 SDOH refer to the conditions in which people live, work, and age that impact health. Most estimates of the impact of SDOH relate to hospital length of stay (LOS) and readmission, and vary across clinical populations, sites, and specific SDOH. For example, SDOH only explained excess LOS among Black or African American patients with heart failure.5 In contrast, among trauma and general surgery patients, substance abuse and health insurance status were impactful.6 Reported associations between membership in minoritized groups indicate that LOS is generally more often prolonged and readmission rates higher in these demographics.7 Community-level SDOH (eg, zip code–level poverty and residence in a health provider shortage area) inconsistently associate with hospital outcomes.8 These findings demonstrate the heterogeneity of SDOH data sources and applications, and highlight the utility of prospective, systematically collected patient-level data.9
+The impact of SDOHs on hospital disposition has been less studied, yet these determinants have potential to influence patient trajectories and total costs of care. In fact, PAC spending is a principal driver of regional variation in health care expenditures.10 Limited reports on SDOH and hospital disposition suggest that environmental deprivation is associated with non-home discharge.11,12 Similar to LOS and readmissions, reports on SDOH and hospital disposition solely examine the impact of SDOH on population-level outcomes. There is a gap in evidence with respect to the impact of patient-level SDOHs on all hospital outcomes. These data may identify impactful, and potentially actionable, SDOH that have heretofore been obscured in population-level data, as well as allowing for nuanced study of intersectionalities between patient-specific SDOH, demographics, and clinical factors. Furthermore, patient-level SDOH could inform interventions that target patients' behaviors, concerns, and vulnerabilities within the time and resource constraints of a hospital stay.
+The capacity to collect patient self-reported SDOH data is increasingly supported by electronic health records (EHRs).13,14 The EHR vendor Epic added a standardized set of SDOH-related questions for administration via the patient portal and tablets at point-of-care. The Mayo Clinic Enterprise began annual administration of SDOH items at all sites in 2019. Since inception, SDOH data have been collected from more than 2 million patients and aggregated with sociodemographic and clinical data to create a unique, high-dimensional resource. As part of a larger research project to increase safe home discharges among cognitively impaired patients, Project HoPE (R01AG077706-02), we conducted an embedded study to estimate associations between patient-reported SDOH and hospital disposition to address a persistent knowledge gap regarding whether these data may contribute to prediction and identify actionable targets for intervention.
+Methods
+Design
+This study used an observational, retrospective cohort design. The study was approved by the Mayo Clinic Institutional Review Board.
+Patients
+The dataset includes all adult patients (≥18 years old) who self-reported SDOH data within 12 months of hospitalization at a Mayo Clinic inpatient facility between May 2019 and August 2022. The Mayo Clinic Enterprise includes 3 tertiary hospitals and 6 community hospitals that span 5 states (Minnesota, Wisconsin, Iowa, Florida, and Arizona) and share a common EHR. Patients required sufficient English fluency to complete the SDOH questionnaire. Admissions were either elective for surgeries, procedures, and planned medical treatments; or unplanned with patients entering the hospitals from an emergency department, as direct admissions from outpatient clinics, or via transfer from outside institutions.
+Data Sources
+Data were abstracted from the Mayo Clinic Unified Data Platform. The dataset was sourced from a copy of the Epic EHR Clarity database and included more than 10 million data points.
+To develop the analytic cohort for this study, the data were first screened for patients who had (1) hospitalization data and (2) valid responses to at least 1 SDOH item. A response was deemed valid if the answer date was before the discharge date and if, when answering the same item multiple times on a single day, the patient's responses were consistent. The SDOH items went through a few version updates, therefore similar items across different versions were amalgamated. Items sharing similar content were treated as a single item. In addition, we only identified patients' first-time discharges and then selected their assessment responses closest to and before the discharge. The justification is the SDOH status may change and hence it will lose its predictive power if the gap between SDOH completion date and discharge date is large. The details of the data cleaning process are summarized in Supplementary Figure 1. After the data cleaning, the final dataset, denoted as “All Data,” comprised 134,807 patients' discharge dispositions and 36 variables, including SDOH survey responses, demographics, and clinical characteristics (details can be found in the following section of variable definitions). The final dataset exhibited an overall missingness of 15.70%, with variable-wise missing proportions varying between 0 and 0.678 and patient-wise missing proportions varying between 0 and 0.784. The missing mechanism was examined using pairs plots, which display the relationships between missing values and observed values for each pair of variables. The plots revealed clear patterns of missing at random among certain variables. It is worth noting that these missing values were not excluded but handled by the variable selection methods used in this study. More details are available in the machine learning methods section.
+In addition, a subset of the data, denoted as “Six Month Data,” was created from the final dataset, that retained the 109,449 patients who were discharged within 6 months of providing their SDOH data. It was hypothesized that, when SDOH responses were collected closer to the discharge date, the SDOH variables are more predictive of discharge location. Unless specified otherwise, all subsequent descriptions and analyses refer to the “All Data” dataset.
+Variable Definition of Outcome
+The primary focus of this study was to identify a subset of variables (inclusive of SDOH variables, demographic variables, and clinical variables) that could predict SNF discharge most accurately. To this end, 38 different discharge locations were dichotomized into a binary variable: home discharge (represented by 0) and SNF discharge (represented by 1); further details on this categorization can be found in Supplementary Table 1.
+Variable Definitions of SDOH, Demographics, and Clinical Characteristics
+We used a total of 36 predictors in the modeling, including 28 SDOH items, 7 demographic variables, and 1 clinical characteristic. Specifically, the SDOH items covered 13 domains: alcohol usage, receipt of dental treatment, employment, financial resources, food insecurity, housing stability, intimate partner violence, past military service, nutrition, physical activity, social connections, stress, and transportation needs. Demographic variables included sex, marital status, education level, race, ethnicity, and age. The difference between the discharge date and SDOH completion date (DIF) was also included in the models. The Charlson Severity and Age Weighted Sum of Diseases (a.k.a., Charlson Comorbidity Index), the only clinical variable, was included to control patients’ overall disease condition. Substantial evidence has demonstrated its association with clinical outcomes.15
+In the analysis, 25 of the 36 candidate predictors were deemed continuous because of the inherent order of their response options, whereas others were treated as categorical. By dummy coding the categorical items, 76 predictors in total were created. In subsequent tables, shaded variables indicate continuous variables; otherwise, they were dummy-coded categorical variables. During the following modeling, responses of “refused answer” for categorical predictors were treated as a distinct category, whereas for continuous predictors, they were considered missing data. Furthermore, there are 2 cascading item sets. The first set consists of items 61071, 61072, and 61073 (see Table 1). Patients who responded “Never” to 61071, “How often do you have a drink containing alcohol?” were not asked the following questions about the frequency and amount of alcohol consumption. Similarly, the second set comprises items 261657, “What is your current (military) status?” and 261862. Patients who responded “Never” to item 261657 were not asked for item 261862. To account for this design-caused missingness, a separate response category was created to denote “missing” response on subsequent items due to the skip logic.
+Table 1. Coefficients (on the Odds Scale) of Selected Variables in the Final Prediction Model Associated With Discharge to an SNF
+
+Items	All Data	Six Month Data
+BISS_S	SENET_S	BISS_S	SENET_S
+SDOHs				
+ Alcohol				
+ ITEM_61071 How often do you have a drink containing alcohol?∗	0.878	0.876	0.872	0.869
+ Dental				
+ ITEM_261806 Do you have a regular dentist that you see at least once a year for a check-up?
+ Yes	1 (ref)	1 (ref)	1 (ref)	1 (ref)
+ No	1.035	1.043	1.020	1.030
+ Employment				
+ ITEM_2109200018 Please choose the answer that best describes your current employment status
+ Inactive	1 (ref)	-	1 (ref)	1 (ref)
+ Active	0.908	-	0.893	0.892
+ Financial resource				
+ ITEM_61053 How hard is it for you to pay for the very basics like food, housing, medical care, and heating?
+ Very hard	-	-	1 (ref)	1 (ref)
+ Hard	-	-	1.007	1.006
+ Somewhat hard	-	-	1.000	0.996
+ Not very hard	-	-	0.967	0.961
+ Not hard at all	-	-	0.923	0.915
+ Patient refused/Decline	-	-	0.995	0.994
+ Nutrition				
+ ITEM_261805 Do you use extra virgin olive oil as your main source of fat in your diet?
+ No	1 (ref)	1 (ref)	1 (ref)	1 (ref)
+ Yes	0.927	0.927	0.946	0.940
+ Physical activity				
+ ITEM_61070 On average, how many minutes do you engage in exercise at this level (moderate to strenuous)?∗	0.893	0.889	0.864	0.862
+ ITEM_65318 On average, how many days per week do you engage in moderate to strenuous exercise (like a brisk walk)?∗	0.830	0.825	0.838	0.835
+ Social connections				
+ ITEM_65332 In a typical week, how many times do you talk on the phone with family, friends, or neighbors?∗	0.923	-	0.935	-
+ Transportation needs				
+ ITEM_61058 In the past 12 months, has lack of transportation kept you from medical appointments or from getting medications?
+ Yes	-	-	1 (ref)	1 (ref)
+ No	-	-	0.924	0.922
+ Patient refused	-	-	0.915	0.913
+ ITEM_65348 In the past 12 months, has lack of transportation kept you from meetings, work, or from getting things needed for daily living?
+ Yes	1 (ref)	1 (ref)	1 (ref)	1 (ref)
+ No	0.853	0.845	0.909	0.910
+ Patient refused	0.936	0.932	0.991	0.994
+Demographics				
+ Marital status				
+ Life partnership/Married	1 (ref)	1 (ref)	1 (ref)	1 (ref)
+ Single	1.372	1.378	1.368	1.369
+ Divorced/Separated	1.196	1.192	1.193	1.189
+ Widowed	1.155	1.147	1.157	1.154
+ Unable to provide/Choose not to disclose/Unknown	1.030	1.029	1.011	1.010
+ Education level				
+ Never attended school	1 (ref)	1 (ref)	1 (ref)	-
+ 1–11th grade	1.069	1.058	1.016	-
+ High school graduate	1.173	1.143	1.045	-
+ Some college	1.133	1.098	0.994	-
+ Bachelor's degree	1.119	1.084	1.007	-
+ Graduate	1.109	1.077	1.004	-
+ Age (birth date as days elapsed from a date constant/365)∗	0.394	0.380	0.403	0.401
+ DIF (difference between discharge date and SDOH completion date)∗	1.121	1.121	1.125	1.128
+Clinical characteristics				
+ Charlson Comorbidity Index∗	1.050	1.057	1.050	1.053
+Note: BISS_S and SENET_S represent the standardized coefficients for the corresponding method. The “-” indicates that the item was not selected by the corresponding method and dataset.
+∗
+Indicates continuous variables; otherwise, they were dummy-coded categorical variables.
+Machine Learning Models
+The dataset was split randomly into a training dataset (75%) and a test dataset (25%). Two methods, the stacked elastic net (SENET) and bootstrap imputation-stability selection (BISS), were used to handle missing data, select important variables, and establish the final prediction models. These 2 methods were chosen because they are well-suited for variable selection in the presence of substantial missing data and offer superior interpretability. Both methods incorporate the multiple imputation (MI) technique for handling missing data and penalized regression for variable selection and prediction, although they differ in how to integrate the 2 techniques.16, 17, 18, 19, 20, 21, 22 MI provides multiple plausible substitutes for each missing value, hence accounting for the uncertainty associated with missingness. The medical and health care literature recommends the use of MI in scenarios involving high proportions of missing data.
+For the SENET method, 50 MI training datasets were generated using the MI technique. All these datasets were stacked to conduct a single penalized logistic regression with elastic net penalty term on the merged dataset to identify the selected variables.16,17 For the BISS method, 100 resampled training datasets were created by the bootstrap technique. Each of these datasets was subjected to the imputation process for variable selection. Then, penalized logistic regression was applied with a randomized lasso penalty on each imputed bootstrap dataset to select variables in each dataset. By assessing the variable selection proportion across datasets under each penalty parameter, the optimal penalty parameter was determined that most separated the variables into clusters in terms of variable selection proportion. The optimal penalty was then used to determine the final set of selected variables.18, 19, 20, 21, 22 The optimal penalty was determined using the path plot, as shown in Supplementary Figure 2. The underlying principle is that useful predictors should exhibit a higher and more consistent selection proportion than others. At a specific lambda (0.004 in our case), these predictors become distinctly separated in the plot.
+For both SENET and BISS, after selecting variables, a separate classic logistic regression was then conducted using the selected predictors on each of the 50 MI training datasets, and the regression coefficients were averaged across these datasets to produce the final predictive model. Finally, model performance was evaluated by accuracy, sensitivity (ie, true positive rate), specificity (ie, true negative rate), and AUC (area under the receiver operating characteristic curve) on the test dataset. This entailed generating MI test datasets by re-using the training MI model, predicting the discharge disposition on each MI test dataset, and averaging the evaluation metrics across the test datasets. Flowcharts for the 2 methods are in Supplementary Figures 3 and 4.
+Algorithm Fairness
+The fairness of the algorithm was examined using 2 criteria (ie, equal AUC and calibration). For equal AUC, the model prediction AUC was compared across different demographic subgroups, such as male vs female and white vs non-white. Calibration was evaluated by examining the agreement between observed outcomes and model predictions, with a fair algorithm displaying consistently good calibration across subgroups.23, 24, 25
+Results
+Patient Characteristics
+Table 2 shows that patients' demographic distribution was consistent between the training (n = 101,105) and test datasets (n = 33,702). The patients had an average age of 59 years, with 45% being female and 55% male. Most were in a “married or have a life partnership” status (67%), identified as white and non-Hispanic (more than 90%), and had at least a high school degree (94%). Supplementary Table 2 summarizes patients’ SDOH responses and clinical characteristics, which were also similar between the training and test datasets. Overall, 8.72% of patients (n = 11,755) were discharged to an SNF in both training and test datasets.
+Table 2. Demographics of the Training and Test Cohorts
+
+Items	Training Data (n = 101,105)	Test Data (n = 33,702)
+Sex		
+ Male	45,968 (45)	15,272 (45)
+ Female	55,134 (55)	18,428 (55)
+ Nonbinary/Unknown	3 (0)	2 (0)
+Marital status		
+ Life partnership/Married	68,059 (67)	22,572 (67)
+ Single	16,560 (16)	5612 (17)
+ Divorced/Separated	8173 (8)	2698 (8)
+ Widowed	8112 (8)	2767 (8)
+ Unable to provide/Choose not to disclose/Unknown	198 (0)	53 (0)
+ Missing	3 (0)	
+Education level		
+ Never attended school	105 (0)	27 (0)
+ 1–11th grade	3539 (4)	1117 (3)
+ High school graduate	20,152 (20)	6771 (20)
+ Some college	35,318 (35)	11,715 (35)
+ Bachelor's degree	23,149 (23)	7734 (23)
+ Graduate	16,584 (16)	5642 (17)
+ Missing	2258 (2)	696 (2)
+Race		
+ Black/African American	3360 (3)	1089 (3)
+ American Indian/Alaska Native	668 (1)	216 (1)
+ Asian	2043 (2)	612 (2)
+ Native Hawaiian/Other Islander	195 (0)	67 (0)
+ White	92,520 (92)	30,956 (92)
+ Other	1371 (1)	472 (1)
+ Patient refused	941 (1)	289 (1)
+ Missing	7 (0)	1 (0)
+Ethnicity		
+ Hispanic/Latino	4298 (4)	1454 (4)
+ Not Hispanic/Latino	95,196 (94)	31,715 (94)
+ Patient refused	1602 (2)	532 (2)
+ Missing	9 (0)	1 (0)
+Age (real age)∗		
+ Mean [min, max]	58.86 [18.00, 105.71]	58.89 [18.01, 105.37]
+ SD	18.37	18.42
+Relative age (birth date as days elapsed from a date constant/365)∗
+ Mean [min, max]	−5.78 [−51.65, 36.64]	−5.82 [−51.95, 36.81]
+ SD	18.40	18.45
+Values are n (%) unless otherwise indicated. Due to data privacy, the actual age was not available during the analysis, and thus, the relative age (birth date as days elapsed from a date constant/365) was used during the statistical analysis. The greater it is, the younger the patient is. Because the relative age is a simple linear transformation of the patient's actual age, the model fit will be the same when the actual age is used instead.
+∗
+Indicates continuous variables; otherwise, they were dummy-coded categorical variables.
+Selected Predictors and Prediction Model
+The final selected variables by SENET and BISS and corresponding standardized coefficients from predictive models on the odds scale are summarized in Table 1. The unstandardized coefficients can be found in Supplementary Table 3. Across datasets and methods, 15 variables spanning all 3 dimensions (ie, SDOH, demographics, and clinical characteristics) were selected. In the “All Data” dataset, 13 predictors were selected across methods, with 11 variables duplicating those selected in the Six Month Dataset. In the “Six Month Data,” 15 predictors were selected across methods, with 13 shared by both methods. The consistent selection across datasets and methods underscores the validity of the variable selection.
+Results indicate that marital status has a big influence on discharge disposition. Compared with individuals in a life partnership or married, those without a partner—including single, divorced, or widowed individuals—have 15% to 38% higher odds of being discharged to an SNF, depending on their specific status. Age is another strong predictor; being 1 standard deviation younger decreases the odds of discharge to an SNF by approximately 60% (5% reduction in the odds for 1 year younger). Several socioeconomic status–related predictors were also selected.
+In addition to these demographic factors, a subset of SDOH variables was found to be related to the odds of SNF disposition. Specifically, the predictive models’ coefficients reveal that patients are less likely to be discharged to an SNF when they have more frequent alcohol consumption, regular dental check-ups, active employment status, stable finance for basic needs, extra virgin olive oil use, more frequent exercise performance, more phone interactions with friends and family, adequate transportation for work and medical needs, marital or life partnership status, are younger, and have lower Charlson Comorbidity Index values.
+Model Validation and Fairness
+Table 3 provides the performance for each prediction model. Using the same dataset, both methods yielded similar AUCs and, as expected, the “Six Month Data” resulted in slightly higher AUCs. Please note that all models produce high accuracy and specificity but low sensitivity due to the extremely imbalanced dependent variable.
+Table 3. The Performance of the Prediction Model
+
+Empty Cell	All Data	Six Month Data
+BISS	SENET	BISS	SENET
+AUC	0.767	0.765	0.774	0.773
+Accuracy	0.879	0.879	0.884	0.884
+Sensitivity	0.308	0.305	0.293	0.293
+Specificity	0.934	0.934	0.937	0.937
+Model fairness was assessed by equal AUC and calibration across different demographic subgroups. Table 4 shows wide variation in the proportion of home discharge, sample size, and model prediction AUCs among subgroups by sex, race, and ethnicity. These results seem to suggest potential model bias because, for instance, the model does not predict home discharge as accurately for men as compared with women. Supplementary Figure 5 presents receiver operating characteristics (ROCs) for sex subgroups to further illustrate this AUC discrepancy. As shown, the ROC of men is consistently below that of women, indicating a high false negative rate (FNR; 1 minus sensitivity) and false positive rate (FPR; 1 minus specificity) in the male group. However, the conclusion was different when adopting another fairness metric, calibration. Figures 1 and 2 illustrate the calibration results by sex and race, respectively. Within each sex or race category, patients were assigned to a certain subgroup based on their predicted probability of SNF discharge. In each subgroup, the actual SNF discharge proportion (ie, the y-axis) was plotted against the predicted probability (ie, the x-axis). In addition, the diagonal reference line (ie, y = x) represents the ideal calibration, and the sample size of each subgroup is illustrated by the size of the bubbles. As shown in Figure 1, the calibration curves of both sex groups aligned closely to the reference line, especially when the subgroup sample size was large. The discrepancies in the curves’ upper tails were likely due to the smaller sample sizes rather than meaningful calibration differences. Similar results can be found in Figure 2 as well, except that the sample sizes for the non-white and African American individuals is smaller.
+Table 4. Predictive Precision for Demographic Subgroups for the SENET Method With “All Data”
+
+Empty Cell	Category	AUC	Sample Size	Home Discharge, n (%)
+Sex	Male	0.713	15,272	13,917 (91.13)
+Female	0.803	18,428	16,843 (91.40)
+Race	Black or African American	0.684	1089	1028 (94.40)
+American Indian or Alaska Native	0.769	216	197 (91.20)
+Asian	0.715	612	579 (94.61)
+Native Hawaiian or Other Islander	0.614	67	63 (94.30)
+White	0.767	30,956	28,174 (91.01)
+Other	0.753	472	442 (93.64)
+Refused	0.725	289	278 (96.19)
+Race	Non-White	0.712	2745	2587 (94.24)
+White	0.767	30,956	28,174 (91.01)
+Ethnicity	Hispanic or Latino	0.703	1454	1395 (95.94)
+Not Hispanic or Latino	0.765	31,715	28,877 (91.05)
+Patient refused/Declined	0.787	532	489 (91.92)
+
+Download: Download high-res image (254KB)
+Download: Download full-size image
+Fig. 1. The calibration results by sex.
+
+
+Download: Download high-res image (275KB)
+Download: Download full-size image
+Fig. 2. The calibration results by race. Note: The African American subgroup is included in the non-White group.
+
+Overall, although the models did not meet the equal AUC criterion, they demonstrated fairness in terms of calibration. This is consistent with Chouldechova's study, emphasizing that when the base rate of the dependent variable (ie, the proportion of y = 0 to sample size of the dataset) varies across subpopulations, attempts to satisfy the criterion of calibration will result in different AUCs.24
+Discussion
+Study findings indicate that SDOH variables predict hospital disposition. The range of predictive SDOH included alcohol consumption, receipt of dental care, employment status, financial resources, nutrition, physical activities, social connectedness, and transportation needs. These variables have a statistically significant association with the likelihood of discharge to home. Our study is among a limited number of reports that directly explored SDOH variables that predict hospital disposition using patient-reported EHR data.3
+Lack of a life partner or spouse was the strongest predictor of SNF disposition. This has been reported in multiple PAC prediction studies and is supported by clinical experience because, absent a spouse or partner, many patients have no one to assist with basic cares at home.26, 27, 28, 29, 30, 31, 32, 33, 34 The issue of loneliness is distinct but relevant factor. Our study revealed that having more phone interactions with friends and family was associated with a lower risk of SNF disposition. Historically considered limitedly actionable, social isolation has been effectively targeted with social prescribing in the outpatient setting.35,36 Recent attention has highlighted the potential for hospital-based patient instruction in communication technologies and computer agents to mitigate isolation.37
+Several predictive SDOH variables appear to be proxies for socioeconomic status or financial solvency, including access to dental care, use of extra virgin olive oil, regular exercise participation, transportation, and employment. Dental care and employment additionally relate to health care coverage. Although it is not surprising that financial characteristics and coverage impact hospital disposition, it is notable that the coefficient sizes for the proxy variables are notably larger than for the item, “How hard is it for you to pay for the very basics like food, housing, medical care, and heating?” Our findings suggest that it is important to collect data on employment status and other granular SDOH domains, as they may not solely reflect access to basic needs but also point to specific, addressable SDOH deficits. Keim and Bowles similarly found that retired and unemployed patients were at significantly higher risk of requiring PAC.28,38 We detected a larger association between transportation and disposition suggesting the potential benefit of systematically addressing future transportation needs in discharge planning.5
+Unremarkably, younger age and lower Charlson Comorbidity Index values were associated with lower odds of SNF placement. A systematic review showed 30 of 35 PAC prediction models found older age to be a predictor of the need for PAC.3 Age is not a modifiable risk factor, but decreasing the age-related risk factors is a target worth attention.39 Our study also reinforced the fact that engagement in exercise is protective and that extra virgin olive oil use might indicate conscious efforts toward healthy behaviors.40,41 No other studies have included or reported this behavior, whereas our study showed it was associated with a 12% lower risk of SNF discharge. To the best of our knowledge, use of olive oil and access to dental care have not been previously identified as being associated with SNF disposition.
+Limitations and Future Work
+Although model fairness was explored, our study was limited to only conducting the integrated post hoc fairness evaluation. Prediction models with inherent fairness guarantees can be used in the future, possibly reducing health inequity. Further, the missing data imputation technique adopted in this study is computationally intensive, making real-time prediction hard. However, a real-time prediction model may be more impactful in medical practice. Hence, in the future, simple but computationally efficient approaches for handling missing data can be explored to establish a real-time prediction system.
+Our study's representativeness was limited to only those SDOH variables that are available in the Mayo Clinic's EHR. Researchers should crosswalk the variables available in their EHR to the 5 SDOH domains of Healthy People 2030.4 The proportionally low minority representation could be considered a limitation. However, the absolute number of minority patients (4449 Black, 5743 Hispanic, and 884 Native American patients) exceeds many prior reports, and all that have used EHR data and self-reported SDOH. The proportion of SNF dismissals in our sample, 8.72%, was comparable to a prior report of 10.9% SNF disposition among a similar sample of patients hospitalized on medical and surgical services.42,43
+Conclusions and Implications
+Our findings suggest that SDOH reported by patients before medical and surgical hospital admissions may predict disposition and identify opportunities to increase patients’ potential for home discharge. An implication of our findings is that use of self-report SDOH data may offer novel insights to inform PAC prediction and optimized patient-centered discharge planning.
+Disclosure
+The authors declare no conflicts of interest.

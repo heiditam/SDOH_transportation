@@ -1,0 +1,229 @@
+Abstract
+Background
+Hospitalized children with concern for maltreatment require a thorough assessment of their environmental risks or social determinants of health (SDoH), information that is critical for discharge planning. However, there is often inconsistent provider SDoH documentation and location within the electronic health records (EHR).
+Objective
+To describe the frequency and types of child maltreatment, associations with SDoH/social needs and abuse type, and location and provider patterns of documentation in the hospital EHR.
+Participants
+/ Setting: Children 0-5 years of age who were admitted to a tertiary pediatric medical center with concern for maltreatment from 2016 to 2020.
+Methods
+Descriptive, correlational study design. Frequency and type of child abuse, SDoH assessment and location, and discharge needs were collected from the EHR.
+Results
+251 children were hospitalized with concern for abuse (neglect 94 [37.4%], physical abuse 80 [31.8%], combined abuse types 71 [28.3%], and other types 6 [2.5%]). There was inconsistent collection of data on SDoH, in terms of which professionals did the collecting and where in the EHR it was documented. Common SDoH/social needs included CPS involvement (49%), food (37.8%), financial insecurity (35.1%), substance exposure (25%), and transportation needs (24%). Associations varied between SDoH/social needs and abuse types. While cases involving neglect were commonly discharged to their known home (72.3%) and combined types into foster placement (60.5%), physical abuse discharges were more equally distributed between known home (47.5%) or foster placement (41%).
+Conclusion
+Given the lack of standard protocols for EHR documentation, critical information could be missed and/or miscommunicated. Interdisciplinary access in a consistent location in the EHR could provide improved surveillance and optimize discharge service planning.
+Key Words
+societal factors social determinants of health social needs electronic health records pediatrics child abuse child maltreatment
+1. Introduction
+Social determinants of health (SDoH) screening and documentation in hospital electronic health records (EHR) is increasing throughout healthcare organizations (National Academies of Sciences, Engineering, and Medicine [NASEM]; Health and Medicine Division; Board on Health Care Services; Committee on Integrating Social Needs Care into the Delivery of Health Care to Improve the Nation's Health, 2019; NASEM, 2021). SDoH and their associated social needs, also referred to as societal factors that influence health (American Hospital Association [AHA], 2024), are community and individual non-medical factors (e.g., education access and quality, health care access and quality, social and community context, economic stability, and neighborhood and built environment) that influence health outcomes (Healthy People 2030, 2024 & World Health Organization [WHO], 2024). These assessments are particularly critical when children are hospitalized with concern for maltreatment (Hunter & Flores, 2021).
+Child maltreatment includes all types of physical and/or emotional maltreatment, sexual abuse, negligence or neglect, including commercial or other exploitation, which results in actual or potential harm to a child's health, survival, development, or dignity within the context of a relationship of responsibility, trust, or power (WHO, 2022). Approximately 558,899 children in the United States (US) experienced abuse in 2022 with an average of 521,899 from 2018-2022 (US Department of Health & Human Services, Administration for Children and Families, Administration on Children, Youth and Families, Children’s Bureau, 2024). This contributes to approximately 100,000 pediatric hospitalizations annually in the US (Wojciak et al., 2021). Given the many interdisciplinary providers (e.g., social workers, nurses, physicians, dieticians) and specialties (e.g., emergency, pediatric intensive care, general pediatrics, pediatric surgery, child protection team) involved in inpatient child maltreatment cases, there is a lack of consistent personnel conducting and documenting SDoH assessments in a designated location in the hospital's EHR (Lasser et al., 2023; Navathe et al., 2018; Wang et al., 2021). Thus, critical information could be missed, placing the child at risk for repeated abuse or neglect if discharged back to their home environment without proper SDoH / social needs surveillance and/or interventions before discharge (Hunter & Flores, 2021; Ruffolo et al., 2022).
+Child maltreatment is universally categorized as emotional abuse, neglect, physical abuse, and sexual abuse (Child Welfare Information Gateway, 2022) and represents a complex global problem. A few of the challenges in studying child maltreatment include variation in definitions of child maltreatment; availability of high-quality official data; and the inconsistent quality of measures used to elicit self-reports from victims, parents, or other primary caregivers (Institute of Medicine and National Research Council, 2014; Child Welfare Information Gateway, 2022; Westphaln et al., 2024). Additionally, many types of maltreatment do not occur in isolation but are often seen in combination (e.g., emotional abuse and neglect) making it difficult to truly identify group differences (US Department of Health & Human Services, Administration for Children and Families, Administration on Children, Youth and Families, Children’s Bureau, 2024). There is limited research on associations between SDoH/social needs and maltreatment types which could guide medical decision-making, inform caregiver and child community-based resources, and public health policies. The purpose of this retrospective review was to describe frequency and types of child maltreatment, associations with SDoH/social needs by abuse type, and provider patterns of documentation, including location, of this type of data in the hospital EHR. This study can help to inform best practices for hospitals to assess and track SDoH/social needs data before hospital discharge to better apprise outpatient resource needs in this high-risk patient population.
+2. Methods
+We conducted a retrospective EHR review of 2245 cases representing children aged 0-5 years old who were hospitalized with concern for child maltreatment during 2016-2020 at an urban, free-standing academic children’s hospital in California. This study was approved as exempt by the Institutional Review Boards (IRB) at XXXX (IRB # 23-00104) and XXXX (IRB # 23-001006).
+2.1. Analytic Sample
+The analytic sample was created in collaboration with a multi-disciplinary team including nursing, social work, medicine (pediatric surgeon and board-certified child abuse pediatrician), and the hospital health information management team. Inclusion in the initial medical record number (MRN) abstraction required cases to reflect child age of 0-5 years old, hospitalization from 2016-2020, and presence of at least one 10th revision of the International Statistical Classification of Diseases and Related Health Problems (ICD-10) code from a list of diagnoses and injuries concerning for child maltreatment generated a priori by the multi-disciplinary research team. The list of ICD-10 codes used for the initial MRN abstraction is accessible at: https://link.springer.com/article/10.1007/s10995-024-03936-0#Sec19 (Westphaln et al., 2024). Given that confirmation of alleged child abuse is often undetermined during acute hospitalization, all 2245 MRNs underwent a rigorous chart review to verify “concern for maltreatment” as defined by EHR documentation of concern for child maltreatment via emergency department (ED) notes, medical admission notes, suspected child abuse or neglect [SCAN] team notes, medical progress notes, social work notes, and/or medical discharge summaries. Additionally, MRNs with presence of official child maltreatment reporting documents (including hospital hold or California Governor’s Office of Emergency Services [Cal-OES] forms) were included as a proxy for concern for maltreatment. All records with documentation of concern for maltreatment were included and documentation of concern was equally weighted across all note types. Cases with documentation of injuries consistent with an accidental mechanism were excluded from the final analytic sample. Only cases with EHR documentation of concern for maltreatment as verified by a member of the research team were included in the final analytic sample (N=251) (Figure 1.)
+Figure 1
+Download: Download high-res image (377KB)
+Download: Download full-size image
+Figure 1. Process of Creating the Analytic Sample
+
+2.2. Data Collection
+A standardized protocol was used to guide data extraction from the EHR and entry into an Excel spreadsheet to promote efficient and accurate data collection. After the first pass of verification of concern for child maltreatment in the EHR for each MRN and data collection for each variable was completed by 2 members of the research team, the process was then replicated by the first author. Interrater agreement was 96% between the first pass of data collection by the research team and the second pass by the first author. Discrepancies were resolved by the first author. All MRNs were removed and replaced with unique numeric case identifiers before analysis to ensure confidentiality.
+2.3. Conceptual Framework
+Variable selection was informed by a literature review, the American Hospital Association (AHA) (2020 & n.d.) Societal Factors that Influence Health Framework, and consultation with the multi-disciplinary research team. Sociodemographic characteristics were categorized within the context of the child, parent/primary caregiver, and family. Child-level variables included age, sex, race, ethnicity, medical history (previously healthy or history of chronic illness and/or developmental delay). Parent marital status was captured as married or single. Family-level variables included primary language spoken at home, city of residence, and zip code. Median household income refers to the economic status of the neighborhood and was calculated using zip codes extracted from the EHR, year of hospitalization, and US census data (2021). Data on type of child abuse was operationalized as physical abuse alone, neglect alone, combined abuse types (e.g., physical abuse and neglect), or other. Substance exposure was defined as documentation of any exposure to substances (e.g., in-utero and household exposures). Variables involving hospital admission and discharge were measured as hospital entry (direct admission from an outpatient setting, ED, or transfer from an outside hospital) and discharge location (known home, non-relative foster placement, relative foster placement, or chronic care facility).
+Given that no standardized template to measure SDoH or social needs existed in the EHR during the time parameters of this study, binary data reflecting the presence of SDoH and social needs were extracted from the social work and SCAN notes as informed by the AHA (2020 & n.d.) Societal Factors that Influence Health Framework (Figure 2.). This framework was created to guide hospitals in addressing the social needs of their patients, SDoH in their communities, and systemic causes that lead to health inequities (AHA, 2020 & n.d.) and offers insights for children and families who experience hospitalization with concern for child maltreatment.
+Figure 2
+Download: Download high-res image (525KB)
+Download: Download full-size image
+Figure 2. Societal Factors that Influence Health: A Framework for Hospitals (AHA, 2020)
+
+2.3.1. Social Need Factors
+Social needs represent an individual’s non-medical, social, or economic circumstances
+that hinder their ability to stay healthy and/or recover from illness (AHA, 2020 & n.d.). Examples include lack of stable housing, an unsafe home environment, exposure to human trafficking or domestic violence (DV), mental health, substance use or abuse, limited access to healthy food, insufficient transportation options, intellectual disability, and incarceration (AHA, 2020). These factors should be assessed in the pediatric patient and adult primary caregiver (biological parent, foster parent, or other court-appointed guardian) for all pediatric hospitalizations, especially when accompanied by concern for child maltreatment.
+2.3.2. Community Factors (SDoH)
+Hospitals often serve patients and families in their surrounding community, which includes the places where people live, play, learn, work, and worship (AHA, 2020; Healthy People 2030, 2024). SDoH represent the underlying social and economic conditions that influence people’s ability to be healthy (WHO, 2024; Healthy People 2030, 2024). Examples include lack of affordable housing, food deserts, community violence, and inadequate public transportation (AHA, 2020). This information is essential in coordinating appropriate post-discharge community resources for pediatric hospitalizations that involve concern for maltreatment as these children may be discharged home to the same environment that contributed to the hospitalization or to foster placements in new communities.
+2.3.3. Systemic Factors
+Systemic factors involve leaders, legislators, policy makers, and anchor organizations (such as healthcare systems) at the community, state, or national level (AHA, 2020 & n.d.). Examples of systemic inequities include generational poverty, redlining, environmental injustice, racism, and sexism (AHA, 2020). Though these systemic factors may initially seem irrelevant to the assessment of children hospitalized with concern for maltreatment, state- and national-level policies can be optimized to fund the resources needed to successfully support these children and families after discharge from the hospital (AHA, 2020).
+2.4. Data Analysis
+Statistical Package for the Social Sciences, version 28.0 was used to conduct data analysis for this study. Sample characteristics were described with frequencies and percentages. Associations between demographics, social needs, and SDoH per maltreatment type (neglect alone, physical abuse alone , and combined abuse types [neglect, physical, substance use/abuse, other]) were examined using the Chi-square Test for Independence with Yates’ Continuity Correction and Fisher’s Exact Test as appropriate. Chi-square tests for each child abuse cohort (neglect alone, physical abuse alone, and combined abuse types) were conducted using binary variables representing each abuse cohort (0,1). To render better visibility within the child sex, race, and ethnicity variable categories, analysis was additionally performed using binary representations for male, female, Latino/Hispanic, Black/African American, White, Hispanic Ethnicity (0,1).
+3. Results
+3.1. Sample Characteristics
+Out of 251 confirmed cases of child maltreatment, the majority of children were less than one year old (73%), male sex (60%), had a chronic illness or disability (42.2%), and identified as Hispanic or African American (55%). The most common median household income category was 30,000 to 59,999 (59%) and the families mostly spoke English at home (84%). Route of hospital admission was frequently via the ED (47%) or transfer from an outside hospital (37%). The most frequent maltreatment type was neglect alone (37.4%), followed by physical abuse (31.8%), and combined abuse types (28.3%). No cases with concern for sexual abuse or assault were represented in the sample. Approximately half (49%) of the analytic sample had a history of previous CPS referral and/or involvement. The most common societal factors that influence health were food insecurity (37.8%), financial insecurity (35.1%), housing insecurity (31.5%), substance exposure (25%), and transportation challenges (24%). Children were commonly discharged home to the child’s known home (52.2%) or into foster care (40.5%) (Table 1).
+Table 1. Sample Characteristics
+
+Variables	Total Sample	Neglect Alone	Physical Abuse Alone	Combined Abuse Types
+Frequency (%)
+Abuse Types
+ Total Sample	251 (100%)	-	-	-
+ Neglect Alone	94 (37.4%)	94 (100%)	-	-
+ Physical Abuse Alone	78 (31.1%)	-	78 (100%)	-
+ Combined Abuse Types	71 (28.3%)	-	-	71 (100%)
+ Substance Use/Abuse Alone	1 (0.4%)	-	-	-
+ Other Abuse Type	7 (2.8%)	-	-	-
+Child Characteristics
+ Child Age
+ Less than 1 year	184 (73%)	63 (67%)	57 (73%)	59 (83%)
+ 1-3 years	49 (20%)	20 (21.3%)	16 (20.5%)	11 (15.5%)
+ 4-5 years	18 (7%)	11 (11.7%)	5 (6.5%)	1 (1.4%)
+ Child Sex
+ Male	152 (60%)	55 (58.5%)	55 (70.5%)	38 (53.5%)
+ Female	99 (40%)	39 (41.5%0	23 (29%)	33 (46.5%)
+ PMH Dev Delay/Chronicity
+ Yes	145 (57.8%)	60 (63.8%)	17 (22%)	24 (33.8%)
+ No	106 (42.2%)	34 (36.2%)	61 (78%)	47 (66.2%)
+ Race
+ Latino/Hispanic	91 (36%)	40 (42.6%)	26 (33.3%)	24 (33.8%)
+ Black/African American	48 (19%)	23 (24.5%)	10 (12.8%)	12 (17%)
+ White	42 (17%)	9 (9.6%)	14 (17.9%)	17 (24%)
+ Declined to State	39 (16%)	13 (13.8%)	14 (17.9%)	11 (15.5%)
+ Other	31 (12%)	9 (9.6%)	14 (17.9%)	7 (10%)
+ Hispanic Ethnicity
+ Yes	98 (39%)	43 (45.7%)	28 (36%)	25 (35.2%)
+ No	77 (31%)	27 (28.7%)	20 (25.6%)	25 (35.2%)
+ Declined to State/Unknown	76 (30%)	24 (25.5%)	30 (38%)	21 (30%)
+Family Characteristics
+ Most Common Parent Marital Status
+ Not Specified	73 (29%)	24 (25.5%)	19 (24.3%)	27 (38%)
+ Married	61 (24%)	23 (24.5%)	27 (35%)	10 (14.1%)
+ Single Parent	53 (21%)	30 (32%)	16 (20.5%)	13 (18.3%)
+ Language Spoken at Home
+ English	211 (84%)	80 (85%)	60 (77%)	64 (90%)
+ Spanish	33 (13%)	11 (11.7%)	15 (19%)	6 (8.4%)
+ Other	7 (3%)	3 (3.2%)	3 (4%)	1 (1.4%)
+Counties of Residence
+ Los Angeles	208 (83%)	82 (87%)	68 (87%)	53 (75%)
+ San Bernadino	12 (5%)	3 (3.2%)	2 (2.6%)	7 (9.9%)
+ Kern	11 (4%)	4 (4.3%)	1 (1.3%)	5 (7%)
+ Other	20 (7.9%)	5 (5.3%)	7 (9%)	6 (8.4%)
+Common Cities of Residence in Los Angeles
+ Los Angeles	70 (79.5%)	28 (30%)	23 (29%)	17 (24%)
+ Lancaster	18 (20.4%)	7 (7.4%)	7 (38.5%)	4 (5.6%)
+ Palmdale	16 (18.2%)	6 (6.4%)	6 (8%)	3 (4.2%)
+Median Household Income (adjusted per year)
+ 10-29,999	2 (0.80%)	0 (0)	0 (0%)	2 (2.8%)
+ 30-59,999	147 (59%)	61 (65%)	44 (56%)	35 (49.2%)
+ 60-89,999	72 (28.6%)	23 (24.4%)	26 (33.3%)	23 (32.4%)
+ > 90,000	27 (11%)	8 (8.5%)	8 (10.3%)	10 (14.1%)
+ Unable to determine	3 (1.2%)	2 (2.1%)	0 (0%)	1 (1.4%)
+Mode of Admission
+ ED Admit	118 (47%)	35 (37.2%)	58 (74.3%)	22 (30%)
+ OSH Transfer	92 (37%)	26 (27.7%)	17 (21.8%)	45 (63.4%)
+ Direct Admit from Clinic	41 (16%)	33 (35%)	3 (3.8%)	5 (7%)
+SDOH/Social Needs
+ History of CPS	123 (49%)	39 (41.2%)	23 (29.5%)	56 (79%)
+ Food Insecurity	95 (37.8%)	49 (52%)	12 (15.4%)	30 (42.3%)
+ Financial Insecurity	88 (35.1%)	34 (36%)	11 (14%)	40 (56%)
+ Housing Insecurity	79 (31.5%)	34 (36%)	8 (10.3%)	34 (48%)
+ Substance Exposure	63 (25%)	1 (1%)	1 (1.3%)	59 (83%)
+ Transportation Challenges	60 (24%)	30 (32%)	3 (3.8%)	23 (32.4%)
+ Parent Mental Health Challenges	44 (17.5%)	17 (18%)	7 (9%)	18 (25.4%)
+ Supplemental Security Income	29 (11.6%)	17 (18%)	3 (3.8%)	7 (9.9%)
+ Parent Incarceration	28 (11.2%)	4 (4.3%)	9 (11.5%)	14 (20%)
+ Domestic Violence	27 (10.8%)	8 (8.5%)	8 (10.3%)	8 (11.3%)
+ Custody Challenges	13 (5.2%)	6 (6.4%)	3 (3.8%)	2 (2.8%)
+ In Home Supportive Services	9 (3.6%)	8 (8.5%)	1 (1.3%)	0 (0%)
+ Immigration Challenges	9 (3.6%)	6 (6.4%)	2 (2.6%)	1 (1.4%)
+ Parent with Intellectual Disability	6 (2%)	5 (5.3%)	0 (0%)	1 (1.4%)
+DC Location
+ Known Home	131 (52.2%)	68 (72%)	36 (46%)	21 (29.6%)
+ Foster Placement	101 (40.5%)	23 (24.5%)	33 (42.3%)	44 (62%)
+ Non-Relative Foster Home	62 (25%)	12 (13%)	20 (25.6%)	29 (40.8%)
+ Relative Foster Home	39 (15.5%)	11 (11.7%)	13 (16.7%)	15 (21.1%)
+ Expired	9 (3.6%)	0 (0)	8 (10.3%)	1 (1.4%)
+ Chronic Care Facility	7 (2.8%)	3 (3.2%)	0 (0%)	4 (5.6%)
+ Transferred Out	2 (0.8%)	0 (0)	1 (1.3%)	1 (1.4%)
+CPS = Child Protective Services; PMH = Past Medical History; Dev = Developmental; DC = Discharge
+3.2. Associations between SDoH/Social Needs and Child Maltreatment Types
+Societal factors that influence health varied by child maltreatment type (physical abuse, neglect, or combined abuse types) (Table 1).
+3.2.1. Physical Abuse and SDoH/Social Needs
+Physical abuse was associated with child and family characteristics including child male sex (p=.01), child history of chronic illness or developmental delay (p<.001), and married parents (p=.02). SDoH/social needs that involved insecurities with food, finances, and transportation were statistically significant (p<.001), respectively. History of CPS involvement (p<.001), substance exposure (p<.001), and parental mental health challenges (p=.04) were also associated with physical abuse (Table 1).
+3.2.2. Neglect and SDoH/Social Needs
+Neglect was associated with child history of chronic illness or developmental delay (p<.001), child White race (p=.03), and single parent marital status (p=.03). Statistically significant associations between SDoH/social needs and neglect included food insecurity (p<.001), substance exposure (p<.001), transportation challenges (p=0.03), receipt of supplemental security income (SSI) (p=0.02), parent incarceration (p=0.01), and receipt of in-home supportive services (p=.004) (Table 1).
+3.2.3. Combined Abuse Types and SDoH/Social Needs
+Combined types of abuse were more common in married parents (p=0.01) with SDoH/social needs associations related to history of CPS involvement, financial and housing insecurities, and substance exposure (p<.001), respectively. Transportation challenges (p=0.03) and parent incarceration (p=0.01) were also associated with combined abuse types (Table 1).
+3.3. EHR Documentation of SDoH/Social Needs and Provider Types
+Of the EHR documents reviewed, the four types of documents that contained data about social needs/SDoH were ED provider notes, hospital history of present illness admission notes (HPI), social work notes, and SCAN team notes (Table 2). Physicians or nurse practitioners typically authored ED and HPI notes, social work notes were authored by social workers, and SCAN notes were authored by physicians, nurse practitioners, or social workers with expertise in child abuse and neglect. Few social needs/SDoH were captured in ED provider notes, with more detail coming from HPI, social work, and SCAN notes (Table 3). Previous history of CPS involvement, housing insecurity, and substance exposure were the top three SDoH/social needs documented in HPI notes. Interestingly, of the 114 cases that had both an ED and HPI note, 78% had inconsistencies in social history documentation between the two note types (Table 3) (e.g., “lives at home with parents” versus “lives at home with single mother and maternal grandmother assists with childcare” for the same patient.)
+Table 2. Associations by Child Maltreatment Type
+
+Empty Cell	Neglect Alone	Physical Abuse Alone	Combined Abuse Types
+94 (37.4%)	78 (31.1%)	71 (28.3%)
+Chi Square (p-value)
+Child Characteristics
+ Child Age	5.4 (0.07)	0.74 (0.69)	5.9 (0.05)
+ Child Sex	0.83 (0.81)	7.4 (0.01)	2.3 (0.42)
+ Male	0.14 (0.70)	3.1 (0.05)	1.7 (0.20)
+ Female	0.14 (0.70)	3.02 (0.08)	1.6 (0.20)
+ PMH Dev Delay/Chronicity	27 (<.001)	15 (<.001)	2 (0.20)
+ Race	12 (0.02)	5.7 (0.35)	4.7 (0.45)
+ Latino/Hispanic	2.16 (0.14)	0.62 (0.43)	0.13 (0.72)
+ Black/African American	2.25 (0.13)	1.4 (0.24)	0.15 (0.70)
+ White	4.7 (0.03)	0.03 (0.87)	3 (0.08)
+ Hispanic Ethnicity	3 (0.23)	2.2 (0.33)	1.1 (0.59)
+ Yes	0.14 (0.71)	0.68 (0.41)	0.41 (0.53)
+ No	2.4 (0.12)	0.52 (0.47)	0.68 (0.41)
+Family Characteristics
+ Parent Marital Status Married	0 (0.99)	5.5 (0.02)	6 (0.01)
+ Parent Marital Status Single	4.6 (0.03)	0.69 (0.35)	1.3 (0.25)
+ Language Spoken at Home	7.7 (0.33)	12 (0.05)	6 (0.61)
+Mode of Admission	39 (<.001)	35.7 (<.001)	28 (<.001)
+SDOH/Social Needs
+ History of CPS	2.9 (0.09)	15 (<.001)	37 (<.001)
+ Food Insecurity	12.1 (<.001)	26 (<.001)	0.58 (0.45)
+ Financial Insecurity	0.22 (0.88)	18(<.001)	18.4 (<.001)
+ Housing Insecurity	1.2 (0.27)	30(<.001)	13.5 (<.001)
+ Substance Exposure	44 ( <.001)	43 (<.001)	182 (<.001)
+ Transportation Challenges	4.6 (0.03)	30 (<.001)	4.6 (0.03)
+ Parent Mental Health Challenges	0 (1)	8.4 (0.04)	3.5 (0.06)
+ Supplemental Security Income	5.3 (0.02)	2.5 (0.11)	0.09 (0.76)
+ Parent Incarceration	6.1 (0.01)	0 (0.99)	6.2 (0.01)
+ Domestic Violence	0.46 (0.50)	0.11 (0.74)	0 (1)
+ Custody Challenges	0 .14 (0.71)	0.72 (0.79)	0.55 (0.46)
+ In Home Supportive Services	8.4 (0.004)	0 (1)	2.4 (0.12)
+ Immigration Challenges	2.2 (0.14)	0.002 (0.97)	0.62 (0.43)
+ Parent with Intellectual Disability	3.7 (0.05)	1.3 (0.25)	0.03 (0.86)
+DC Location	34 (<.001)	7.1 (0.21)	24.5 (<.001)
+CPS = Child Protective Services; PMH = Past Medical History; Dev = Developmental;
+DC = Discharge
+Bolded values = statistical significance
+Table 3. Documentation of Social History in ED and HPI Notes (n=251)
+
+Documentation Type	Frequency Documented (%)
+ED Notes
+ Documented Social History	120 (38%)
+ Lives with Parents	92 (77%)
+ In Foster Care	5 (4.2%)
+ Not Significant	5 (4.2%)
+HPI Notes
+ Documented Social History	208 (83%)
+ED and HPI Social History
+ Cases with both ED and HPI Notes	114
+ Agreement in Social History Documentation	37 (32%)
+ Disagreement in Social History Documentation	77 (68%)
+ED = Emergency Department; HPI = History of Present Illness
+SDoH and social needs were most frequently documented in social work and SCAN notes, however different types of data were captured within the note types (Table 3). Data from the social work notes frequently contained information about food insecurity, financial insecurity, housing insecurity, transportation challenges, and receipt of SSI per a social work note template or free text note. The SCAN notes also commonly included data about previous CPS history, substance exposure, parent mental health, reported domestic violence, and incarceration of parents/caregivers which aligned with child protection concerns. Some overlap in social work and SCAN notes existed with documentation of housing insecurity, parent mental health challenges, substance exposure, and transportation challenges (Table 3).
+4. Discussion
+Findings from our study revealed a sample of young children from lower income families with a previous history of CPS involvement. Consistent with national and state child abuse data (US Department of Health & Human Services, Administration for Children and Families, Administration on Children, Youth and Families, Children’s Bureau, 2024), neglect was the most common abuse type. Food insecurity, financial insecurity, housing insecurity, substance exposure, and transportation challenges were the most common types of SDOH/social needs. Results additionally suggest that societal factors influencing health (SDOH and social needs) varied per abuse type. Neglect alone was associated with child White race, receipt of SSI, and receipt of in-home supportive services; physical abuse alone was associated with child male sex and parental mental health challenges; and the combined group was associated with housing insecurity. Some of the SDoH/social need factors were shared between two abuse type groups including financial insecurity (physical abuse and combined), parent incarceration (neglect and combined), and food insecurity (neglect and physical abuse). Transportation challenges and substance exposure factors were associated with all three abuse types.
+Similar to findings from other studies, we found that data pertaining to social needs and/or SDoH were located in different locations within the EHR (Chen et al., 2020, Cook et al., 2021; Wang et al., 2021), demonstrated inconsistencies in data entry (Lasser et al., 2023; Wang et al., 2021), and were documented by a wide range of disciplines (Schwartz et al., 2020; Chen et al., 2020; Davis et al., 2023). This may reflect limited training in documentation related to concern for child abuse, variability of parent responses to questioning by different health care team members, and/or the lack of a standardized and easily accessible EHR templates or vendor-specific structured components.
+Usability of social need/SDOH data may be limited by the timing of data collection, format of the documentation, and who has access to the data. Given that the majority of hospital-based assessments of SDoH occur when a patient is initially admitted to the hospital, this data and subsequent discharge planning may be inaccurate for hospitalizations where children are discharged to locations other than their known home (e.g., foster placement). Additionally, this information may be locked in unstructured clinical notes or housed within a confidential section of the EHR (social work or SCAN notes) that, depending on hospital policy, may not be accessible to all members of the inpatient health team caring for the patient (e.g., clinical care coordinators, nurses, or registered dieticians). The data may be collected, but it may not be easy to locate, communicate to other team members, nor incorporate into discharge planning.
+Despite many hospitals beginning to collect data on SDoH and social needs in the EHR, there is no clear consensus in the literature about which data collection strategies and data elements are considered best practice (Lasser et al. 2023; Wang et al., 2021; Cook et al., 2021; Marchis et al., 2023; Neshan et al., 2024). The most common EHR-based data collection strategies include templates, screening tools, and vendor specific structured components (e.g., Measuring Health Equity, the six domain biopsychosocial framework, Protocol for Responding to & Assessing Patients’ Assets, Risks & Experiences [PRAPARE], the social determinants of health wheel, Tool for Health and Resilience in Vulnerable Environments [THRIVE], and the WHO-quality of life) (Davis et al., 2023 & Nishan et al., 2024) that may be completed by members of the clinical team or by patients or parents/primary caregivers (Davis et al., 2023, Nishan et al., 2024). Few of these screening tools are adapted specifically for the pediatric population. A systematic review by Neshan and colleagues (2024) identified six pediatric-focused screening tools for SDoH, however only one of them (Health Steps) was applied within a Children’s Hospital as opposed to a pediatric emergency department or pediatric outpatient clinic.
+Some of the most common data elements collected via EHR-based SDoH/social needs assessments include housing, safety/violence, food/nutrition, income/finances, family/social support, utilities, and education (Davis et al., 2023; Neshan et al., 2024). Evidence is nuanced with regards to the relationship of SDoH and social needs with child maltreatment (Hunter & Flores, 2021 & Maguire-Jack & Font, 2017). While our study found that White race was associated with child neglect, it is important to acknowledge that some SDoH are associated with child maltreatment (Maguire-Jack & Font, 2017; Hunter & Flores, 2021; Maguire-Jack & Sattler; 2023) and do not represent a predictive or causal pathway. For example, race and ethnicity are not individual-level risk factors for child abuse or neglect, however structural factors such as poverty (Hunter & Flores, 2021; Rebbe et al., 2022; & Maguire-Jack et al., 2023) and bias (Putnam-Hornstein et al., 2013; Palusci & Botash, 2021; Lane & Seltzer, 2023) may contribute to increased risk for CPS reporting (Rebbe et al., 2022). Given the sensitive nature of SDoH and social needs within the context of an active child welfare investigation, it is also important to consider that parents may feel pressured to respond to SDoH/social needs screening that may be perceived as more favorable, which could result in the misallocation of resources and/or other supports.
+Clear and accurate documentation of the social history and social support is especially salient for pediatric hospitalizations with concern for child abuse or neglect. Given the complicated social circumstances that often surround pediatric hospitalizations with concern for child abuse or neglect, it is essential to accurately document information including who lives at home with the child (e.g., biological parent, foster parent, parent significant other, siblings, grandparents, aunts, uncles, cousins), who has consenting rights for the child, does the child spend time between multiple households, presence of active restraining orders, or knowing the correct names of family members for hospital holds and/or visitor restrictions. Findings from this study revealed discrepancies between social history documentation in ED notes when compared to medical admission (HPI) notes. While this may reflect templates or commonly used smart phrases adopted in the ED notes, inaccurate documentation of social history for hospital admissions with concern for child abuse may result in contradicting communication with investigative agencies and other members of the health care team.
+Opportunities exist to leverage the assessment of SDoH and social needs in a more standardized and pediatric-adapted format. Accurate collection of data about SDoH and social needs may help to reduce the risk of future child maltreatment and additionally improve hospital treatment, management, and outcomes for families and children who are hospitalized with concern for maltreatment.
+4.4. Limitations
+This study used a retrospective descriptive/correlational study design that cannot infer causation. As there were no templates to collect SDOH/social needs data in the EHR at the time of this study, we were only able to access data that was present in the documentation and were not able to discern the difference between a family opting to not answer questions about SDOH or if the questions were not asked. The generalizability of findings may be limited as this study was from a single free-standing academic children’s hospital, used ICD-10 codes as a means to generate the analytic sample, and had a relatively small sample size. Cases of child sexual abuse/assault were not represented in our sample, which may be explained by these types cases being less likely to result in hospitalization and more often undergoing evaluation, management, and discharge through the emergency department. We also acknowledge that the ICD-10 list used may not encompass all possible ICD-10 codes affiliated with concern for child maltreatment. Despite the small sample size, this study provides detailed information about child maltreatment types, social needs, and SDoH that would otherwise be unavailable in larger administrative datasets. ICD-10 codes, as opposed to previous ICD iterations, were revised to be more inclusive of child abuse and /or social concerns (Wojciak et al., 2021, Institute of Medicine and National Research Council, 2014, Schnitzer, et al., 2011, & Lee et al., 2017). However, ICD codes are unable to address the chronicity or severity of child maltreatment (Legano et al., 2021), codes that reflect concern for abuse may be entered as a medical condition or injury rather than using a code that specific to abuse, and providers may be hesitant in assigning child abuse ICD codes in the hospital setting, and (Schnitzer et al., 2011 & Bautista-Durand et al., 2019). These combined limitations may contribute to smaller sample sizes for studies that use only ICD codes to identify MRNs with concern for child abuse or neglect. Finally, we acknowledge the potential for bias in our sample given that many of the cases were reported to CPS before hospitalization, other cases were reported during acute hospitalization, and we did not have access to the investigative decisions surrounding the status of the cases (substantiated, indeterminate, unsubstantiated). Despite these limitations, our findings offer insights into the relationship of child maltreatment types with social needs and SDoH and opportunities for improvement in documenting this important assessment in the EHR.
+5. Conclusion
+Different than other groups of hospitalized children, pediatric hospitalizations with concern for child abuse or neglect are often involved with complex social situations, multi-sector service coordination (e.g., medical care, law enforcement, child welfare, mental health) (Martens et al., 2020; Szilagyi et al., 2015; Johnson et al., 2021), and may be discharged home to adults other than their biological parents and into alternative home placements with a relative, non-relative foster home, or group home (Martens et al., 2020, Friedman et al., 2012; Johnson et al., 2021; Westphaln et al., 2024). Given this, accurate assessments of social needs/SDoH are especially critical for this vulnerable population. Many cases in this study identified multiple environmental deficits placing the child at potential risk for continued abuse or neglect. Given the lack of standardized protocols regarding which personnel and where to document in the EHR, critical information could be missed or difficult to locate. The use of an EHR SDoH template with continued surveillance during hospitalization will reduce these challenges and could improve interdisciplinary access and discharge planning for this vulnerable population.
+5.1. Implications for Practice and Policy
+Societal factors that influence health, including social needs, SDoH, and systemic causes, require interventions at the policy level (AHA, 2024, Maguire-Jack & Sattler, 2023). Hospitals occupy a key role in optimizing the ways that health care systems can respond to child maltreatment. Opportunities exist for hospitals to offer tailored management approaches that take maltreatment type and discharge location into consideration, support health informatics teams and data infrastructure, adapt the EHR/train staff to collect standardized detailed information about SDoH and social needs, offer additional staff educational resources about child abuse and neglect, and foster better linkages between the inpatient and outpatient resources. In particular, multi-site research is needed to develop, implement, and evaluate a standardized EHR template that hospitals can use to better guide data collection, improve multidisciplinary communication, and impact care of children who are hospitalized with concern for child maltreatment and their families. Lastly, health care systems can engage in efforts to educate and advocate for local, state, and federal programs that address poverty (e.g., Child Tax Credit, End Income Tax Credits, Supplemental Security Income, and Temporary Assistance for Needy Families) (Hoynes & Schanzenbach, 2018), environmental justice, and racism (AHA, 2024).
+Nancy A. Pike: Writing – review & editing, Supervision, Methodology, Conceptualization. Sandy Himmelrich: Writing – review & editing, Resources, Conceptualization. Karen Kay Imagawa: Writing – review & editing, Resources, Data curation, Conceptualization. Kristi K Westphaln: Writing – review & editing, Writing – original draft, Project administration, Methodology, Investigation, Formal analysis, Conceptualization
+Uncited reference
+American Hospital Association,; American Hospital Association,; Child Welfare Information Gateway,; Prevention and Health Promotion,; Lee et al., 2017; Martens et al., 2018; National Academies of Sciences, 2019; The National Academies Press,; Petersen et al., 2014; Scott et al., 2009; Durand et al., 2019; United States Census Bureau, 2021; US Department of Health & Human Services Administration for Children and Families Administration on Children Youth and Families Children’s Bureau, 2024; Westphaln et al., 2023; World Health Organization,; World Health Organization, 2024.
+Competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Ethics approval:
+The Institutional Review Boards (IRB) at XXXX (IRB # 23-00104) and the XXXX (IRB # 23-001006) approved this as an exempt study.
+Funding Statement
+This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+Declaration of Competing Interest
+☒ The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+We would like to express our gratitude to Mohit Mehra and Sergio Fajardo from the Children’s Hospital Los Angeles Health Information Management Team; research assistants Julia Srivastava MSN PNP-PC, Benjermin Fan BSN, Vincent Li BS, and Kinnedy Houston; and UCLA School of Nursing PhD student Cristina Cabrero-Mino.

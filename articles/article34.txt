@@ -1,0 +1,535 @@
+Abstract
+This study examines the effectiveness of public health infrastructure, specifically hospital and Intensive Care Unit (ICU) capacities, in mitigating the spread of COVID-19 in various US counties. We use the air transportation network to quantify the risk of importing COVID-19-infected passengers to a given county in the United States. Utilizing a dataset that encompasses COVID-19 case rates, healthcare resources, and socioeconomic and transportation-related variables across multiple destination counties, we found that increased availability of hospital and ICU beds is statistically significantly associated with a reduced risk of COVID-19 spread, after controlling for origin county infection rates, travel patterns, and socioeconomic factors. These findings underline the critical role of robust healthcare infrastructure in public health crisis management and suggest targeted policy interventions to bolster healthcare capacity as a viable strategy for mitigating pandemic impacts.
+Previous article in issue
+Next article in issue
+Keywords
+COVID-19 transmission Healthcare capacity Air transportation network Airline passengers
+1. Introduction
+The coronavirus disease 2019 (COVID-19), caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), was first identified in December 2019 in Wuhan, China, and rapidly escalated into a global pandemic (Huang et al., 2020). This pandemic profoundly impacted public health, economies, and daily life globally. The World Health Organization (WHO) declared COVID-19 a pandemic on March 11, 2020, recognizing its extensive spread across continents, accelerated by global mobility and travel (WHO, 2020a).
+COVID-19 primarily transmits through respiratory droplets, with symptoms ranging from mild flu-like signs to severe respiratory distress and death. The pandemic has severely strained global healthcare systems, overwhelming hospitals with patient surges and exacerbating shortages in medical supplies and healthcare personnel (WHO, 2020b). Economically, it triggered the worst downturn since the Great Depression, massively disrupting travel, hospitality, and retail sectors, and resulting in widespread job losses and financial insecurity (IMF, 2020).
+Given the pandemic's rapid evolution, studying its epidemiological characteristics is crucial for optimizing public health responses in emergencies (Park et al., 2020; Tredennick et al., 2022). Epidemiological data, paired with hospitalization and transportation data, plays a vital role in shaping effective infection control and public health strategies (Combs and Pardo, 2021; Rees et al., 2020).
+Transportation networks, significant vectors for disease transmission, have historically facilitated the spread of epidemics globally (Liu et al., 2021; Russell et al., 2021). In response to COVID-19, stringent measures like travel restrictions, lockdowns, and health screenings at transport hubs were implemented worldwide to curb virus transmission (Grépin et al., 2021; Lasco, 2020; Murray and Kras, 2020). These measures, though critical for public health, have profound social and economic implications, stressing the need for balanced policy-making that ensures both public health safety and economic stability (Chu et al., 2020; Yeyati and Filippini, 2021).
+The pandemic emphasized the importance of robust healthcare infrastructure and preparedness in managing infectious diseases. Effective healthcare systems are crucial not only for treating the afflicted but also for controlling disease spread and protecting public health during global health crises (Filip et al., 2022). Hospital capacity, particularly the availability of intensive care unit (ICU) facilities and adequately equipped hospital beds, has proven essential in managing patient surges. Studies indicate that regions with better healthcare infrastructure, including higher ratios of hospital beds to population, tend to experience lower mortality rates during pandemics (Mustapha et al., 2022).
+The critical role of ICUs, equipped to perform life-saving procedures like mechanical ventilation, has been particularly underscored during the COVID-19 pandemic (Armstrong et al., 2020; Chang et al., 2021). Furthermore, the availability of trained healthcare personnel and efficient logistical support for medical supplies are fundamental for an effective pandemic response.
+Our study focuses on how healthcare resources, particularly hospital and ICU beds, influence COVID-19 outcomes across US counties. We assess the domestic risk of COVID-19 transmission within the United States during the initial period of the pandemic based on domestic passenger air traffic. We develop an airline network model that allows us to measure the relative likelihood of the spread of COVID-19 across endemic US counties based on passenger travel patterns. More precisely, the model quantifies the relative risk posed to each destination county based on the likelihood of a given air travel itinerary transporting contaminated passengers.
+In our view, this endeavor is relevant for the following reasons. First, due to the close proximity of passengers and the fact that they spend extended lengths of time in a confined space, air travel may be viewed as a high-risk setting for the transmission of COVID-19. It is possible for the virus to spread through the respiratory droplets that are created whenever an infected person breathes, sneezes, coughs, or talks. Therefore, close quarters, the proximity of other passengers, and the duration of flights all contribute to an increased risk of disease transmission during air travel. Second, recirculated air indicates that the risk of transmission on flights is potentially higher than on public transit like buses and trains. Third, air travel enables the rapid movement of people and goods across geographic locations, which can contribute to the transmission of the virus to new locations.
+Finally, understanding the role of air travel networks in the spread of COVID-19 is critical for designing effective public health policies and pandemic-control methods. Hence, understanding changes in travel behavior during the spread of pandemic diseases like COVID-19 is crucial to the development of a resilient transportation infrastructure.
+Based on our analysis, we provide a list of the top 20 US counties at-risk of importing a COVID-19 infected passenger from an active county, and corresponding relative risk to the destination county. Among our findings, in 2020, the highest COVID-19 travel risks in the US were predominantly in major metropolitan areas with significant air travel hubs, like Dallas, Texas, and Clark, Nevada. These counties, characterized by high population densities and substantial travel activities, faced heightened risks. In 2021, the risk landscape shifted, with Los Angeles, California becoming the most at-risk, and new areas like Queens, New York, emerging as high-risk zones, indicating the pandemic's evolving nature. Contrastingly, less populated counties like Klamath, Oregon, and remote Alaskan counties reported the lowest risks, owing to limited air travel.
+A regression model exploring these risk factors revealed that greater inbound passenger volume, and larger household sizes significantly increased travel-related COVID-19 risk. Additionally, wealthier destinations showed a slightly higher risk. Notably, regions with more robust healthcare infrastructure, specifically in hospital and ICU bed availability, exhibited lower risks, stressing the importance of healthcare capacity in mitigating pandemic impacts. Regional analyses uncover significant disparities in resource effectiveness between coastal and inland areas, emphasizing the necessity for geographically specific strategies in health policy planning. The differences observed in responses to identical health metrics between these regions indicate that a universal approach to public health policy is inadequate. Therefore, tailored strategies that consider the unique demographic and socio-economic landscapes of each region are crucial for effective disease control and prevention.
+The rest of the paper is structured as follows: Section 2 provides an overview of the related literature. Section 3 presents the empirical model used for analysis and details the data sources utilized in the study. Our findings are reported in Section 4. This section includes choropleths and a regression model. Moreover, we perform robustness tests and estimate a two-stage Least Squares model to address simultaneity. Section 5 discusses endogeneity and omitted variable bias, while Section 6 covers policy implications. Concluding remarks are provided in Section 7.
+2. Review of related work
+Previous work on infectious diseases spans a wide range of disciplines, encompassing retrospective analyses of infected cases to explore the clinical spectrum and pathophysiology of infectious diseases (Castanares-Zapatero et al., 2022; Datta et al., 2020; Kunal et al., 2022; Zaki et al., 1995). Studies have also extensively investigated the reproductive interval, incubation period, and transmission mechanisms of infectious diseases (Antonovics et al., 2017; Biggerstaff et al., 2014; Mehraeen et al., 2021; Nishiura, 2007; Rahman et al., 2020; Thompson et al., 2019; Xin et al., 2021). In the following section, we will concentrate on studies that assess the influence of healthcare capacity on disease outcomes, healthcare responses to COVID-19 spread dynamics, and the role of air transportation in the potential spread and risk of contagion of infectious diseases.
+2.1. The impact of healthcare capacity on disease outcomes
+Extensive research has established a direct correlation between healthcare capacity and disease outcomes, particularly in pandemic scenarios. The World Health Organization (WHO) has consistently emphasized the critical role that healthcare infrastructure plays in mitigating mortality rates during infectious disease outbreaks (WHO, 2018). Specific to hospital capacity, Schilling et al. (2010) discuss the impact of high hospital occupancy on in-hospital mortality risk, showing that high occupancy is associated with increased mortality in US hospitals. Similarly, Fusco et al. (2006) illustrate the significant strain on healthcare facilities during influenza outbreaks, where hospital bed occupancy rates increased substantially.
+Moreover, the availability and accessibility of Intensive Care Units (ICUs) have been directly linked to survival rates in severe cases of infectious diseases. Ahmed et al. (2020) provides understanding into the long-term outcomes of survivors of severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS) who were admitted to ICUs, finding persistent respiratory abnormalities in a significant portion of patients. Recent studies have expanded on these findings within the context of the COVID-19 pandemic. Gibbons et al. (2023) found that increases in ICU capacity were correlated with higher weekly COVID-19 mortality rates, particularly during caseload surges, manifesting the challenges faced by healthcare systems during peak pandemic phases.
+The global context of healthcare resource shortages has also been explored, with Sen-Crowe et al. (2021) investigating hospital bed capacity across 183 countries during the COVID-19 pandemic. They found significant disparities in ICU and hospital bed capacities, with high-income regions having greater resources, which correlated with lower mortality rates. These findings suggest that disparities in healthcare resources are critical determinants of COVID-19 outcomes on a global scale.
+Furthermore, Janke et al. (2021) analyzed hospital resource availability across the United States, revealing that regions with fewer ICU beds per COVID-19 case experienced higher mortality rates. Similarly, Park et al. (2023) investigated the spatial accessibility of ICU beds in Texas, finding that areas with reduced access, particularly rural regions, faced higher case-fatality ratios. These findings are echoed in international contexts, with Bauer et al. (2020) demonstrating that limited access to ICU beds in European countries was associated with higher COVID-19 case fatality ratios. Wilcox et al. (2022) also emphasized the impact of ICU capacity strain on patient outcomes, reporting increased mortality rates in UK ICUs during periods of extreme capacity strain.
+Ohbe et al. (2024) extended this analysis to Japan, demonstrating that regions with more ICU beds and intensivists had higher incidences of invasive mechanical ventilation among COVID-19 patients, underlining the importance of critical care capacity in pandemic response.
+The association between demographic factors and disease outcomes has also been critical in understanding the impact of COVID-19. Pijls et al. (2021) conducted a meta-analysis of 59 studies, revealing that men and older adults (aged 70 and above) were at significantly higher risk for severe COVID-19 outcomes, including ICU admission and death. These findings lend support to the need for tailored healthcare strategies to protect vulnerable populations during pandemics.
+2.2. COVID-19 spread dynamics and healthcare response
+The spread dynamics of COVID-19 have been extensively analyzed, with a significant focus on how travel patterns and social mobility influence transmission rates. Russell et al. (2021) found a strong correlation between international travel volumes and the rate of spread in the early stages of the pandemic. Additionally, local mobility restrictions, often facilitated by healthcare advisories, have been shown to curb the spread of the virus effectively (Zhou et al., 2020). For example, Zhou et al. demonstrated that without mobility restrictions, external transmission in China would have continued unabated.
+The importance of healthcare response in managing the spread of COVID-19 has been further featured in studies examining healthcare resource allocation during the pandemic. Neupane et al. (2024) conducted a systematic review of caseload surge measures and their impact on mortality, finding that healthcare systems across various jurisdictions struggled with the surges, leading to increased mortality rates. Similarly, Lavrentieva et al. (2023) presented key factors associated with ICU mortality in COVID-19 patients, noting that variables such as the sequence of pandemic waves and specific clinical interventions played critical roles in patient outcomes. This illustrates the critical need for efficient resource allocation during pandemics to mitigate adverse outcomes.
+2.3. Air transportation as a conduit for COVID-19 spread
+Over the past decade, researchers have identified air travel as a significant pathway for the transmission of infectious diseases, including Ebola, SARS/MERS, influenza, and vector-borne diseases such as malaria and dengue fever (Apolloni et al., 2013; Browne et al., 2016; Errett et al., 2020; Jelinek, 2010; Pigott et al., 2015). This realization has spurred the development of various research tools aimed at assessing the role of airports and airlines in disease spread. Notable models include the vector-borne disease airline importation risk model and the Global epidemic and mobility computational model, among others, utilizing Susceptible-Exposed-Infectious-Recovered frameworks with airline data (Balcan, et al., 2010; Wilta et al., 2022).
+The COVID-19 pandemic has accentuated the pivotal role of air transport networks in spreading pandemics, given their ability to connect distant populations quickly. Sun, Wandelt, and Zhang (2021) investigated the synchronization between air transport connectivity and COVID-19 cases globally, finding that delays in restricting air travel significantly contributed to the global spread of the virus. Further, Wandelt, Sun, and Zhang (2023) examined China's aviation policies, such as the Circuit Breaker mechanism, which aimed to control cross-border transmission via incoming flights, illustrating the challenges of containing a global health threat through strict aviation policies.
+The impact of air travel on the domestic spread of COVID-19 has also been explored. Sun, Wandelt, and Zhang (2022) reviewed recent research on the effects of the pandemic on the aviation industry, discussing how reductions in flight numbers and changes in travel behavior influenced the spread of the virus. Their review supports the need for more pandemic-resilient aviation policies and infrastructure. Additionally, Kim et al. (2021) focused on spatial accessibility to ICU beds in Florida, United States, emphasizing the potential healthcare shortages that could arise from high levels of air travel and uneven geographical distribution of healthcare resources, which are critical for managing COVID-19 mortality.
+Li et al. (2020) further explored the demand for ICU beds in US cities, drawing lessons from the experiences of Chinese cities during the pandemic's early stages. Their findings suggest that cities with higher prevalence of vulnerable populations may face greater challenges in managing healthcare resources during surges, particularly when air travel contributes to the rapid spread of the virus.
+Unlike much of the existing literature, which focuses on the role of air transportation systems in the spread of COVID-19 at the international level, our study targets the US domestic market. Furthermore, we develop an air transport network modeling framework in the spirit of Gardner et al. (2016) to quantify the risk of COVID-19 spreading domestically via air passengers. This methodology evaluates the risk of COVID-19 importation to destination counties from origin counties with prior reported cases, ranking these counties according to their relative risk levels of virus importation.
+While the existing literature provides extensive insights into the relationship between healthcare capacity and pandemic outcomes, several gaps remain. First, there is a lack of comprehensive studies that integrate both healthcare infrastructure and socio-economic factors to understand their combined impact on COVID-19 outcomes. This study aims to fill this gap by examining how factors such as income levels and household sizes interact with healthcare resources to affect disease spread. Moreover, most current research focuses on aggregate national or regional data, often overlooking the granular impacts at the county level. This study seeks to address this by providing a detailed analysis of county-specific data, offering a granular investigation into local healthcare capacities and their effectiveness in pandemic management.
+3. Empirical approach and data sample
+This section presents the empirical model used in our analysis. It outlines the sources of our data, identifies the key variables, and describes the statistical methods applied to examine the relationships being studied.
+3.1. Empirical model
+Here, we delineate the empirical model we developed to quantify the risk of COVID-19 transmission through air travel within the United States. Infected passengers traveling to and from airports across the United States, can potentially facilitate the spread of infections. Airports are conceptualized as nodes within a network, connected by directional air travel routes, or links, between pairs of airports. The model calculates the transmission risk of COVID-19 between an originating county (i) and a destination county (j) as 
+, defined by the following equation:
+(1)
+Here, 
+ is specific to the origin-destination (O-D) pair (i, j) and depends on three primary factors:
+•
+ a binary indicator that identifies whether COVID-19 is active in the origin county. It is set to one if the virus is active, and zero otherwise, indicating the potential for airports in that county to export the virus.
+•
+ which represents the intensity of the outbreak at the origin county relative to the worst outbreak in any origin county within the same period. It is calculated as the ratio of the number of cases in county i to the maximum observed in any county, making it a unitless measure of relative outbreak severity.
+•
+ the total volume of passengers traveling from origin county i to destination county j over a month, capturing the scale of potential disease spread along this route.
+To quantify the cumulative risk to a destination county j from all connected origins over a month, we sum the individual risks from all relevant O-D pairs:
+(2)
+This aggregation results in 
+, the total risk-weighted passenger volume entering county j, expressed in “passengers per month.” We further refine this by normalizing the risk to each destination county j relative to the highest risk observed across all destinations:
+(3)
+This normalization renders 
+ a unitless ratio, illustrating the relative risk to county j compared to the most at-risk destination within that month. This approach, akin to those used in vector-borne disease studies, effectively contextualizes the importation risks associated with air travel (Gardner and Sarkar, 2013).
+3.2. Data source and summary statistics
+To assess the impact of public health infrastructure—specifically hospital and Intensive Care Unit (ICU) capacities—on the spread of COVID-19 via the air transportation network in various US counties, we compiled diverse datasets spanning from January 2020 to December 2021. This critical period provides a comprehensive range of data reflective of the evolving dynamics of the COVID-19 pandemic.
+A key component of our analysis is the COVID-19 case data sourced from the Johns Hopkins GitHub repository, which offers detailed time-series data at the county level. The granularity and consistency of this data are crucial for calculating the study's dependent variable—the relative COVID-19 risk associated with air travel to US county destinations.
+We measure healthcare capacity by focusing on the total number of staffed hospital and ICU beds per thousand residents. Data from CovidCareMap, captured on November 27, 2020, sheds light on the preparedness and capacity of healthcare systems in each county, supporting our understanding of potential healthcare responses across regions. We collected 2021 data from various state health departments and annual reports from local health networks. The bed capacity data we used represent snapshots at specific points in 2020 and 2021.
+Although these snapshots reflect the healthcare system's preparedness at those times, they may not fully capture the dynamic changes in bed availability that occurred throughout the year. The pandemic's evolution, marked by critical phases such as surges in cases and fluctuating demand for hospital and ICU beds, likely influenced bed capacity in ways that our data may not completely reflect.
+Another major data source is the T100 Market database from the US Department of Transportation's Bureau of Transportation Statistics (BTS). Updated monthly, this database provides detailed insights into airline passenger and cargo traffic, including information on flight segments such as the operating airline, departure and arrival airports, passenger volume, and flight distances. Notably, the dataset treats nonstop flights distinctly. For instance, a direct flight from Phoenix to Boston with a stop in Chicago, without requiring a plane change, is reported as two segments: Phoenix to Chicago and Chicago to Boston. The dataset primarily covers commercial airports, focusing on scheduled commercial passenger and cargo air services.
+To further enrich our analysis, we included socio-economic and demographic data from the Bureau of Economic Analysis (BEA) and the Census Bureau, encompassing metrics such as per capita income, and average household size. This data helps contextualize how economic status and living conditions may influence travel behaviors and the subsequent spread of COVID-19.
+Our study encompasses several relevant variables aimed at understanding the nature of COVID-19 spread through air travel. The key variables in the analysis include county inbound passenger volumes per capita, destination per capita income, average household size, and the network strength of the destination county. This latter metric quantifies the total number of distinct origin counties connected to each destination county on a monthly basis, thereby providing a measure of connectivity. Additionally, we consider the number of staffed hospital beds and ICU beds per 1000 people, freight movement, flight distances, and seasonality as variables. Each of these factors is hypothesized to influence the risk of COVID-19 spread.
+3.2.1. Summary statistics
+Over the course of 24 months, we identified 36,370 unique directional origin-destination airport pairs and 21,558 unique directional origin-destination county pairs. In Table 1, we present the descriptive statistics of key variables related to passenger travel, COVID-19 impacts, and healthcare resources, positioned within the framework of air transportation. The table offers an overview of various metrics for the sample period (2020 and 2021) and reflects how wide-ranging disparities in healthcare infrastructure, population mobility, and socioeconomic conditions have shaped county responses and outcomes.
+Table 1. Descriptive statistics, 2020-2021.
+
+Variable	Obs	Mean	Std. Dev.	Min	Max
+County COVID-19 cases	370197	3879613.8	6793800.4	0	46751129
+COVID-19-active origin county	458605	.744	.437	0	1
+Relative travel risk to destination (
+)	453875	.21	.289	0	1
+Risk of COVID-19 spread (
+)	369820	2624.051	9834.798	0	177825
+Staffed all hospital beds per 1000 people	435,587	2.92	1.060	0	12.59
+Staffed ICU beds per 1000 people	435,587	.33	.144	0	2.009
+County O-D passengers enplaned	451290	10299.361	18859.409	0	188465
+County inbound passengers per capita	400189	3.325	20.496	0	197.184
+Freight (pounds)	458605	129415.23	776220.95	0	56068249
+Network strength	453875	77.146	54.336	1	209
+Distance between airports (miles)	458605	797.24	665.366	0	7607
+County household size	402464	2.622	.246	1.34	3.87
+County income per capita	404942	67529.095	21250.177	31310	362522
+County population density (per square mile)	402,457	2267.673	3577.685	0.1	20553.6
+Notes: Except for income per capita, household size and hospital and ICU beds, all variables are measured monthly.
+Source: US Bureau of Transportation Statistics, US Census Bureau, US Bureau of Economic Analysis, CovidCareMap, State Health Departments, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC).
+The dataset comprises specific records pertinent to airline travel in the United States. For example, one observation details a market operated by Delta Airlines in January 2020, transporting 91,173 passengers and significant quantities of freight (95,116 pounds) and mail (24,689 pounds) over a distance of 404 miles from Orlando (MCO), Florida to Atlanta (ATL), Georgia. Variables such as income per capita, household size, and the number of hospital and ICU beds are measured annually, while other variables are recorded on a monthly basis. Additionally, the integration of various datasets and the occurrence of missing data during the merging process account for the observed discrepancies in the number of observations across different variables.
+COVID-19 and mobility data reveal that a significant majority (approximately 74%) of counties were managing active COVID-19 cases, emphasizing the widespread nature of the pandemic. The reported COVID-19 cases per county varied dramatically, with some areas experiencing up to 46 million cases, pointing to intense regional hotspots. This variability is further stressed by the relative travel risk to destination (
+), which suggests that travel to certain destinations was perceived as riskier, likely due to higher local case counts or less robust health responses.
+On the healthcare front, the average availability of hospital beds was about 2.92 per thousand residents, though this Fig. masked wide variations that ranged from no beds to over 12 beds per thousand, reflecting significant disparities in healthcare readiness. Even more critical was the availability of ICU beds, with an average of only 0.33 per 1000 people, essential for treating severe COVID-19 cases. The scarcity in some areas likely strained local healthcare systems during peak outbreaks.
+Travel metrics such as passengers enplaned and county inbound passengers per capita reveal notable differences in air travel volumes, which could serve as potential vectors for virus transmission. Moreover, freight movement, averaging over 129,000 pounds per county with extremes reaching up to 56 million pounds, illustrates the scale of goods transportation, a significant shift toward freight transport to make up lost revenue as passenger travel decreased dramatically (Atems and Yimga, 2021).
+Network Strength, quantified as the total number of distinct origin counties connected to each destination county on a monthly basis, and geographic accessibility, measured by the flight distance between airports, affirms the robustness of transportation and communication infrastructures, which vary greatly across counties. These differences likely influenced how swiftly and effectively areas could respond to and manage the spread of COVID-19.
+Socioeconomic indicators such as household size and per capita income also play critical roles. With household sizes averaging around 2.6 and incomes ranging significantly, these factors influence transmission dynamics within families and broader community resilience. Higher incomes might correlate with better access to healthcare and greater ability to comply with public health measures, affecting overall pandemic outcomes. On average, counties have a population density of approximately 2,268 people per square mile. This suggests that while many counties have moderate population densities, there is significant variation.
+Overall, these statistics paint a picture of a nation grappling with a health crisis where local conditions, from healthcare capacity to economic stability and mobility patterns, have significantly influenced the pandemic's impact and trajectory.
+3.2.2. Regional descriptive statistics
+In assessing the impact and risks of the COVID-19 pandemic across various regions in the United States, distinct patterns emerge. We follow the Congressional Research Service (CRS) Report for Congress1 and World Atlas2 to classify states in coastal and inland regions. Table 2 suggests that coastal regions show a diversity in healthcare capacities. Notably, the Gulf Coast and East Coast have higher numbers of staffed beds per 1000 people, around 2.73 and 2.50 respectively, suggesting denser populations or more developed healthcare infrastructure. However, ICU bed availability is generally lower across coastal areas, except for the East Coast which has a relatively higher provision of 0.21 ICU beds per 1000 people. This might indicate better-prepared ICU services, potentially due to higher population densities or greater funding allocations.
+Table 2. Descriptive Statistics, by region.
+
+Empty Cell	COVID-19 cases, monthly mean	Relative risk to destination (
+), monthly mean	Staffed All Beds (per 1000 People), mean	Staffed ICU Beds (per 1000 People), mean	Number of airports	Inbound passengers (million)	Population (million)
+Coastal States:							
+ East Coast	3,881,613	0.176	2.50	0.21	310	212.5	67.8
+ Gulf Coast (Gulf of Mexico)	6,635,009	0.270	2.73	0.16	173	144.5	45.9
+ West Coast (Pacific Ocean)	12,518,262	0.330	1.72	0.16	157	88.7	48.6
+ Alaska and Hawaii (extensive coastlines)	137,390	0.036	1.91	0.08	338	18.2	2.7
+Inland States:							
+ Midwest	5,965,946	0.240	2.70	0.14	197	89.2	41
+ South	2,558,394	0.063	2.56	0.17	58	22.2	12.9
+ Southwest	8,664,557	0.516	1.83	0.13	72	54.5	17.2
+ Rocky Mountain region	811,078	0.361	3.32	0.09	65	35.5	7.8
+ Pacific Northwest	2,021,026	0.206	1.78	0.13	62	26.4	10.1
+ Northeast	3,152,730	0.086	2.83	0.24	48	14.5	9.7
+ Great Plains	1,561,062	0.035	4.06	0.09	70	11.5	10
+ Southeast	2,595,771	0.070	2.20	0.17	28	12.4	5.2
+Notes: Population size and number of airports only represent counties within the region that experienced air travel. Counties with no commercial airports are not represented.
+East Coast (Atlantic Ocean): ME, NH, MA, RI, CT, NY, NJ, DE, MD, VA, NC, SC, GA, FL.
+Gulf Coast (Gulf of Mexico): FL, AL, MS, LA, TX.
+West Coast (Pacific Ocean): CA, OR, WA.
+Midwest: OH, MI, IN, WI, IL, MN, IA, MO, ND, SD, NE, KS
+South: KY, TN, WV, AR, OK
+Southwest: AZ, NM, NV, UT
+Rocky Mountain Region: CO, WY, MT, ID
+Pacific Northwest (Inland): Parts of OR and WA (inland)
+Northeast (Inland): PA, VT, WV
+Great Plains: KS, OK, NE, SD, ND, MT
+Southeast (Inland): AR, TN
+Source: US Bureau of Transportation Statistics, US Census Bureau, US Bureau of Economic Analysis, CovidCareMap, State Health Departments, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC), Congressional Research Service (CRS) Report for Congress, World Atlas.
+Inland states such as the Great Plains and the Rocky Mountain Region exhibit higher availability of staffed beds per 1000 people, at 4.06 and 3.32 respectively. This may be due to the lower population density in these areas, necessitating broader coverage per capita to ensure adequate healthcare access. Conversely, ICU bed availability is noticeably lower, particularly in these rural or less densely populated areas, pointing to potential vulnerabilities in critical care capabilities during high-demand periods such as pandemics or emergencies.
+The dynamics of air travel further illuminate regional differences. The East Coast is notable for its high number of airports and inbound passengers, establishing it as a primary hub for air travel in the country. This is in stark contrast to regions such as the Southeast and the inland areas of the Northeast, where the number of airports and the volume of inbound passengers are comparatively lower. This difference could be attributed to several factors, including smaller populations or less developed air travel infrastructure in these regions.
+There also appears to be a correlation between population size and air travel infrastructure. Heavily populated regions like the East Coast and the West Coast have more airports and see higher inbound passenger traffic, suggesting a link between population density and the development of air travel facilities. The Midwest, despite its significant population, presents an interesting case with only a moderate level of air travel, possibly reflecting the geographic distribution of the population or regional travel preferences.
+When comparing coastal and inland regions, coastal areas such as the East Coast, Gulf Coast, and West Coast reported higher air travel and passenger volumes. This trend is likely due to these regions being major centers of economic activity and tourism. Inland regions, such as the Rocky Mountain Region and the Pacific Northwest, displayed moderate to high relative risks of COVID-19 spread to their destinations.
+The disparities observed between coastal and inland regions in terms of healthcare capacities and relative risks reinforce the importance of region-specific healthcare strategies. Areas with higher relative risks and lower ICU capacities might need to prioritize healthcare planning and emergency preparedness to effectively manage potential healthcare system strains. Moreover, there appears to be a correlation between population size and healthcare infrastructure.
+4. Results
+This section reports the findings from various analytical approaches, including choropleths, regression analysis, and robustness tests.
+4.1. Choropleths
+Choropleth maps were employed to visualize the geographic distribution of key variables, such as COVID-19 cases, staffed hospital and ICU beds per thousand residents, and relative travel risk across the United States. We construct a choropleth map in Fig. 1 to visualize the distribution of COVID-19 confirmed cases across counties in the United States. Merely reporting the number of COVID-19 cases for each county may be misrepresentative because the counties differ in population size (CDC, 2023). The map shows a gradient of colors ranging from light to dark, with darker colors indicating higher numbers of confirmed cases and lighter colors indicating lower numbers of confirmed cases. These population-adjusted confirmed cases of COVID-19 represent a snapshot on January 8, 2021.
+Fig 1
+Download: Download high-res image (1MB)
+Download: Download full-size image
+Fig. 1. Confirmed Cased of COVID-19 in the United States – cases per 100,000 population on January 8, 2021
+
+Source: US Census Bureau, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC).
+Upon examination of the map, we observed that the regions with the highest numbers of confirmed cases per capita were located primarily in the mid-western and southern parts of the country, while the western and northern regions had comparatively lower numbers of confirmed cases. In particular, we note that the states with the highest population-adjusted numbers of confirmed cases were Tennessee, North and South Dakota, all of which are represented by the darkest colors on the map. Conversely, we observe that states with higher population densities, such as New York, New Jersey and Maryland had lower numbers of confirmed cases per capita, represented by lighter colors on the map.
+Fig. 1 suggests that there is a spatial pattern to the distribution of COVID-19-confirmed cases in the US, with higher numbers of cases clustered in certain regions and states. This information can help public health professionals and policymakers comprehend the geographic spread of the disease and make informed decisions regarding resource allocation and response methods.
+Fig. 2 features a choropleth map that portrays the distribution of COVID-19 importation risk across different destination counties in January 2021. By applying distinct color shade gradations to denote varying levels of risk, the map simplifies the process of identifying and comparing the geographical spread of risk across the counties. The Fig. covers commercial airports, focusing on scheduled commercial passenger and cargo air services. Some counties do not have commercial airports and in cases where there is no passenger traffic, the relative risk of COVID-19 importation cannot be calculated, resulting in blank areas.
+Fig 2
+Download: Download high-res image (585KB)
+Download: Download full-size image
+Fig. 2. COVID-19 Relative Risk to Destination Counties (January 2021)
+
+Source: US Bureau of Transportation Statistics, US Census Bureau, US Bureau of Economic Analysis, CovidCareMap, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC).
+The rankings provided in Table 3 offers a compelling insight into the relative risks associated with air travel and COVID-19 across various US counties in 2021. Considering that the relative risk is determined on a monthly basis, Table 3 compiles the 12 monthly values to calculate the annual average. This analysis is particularly crucial in understanding how travel patterns and regional characteristics might influence the spread of the virus.
+Table 3. Top 20 at-risk Destination Counties, 2021.
+
+Rank	County, State	Relative risk (
+1	Los Angeles, CA	0.943
+2	Dallas, TX	0.914
+3	Clark, NV	0.913
+4	Cook, IL	0.858
+5	Maricopa, AZ	0.788
+6	Denver, CO	0.734
+7	Fulton, GA	0.632
+8	Queens, NY	0.579
+9	Harris, TX	0.554
+10	King, WA	0.423
+11	San Francisco, CA	0.393
+12	Orange, FL	0.363
+13	Miami-Dade, FL	0.336
+14	Rappahannock, DC	0.323
+15	Salt Lake, UT	0.322
+16	Honolulu, HI	0.314
+17	Hennepin, MN	0.229
+18	Essex, NJ	0.218
+19	Travis, TX	0.214
+20	Broward, FL	0.208
+Notes: Relative risk is assessed monthly. Values represent annual averages.
+Source: US Bureau of Transportation Statistics, US Census Bureau, US Bureau of Economic Analysis, CovidCareMap, State Health Departments, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC).
+The table reveals Los Angeles, California, emerging as the highest at-risk county with a relative risk of 0.943. Dallas, Texas, and Clark, Nevada, remained high on the list indicating vulnerability. Conversely, we find that the lowest-risk counties (not reported here but can be made available upon request) were predominantly in less populated, more remote areas. Counties like Klamath, Oregon, and Lee, Alabama, exhibited extraordinarily low relative risks (in the order of 10-10), indicative of minimal air travel-related risk for COVID-19 importation via air travel. Remote Alaskan counties such as Northwest Arctic and Aleutians East registered the lowest relative risks.
+These findings stress the significant variance in COVID-19 air travel-related risk across US counties, influenced by factors like population density, travel volume, and regional connectivity. This disparity in risk emphasizes the need for targeted public health strategies and interventions, especially in higher-risk areas with significant air travel activities.
+In light of the ranking presented in Table 3, an important inquiry arises: to what extent does the relative risk of COVID-19 importation correlate with the actual number of COVID-19 cases at the county level? This question is particularly significant given that the calculation of relative risk in Eq. (3) exclusively considers domestic air transport, omitting other modes of travel such as road, rail, and international flights.
+Fig. 3 provides a visual representation of this relationship by plotting the number of COVID-19 cases against the relative COVID-19 risk across various US counties (crosses). The x-axis represents the number of COVID-19 cases on a logarithmic scale, while the y-axis shows the relative COVID-19 risk, also on a logarithmic scale. The use of logarithmic scales for both axes effectively disperses the data points, allowing for clearer observation of patterns and variations among the counties. For comparison, Fig. 1A in the Appendix presents the same relationship using untransformed variables.
+Fig 3
+Download: Download high-res image (1011KB)
+Download: Download full-size image
+Fig. 3. Scatter Plot of COVID-19 Cases vs. Relative COVID-19 Risk, log scale, county-level, 2021
+
+Source: US Census Bureau, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC).
+The Pearson correlation coefficient between the relative risk of COVID-19 importation and the actual number of COVID-19 cases at the county level is approximately 0.60. This coefficient indicates a moderate positive correlation, implying that as the number of COVID-19 cases in a county increases, the relative risk of COVID-19 importation also tends to rise. Consistent with the findings in Table 3, the counties identified as having the highest relative risk are situated at the upper end of the COVID-19 case distribution. These top 20 at-risk counties are highlighted in red and are labeled accordingly for emphasis.
+Choropleth maps of the United States, depicting the number of staffed hospital and ICU beds available per thousand residents for each county, are shown in Fig. 4, Fig. 5, respectively. This distribution reveals the variance in healthcare resource allocation across different regions. Notably, the Midwest has a higher number of hospital beds per thousand residents but fewer ICU beds relative to other regions. While some areas are well-equipped, many counties face a scarcity of hospital beds relative to their population. Understanding these patterns is essential for targeted healthcare planning and resource distribution to ensure equitable healthcare access.
+Fig 4
+Download: Download high-res image (942KB)
+Download: Download full-size image
+Fig. 4. Staffed hospital beds per 1000 people by county (2020)
+
+Source: CovidCareMap.
+Fig 5
+Download: Download high-res image (885KB)
+Download: Download full-size image
+Fig. 5. Staffed ICU beds per 1000 people by county, 2020ss
+
+Source: CovidCareMap.
+4.2. Regression Analysis
+This section presents a county-level regression analysis to investigate the impact of healthcare infrastructure on the Relative Risk of COVID-19 in destination counties. We employ two regression models that examine the impact of healthcare infrastructure, specifically the availability of staffed hospital beds and ICU beds per 1,000 people, while controlling for various socio-economic and geographic factors. We include county origin-destination (O-D) pair fixed effects in the estimation to assuage potential endogeneity issues emanating from omitted variable bias, measurement error, or simultaneity. We formally discuss endogeneity concerns in section 5.
+The first model assesses the relationship between the availability of staffed hospital beds and the relative risk of COVID-19. The model is specified as follows:
+(4)
+The second model evaluates the impact of staffed ICU bed availability on the relative risk of COVID-19:
+(5)
+In both models, X represents a matrix of control variables including inbound passengers per capita, freight, network strength, distance, household size, and income per capita, with 
+ as the error term. The comparison between these models allows us to understand how general hospital capacity and critical care capacity contribute to variations in COVID-19 risk at the destination counties.
+In our estimation of these models, we specified a log-log regression to quantify the effects of healthcare resources and other socio-economic variables on the pandemic's transmission dynamics. This transformation allows us to interpret the results in terms of elasticities, offering a description of how percentage changes in predictor variables affect the percentage change in the relative risk of COVID-19 to destination counties.
+In Table 4, Table 5, we report the results reflecting different aspects of healthcare capacity—staffed hospital beds and staffed ICU beds per 1000 people. Both models proved highly informative in identifying key factors that influence the pandemic's transmission dynamics at the county level. We discuss Column 4 in both tables since we control for county O-D pair and time fixed effects.
+Table 4. Destination travel risk log-log regression results. The dependent variable is natural log of Relative Risk at Destination (
+. Healthcare infrastructure measured by staffed hospital beds.
+
+Empty Cell	(1)	(2)	(3)	(4)
+ln (staffed hospital beds per 1000 people)	-0.513***	-0.126***	-0.167***	-0.161***
+Empty Cell	(-33.88)	(-8.048)	(-13.38)	(-12.45)
+ln (inbound passengers per capita)	0.484***	0.424***	0.561***	0.506***
+Empty Cell	(74.72)	(38.42)	(152.8)	(138.7)
+ln (freight)	-0.0227***	-0.0261***	-0.0222***	-0.0240***
+Empty Cell	(-23.35)	(-20.53)	(-20.95)	(-21.83)
+ln (network strength)	1.389***	1.194***	1.136***	1.228***
+Empty Cell	(167.2)	(38.41)	(76.11)	(81.21)
+ln (distance)	0.0814***	0.170***	0.165***	0.168***
+Empty Cell	(19.94)	(10.96)	(19.00)	(18.67)
+ln (household size)	5.158***	0.555**	1.484***	1.126***
+Empty Cell	(111.3)	(2.071)	(12.94)	(9.484)
+ln (income per capita)	1.023***	0.354***	0.760***	0.793***
+Empty Cell	(61.38)	(4.934)	(18.46)	(18.58)
+ln (population density)	0.233***	0.0767***	0.0600***	0.00371
+Empty Cell	(70.26)	(2.676)	(4.599)	(0.278)
+Constant	-25.67***	-12.91***	-17.71***	-17.81***
+Empty Cell	(-126.8)	(-15.38)	(-36.90)	(-35.80)
+Fixed effects				
+County O-D		X	X	X
+ Month			X	
+ Quarter				X
+ Year			X	X
+Observations	150,911	150,911	149,519	149,519
+R2	0.715	0.837	0.861	0.850
+Notes: O-D refers to origin-destination. Variables are measured at the destination county.
+Robust t-statistics are in parentheses.
+***p < 0.01; **p < 0.05; *p < 0.1
+Source: US Bureau of Transportation Statistics, US Census Bureau, US Bureau of Economic Analysis, CovidCareMap, State Health Departments, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC).
+Table 5. Destination ravel risk log-log regression results. The dependent variable is natural log of Relative Risk at Destination (
+. Healthcare infrastructure measured by staffed ICU beds.
+
+Empty Cell	(1)	(2)	(3)	(4)
+ln (staffed ICU beds per 1000 people)	-0.161***	-0.153***	-0.110***	-0.104***
+Empty Cell	(-14.46)	(-14.07)	(-12.05)	(-11.04)
+ln (inbound passengers per capita)	0.490***	0.422***	0.557***	0.502***
+Empty Cell	(75.62)	(37.78)	(150.7)	(136.8)
+ln (freight)	-0.0238***	-0.0259***	-0.0220***	-0.0238***
+Empty Cell	(-24.42)	(-20.45)	(-20.81)	(-21.71)
+ln (network strength)	1.372***	1.206***	1.152***	1.246***
+Empty Cell	(164.8)	(38.15)	(76.31)	(81.47)
+ln (distance)	0.0742***	0.145***	0.133***	0.136***
+Empty Cell	(18.18)	(9.083)	(14.98)	(14.80)
+ln (household size)	5.692***	0.539*	1.707***	1.323***
+Empty Cell	(123.5)	(1.841)	(14.11)	(10.56)
+ln (income per capita)	1.166***	0.578***	0.986***	1.033***
+Empty Cell	(69.07)	(7.517)	(22.87)	(23.11)
+ln (population density)	0.205***	0.0199	-0.0151	-0.0734***
+Empty Cell	(63.21)	(0.676)	(-1.127)	(-5.340)
+Constant	-28.17***	-15.17***	-20.06***	-20.27***
+Empty Cell	(-137.8)	(-17.49)	(-40.68)	(-39.66)
+Fixed effects				
+County O-D		X	X	X
+ Month			X	
+ Quarter				X
+ Year			X	X
+Observations	150,307	150,307	148,923	148,923
+R2	0.708	0.835	0.859	0.848
+Notes: O-D refers to origin-destination. Variables are measured at the destination county.
+Robust t-statistics are in parentheses.
+***p < 0.01; **p < 0.05; *p < 0.1
+Source: US Bureau of Transportation Statistics, US Census Bureau, US Bureau of Economic Analysis, CovidCareMap, State Health Departments, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC).
+With respect to healthcare resources, the coefficient for staffed hospital beds per 1000 people in Column 4 of Table 4 is -0.161, indicating that a 1% increase in staffed hospital beds per 1000 people is associated with a 16.1% decrease in the relative risk of COVID-19 spread. This suggests that while general hospital capacity is crucial, its impact on mitigating the spread is moderate yet statistically significant. The coefficient for staffed ICU beds per 1000 people in Column 4, Table 5, was less pronounced at -0.104. This translates to a 10.4% decrease in the relative risk of COVID-19 spread at the destination county for every 1% increase in ICU bed availability. The more substantial effect emphasizes the critical role of staffed hospital bed capacity in significantly reducing transmission rates.
+Examining socio-economic and mobility factors in both tables, inbound passengers per capita has a positive coefficient of approximately 0.51, suggesting that a 1% increase in inbound passenger traffic per capita is associated with a 51% increase in the relative risk of COVID-19 spread. This strong effect emphasizes the significant impact of human mobility on virus transmission. The negative association observed with freight suggests that areas with higher freight activity, experience a 2.4% decrease in relative risk per 1% increase in freight volume. During the COVID-19 pandemic, a pronounced shift toward freight transportation occurred as passenger travel experienced a dramatic decline.
+This shift was driven by an increased reliance on shipping to meet consumer demand for goods, resulting in a substantial rise in freight volumes. In response, airlines strategically retrofitted certain aircraft to accommodate cargo, thereby mitigating the financial impact of diminished passenger revenue (Atems & Yimga, 2021). Notably, American Airlines introduced hundreds of cargo-only flights in September 2020 as a means of offsetting the revenue losses associated with the decline in passenger travel (The Dallas Morning News, 2020). Unlike passenger travel, freight transport involves goods rather than people, limiting direct human-to-human interactions responsible for spreading the virus.
+Both models demonstrate that larger household sizes and higher per capita incomes, which typically increase the likelihood of social interactions, significantly contribute to the risk
+Interestingly, the models diverge slightly in their assessment of the impact of geographic and socio-economic factors. The variable distance is consistently positive, indicating that remoteness can exacerbate risk, possibly due to duration of exposure. Longer flights mean passengers are in close quarters for extended periods, increasing the likelihood of virus transmission. The confined space and recirculated air onboard airplanes further elevate this risk.
+Social determinants such as household size and income per capita also play critical roles, with both showing statistically significant positive associations with COVID-19 spread. Larger household sizes facilitate intra-household transmission, and higher income levels may correlate with increased social interactions and mobility, contributing to greater risk. Both tables are robust, explaining a large proportion of the variance in COVID-19 spread risk as indicated by high R-squared values (0.850 and 0.848 for the first and second model, respectively).
+The analysis confirms that managing the COVID-19 pandemic requires a multidimensional approach, addressing not only healthcare infrastructure but also regulating factors like mobility and socio-economic conditions that significantly enhance transmission risks. Strategies must be region-specific, leveraging insights on local healthcare capacities and socio-economic behaviors to tailor public health interventions effectively.
+These findings are invaluable for policymakers tasked with designing interventions to curb the spread of COVID-19. Enhancing ICU capabilities and implementing strict controls on air travel and large gatherings could be particularly effective. Moreover, understanding the impact of local networks and socio-economic factors can help in developing targeted responses that are finely tuned to the needs and characteristics of specific regions.
+4.3. Robustness tests
+To ensure the reliability of our findings, we conduct multiple robustness tests. We examined alternative specifications of the regression model, incorporating different definitions of the dependent variable (as shown in Table 6, Table 7). These tests consistently support the original results. The sensitivity analyses revealed no noteworthy changes to the conclusions, thereby confirming the robustness of our findings.
+Table 6. Destination travel risk log-log regression results. The dependent variable is log of Risk of COVID-19 Spread from origin to destination counties (
+. Healthcare infrastructure measured by staffed hospital beds.
+
+Empty Cell	(1)	(2)	(3)	(4)
+ln (Staffed hospital beds per 1000 people)	-0.564***	-0.258***	-0.238***	-0.238***
+Empty Cell	(-39.35)	(-19.30)	(-26.49)	(-25.32)
+ln (Inbound passengers per capita)	0.769***	1.025***	0.996***	0.999***
+Empty Cell	(167.1)	(199.1)	(376.5)	(377.3)
+ln (Freight)	-0.0121***	-0.00273***	-0.00846***	-0.00804***
+Empty Cell	(-13.84)	(-2.972)	(-11.10)	(-10.09)
+ln (Network Strength)	1.204***	0.813***	0.767***	0.765***
+Empty Cell	(175.0)	(30.80)	(71.43)	(69.75)
+ln (Distance)	0.0872***	0.149***	0.131***	0.131***
+Empty Cell	(23.47)	(11.87)	(20.92)	(20.12)
+ln (household size)	6.238***	4.576***	3.855***	3.882***
+Empty Cell	(149.9)	(18.97)	(46.69)	(45.08)
+ln (income per capita)	0.950***	1.665***	0.190***	0.181***
+Empty Cell	(62.68)	(24.34)	(6.396)	(5.830)
+ln (population density)	0.243***	0.145***	0.261***	0.264***
+Empty Cell	(70.85)	(5.653)	(27.78)	(27.20)
+Constant	-10.13***	-14.57***	1.984***	2.044***
+Empty Cell	(-55.02)	(-19.10)	(5.741)	(5.664)
+Fixed effects				
+County O-D		X	X	X
+ Month			X	
+ Quarter				X
+ Year			X	X
+Observations	150,911	150,911	149,519	149,519
+R2	0.796	0.911	0.935	0.929
+Notes: O-D refers to origin-destination. Variables are measured at the destination county.
+Robust t-statistics are in parentheses.
+***p < 0.01; **p < 0.05; *p < 0.1
+Source: US Bureau of Transportation Statistics, US Census Bureau, US Bureau of Economic Analysis, CovidCareMap, State Health Departments, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC).
+Table 7. Destination travel risk log-log regression results. The dependent variable is log of Risk of COVID-19 Spread from origin to destination counties (
+. Healthcare infrastructure measured by staffed ICU beds.
+
+Empty Cell	(1)	(2)	(3)	(4)
+ln (Staffed ICU beds per 1000 people)	0.130***	0.0126	-0.161***	-0.162***
+Empty Cell	(12.43)	(1.426)	(-24.64)	(-23.63)
+ln (Inbound passengers per capita)	0.779***	1.019***	0.996***	0.999***
+Empty Cell	(173.6)	(197.1)	(375.2)	(376.2)
+ln (Freight)	-0.0142***	-0.00264***	-0.00828***	-0.00788***
+Empty Cell	(-16.23)	(-2.888)	(-10.89)	(-9.927)
+ln (Network Strength)	1.173***	0.836***	0.780***	0.778***
+Empty Cell	(171.8)	(31.62)	(71.90)	(70.25)
+ln (Distance)	0.0774***	0.102***	0.0966***	0.0969***
+Empty Cell	(20.76)	(8.433)	(15.19)	(14.57)
+ln (household size)	7.272***	5.529***	4.405***	4.430***
+Empty Cell	(174.0)	(21.35)	(50.67)	(48.86)
+ln (income per capita)	1.115***	1.919***	0.326***	0.317***
+Empty Cell	(73.24)	(26.17)	(10.53)	(9.801)
+ln (population density)	0.193***	0.0266	0.190***	0.193***
+Empty Cell	(58.56)	(1.046)	(19.72)	(19.40)
+Constant	-12.84***	-17.53***	0.174	0.240
+Empty Cell	(-70.55)	(-21.95)	(0.491)	(0.647)
+Fixed effects				
+County O-D		X	X	X
+ Month			X	
+ Quarter				X
+ Year			X	X
+Observations	150,307	150,307	148,923	148,923
+R2	0.792	0.910	0.935	0.929
+Notes: O-D refers to origin-destination. Variables are measured at the destination county.
+Robust t-statistics are in parentheses.
+***p < 0.01; **p < 0.05; *p < 0.1
+Source: US Bureau of Transportation Statistics, US Census Bureau, US Bureau of Economic Analysis, CovidCareMap, State Health Departments, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC).
+4.3.1. Risk of spread
+We implement further robustness checks by replacing the original dependent variable (relative risk of COVID-19 to destination) with an alternative one (COVID-19 risk spread as defined in Equation 1) and finding that the results generally mirror the original findings.
+In the model including staffed hospital beds (Table 6), a 1% increase in the number of beds per 1000 people leads to an approximate 23.8% decrease in the relative risk of COVID-19 spread in Column 4. This coefficient is notably larger than in the previous model discussions, indicating a more substantial impact of general hospital readiness on mitigating transmission risks in the context of air travel.
+The model incorporating staffed ICU beds (Table 7) demonstrates a lesser effect, with a 1% increase in ICU beds per 1000 people resulting in a 16.2% decrease in relative risk in Column 4. This gives prominence the critical role of hospital bed availability in controlling the spread, especially in scenarios where air travel is a significant risk factor.
+The signs of coefficients for mobility and socio-economic factors remain consistent with earlier findings. The R-squared value for both models is remarkably high (0.929), indicating an excellent fit and suggesting that the models explain a large proportion of the variability in the risk of COVID-19 spread related to air travel.
+The inclusion of fixed effects for county origin-destination pairs, time factors (monthly, quarterly, yearly), enhance the robustness of the model, ensuring that various unobserved heterogeneities are adequately controlled.
+4.3.2. Regional differences
+In exploring the dynamics of the COVID-19 pandemic, it becomes crucial to understand how various factors contribute to the spread of the virus in different geographical contexts. Coastal and inland regions in the United States present distinct demographic, economic, and infrastructural characteristics that likely influence the patterns of COVID-19 transmission. Coastal states, with their dense populations, significant air travel hubs, and higher per capita incomes, may experience unique challenges in controlling the spread of the virus. These states often serve as major entry points for international travel, potentially increasing exposure risks. On the other hand, inland states, characterized by different population densities, travel patterns, and social structures, may face a different set of challenges and risks. Conducting separate regression analyses for coastal and inland states allows us to uncover the nuanced ways in which various factors contribute to the relative risk of COVID-19 spread in these diverse regions. This approach not only provides a more tailored understanding of the pandemic's impact but also aids in formulating region-specific strategies for mitigation and preparedness.
+The estimated regression models for coastal (columns 1 through 3) and inland (columns 4 through 6) states in Table 8, Table 9, focusing on the relative risk of COVID-19 spread to destination counties, reveal intriguing differences in how various factors influence this relative risk. In these specifications, the coefficients, being elasticity estimates, indicate the percentage change in the relative risk for a one percent change in each explanatory variable, all else being constant.
+Table 8. Travel risk log-log regression results accounting for Regional Differences. The dependent variable is natural log of Relative Risk at Destination (
+. Healthcare infrastructure measured by staffed hospital beds.
+
+Empty Cell	Coastal States	Inland States
+Empty Cell	(1)	(2)	(3)	(4)	(5)	(6)
+ln (staffed hospital beds per 1000 people)	-0.485***	-0.480***	-0.468***	-0.503***	-0.630***	-0.646***
+Empty Cell	(-29.28)	(-31.02)	(-29.57)	(-25.47)	(-33.06)	(-33.10)
+ln (inbound passengers per capita)	0.557***	0.651***	0.625***	0.303***	0.438***	0.401***
+Empty Cell	(146.7)	(175.3)	(166.8)	(53.66)	(76.11)	(70.52)
+ln (freight)	-0.00787***	-0.00588***	-0.00758***	-0.0700***	-0.0645***	-0.0665***
+Empty Cell	(-5.640)	(-4.526)	(-5.693)	(-46.56)	(-45.81)	(-46.23)
+ln (network strength)	1.343***	1.264***	1.293***	1.695***	1.631***	1.648***
+Empty Cell	(140.8)	(141.1)	(141.7)	(164.4)	(167.7)	(166.6)
+ln (distance)	0.0899***	0.0900***	0.0928***	0.0265***	0.0202***	0.0233***
+Empty Cell	(17.47)	(18.80)	(18.92)	(3.934)	(3.225)	(3.625)
+ln (household size)	4.439***	5.244***	5.054***	7.737***	7.688***	7.696***
+Empty Cell	(70.40)	(87.77)	(82.83)	(83.19)	(88.67)	(86.76)
+ln (income per capita)	1.164***	1.313***	1.306***	1.298***	1.084***	1.190***
+Empty Cell	(57.43)	(68.28)	(66.27)	(39.67)	(34.50)	(37.32)
+ln (population density)	0.288***	0.268***	0.268***	0.0843***	0.0853***	0.0847***
+Empty Cell	(60.61)	(60.30)	(58.77)	(14.79)	(16.06)	(15.58)
+Constant	-26.95***	-28.83***	-28.73***	-30.76***	-27.75***	-29.04***
+Empty Cell	(-110.4)	(-124.5)	(-121.1)	(-75.95)	(-71.63)	(-73.83)
+Fixed effects						
+ Month		X			X	
+ Quarter			X			X
+ Year		X	X		X	X
+Observations	83,093	83,093	83,093	58,084	58,084	58,084
+R2	0.724	0.761	0.749	0.765	0.796	0.786
+Notes: O-D refers to origin-destination. Variables are measured at the destination county.
+Robust t-statistics are in parentheses.
+***p < 0.01; **p < 0.05; *p < 0.1
+Source: US Bureau of Transportation Statistics, US Census Bureau, US Bureau of Economic Analysis, CovidCareMap, State Health Departments, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC).
+Table 9. Travel risk log-log regression results accounting for Regional Differences. The dependent variable is natural log of Relative Risk at Destination (
+. Healthcare infrastructure measured by staffed ICU beds.
+
+Empty Cell	Coastal States	Inland States
+Empty Cell	(1)	(2)	(3)	(4)	(5)	(6)
+ln (staffed ICU beds per 1000 people)	-0.0650***	0.0997***	0.108***	-0.221***	-0.242***	-0.245***
+Empty Cell	(-5.397)	(8.248)	(8.693)	(-12.08)	(-14.15)	(-14.00)
+ln (inbound passengers per capita)	0.558***	0.649***	0.623***	0.317***	0.451***	0.414***
+Empty Cell	(143.8)	(172.4)	(164.0)	(56.19)	(77.97)	(72.29)
+ln (freight)	-0.00902***	-0.00796***	-0.00969***	-0.0720***	-0.0674***	-0.0695***
+Empty Cell	(-6.455)	(-6.115)	(-7.277)	(-47.81)	(-47.73)	(-48.20)
+ln (network strength)	1.314***	1.233***	1.262***	1.687***	1.627***	1.645***
+Empty Cell	(135.5)	(135.3)	(136.2)	(161.6)	(164.9)	(163.9)
+ln (distance)	0.0782***	0.0732***	0.0762***	0.0244***	0.0185***	0.0215***
+Empty Cell	(15.04)	(15.13)	(15.37)	(3.607)	(2.930)	(3.326)
+ln (household size)	5.084***	6.054***	5.849***	8.098***	8.101***	8.125***
+Empty Cell	(81.39)	(101.5)	(96.13)	(86.47)	(92.34)	(90.50)
+ln (income per capita)	1.310***	1.459***	1.447***	1.408***	1.161***	1.273***
+Empty Cell	(65.26)	(77.01)	(74.62)	(42.09)	(36.02)	(38.90)
+ln (population density)	0.270***	0.249***	0.249***	0.0574***	0.0524***	0.0506***
+Empty Cell	(57.12)	(56.34)	(55.00)	(9.848)	(9.617)	(9.081)
+Constant	-29.45***	-31.23***	-31.06***	-32.82***	-29.64***	-31.02***
+Empty Cell	(-124.4)	(-140.1)	(-136.0)	(-79.76)	(-74.79)	(-77.12)
+Fixed effects						
+ Month		X			X	
+ Quarter			X			X
+ Year		X	X		X	X
+Observations	82,626	82,626	82,626	57,969	57,969	57,969
+R2	0.717	0.755	0.743	0.760	0.791	0.781
+Notes: O-D refers to origin-destination. Variables are measured at the destination county.
+Robust t-statistics are in parentheses.
+***p < 0.01; **p < 0.05; *p < 0.1
+Source: US Bureau of Transportation Statistics, US Census Bureau, US Bureau of Economic Analysis, CovidCareMap, State Health Departments, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC).
+The findings suggest that both types of healthcare resources—hospital and ICU beds—are crucially important in managing COVID-19 spread, with slightly more pronounced effects in inland states compared to coastal states. This could be due to various factors including demographic differences, the initial level of healthcare infrastructure, and perhaps differing rates of COVID-19 incidence and spread patterns.
+Moreover, the slightly stronger relationship between staffed hospital bed availability and reduced COVID-19 risk in inland states might also reflect the critical role that less specialized medical care plays in regions where healthcare services are more concentrated. This is indicative of the need for targeted healthcare policies that consider geographical and regional disparities in healthcare resource distribution and their impact on public health outcomes during a pandemic.
+Comparing the two specifications, coastal states appear more sensitive to factors like air travel, and income, which aligns with their characteristics as densely populated, economically vibrant areas with significant air travel connectivity. In contrast, inland states show higher sensitivity to household size and network strength, possibly reflecting different social structures and community behaviors. Both regions benefit from improved healthcare infrastructure, but the factors driving the spread of COVID-19 differ notably between coastal and inland areas.
+Chow tests conducted in Table 10, Table 11 suggest that the differential effects in healthcare capacity across coastal and inland states are statistically significant. Columns (a), (b) and (c) of Table 10 test whether there is a statistically significant difference in the coefficient estimate of staffed hospital beds between columns 1 and 4, 2 and 5, 3 and 6 of Table 8, respectively. A similar relationship exists between Table 9, Table 11 with regard to differential effects in staffed ICU beds across coastal and inland states.
+Table 10. Chow test results for comparing staffed hospital beds effects between coastal and inland states.
+
+Empty Cell	Ho: There is no significant statistical difference in the coefficient estimates for staffed hospital beds between coastal and inland states.
+Empty Cell	(a)	(b)	(c)
+Empty Cell	F(1, 150901) = 934.22***	F(1, 150889) = 1316.64***	F(1, 150897) = 1191.05***
+Fixed effects			
+ Month		X	
+ Quarter			X
+ Year		X	X
+***p < 0.01; **p < 0.05; *p < 0.10
+Table 11. Chow test results for comparing staffed ICU beds effects between coastal and inland states.
+
+Empty Cell	Ho: There is no significant statistical difference in the coefficient estimates for staffed ICU beds between coastal and inland states.
+Empty Cell	(a)	(b)	(c)
+Empty Cell	F(1, 150297) = 2798.40***	F(1, 150285) = 3554.28***	F(1, 150293) = 3430.12***
+Fixed effects			
+ Month		X	
+ Quarter			X
+ Year		X	X
+***p < 0.01; **p < 0.05; *p < 0.10
+4.3.2.1. Comparing county-level and regional results
+To what extent do the regional results align with our initial findings at the county level in terms of consistency and robustness? In examining the estimated regression models (Table 4 versus Table 8, and Table 5 versus Table 9), our analysis reveals both consistency and variations between county-level results and regional outcomes for coastal and inland states.
+The directionality of the coefficient estimates presents a clear throughline of consistency. Positively valued coefficients for variables such as county inbound passengers per capita, destination network strength, distance, destination household size, and destination income per capita uniformly suggest that increases in these factors correlate with heightened relative risk of COVID-19 spread. Conversely, the consistently negative coefficients associated with destination staffed hospital and ICU beds per thousand residents and freight indicate a universal trend where increases in these variables lead to a reduced relative risk of COVID-19 spread.
+The statistical significance of these coefficients further bolsters their robustness as predictors of COVID-19 spread, with all variables demonstrating statistical significance at least at the 1% level in both regional and county-level models. Such statistical robustness across diverse geographic contexts indicates that the identified factors are critical and stable predictors of the pandemic's spread, reinforcing the validity of these models in various settings.
+However, when analyzing the magnitudes of these coefficients, variations emerge between county-level and regional analyses. Notably, the impact of several variables, including staffed hospital beds per 1000 people, household size, and income per capita appears more pronounced in the regional models. This suggests that the regional context amplifies the effects of these variables, potentially due to regional-specific characteristics or variations in pandemic response and healthcare resource allocation. Furthermore, the slight differences in coefficient magnitudes between coastal and inland states suggest subtle regional disparities in the pandemic's dynamics, suggesting that even within broader geographic categories, local factors and conditions may significantly influence COVID-19 spread.
+5. Endogeneity and simultaneity
+One of the key challenges in our analysis is the risk of omitted variable bias. This occurs when unobserved factors potentially influence both the dependent and explanatory variables. In the realm of travel risk assessment, such unobserved factors might include local public health policies, cultural norms, or socioeconomic conditions unique to each O-D pair. By implementing county O-D pair fixed effects, we can effectively control for any constant differences between county pairs, which might otherwise skew the relationship between travel risk and our explanatory variables.
+Another significant concern is the issue of simultaneity, which refers to the interdependence between the dependent variable and one or more explanatory variables. For example, the relative risk of COVID-19 in a destination could influence and be influenced by variables such as incoming passenger volumes or healthcare resource allocation.
+In analyzing the relative risk of COVID-19 in destination counties, we face a simultaneity challenge stemming from the two-way causal relationship between the number of inbound passengers per capita and the local COVID-19 risk. Higher perceived or actual COVID-19 risk in a county may deter travel to that location, reducing inbound passenger numbers. Conversely, larger numbers of incoming passengers could increase the risk of importing and spreading the virus in the destination.
+This simultaneity complicates our ability to discern the true causal relationships within our model. Standard Ordinary Least Squares (OLS) regression methods, which rely on the assumption that explanatory variables are exogenous, are likely to produce biased and unreliable results due to this bidirectional influence. Although the application of county O-D pair fixed effects aids in mitigating these concerns by isolating the effects of the explanatory variables on the relative risk, the full treatment of these reciprocal dynamics is further explored in the following section.
+5.1. Two-stage least squares
+To tackle the issue of simultaneity, we propose using an instrumental variable (IV) approach. This method involves identifying variables that are associated with the endogenous explanatory variable (inbound passengers per capita) but are unaffected by the dependent variable (relative risk of COVID-19 to destination).
+For our instruments, we have selected the Sunbelt region (a dummy variable for origin or destination counties located in the Sunbelt following other aviation studies3) and the distance between origin and destination airports. The Sunbelt region is characterized by a warm climate, particularly with hot summers and mild winters and includes states such as California, Florida, Hawaii, Nevada, Arizona, New Mexico, Texas, Louisiana, Mississippi, Alabama, Puerto Rico, and the U.S. Virgin Islands.
+Our dataset indicates that approximately 53.3% of the observations include an origin or destination counties that are located in the Sunbelt region, which includes states such as California, Florida, Hawaii, Nevada, Arizona, New Mexico, Texas, Louisiana, Mississippi, Alabama, Puerto Rico, and the U.S. Virgin Islands.
+The climate appeal of these locations is expected to draw passengers regardless of the COVID-19 risk levels, while distance is presumed to influence travel decisions without being directly impacted by short-term changes in destination risk levels.
+Applying these instruments within a two-stage least squares (2SLS) regression framework allows us to isolate the component of passenger volume variation that is independent of the COVID-19 risk at the destination. This method should lead to more accurate estimates, shedding light on the actual causal relationships between air travel and COVID-19 risk, and avoiding the distortions caused by simultaneity.
+In the first stage of the regression, the endogenous variable (county inbound passengers per capita) is regressed against the chosen instruments (sunbelt locations and distance). The first stage results show a significant relationship between the instruments and the endogenous variable, with an F-statistic substantially exceeding the conventional threshold, indicating strong instruments.
+The second stage involves using the predicted values from the first stage as substitutes for the actual values of the endogenous variable in our primary regression model that examines COVID-19 risk in destination counties. The 2SLS results are detailed in Table 12, where a comparison with original OLS estimates shows that the key coefficients maintain their sign and significance, confirming the robustness of our initial findings.
+Table 12. 2SLS regression results. The dependent variable is the natural log of Relative Risk at Destination (
+.
+
+Empty Cell	(1)	(2)	(3)	(4)	(5)	(6)
+ln (staffed hospital beds per 1000 people)	-0.493***	-0.537***	-0.537***			
+Empty Cell	(-30.83)	(-38.49)	(-36.90)			
+ln (staffed ICU beds per 1000 people)				-0.135***	-0.152***	-0.155***
+Empty Cell				(-11.65)	(-14.63)	(-14.41)
+ln (inbound passengers per capita)	0.560***	0.604***	0.591***	0.706***	0.739***	0.725***
+Empty Cell	(25.42)	(27.09)	(26.40)	(32.40)	(34.18)	(33.39)
+ln (freight)	-0.0190***	-0.0177***	-0.0191***	-0.0129***	-0.0121***	-0.0136***
+Empty Cell	(-13.25)	(-12.71)	(-13.61)	(-8.804)	(-8.512)	(-9.569)
+ln (network strength)	1.294***	1.296***	1.302***	1.100***	1.092***	1.100***
+Empty Cell	(46.79)	(48.41)	(48.28)	(40.11)	(40.80)	(40.78)
+ln (household size)	5.453***	5.653***	5.605***	6.518***	6.575***	6.519***
+Empty Cell	(59.01)	(60.20)	(59.17)	(71.66)	(73.76)	(72.74)
+ln (income per capita)	0.935***	1.004***	1.017***	0.904***	0.821***	0.838***
+Empty Cell	(32.28)	(39.04)	(39.23)	(30.05)	(27.44)	(27.72)
+ln (population density)	0.256***	0.243***	0.242***	0.273***	0.278***	0.276***
+Empty Cell	(35.19)	(36.13)	(35.64)	(36.31)	(37.89)	(37.32)
+Constant	-24.71***	-26.26***	-25.92***	-25.18***	-25.27***	-24.96***
+Empty Cell	(-73.42)	(-86.99)	(-85.06)	(-71.34)	(-72.59)	(-70.90)
+Fixed effects						
+ Month		X			X	
+ Quarter			X			X
+ Year		X	X		X	X
+Endogeneity Test:						
+ Ho: inbound passengers per capita						
+ is exogenous	F(1,150901)	F(1,150889)	F(1,150897)	F(1,150297)	F(1,150286))	F(1,150294)
+ Wu-Hausman	 = 11.58***	 = 3.66***	 = 4.99**	 = 97.84***	 = 88.64***	 = 91.76***
+Empty Cell	(p = 0.000)	(p = 0.000)	(p = 0.000)	(p = 0.000)	(p = 0.000)	(p = 0.000)
+Observations	150,911	150,911	150,911	150,307	150,307	150,307
+R2	0.713	0.748	0.737	0.696	0.727	0.715
+Notes: Robust t-statistics are in parentheses. Variables are measured at the destination county.
+***p < 0.01; **p < 0.05; *p < 0.1
+Source: US Bureau of Transportation Statistics, US Census Bureau, US Bureau of Economic Analysis, CovidCareMap, State Health Departments, the Johns Hopkins GitHub repository, US Centers for Disease Control and Prevention (CDC).
+It is plausible that the relationship between staffed hospital and ICU beds per 1000 residents and the dependent variable could be influenced by population density at the destination counties. Hence, we include population density as a control variable in Table 12. The coefficient estimate on population density is positive and statistically significant, indicating that locations with larger population densities have a greater relative risk. This is probable because dense populations have more opportunities for close-contact interactions, which facilitates the spread of the virus.
+The Wu-Hausman test further validates our model specification and the instrument choices. The Wu-Hausman test confirms the endogeneity of county inbound passengers per capita, supporting our concern regarding its non-exogenous nature.
+6. Policy implications
+The comprehensive analysis of the factors influencing the spread of COVID-19 at both county and regional levels provides vital insights for developing targeted public health policies. These findings support the critical need for policies that account for the diverse impacts of geographic, demographic, and socio-economic variables on public health outcomes. Here, we outline several strategic policy implications derived from our statistical models.
+We posit that well-resourced healthcare systems, with adequate hospital and ICU bed capacities, can enhance a region's ability to implement effective public health interventions, such as testing, contact tracing, and quarantine measures. These interventions are crucial in managing both local transmission and imported cases, thus indirectly impacting the relative risk of virus spread via air travel.
+Investments should be strategically directed to enhance healthcare infrastructure, particularly focusing on increasing the number of staffed hospital and ICU beds. The pronounced reduction in COVID-19 risk associated with enhanced healthcare capacity (hospital beds), especially noted in coastal regions, accentuates the urgency of these investments. Policies should aim not only to increase the number of beds but also to ensure these facilities are well-equipped and staffed. This approach should be mixed, with a balance in resource allocation that bolsters capacities in both coastal regions, which may already possess relatively robust infrastructures, and inland areas, where the need appears to be more critical.
+The significant role of air travel in the spread of COVID-19 necessitates stringent regulatory measures at airports. Policies could include mandatory health screenings, proof of vaccination, and, where necessary, restrictions on travel from high-risk regions. Additionally, given the impact of network strength on transmission rates, there should be enhanced surveillance and rapid response strategies in highly connected urban centers. This could involve deploying mobile testing units and increasing public health awareness campaigns tailored to these dynamic environments.
+Policies need to support larger households, which are shown to significantly contribute to the spread of the virus. Measures could include programs ensuring adequate housing and promoting effective isolation strategies. Economic policies should also encourage safe practices that do not hinder economic activities but rather support safe interaction modalities, such as remote working and digital transactions. This approach is particularly crucial in higher-income regions where increased social interactions may drive transmission risks.
+The variance between coastal and inland regions in terms of how different factors affect COVID-19 spread suggests that regional-specific strategies are essential. Coastal areas may require stricter controls on international travel and port activities, while inland regions might benefit more from strengthened local healthcare infrastructures. Additionally, public health messaging should be tailored to the specific characteristics and needs of these regions to enhance the effectiveness and community acceptance of preventive measures.
+Beyond immediate responses, there is a compelling need for long-term investments in healthcare infrastructure and preparedness. Building resilient systems based on the lessons learned from the current pandemic will enhance responses to future health crises. Moreover, policies should be flexible and adaptive, guided by continuous data collection and analysis to ensure they remain responsive to evolving conditions and new health challenges.
+The implementation of these policy recommendations would allow governments and health organizations to not only better manage the ongoing pandemic but also improve systemic resilience against future infectious disease outbreaks. Such strategic, data-driven approaches are essential for safeguarding public health in the face of increasingly complex global health challenges.
+7. Concluding remarks
+This study leverages the air transportation network to quantify the risk of COVID-19 spread across the United States, employing a robust model that ranks counties based on the risk of importing COVID-19-infected passengers.
+Our comprehensive analysis has illuminated the relationships between healthcare capacities, socio-economic factors, and the spread of COVID-19 at both county and regional levels. Through air transportation network modeling, we have demonstrated how variations in healthcare infrastructure, population mobility, and regional characteristics profoundly influence the dynamics of disease transmission. These findings support the multifaceted nature of public health threats and the necessity for equally complex and well-coordinated responses.
+Key takeaways from our study reveal the pivotal role of healthcare resources, especially hospital bed capacities, in mitigating the impact of COVID-19. The stark differences in the effectiveness of these resources between coastal and inland areas pinpoint the importance of geographic-specific strategies in health policy planning. Moreover, the significant influence of mobility, particularly air travel, points to potential high-impact areas for intervention, which could drastically reduce the virus's spread if managed effectively.
+The variations observed between coastal and inland responses to the same health metrics also suggest that a one-size-fits-all approach to public health policy may not be sufficient. Instead, tailored strategies that account for the unique demographic and socio-economic landscapes of different regions are essential for effective disease control and prevention.
+Despite its utility, the proposed model incorporates several limitations that warrant consideration. The inherent unpredictability of COVID-19 spread poses a significant challenge. The model focuses on the relative risk posed by infected air travelers but does not account for the importation of the virus through intermediary hosts, such as pets or wildlife, primarily because the impact of these vectors remains undetermined.
+We also recognize that using annual data for healthcare capacity may introduce inconsistencies with the monthly nature of our dependent variable, which measures the risk of COVID-19 transmission. This discrepancy could affect the precision of our analysis, as healthcare resources may have fluctuated monthly in response to the pandemic. Future research could benefit from more granular, time-sensitive data to better capture the relationship between healthcare capacity and COVID-19 transmission risk.
+Moreover, the reliance on reported case numbers as a proxy for actual cases introduces another layer of uncertainty. These Fig.s do not necessarily reflect the true extent of local outbreaks, due to variations in testing rates and reporting standards across counties. Additionally, while the model aptly assesses the risk of virus importation via air travel, it does not extend to evaluating the subsequent impact of local transmission once the virus is introduced into a community.
+Another constraint is the model's focus on air travel data, which, while accurately capturing human mobility patterns across geographic locations, does not encompass other forms of travel such as road or rail. This limitation restricts our understanding of intra-county mobility dynamics and risks associated with other travel means, thereby potentially overestimating the likelihood of imported cases in high-risk counties with commercial airports.
+Given these limitations, future research should explore the integration of multi-modal travel data. As such, expanding the model to include data from road and rail travel could provide a more comprehensive view of mobility patterns and risk, especially at a more granular geographical level such as cities. Future studies could benefit from integrating data on social distancing measures, lockdown restrictions, and vaccination rates. This would enable a more sophisticated analysis of how these factors interact with healthcare infrastructure and air travel to influence COVID-19 transmission risks.
+CRediT authorship contribution statement
+Jules Yimga: Writing – review & editing, Writing – original draft, Visualization, Validation, Software, Methodology, Investigation, Formal analysis, Data curation, Conceptualization.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.

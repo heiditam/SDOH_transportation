@@ -1,0 +1,220 @@
+Abstract
+This study aims to demonstrate the utility of location-allocation models in promoting spatial justice and enhancing access to primary healthcare services. Given the limitations of healthcare resources, it is essential to develop sustainable and equitable frameworks for primary healthcare. To accomplish this, the study utilizes the Maximum Covering Location Problem (MCLP) to assess the existing level of access in Migori County and to propose a viable approach for improving access. The proposed approach achieved a spatial coverage rate of 96%, a notable improvement compared to the existing rate of 84%. Therefore, the planning intervention serves as a viable spatial framework to complement the implementation of the Kenya Primary Health Care Strategic Framework (2019–2024) within the county. The study concludes by emphasizing the importance of policymakers and healthcare providers prioritizing the elimination of geographical disparities in primary healthcare access to foster spatial justice and an efficient referral system.
+Previous article in issue
+Next article in issue
+Keywords
+Health equity Primary healthcare Network analysis Spatial justice Geographic information systems
+1. Introduction
+Spatial justice is a principled combination of social justice and geography, which aims to achieve equity in the allocation of resources within specific geographic areas (Soja, 2010). Equitable access to healthcare is considered a fundamental human right; however, it is not often materialized, particularly in developing countries that are plagued with poor healthcare systems (Amoah-Nuamah, Agyemang-Duah, Prosper Ninorb, & Gladstone Ekeme, 2023). The 2018 Astana Declaration reaffirmed the significance of spatial justice in accessing primary healthcare services by reducing health disparities and ensuring sufficient geographical access to healthcare services.
+Spatial accessibility may be defined as measure of convenience with which a catchment population can reach a service provider within a predefined (Jankowski & Brown, 2014). This concept is primarily categorized into two categories: potential and revealed accessibility (Penchansky & Thomas, 1981), (Khan, 1992). Access to primary healthcare is vital for promoting quality health and well-being and achieving fair distribution to address health disparities (WHO, 2021).Achieving health equity is necessary to address the social determinants of health, including income inequality (Kondo, 2012), racism (Dai, 2010), (Hamed, Bradby, Ahlberg, & Thapar-Björkert, 2022) geographic access barriers (Huot et al., 2019), organizational barriers (Gulliford et al., 2002), inadequate health workforce, and funding and resource constraints (Bodenheimer & Grumbach, 2020). Equitable access to primary healthcare is a crucial determinant of health quality as it ensures optimal and satisfactory health outcomes.
+Geographical factors such as distance, location and availability of services significantly influence spatial access to primary healthcare, and neglecting these factors perpetuates health inequalities and aggravates health outcomes (Gulliford et al., 2002). Rural populations, in particular, are vulnerable to limited access to primary healthcare because of challenges such as poor road infrastructure, long distances to primary healthcare service providers, and inadequate availability of primary healthcare services (Amoah-Nuamah et al., 2023), (Wakerman et al., 2008). Remarkably, urban populations in low and middle income countries (LMICs) are also experiencing repercussions from inadequate healthcare systems, which is particularly noteworthy. This phenomenon can be attributed to ineffective spatial planning interventions, which have initiated a noticeable reversal in the previously assumed trend of urban advantage (Banke-Thomas et al., 2022).
+A blend of the accessibility concept and spatial justice creates a scenario where a catchment population has a defined minimum level of accessibility to access services while also benefiting vulnerable populations. Limited accessibility options to essential services can lead to social marginalization of low-income individuals, hindering their participation in various community activities within social, cultural, economic, and political domains (Lucas, 2004). Consequently, the social dimension of accessibility tends to favor the affluent, resulting in disproportionate benefits (Soja, 2010). To enhance the role of accessibility, it is important to incorporate the principles of "sufficientarianism" and "egalitarianism" in the allocation of resources and services, ensuring an acceptable level of accessibility for the less well-off members of society (Nazari Adli, Chowdhury, & Shiftan, 2020), (Pereira, Schwanen, & Banister, 2017). Thus, accessibility interventions that promote spatial justice may involve developing walkable and bike-friendly infrastructure, encouraging mixed-use development, fostering community participation, defining accessibility standards, and prioritizing equity in resource allocation (Nabil & Eldayem, 2015)– (Remillard et al., 2022, Tobin et al., 2022).
+Previous studies have employed various methodologies to assess the geographical accessibility of healthcare facilities. These methods include the provider-population ratio (PPR) (Neutens, 2015),Euclidean distance (Guagliardo, 2004), (Noor, Alegana, Gething, & Snow, 2009), gravity models such as 2SFCA and M2SFCA (Delamater, 2013)– (Mcgrail, 2012, Ni et al., 2015, Shaltynov et al., 2022), kernel density estimation (Schuurman, Bérubé, & Crooks, 2010), network analysis (Noor et al., 2009), (Masoodi & Rahimzadeh, 2015), (Owen, Obregón, & Jacobsen, 2010), and cost-distance analysis (Huerta Munoz & Källestål, 2012)– (Ouma et al., 2021, Ray and Ebener, 2008).
+Location-allocation models have become popular because of their ability to assist in health service provision and infrastructure planning by assessing the location and distribution of health service providers relative to service demand, provider capacity, and the accessibility index (Abdelkarim, 2019), (Mitropoulos, Mitropoulos, & Giannikos, 2012). Location-allocation models involve seven types of issue: reducing impedance, maximizing coverage, maximizing capacitated coverage, minimizing facilities, maximizing attendance, maximizing market share, and targeting market share (Rahman & Smith, 2000). These models have been instrumental in modelling and simulating catchment accessibility to healthcare resources and intervening to ensure the equitable distribution of health services (Abdelkarim, 2019), (Polo, Acosta, Ferreira, & Dias, 2015). Nevertheless, location-allocation models exhibit certain drawbacks: tendency to oversimplify real-world intricacies, computational intensity, high sensitivity to data accuracy, and a propensity to neglect social and environmental impacts necessitating supplementary analysis for a comprehensive decision-making process (Rahman & Smith, 2000).
+The Government of Kenya has made substantial efforts to enhance public health, guided by the Kenyan Constitution 2010 and the 2018 Astana declaration. This led to the formulation of the Kenya Primary Healthcare Strategic Framework (2019–2024), aiming to ensure affordable and efficient healthcare service delivery and elimination of community barriers to access. The framework introduced a four-tier system: community units, dispensaries and health centers, primary referral hospitals, and secondary/tertiary hospitals. Dispensaries are the immediate point of contact offering outpatient care, while health centers provide outpatient and inpatient services, including emergency and basic healthcare. Primary referral hospitals serve as referral points, while secondary/tertiary hospitals focus on specialized care, training, and research (Government of Kenya, 2020).
+Transportation modes play an indispensable role in regional development. In Migori County, available transport assets encompass road, water, and air networks. Road transport predominates, featuring international, primary, secondary, tertiary, and rural access roads. However, most rural roads are in dilapidated, impeding timely access to community services (Government of Kenya, 2018). Consequently, motorcycle taxis have emerged as the primary, preferred mode of travel due to their accessibility, affordability, and ability to navigate impassable routes, especially in hinterlands. The use of private cars or public transportation is constrained by impassable roads, fixed schedules, affordability, and the exclusive operation of public vehicles on major urban routes (Obudho, Otengah, & Shivachi, 2020).
+This study aims to investigate spatial accessibility disparities and propose evidence based solutions for distributing primary healthcare facilities providing basic healthcare and both outpatient and inpatient services.
+2. Materials and methods
+2.1. Study area
+Kenya is located in East Africa, occupies an area of around 580,367 square kilometres (Government of Kenya, 2016). It is bordered by South Sudan to the northwest, Ethiopia to the north, Somalia to the east, Uganda to the west, Tanzania to the south, and the Indian Ocean to the east. It is divided into 48 governments, of which 47 are devolved County Governments, each headed by a governor, and one National Government.
+Migori County, situated in western Kenya, is one of 47 counties and encompasses an area of 2596.5 km2, including 478 km2 within the Lake Victoria Basin (Government of Kenya, 2018). It shares borders with Homa Bay County to the north, Kisii and Narok Counties to the east, the Republic of Tanzania to the south, and the Republic of Uganda to the west (Fig. 1) (Figure A1). The county consists of eight administrative sub-counties (Awendo, Kuria East, Kuria West, Nyatike, Rongo, Suna East, Suna West and Uriri) and 40 electoral wards. The elevation within Migori County ranges from 1134m to 1892m, sloping from east to west in accordance with the natural terrain that drains into the Lake Victoria Basin (Figure A2). According to 2019 Population Census, the total population of Migori County was 1,116,436, comprising 536,187 males, 580,214 females, and 35 intersex individuals (Government of Kenya, 2019). The county has an annual population growth rate of 2.38%, projecting a current population of 1,208,466. Most of the population (85%) resides in rural areas (Government of Kenya, 2019).
+Fig. 1
+Download: Download high-res image (594KB)
+Download: Download full-size image
+Fig. 1. The location context of Migori County.
+
+Fig. 2
+Download: Download high-res image (558KB)
+Download: Download full-size image
+Fig. 2. a) Distribution of health facilities b) Distribution of health centers and hospitals.
+
+2.2. Health facility dataset
+The health facility data utilized in this study were derived from an evaluation of the Kenya Master Health Facility List (KMHFL) (Ministry of Health). This dataset was also supplemented with a comprehensive online search across various health facility directories, and sources such as the United Nations Office for the Coordination of Humanitarian Affairs' Humanitarian Data Exchange (UNOCHA HDX) portal. Additionally, data from online Health Management Information Systems like Afya 360 (Afya360) and health information websites of non-governmental organizations (NGOs) operating in the country, such as Life Yangu (Yangu), were incorporated.
+Data accuracy was achieved by performing geocoding on the health facilities using ArcMap, version 10.6 and adjusting to align with the administrative boundaries of Migori County. To validate the precision of the geographical coordinates, we superimposed the dataset onto Google Earth and made necessary rectification for any identified spatial inaccuracies such as duplicate entries.
+For the purpose of this study, which focused on primary healthcare facilities providing basic healthcare services and having both inpatient and outpatient services, we excluded Level 2 and Level 1 health facilities from the analysis. However, during the phase of the planning intervention, Level 2 facilities, specifically dispensaries, were considered to identify those strategically positioned and deserving potential upgrades.
+2.3. Methodology
+In this study, we used ArcGIS 10.6, a product created by the Environmental Systems Research Institute (Esri).Spatial analysis techniques were employed to assess the current spatial accessibility of primary healthcare facilities and to propose evidence-based strategies for enhancing geographic access of basic healthcare facilities in Migori County. First, three separate network dataset was created for different transportation modes: walking, motorcycle taxi and vehicle. Subsequently, demand points were generated using the Worldpop top-down constrained dataset. In this study, we utilized models available in the Network Analyst Toolbox to conduct network analysis, specifically focusing on the service area and location-allocation models.
+Service area analysis and location-allocation analysis played a crucial role in examining the accessibility patterns between demand points and the nearest primary healthcare facilities within a realistic 20-min timeframe. This analysis yielded illustrations of the isochrones and hub-and-spoke diagrams. Furthermore, computations were conducted to determine the percentage of population that could be accessed, thereby estimating the regional spatial accessibility of basic healthcare facilities.
+2.3.1. Modelling of demand points
+The population data obtained from the 2019 Kenyan population census only provides population information within administrative boundaries at the national, county, sub-county, and ward levels. To generate demand points for healthcare access estimation, the WorldPop top-down constrained dataset was utilized (Bondarenko, Kerr, Sorichetta, & Tatem, 2020). This dataset is particularly suitable for estimating healthcare access as it has demonstrated higher accuracy in constraining population enumeration within settlement (Nilsen et al., 2021), (Hierink et al., 2022).The population dataset was further refined by clipping using the Migori County administrative boundary. It was then analyzed by converting it into a vector format, creating a grid of 200m × 200m cells, and considering the centroids of these grid cells as the demand points. Every demand point served as a host for estimating healthcare access to the population.
+2.3.2. Network dataset configurations
+To perform the assessment, a network dataset was created by combining the Kenya Roads Board (KRB) road dataset with road shape files obtained from OpenStreetMap (OSM). The precision of the data was verified by analysing satellite images using Google Earth software. To enhance the accuracy of the dataset, superfluous entries and digitization inaccuracies were eliminated using ArcMap version 10.6.
+2.3.3. Modelling travel time
+This study aimed to establish the length of time it took for patients seeking basic healthcare services to travel from their residences or workplaces to their nearest health center. The analysis considered various variables, including the mode of transportation utilized, speed of travel, and classification of the roads employed. Various speeds were employed for different road classifications. When modeling the walking scenario, Tobler's formula was applied to all road classes to account for variations in the slope across the landscape of Migori County. Motorbikes have a higher speed, with 35 km/h on international trunk roads, 30 km/h on primary and secondary roads, and 20 km/h on rural access roads. Vehicles have the highest speeds: 65 km/h on international trunk roads, 40 km/h on primary and secondary roads, and 25 km/h on rural access roads (Macharia, Mumo, & Okiro, 2021).
+2.3.4. Modelling weekday and weekend facility operation
+The operational status of primary healthcare facilities on weekdays and weekends was obtained from Google Map. Subsequently, the healthcare facility shapefile was classified into two categories: facilities operational only on weekdays and facilities operational on both weekdays and weekends. Using ArcMap version 10.6, a service area analysis was conducted, resulting in the creation of isochrone maps that illustrate the spatial accessibility of primary healthcare facilities during weekdays and weekends.
+2.3.5. Network analysis
+The need to assess regional accessibility and develop data-driven recommendations for enhancing basic healthcare access required the utilization of network analysis tools. This was facilitated through the ArcGIS Network Analyst extension, which is capable of conducting various types of analyses such as routing problems, closest facility problems, service areas, origin-destination cost matrices, and location-allocation analyses. In this study, particular analysis performed were service area and location-allocation analysis.
+i.
+Location-allocation analysis
+The Maximum Covering Location Problem (MCLP) model was utilized in this study to optimize the positioning of pre-determined health service locations within a pre-defined trip impedance cut-off. The MCLP model has four significant constraints, which are: assigning demand to the closest service location within the travel impedance cut-off, specifying the number of service facilities to be chosen (p-service value), and enforcing an integer restriction property on the model's location and allocation variables (Church & ReVelle, 1974). This study applied this model to identify and select demand points that were accessible within a 20-min travel time from the nearest health facility.
+ii.
+Service area analysis
+Service area analysis was conducted using network datasets to create isochrone maps for primary healthcare facilities. Each segment of the map was assigned a cost value depending on either travel time or distance. Previous research, as demonstrated by (Ravelli et al., 2011), has indicated that a motorized travel time exceeding 20 min to a hospital is linked with an elevated risk of mortality. Hence, a travel time impedance of 20 min was adopted in order to illuminate the accessibility patterns of the population at various locations in relation to the nearest healthcare center. The model assumed that individuals seeking primary health services would commence their journey from the demand points towards the nearest basic healthcare provider.
+3. Results
+3.1. Distribution of primary healthcare facilities
+In Migori County, the delivery of healthcare services is structured hierarchically, featuring four tiers of service provision. This hierarchy encompasses different levels, commencing with community units (Level 1), progressing to dispensaries (Level 2), health centers (Level 3), primary referral hospitals (Level 4), secondary hospitals (Level 5), and tertiary hospitals (Level 6). Level 1 primarily delivers community-based healthcare services, while Levels 2 and 3 provide outpatient, emergency, maternity, and fundamental healthcare services. Level 4 concentrates on primary healthcare and functions as a referral hub for primary health centers. Levels 5 and 6 are dedicated to specialized care, training, and research services (Government of Kenya, 2020). Notably, the primary healthcare services are extended from Levels 1 to 4, with Levels 3 and 4 specifically offering basic healthcare services and serving as referral centers for Levels 1 and 2.To meet the healthcare demands and needs of the population, approximately 249 health facilities were distributed throughout the county. Within this network, there were 43 public and 13 private facilities that primarily deliver basic healthcare services. Kuria West Sub-County stands out with the highest number of both public (11) and private (5) health facilities (Fig. 2).
+3.2. Weekday spatial accessibility
+Approximately 12% of the population lived within a walking distance of 20 min to the nearest health center or hospital, whereas the majority (approximately 62 %) resided in areas requiring over 1 h of walking. Nyatike Sub County had the highest percentage, with 80% of the population in areas requiring more than an hour of walking. Additionally, 59% of the population can access the nearest health center or hospital within a walking distance of 5 km (Figure A3). On weekdays, when using a motorcycle taxi, 84% of the population could reach a basic healthcare facility within 20 min. The best spatial accessibility to public facilities, reaching 99.69%, was observed in Kuria East Sub-County, while the lowest spatial accessibility was in Nyatike Sub-County, with only 64% being able to access such facilities within a 20-min travel period. In terms of private facilities, Kuria West Sub-County had the highest spatial accessibility (68 %). Using a vehicle to access a health center or hospital meant that 92% of the demand points were reachable within a 20-min timeframe (Fig. 3) (Table A1).
+Fig. 3
+Download: Download high-res image (1MB)
+Download: Download full-size image
+Fig. 3. Weekday spatial accessibility of Primary healthcare facilities.
+
+Table 1. Enhancing spatial accessibility on the weekdays.
+
+Sub county	Population Coverage	% Coverage
+Awendo	131,847	96%
+Kuria East	133,838	99.69%
+Kuria West	188,244	98%
+Nyatike	165,252	90%
+Rongo	129,212	98%
+Suna East	119,964	96%
+Suna West	115,041	98%
+Uriri	146,897	99%
+3.3. Weekend spatial accessibility
+During weekends, only 7% of the population could reach the nearest health center or hospital within a 20-min walk, while the majority, which accounted for 77% of the population, had to walk for more than an hour to access primary healthcare. Furthermore, 35% of the population had to walk for over 3 h to reach the nearest health center or hospital, with the majority of population (81%) located in Nyatike Sub County. During the weekend, merely 35% of the population can access the nearest health center or hospital within a walking distance of 5 km (Figure A3). When opting for a motorcycle taxi for transportation, 60% of the population could conveniently reach the nearest health facility within a 20-min timeframe. There was significant variation in spatial accessibility by motorbike, with Kuria East (86%) and Nyatike (20%) sub-counties demonstrating high and low accessibility, respectively. Using a vehicle for access, 75% of the population could reach the nearest public health facility within 20 min (Fig. 4) (Table A2).
+Fig. 4
+Download: Download high-res image (1MB)
+Download: Download full-size image
+Fig. 4. Weekend spatial accessibility of primary health facilities.
+
+Table 2. Enhancing spatial accessibility on the weekends.
+
+Sub county	Population Coverage	% Coverage
+Awendo	125,161	91%
+Kuria East	126,072	94%
+Kuria West	183,363	95%
+Nyatike	161,361	88%
+Rongo	126,038	95%
+Suna East	114,118	91%
+Suna West	113,610	97%
+Uriri	133,405	89%
+3.4. Planning intervention
+The objective of healthcare service delivery is to promote the overall welfare of the population. Nevertheless, if the distribution of these services is not carefully planned and rational, it may result in problems such as exploitation by market forces, overlapping service areas, wastage of healthcare resources, and regional imbalances. This study sought to develop an effective spatial strategy for enhancing community access to basic healthcare services.
+The adoption of the Kenya Primary Healthcare Strategic Framework (2019–2024) resulted in the elevation of dispensaries functions to level 3 status (health centers), enabling them to offer outpatient services. To improve the geographical accessibility of primary healthcare, with a specific emphasis on basic healthcare providers offering both inpatient and outpatient services, a travel time of 20 min threshold was used. This choice was influenced by the fact that a motorized travel time exceeding 20 min to a hospital is linked to a higher risk of mortality (Ravelli et al., 2011). Motorcycle taxi was the primary and most preferred means of travel because they are readily available, economical, and convenient, and they allow for easier penetration of impassable roads into the county's hinterland (Obudho et al., 2020). Therefore, the motorcycle transportation model was employed to make proposals for enhancing the catchment populations' capacity to access health services at local primary healthcare facilities.
+3.4.1. Enhancing spatial accessibility on weekdays
+Recognizing dispensaries as immediate points of contact for communities, the upgrade of selected dispensaries to level three status was targeted to reduce the travel burden for primary healthcare. The existing network of basic healthcare service providers ensures 84% spatial accessibility for the population within a 20-min ride. Nevertheless, disparities in spatial accessibility were revealed in Nyatike, Suna West, and Uriri Sub-Counties. By leveraging location-allocation models, 137 public dispensaries were evaluated for potential upgrades to function as basic healthcare providers-health centers or hospitals. Consequently, the model pinpointed ten optimal dispensaries that would significantly improve spatial access for the county's population across different demand points, raising spatial access to 96% within a 20-min timeframe (Table A3). Notably, every sub-county achieved spatial accessibility exceeding 90%. Suna West Sub-County saw the most significant increase in spatial coverage, rising from 71% to 98%, while Kuria East Sub-County exhibited the highest spatial accessibility at 99.69% (Table 1) (Fig. 5). Notably, the model's reliance on existing road networks suggests that even substantial improvements in spatial accessibility could be achieved by revamping rural road infrastructure.
+Fig. 5
+Download: Download high-res image (812KB)
+Download: Download full-size image
+Fig. 5. Planning Intervention for weekday spatial accessibility.
+
+3.4.2. Enhancing spatial accessibility on weekends
+During weekends, the spatial accessibility of basic healthcare services from both public and private health facilities stood at 60%. To enhance the coverage of healthcare services for the population, it is quintessential to evidence-basely identify existing health facilities that could be upgraded to operate during weekends. The location-allocation model considered two potential inputs for selection: existing public health facilities that are non-operational on weekends and dispensaries that were previously identified as candidates for upgrades in the weekday location-allocation analysis.
+The results of the location-allocation analysis indicated that strategically upgrading the selected candidate facilities would elevate spatial accessibility to basic healthcare from 60% to 92%. The highest spatial accessibility of 97% was achieved in Suna West Sub-County. Eight dispensaries that were recommended for upgrades to improve weekday spatial accessibility were also taken into account for weekend operations. Additionally, based on the location-allocation analysis, six health centers and five sub-county hospitals were identified as candidates for upgrading their capabilities to include weekend operations (Table A4) (Fig. 6).
+Fig. 6
+Download: Download high-res image (764KB)
+Download: Download full-size image
+Fig. 6. Planning Intervention for weekend spatial accessibility.
+
+4. Discussions
+This study revealed the impact of organizational barriers on access to efficient and effective primary healthcare in Migori County. The availability of primary healthcare services in Migori County is influenced by operational barriers related to operating facility hours. For instance, while the existing spatial accessibility of health center or hospital by motorcycles was 84%, it drops to 60% when examined in the context of a weekend facility operation. The limited operating hours of health facilities on the weekends pose a significant hindrance to the provision of primary healthcare services. This situation exacerbates the community's quality of life and health outcomes (Gulliford et al., 2002).
+The analysis of spatial accessibility during weekdays and weekends provides insights into the accessibility dynamics of primary healthcare, and highlights the vulnerability of different demand locations to spatial injustices. In particular, on weekends, the county's western region demonstrated severe spatial injustices. For instance, in Nyatike Sub County, 81% of the population had to walk for more than 3 h to reach the nearest health center or hospital. Health policymakers should use GIS-based spatial analysis to identify underserved regions and prioritize resource allocation. Furthermore, it is crucial to ensure the operation of primary healthcare service providers round the clock to ensure service availability whenever patients require it. Additional measures to address spatial injustices can involve computing a social vulnerability index, assessing walkability and bikeability, employing multi-criteria decision analysis, and community participation.
+The rural areas of Migori County, which are home to the majority of the population, experience low spatial accessibility because of poor transport networks and infrastructure. Rural access roads are in poor condition and dilapidated (Government of Kenya, 2018), restricting the accessibility by vehicles. The low socioeconomic status and inadequate transport infrastructure have resulted in heavy reliance on motorcycle taxis to meet the community's mobility needs (Obudho et al., 2020). Investment in road infrastructure could diversify mobility options and reduce travel time to services, thereby improving spatial access to primary healthcare services.
+The planning intervention focused on elevating ten strategically positioned dispensaries to level three status in order to rectify spatial inequalities and enhance a smooth horizontal and vertical referral system among primary healthcare facilities, spanning from level one to four. Furthermore, to enhance spatial accessibility during the weekends, it is recommended to upgrade six strategically located health centers and five hospitals to be operational during weekends. It's important to note that an enhancement in rural transport infrastructure has the potential to reduce the necessity for additional upgraded dispensaries. These proposed planning interventions are not only cost-effective but also immediately feasible, aligning with the objectives of Kenya Vision 2030 and the Astana Declaration (Government of Kenya, 2008), (WHO, 2018).
+The application of location-allocation models in the distribution of resources has been hailed for evidence-based spatial intelligence necessary for the efficient allocation of resources and services. Central place theory, first proposed by Walter Christaller, has a strong relationship with the deliverables of location–allocation models (Christaller & Baskin, 1966). The models transcend the traditional central place theory by enabling the identification of underserved central places. This research also, in its employment of location-allocation models, massively informs the planning intervention to optimize primary healthcare service provision in Migori County. Therefore, location-allocation models have become indispensable regional planning tools for governments and decision-makers when it comes to placement decisions, effective distribution of resources and services, and enhancement the cost-effectiveness and efficiency of service delivery (Rahman & Smith, 2000), (Polo et al., 2015), (Yousefi, Yousefi, & Fogliatto, 2020), (Fisher & Rushton, 1979).
+This study has some limitations and assumptions. First, owing to the unavailability of household-level population data within the county, the population data were limited to County, Sub-County, and Ward levels. Consequently, to enhance the precision of healthcare accessibility modeling, demand points were derived from the WorldPop top-down constrained dataset (Bondarenko et al., 2020). Second, the motorbike travel model was adopted to compute potential travel impedances in the development of the planning intervention because the regional landscape of Migori County is predominantly rural-based (Government of Kenya, 2018) and the primary mode of transport in accessing public services within the county is through the use of motorbikes (Obudho et al., 2020). Finally, a 20-min acceptable time limit was applied to model the planning intervention for weekday and weekend spatial accessibility. Subject to the poor road network configurations and infrastructure in the county (Government of Kenya, 2018) and the adoption of speeds employed in previous studies (Macharia et al., 2021), a 20-min travel by a patient on a motorcycle taxi corresponds to a minimum distance of 7 km from the nearest healthcare facility. Extending the acceptable travel time implies a proportional increase in both the distance and strain of access if a patient opts to explore other modes of transportation such as walking.
+5. Conclusion
+Promoting spatial justice in access to primary healthcare is crucial for fostering sustainable and prosperous communities. This study examined the spatial aspects of primary healthcare service coverage and introduced a planning intervention designed to enhance the spatial equity of health infrastructure in Migori County. The essential upgrade of strategically positioned healthcare facilities was identified as a crucial step in establishing an effective and convenient system for patient referrals among the four tiers of primary healthcare facilities. It is important to accompany evidence-based health resource allocations with substantial investments in revitalizing transportation infrastructure in rural areas to facilitate widespread and timely access to public facilities. Further studies should assess the health outcomes of a county's primary healthcare facilities. Capacitated coverage by healthcare providers is vital for monitoring the efficiency and effectiveness of healthcare infrastructure and identifying healthcare facilities in need of renovation or additional personnel.
+CRediT authorship contribution statement
+Antony Ondiwa Okundi: Conceptualization, Methodology, Writing – original draft, Visualization. Cigdem Varol: Methodology, Writing – review & editing, Supervision.
+Declaration of competing interest
+The authors declare no conflicts of interest that could influence the results or interpretation of this manuscript. We have no financial or personal relationships with any individuals or organizations that could inappropriately influence our work, and there are no competing interests to disclose.
+Abbreviations
+2SFCA
+Two-step floating catchment area
+DEM
+Digital Elevation Model
+GIS
+Geographical Information System
+KMHFL
+Kenya Master Health Facility List
+KRB
+Kenya Roads Board
+LMICs
+Low and Middle Income Countries
+M2SFCA
+Modified Two-step floating catchment area
+MCE
+Multi-Criteria Evaluation
+MCLP
+Maximum Covering Location Problem
+MoH
+Ministry of Health
+OSM
+OpenStreetMap
+PPR
+Provider-Population Ratio
+WHO
+World Health Organization
+UNOCHA
+United Nations Office for the Coordination of Humanitarian Affairs
+Appendix.
+Table A 1. Weekday spatial accessibility of Primary Healthcare Facilities (level 3–4)
+
+Transport model	Population Coverage within 20 min
+Awendo	Kuria East	Kuria West	Nyatike	Rongo	Suna East	Suna West	Uriri
+Walking	Public facility	4000	10,884	54,109	11,862	11,273	14,528	3517	5471
+Private facility	2816	0	19,536	0	9498	2042	17,968	0
+Both	5167	10,894	61,532	11,862	14,544	14,528	19,055	5471
+Motorbike	Public facility	108,916	133,838	188,060	118,398	129,107	101,930	80,709	110,041
+Private facility	78,556	14,399	134,932	0	89,698	70,300	54,097	30,107
+Both	110,210	133,838	188,244	118,398	129,212	105,384	83,313	110,041
+Vehicle	Public facility	125,856	134,240	191,982	149,624	130,911	117,730	100,952	128,034
+Private facility	111,391	29,951	175,571	0	120,710	100,084	63,394	64,323
+Both	125,948	134,240	191,982	149,624	130,911	120,150	101,501	128,034
+Table A 2. Weekend spatial accessibility of Primary Healthcare Facilities (Level 3–4)
+
+Transport model	Population Coverage within 20 min
+Awendo	Kuria East	Kuria West	Nyatike	Rongo	Suna East	Suna West	Uriri
+Walking	Public facility	0	7331	20,575	5166	8781	11,626	3109	5471
+Private facility	0	0	15,893	0	3863	0	0	0
+Both	0	7331	34,870	5166	10,714	11,626	3109	5471
+Motorbike	Public facility	59,947	114,114	135,210	36,270	88,155	90,538	45,883	107,097
+Private facility	7396	11,812	128,687	0	77,401	12,253	37,651	0
+Both	59,947	115,157	156,574	36,270	88,278	90,538	49,171	107,097
+Vehicle	Public facility	115,146	132,652	172,729	45,975	113,996	113,592	55,710	122,858
+Private facility	38,232	27,142	167,806	0	106,916	65,270	58,466	5778
+Both	115,146	133,353	178,291	45,975	113,996	113,592	59,145	122,858
+Table A3. Proposed dispensaries for upgrade to health centers
+
+MFL Code	High priority dispensary
+13,486	Arombe Dispensary
+13,494	Bande Dispensary
+16,270	Kombato Dispensary
+16,273	Namba Kodero Dispensary
+13,844	Ndiwa Dispensary
+13,885	Nyakuru Dispensary
+13,960	Ogada Dispensary
+13,999	Otati Dispensary
+22,348	Nyamage Dispensary
+25,182	Rae Kondiala Dispensary
+Table A4. Proposed health facilities for upgrading to operate on weekends
+
+MFL Code	High priority dispensary	MFL Code	High priority dispensary
+13,486	Arombe Dispensary	22,348	Nyamage Dispensary
+13,492	Awendo Sub-County Hospital	13,897	Nyamaraga Sub County Hospital
+13,494	Bande Dispensary	20,568	Obware Health Centre
+16,270	Kombato Dispensary	13,960	Ogada Dispensary
+13,740	Lwala Community Hospital	13,969	Ogwedhi Health Centre
+13,779	Masaba Health Centre	13,989	Ongo Health Centre
+13,833	Muhuru Sub County Hospital	13,999	Otati Dispensary
+16,273	Namba Kodero Dispensary	14,149	Tisinye Health Center
+13,844	Ndiwa Dispensary	14,170	Wath Onger Health Center
+13,885	Nyakuru Dispensary		
+Fig. A 1
+Download: Download high-res image (659KB)
+Download: Download full-size image
+Fig. A 1. Migori County Basemap.
+
+Fig. A 2
+Download: Download high-res image (493KB)
+Download: Download full-size image
+Fig. A 2. The Slope and Topography of Migori County.
+
+Fig. A 3
+Download: Download high-res image (398KB)
+Download: Download full-size image
+Fig. A 3. Spatial accessibility of Primary healthcare facilities (Level 3–4).
+
