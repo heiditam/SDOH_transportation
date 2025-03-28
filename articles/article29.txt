@@ -1,0 +1,287 @@
+Abstract
+Objective
+We evaluated community pharmacists' perspectives on addressing social determinants of health for their patients in the United States.
+Methods
+From 9/2022—1/2023, we conducted a national, online survey of 578 pharmacists to evaluate their perspectives on social barriers affecting their patients, their pharmacy staff's ability to address these social barriers, and resources available or needed to address barriers.
+Results
+Healthcare access and quality was perceived as the most addressable social barrier (59 %), while education (24 %) and neighborhood/built environment were perceived as the least addressable (14 %). Staff capacity to address social needs was significantly associated with increases in the pharmacy's ability to address social determinants of health across all five domains. Pharmacists were more likely to report adequate staff capacity if they practiced in independent community pharmacies.
+Conclusions
+Pharmacists commonly address social determinants of health of their patients, but most lack adequate staff capacity to address patient social barriers. Pharmacies with capacity can only address a portion of the social needs of their patient population. Greater access to resources and staffing support are needed to improve pharmacy's role in addressing patient unmet social needs.
+Previous article in issue
+Next article in issue
+Keywords
+PharmacyPharmacistSocial Determinants of HealthSocial BarriersSocial Care
+1. Introduction
+Social determinants of health (SDOH) are “the conditions in which people are born, grow, work, live, and age, and the wider set of forces and systems shaping the conditions of daily life” (The Centers for Disease Control and Prevention. Social Determinants of Health at CDC. January 17, 2024). SDOH can significantly impact health risks and outcomes. Exposure to social factors such as unsafe housing, poverty, and lack of health insurance can impact patients' adherence to treatments and contribute to unequal access to healthcare resources, worse health outcomes and significant economic impacts (Foster et al., 2022; Kiles et al., 2021). SDOH are responsible for up to 90 % of health outcomes and while healthcare providers recognize the importance of social factors on patients' overall health and well-being, many providers express not having the time, resources, or skills to address these underlying issues (Foster et al., 2021). Current strategies to address social risk factors in primary care settings include using specialized screening tools (Health Resources and Services Administration. RHIhub - rural health information hub. Tools to Assess and Measure Social Determinants of Health - RHIhub Toolkit. March, 2020), implementing telehealth services, and providing translators to offer healthcare services in languages other than English (U.S. Department of Health and Human Services - Office of Disease Prevention and Health Promotion. Access to Primary Care - Healthy People 2030, 2025). Strategies to expand SDOH screening through leveraging different practice settings can have a positive impact on addressing social risk factors.
+Community pharmacies are the most accessible healthcare setting in the United States (US) and are promising venues to complement current SDOH screening and intervention efforts. Most US residents (89 %) live within 5 miles of a community pharmacy (Berenbrok et al., 2022), and availability of pharmacy locations is 15 % higher than physician practices in low-income areas (Popovian et al., 2022). Many pharmacies are already playing a role in addressing some health inequities like recommending cost-effective medications to address affordability barriers or offering home delivery services to address transportation barriers (Foster et al., 2022). Embedded in the community and evolving from a focus on dispensing medical products (e.g., prescription medications) to holistic patient care, community pharmacies are well positioned to play a major role in addressing SDOH and supporting patients with unmet social needs (Foster et al., 2021).
+Currently, there is limited empirical research on SDOH assessments in pharmacy practice. Some pharmacies have incorporated community health workers (CHW) and SDOH specialist programs to address social barriers (Foster et al., 2023). However, these programs have limited implementation, like in a subset of independently owned pharmacies affiliated with the Community Pharmacy Enhanced Services Network (CPESN), a national pharmacy-based practice research network (Foster et al., 2022; Foster et al., 2021). Additionally, the effectiveness of these programs in specialized pharmacy settings, such as within a closed-door health-system owned specialty pharmacy, may have limited translation to the workflows and staffing models within general community pharmacies (Han et al., 2024). Current research does not provide a national perspective on pharmacies' ability to implement SDOH interventions in communities. Our objective was to evaluate pharmacists' perspectives on social determinants of health by identifying social barriers affecting patients, assessing pharmacy staffs' ability to address barriers, and determining what resources are available or needed to address patient social barriers in pharmacies.
+2. Methods
+2.1. Participants and procedures
+Our national survey included US pharmacists as part of online market research panels contracted with Qualtrics XM, a survey company. As no comprehensive sampling frame exists for pharmacists, respondents were sampled using purposive sampling from these three market research panels. Panel 1 consisted of a nationwide sample of pharmacists  who double opted into the panel, and all members were verified through their state issued pharmacist license. Panel 2 consisted of pharmacist members of an American Medical Association (AMA) database who double opted-in and whose credentials were verified by a panel management team. Panel 3 consisted of pharmacist members who were recruited through internal referrals and social media posts or who were members of existing market panels purchased by a vendor contracted with Qualtrics XM.
+Eligible participants for our survey must have been a licensed pharmacist practicing primarily in a community pharmacy in the US. We applied non-mutually exclusive sampling quotas to ensure that about one-third practiced at independently owned pharmacies and half of respondents were women (±10 %). Respondents provided informed consent and completed the survey between September 2022 and January 2023. Qualtrics XM compensated panel members for completing the survey.  A total of 1452 pharmacists accessed our survey. After accounting for ineligible panel members using screening questions (Not practicing in community pharmacy: n = 279; Not currently practicing as a licensed pharmacist: n = 112), excluding participants whose survey responses were flagged for data quality issues (Failed reCAPTCHA or bot: n = 10; Duplicate surveys: n = 6; Speeding: n = 67), the analytic sample for this study was 578. Excluding ineligible respondents who accessed our survey (n = 474), the adjusted survey response rate was 59 % (578/978). Respondents came from 46 states, Washington D.C., and Puerto Rico, were an average of 47 years old, practiced pharmacy for an average of 21 years, half female, and primarily non-Hispanic White (Table 1).
+Table 1. Summary statistics of pharmacist and pharmacy characteristics from the National PharmFIT™ Survey (n = 578).
+
+Empty Cell	n (%) or Mean (SD)
+Pharmacist characteristics	
+Age	47 (11)
+Gender	
+ Male	293 (51)
+ Female	280 (48)
+ Non-binary	5 (1)
+Race	
+ White	446 (78)
+ Black or African American	24 (4)
+ Asian	74 (13)
+ Other or multiracial	30 (5)
+Ethnicity	
+ non-Hispanic	551 (95)
+ Hispanic	27 (5)
+Pharmacist role	
+ Pharmacy owner	35 (6)
+ Pharmacist-in-charge or manager	243 (42)
+ Staff pharmacist	298 (52)
+Education	
+ Doctor of Pharmacy (PharmD)	365 (63)
+ Bachelor or Masters in Pharmacy	211 (37)
+Residency or fellowship training	
+ No	517 (90)
+ Yes	59 (10)
+Board certification in pharmacy specialty	
+ No	505 (87)
+ Yes	73 (13)
+Additional credentials or traininga	
+ Vaccination	548 (95)
+ Pain management	10 (2)
+ Diabetes therapy	78 (13)
+ Asthma therapy	31 (5)
+ Anticoagulation therapy	24 (4)
+ Tobacco cessation	44 (8)
+ Academy's HIV pharmacist (AAHIVP)	14 (2)
+ Other certification or training	39 (7)
+Years in practice	21 (11)
+US region of practice	
+ Northeast	120 (22)
+ South	231 (42)
+ Midwest	142 (26)
+ West	57 (10)
+
+Pharmacy characteristics	
+Pharmacy ownership structure	
+ Independent community pharmacyb	181 (31)
+ Small group of community pharmacyc	49 (8)
+ Regional chain community pharmacyd	56 (10)
+ National chain community pharmacye	209 (36)
+ Supermarket pharmacy	83 (14)
+Metro	
+ Yes	471 (81)
+ No	107 (19)
+Operating days	
+ Monday - Friday (weekdays)	533 (100)
+ Saturday	470 (88)
+ Sunday	327 (61)
+Volume of Prescriptions per Week	
+ Low volume (0–999)	188 (33)
+ Medium volume (1000–2499)	285 (50)
+ High volume (2500+)	102 (18)
+Mail order services	
+ No or unsure	397 (69)
+ Yes	178 (31)
+Home delivery services	
+ No or unsure	132 (23)
+ Yes	446 (77)
+Patient care servicesa	
+ Vaccinations	528 (91)
+ Point of care testing (COVID-19, strep, influenza, HIV, HgA1c)	309 (53)
+ Smoking or tobacco cessation	234 (40)
+ Genetic testing	24 (4)
+ Travel medicine	182 (31)
+ Chronic disease management and education	280 (48)
+ Urgent care	63 (11)
+ Multidose compliance packaging	196 (34)
+ Medication synchronization	432 (75)
+ Other patient care services	33 (6)
+Accepted insurance typesa	
+ Private or commercial health	569 (98)
+ Medicare	553 (96)
+ Medicaid or any kind of government-assistance plan	546 (94)
+ Tricare or other military healthcare	377 (65)
+ VA healthcare	139 (24)
+ Indian Health Service	42 (7)
+ Other	21 (4)
+Notes. Other certification or training included: certified contraceptive prescribing, travel health, etc.
+Other patient care services included: home medical equipment, compounding, etc.
+a
+Select all that apply question, thus percentages add up to more than 100 %.
+b
+Fewer than 4 stores under the same ownership.
+c
+4 to 10 stores under the same ownership.
+d
+More than 10 stores under the same ownership, primarily located in a specific state or region.
+e
+More than 10 stores under same ownership with stores located across the count.
+2.2. Human Subjects Review
+The Institutional Review Boards at the University of North Carolina at Chapel Hill approved the study protocol (IRB #18–1337).
+2.3. Measures
+2.3.1. Survey item development
+This study was a part of The National PharmFIT™ Pharmacist Survey. The survey instrument was designed by our research team comprising health services researchers, pharmacists, and physicians. The survey contains 81 items, including prompts, and consisted of newly developed items and items adapted from published sources (Brenner et al., 2023; Daly et al., 2021; Pankratz et al., 2002; Shah et al., 2023). The research team conducted cognitive interviews with pharmacists in NC and WA focused on the clarity and validity of newly developed items. Qualtrics XM then pretested the instrument with 63 community pharmacists from two survey panels (Panel 1 and Panel 2) to ensure proper survey functionality across all items. The entire survey instrument can be accessed online here: https://dataverse.unc.edu/dataverse/cpcrn-4cnc-pharmfit.
+2.3.2. Social determinants of health
+SDOH survey items within the National PharmFIT™ Survey were adapted from a previous study (Daly et al., 2021). A total of 10 survey items asked pharmacists about SDOH. Survey items asked participants to consider the pharmacy they primarily work at and identify social barriers affecting their patients, their pharmacy's ability to address barriers, resources available to address social barriers, and additional resources that may help to better address social barriers. We defined social determinants of health using the Centers for Disease Control and Prevention (CDC) definition (The Centers for Disease Control and Prevention. Social Determinants of Health at CDC. January 17, 2024).
+First, the survey asked respondents what proportion of their patient population experienced social barriers (1–25 %, 26–50 %, 51–75 %, 75–100 %, none, or I don't know). Respondents who reported spending time addressing patients' social barriers received follow-up questions assessing how often they spend time addressing patients' social barriers (never, rarely, sometimes, often, always), which barriers their patients' experience, which barriers they believe their pharmacy can address, and how do they find out if a patient is experiencing a social barrier. Respondents who did not report any time spent addressing social barriers were not asked about the social barriers experienced by their patients but were still asked about perceived ability to address social barriers as well as pharmacy capacity to address social barriers. Social barriers included: 1) Food insecurity; 2) Transportation; 3) Low income; 4) High medication costs; 5) Low education level; 6) Exposure to crime or violence; 7) Language barrier; 8) Lack of insurance coverage; 9) Cultural/religious difference; 10) Lack of primary care physician; 11) Lack of or limited access to telecommunication methods; 12) Lack of consistent residence or address; 13) Unsafe housing; 14) Lack of social support for the patient (e.g., lack of caregiver); or 15) Other. Barriers were grouped into SDOH categories defined by Healthy People 2030 (The Centers for Disease Control and Prevention. Social Determinants of Health at CDC. January 17, 2024): Economic stability (1,2,3), Education (5), Neighborhood and built environment (11,12,13), Social and community context (6, 7, 9, 14), and Healthcare access and quality (4, 8, 10).
+Two survey items assessed pharmacy personnel's capacity to address patient social barriers: 1) whether the respondent felt their pharmacy was adequately staffed to address social barriers, and 2) if their staff were able to step out of their workflow to help patients with the social barriers they experience. These items had a 5-point response scale that ranged from “strongly disagree” (1) to “strongly agree” (5). These two items that measure pharmacy staff's capacity to address social barriers were dichotomized: strongly disagree to neither agree or disagree were recoded as “inadequate capacity” (0) and agree or strongly agree as “adequate capacity” (1). One survey item asked respondents what resources they used to address barriers their patients experience, followed by another item asking respondents to list additional resources they believed would help address social barriers affecting their patients. Finally, respondents were asked how they learned about the social barriers experienced by their patients (asking them, patient shares information, family member, primary care provider, other).
+2.3.3. Pharmacy services
+The survey asked respondents about the pharmacy they primarily work at, the pharmacy's ownership structure (independent, small group, regional chain, national chain, supermarket), ZIP code, and the types of patient care services that are provided there (vaccinations, point of care testing, smoking or tobacco cessation, genetic testing, travel medicine, chronic disease management and education, urgent care, multidose compliance packaging, medication synchronization, other patient care services). The number of patient care services provided at each pharmacy was summed resulting in a new count variable. Zip code was used to determine United States region (South, West, Midwest, Northeast) and rurality of the pharmacy using RUCA codes (in metro area RUCA<4, not in metro area
+4) (USDA Economic Research Service, 2024). Respondents reported on accepted insurance types in their pharmacy (private, Medicare, Medicaid or any kind of government-assistance plan, Tricare or other military, VA healthcare, Indian Health Services, Other) and the volume of prescription medications filled per week as a measure of business. Volume of prescription medications filed per week was asked as a numeric value and collapsed into three volume categories (low volume (0–999), medium volume (1000–2499), and high volume (2500+)). In two items, respondents were asked if their pharmacy provided mail order (yes/no) as well as home delivery (yes/no). These items were collapsed to a single indicator of if pharmacies provided mail order or home delivery (1) or neither (0).
+2.3.4. Demographic characteristics
+The survey assessed participants' background in pharmacy including their role (pharmacy owner, pharmacist-in-charge or manager, staff pharmacist), degree (doctor of pharmacy, bachelor or masters in pharmacy), years in practice (numeric value), board certification in pharmacy specialty (yes/no), currently completing or has previously completed a pharmacy practice residency or fellowship (yes/no) and additional credentials or trainings (vaccination, pain management, diabetes therapy, asthma therapy, anticoagulation therapy, tobacco cessation, Academy's HIV pharmacist, other). Additionally, items assessed demographic characteristics including age (numeric value), gender (male, female, non-binary), race (White, Black or African American, Asian, Other or multiracial), and ethnicity (non-Hispanic, Hispanic). Some demographic categories shown were collapsed due to small sample sizes. The entire survey instrument can be accessed online here: https://dataverse.unc.edu/dataverse/cpcrn-4cnc-pharmfit.
+2.4. Data Analysis
+2.4.1. Characterizing pharmacy staff capacity to address social barriers
+We first summarized respondents' demographic and pharmacy characteristics. We then describe the proportion of pharmacists who reported their patients experiencing each social barrier and the proportion of pharmacists who perceive they can address each social barrier at their pharmacy. We used chi-squared tests to assess the association of pharmacy staff capacity to address social barriers with pharmacists' perceptions of their ability to address social barriers in each domain.
+2.4.2. Correlates of pharmacy staff capacity to address social barriers
+We conducted multivariable logistic regression to evaluate correlates of pharmacy staff capacity to address social barriers of patients. The outcome, “adequate staff capacity to address social barriers”, was created using the two dichotomized capacity items described earlier. A pharmacy had adequate staff capacity if the pharmacist indicated their pharmacy was adequately staffed to address social barriers and staff could step out of workflow to address patient social needs. Otherwise, the pharmacy was considered to have inadequate capacity. Logistic regression covariates included pharmacist demographics including number of years in practice, gender, race, role at pharmacy, residency training, board certification, and number of hours practicing per week. Covariates also included pharmacy characteristics such as US region, rurality, pharmacy ownership structure, prescriptions per week, availability of patient care services, and ability to provide mail order or home delivery. Pairwise correlation coefficients of covariates were calculated using Pearson correlation tests prior to fitting the logistic regression model. Pharmacist age was omitted from the model due to high correlation with number of years in practice. No other pair of covariates had a concerning correlation coefficient 
+.
+2.4.3. Resource needs to address social barriers
+We conducted a qualitative content analysis on the open-ended survey question asking respondents what resources are needed to better address patient social needs (Elo and Kyngäs, 2008; Galura et al., 2022). Responses to open-ended questions were sorted into thematic content categories relating to specific resource needs by ARW and KAM. Any discrepancies were discussed among coders and resolved by the corresponding author PDS; the coding of all responses was agreed upon using coder consensus (Campbell et al., 2013). We created a mixed-method display to show the resources that pharmacists reported using to address social needs side-by-side with thematic categories from the open-ended responses regarding needed resources.
+Data cleaning and analysis were conducted using Stata 17 (College Station, TX). Qualitative analyses were conducted using Microsoft Excel and Word. All statistical tests were two-tailed with a critical alpha = 0.05.
+3. Results
+3.1. Pharmacists' appraisal of patients' social needs
+Pharmacists recognize that there are significant social barriers in their patient populations (Table 2). Over a third of survey respondents (36 %; 209/578) identified that more than a quarter of their patients experience social barriers that they spend time addressing. At the same time, only 3 % (17/578) of pharmacists reported that none of their patients experience social needs that they spend time addressing. Pharmacists identified that their patients are experiencing social barriers through a variety of ways, including: patient shares information (85 %; 494/578); family member/caregiver shares information (43 %; 251/578); pharmacist directly asks the patient (25 %; 144/578); or primary care provider notifies the pharmacist (19 %, 112/578).
+Table 2. Frequency of patients' social needs reported by pharmacists from the National PharmFIT™ Survey (n = 578).
+
+Empty Cell	n (%)
+How pharmacists report finding out about patients' social barriersa	
+ I ask them	144 (25)
+ Patient shares information	494 (85)
+ Family member/caregiver shares information	251 (43)
+ A primary care provider tells me	112 (19)
+ Other	10 (2)
+ Not applicable	19 (3)
+Pharmacy capacity to address social barriersb	
+ Adequate capacity to address social barriers	177 (31)
+ Inadequate capacity to address social barriers	401 (69)
+Ability to step out of workflow to address social barriers	
+ Yes	250 (45)
+ No	320 (55)
+Adequately staffed to address social barriers	
+ Yes	208 (36)
+ No	370 (64)
+Note. aSelect all that apply question, percentages may add up to more than 100 %.
+bCapacity is defined as having both the ability to step out of workflow and adequate staffing to address social barriers.
+In addition to reporting many unmet social barriers, most pharmacists expressed not feeling adequately equipped to address social barriers in their patient populations. A little over a third of pharmacists (36 %; 208/578) agreed that their pharmacy was adequately staffed to help patients with the social barriers they experience. Likewise, less than half of pharmacists (45 %; 258/578) agreed that their pharmacy staff can step out of their workflows to address social barriers. Overall, less than a third of pharmacists (31 %; 177/578) reported that their pharmacies had adequate staff capacity to address social needs (i.e., are adequately staffed and staff can step out of their workflow).
+3.2. Pharmacist perceptions of and ability to address social barriers experienced by patients
+Patient social barriers were grouped into five SDOH domains (Fig. 1; Table 3). For economic stability, pharmacists perceived low-income (68 %; 382/561) and transportation (48 %; 269/561) to be the largest barriers their patients experience. Over half of pharmacists indicated that low educational attainment (57 %; 317/561) was a social barrier for their patients. Among neighborhood and built environment, access to telecommunication (30 %; 167/561) was the most reported barrier. For social and community context, language barriers (45 %; 252/561) and lack of social support (43 %; 240/561) were the largest barriers perceived by pharmacists. Lastly, high medication costs (65 %; 365/561) and lack of insurance coverage (62 %; 348/561) were the largest barriers in healthcare access and quality. Of these identified social needs, the most common barriers pharmacists believed their pharmacy could address included high medication costs (38 %; 220/578), lack of insurance coverage (33 %; 190/578), language barrier (30 %; 175/578) and low educational attainment (24 %; 141/578).
+Fig. 1
+Download: Download high-res image (267KB)
+Download: Download full-size image
+Fig. 1. Frequency of pharmacist perceptions of their ability to address social barriers stratified by pharmacy capacity to address social barriers from the National PharmFIT™ Survey (n = 578, with capacity n = 177, without capacity n = 401).
+
+Note. Comparisons across all five social determinants of health domains were statistically significant using Chi-squared tests at p < 0.05. Capacity to address social needs is defined as having adequate staffing to address social needs and the ability for staff to step out of their workflows to address social needs.
+Table 3. Frequency of pharmcists' perceived capacity to address patient social barriers from the 2022/2023 National PharmFIT™ Survey.
+
+Empty Cell	Social Needs
+Pharmacist reports that patients experience social barrier
+(n = 561)a	Pharmacy can address
+social barrier
+(n = 578)
+Empty Cell	n (%)	n (%)
+Economic stability barriers		
+ Overallb	435 (78)	160 (28)
+ Low-income	382 (68)	75 (13)
+ Transportation	269 (48)	104 (18)
+ Food insecurity	68 (12)	16 (3)
+Education barriers		
+ Overallb	317 (57)	141 (24)
+ Low educational attainment	317 (57)	141 (24)
+Neighborhood and built environment barriers		
+ Overallb	224 (40)	82 (14)
+ Poor access to telecommunication	167 (30)	67 (12)
+ Lack of consistent residence	100 (18)	14 (2)
+ Unsafe housing	49 (9)	6 (1)
+Social and community context barriers		
+Overallb	386 (67)	250 (43)
+ Lack of social support	240 (43)	79 (14)
+ Exposure to crime or violence	62 (11)	7 (1)
+ Language Barriers	252 (45)	175 (30)
+ Cultural or religious differences	114 (20)	66 (11)
+Healthcare access and quality barriers		
+ Overallb	473 (84)	339 (59)
+ High medication costs	365 (65)	220 (38)
+ Lack of insurance coverage	348 (62)	190 (33)
+ Lack of primary care provider	196 (35)	111 (19)
+Note. a17 respondents indicated that their patients did not experience any social barriers.
+b Overall: Defined as selecting yes to at least one of the barriers listed under each heading.
+With respect to addressing patients' social barriers, there were statistically significant differences between pharmacists who indicated that their pharmacy had capacity to address social needs versus those without capacity across all five social needs domains (Fig. 1). In comparison to pharmacies without capacity, a higher proportion of pharmacies with capacity were able to address: healthcare access and quality (65 % vs 56 %; p = 0.04), social and community context barriers (56 % vs 38 %%; p < 0.0001), economic stability (35 % vs 24 %%; p = 0.009), education (33 % vs 21 %%; p = 0.002), and neighborhood and built environment (19 % vs 12 %%; p = 0.02).
+3.3. Correlates of pharmacy staff's capacity to address patients' social needs
+Logistic model results are shown in Table 4. Respondents who identified as a pharmacist-in-charge (OR = 2.14 [CI95%:1.36–3.38]) or a pharmacy owner (OR = 2.65 [1.16–6.06]) were more likely to report that their pharmacy had capacity to address social needs of their patients compared to respondents who identified as staff pharmacists. Pharmacists practicing in the Midwest (OR = 2.12 [1.12–4.00]) and South (OR = 2.30 [1.30–4.08]) were more likely to report having capacity to address social barriers versus pharmacists practicing in the Northeast. Pharmacists who work in independent pharmacies (OR = 2.11 [1.22–3.66]) were more likely to report having capacity to address social barriers compared to pharmacists practicing in national pharmacy chains.
+Table 4. Multivariable logistic regression model correlates of pharmacy staff capacity to address patient social barriers from the National PharmFIT™ Survey (n = 533).
+
+Empty Cell	n/N or Mean (SD)	Odds Ratio	95 % CI
+Years in practice	20.5 (10.9)	0.98	0.96–1.00
+Gender			
+ Male	91/270	1.00	
+ Female and non-binary	68/263	0.74	0.48–1.12
+Race			
+ White	124/410	1.00	
+ Black	7/24	0.79	0.28–2.21
+ Asian	19/69	1.01	0.54–1.89
+ Multiracial or another race	9/30	1.04	0.44–2.45
+Hispanic or of Latin origin			
+ No	151/507	1.00	
+ Yes	8/26	0.88	0.35–2.23
+Residency or fellowship			
+ No	140/478	1.00	
+ Yes	19/55	0.98	0.47–2.01
+Board Certification			
+ No	133/465	1.00	
+ Yes	26/68	1.38	0.71–2.66
+Number of hours practiced per week			
+ Part-time	53/189	1.00	
+ Full-time	106/344	0.78	0.48–1.28
+Pharmacist Role			
+ Staff pharmacist	60/273	1.00	
+ Pharmacist-in-charge	81/225	2.14*	1.36–3.38
+ Pharmacy owner	18/35	2.65*	1.16–6.06
+Metro Area			
+ No	32/95	1.00	
+ Yes	127/438	1.04	0.61–1.78
+US Region			
+ Northeast	26/113	1.00	
+ Midwest	44/138	2.12*	1.12–4.00
+ South	75/226	2.30*	1.30–4.08
+ West	14/56	1.52	0.67–3.40
+Type of pharmacy			
+ National Chain of community pharmacies	48/192	1.00	
+ Independent community pharmacy	67/164	2.11*	1.22–3.66
+ Small group of community pharmacies	16/45	1.41	0.65–3.02
+ Region chain of community pharmacies	16/52	1.21	0.58–2.51
+ Supermarket pharmacy	12/80	0.49	0.23–1.01
+Number of prescriptions per week			
+ Low volume (0–999)	56/171	1.00	
+ Medium volume (1000–2499)	80/267	1.15	0.73–1.84
+ High volume (2500+)	23/95	1.00	0.51–1.96
+ Number of patient care services available	4.0 (1.8)	1.10	0.98–1.23
+Offer mail order or home delivery			
+ No	28/119	1.00	
+ Yes	131/414	1.12	0.66–1.88
+Note. All reported Odds Ratios are adjusted. Metro area was determined using RUCA codes.
+3.4. Resources currently used to address social needs and unmet resource needs of pharmacies
+Pharmacists reported using a variety of resources to address patient social needs (Fig. 2, Panel A). Over half of pharmacists reported using medication counseling (78 %), medication cost reduction programs (72 %), recommendations for lower-cost medications (66 %), medication therapy management (55 %) and/or home delivery services (55 %). To a lesser extent, interpretation services (39 %), educational pamphlets (37 %) and referrals to other providers (23 %) or social services (18 %) were used.
+Fig. 2
+Download: Download high-res image (404KB)
+Download: Download full-size image
+Fig. 2. Frequencies and illustrative quotes of resources used and needed by pharmacies to address patient's social barriers from the National PharmFIT™ Survey (n = 578).
+
+Qualitative findings revealed that pharmacists need a variety of additional resources to better address social barriers affecting patient health. In response to an open-ended prompt (Fig. 2, Panel B), pharmacists identified a wide variety of resources relating to cost (foundations, grants, in-house discount programs), accessibility (transportation, paid delivery services, access to primary care providers), communication (informational resources through text messaging), education (increased patient education), language (interpretation services, bilingual associates) and social services (social worker on staff, more mental health services) to help them better address social barriers in their patient populations.
+4. Discussion
+To our knowledge, this is the first national survey of community pharmacists practicing in the US that assesses their perspectives on and abilities to address SDOH. Researchers and practitioners are increasingly interested in pharmacies as a healthcare setting to deliver SDOH interventions to address community needs and improve health and wellbeing. This interest is warranted: among all healthcare settings, pharmacies have the best reach to US residents, are more easily geographically accessible to patients, and are frequented more often (Berenbrok et al., 2022; Berenbrok et al., 2020). As such, community pharmacy staff frequently encounter patients who experience social barriers and are well-positioned to deploy SDOH interventions. We found that pharmacists commonly address SDOH experienced by their patients. Our study also showed that pharmacies face significant challenges in addressing social barriers experienced by patients, particularly when it comes to having adequate staff capacity and resources. Our study aligns with recent literature proposing a framework for pharmacies in addressing all five domains of SDOH at the patient and community levels (Foster et al., 2021). Contextualizing our findings in this framework provides an optimistic route forward for pharmacies being able to address SDOH.
+Nearly every pharmacist surveyed reported spending time addressing social barriers in their patient populations. However, less than one-third of the pharmacists reported having adequate staff capacity to address these social needs. Despite having the capacity, pharmacies are still only able to address a portion, not all, of the social needs of their patient population. These findings are consistent with previous analyses which identified that as community pharmacies evolve to focus more on clinical interventions, one of the largest challenges is incorporating non-dispensing services such as medication management into community pharmacy workflows (Kiles et al., 2021). To facilitate this integration, several community pharmacy practice models have been developed and connect patients to community/social resources by integrating community health workers (CHW) or SDOH specialists into community pharmacies (Foster et al., 2021; Foster et al., 2023).
+The most perceived social barriers within our study concerned economic stability and healthcare access and quality. Our findings align with results from recent literature which similarly identified economic stability and healthcare access and quality as common social needs within patient populations (Foster et al., 2023). More than half of respondents reported that low-income, high medication costs and lack of insurance coverage are barriers to receiving optimal care that their patients experience. Rising prescription drug costs has been a continual challenge within the US healthcare system, creating an affordability crisis where patients are unable to obtain the medications they need. A 2022 Wolters Kluwer survey of 1000 US adults found that more than two in five respondents chose to forgo filling a prescription because of cost (Kluwer, 2022). To reduce costs, patients are seeking out alternate ways to obtain medications including finding alternate prescribers. The survey found that approximately three-quarters of US adults would consider having their medications prescribed by a specially trained pharmacist instead of a doctor. Community pharmacies are well positioned to have a major impact in addressing SDOH and supporting patients with unmet social needs, yet this potential is largely limited by adequate pharmacy capacity. Our survey found that in comparison to pharmacies without capacity, a significantly higher proportion of pharmacies with capacity were able to address social needs in their patient populations. Among the pharmacists that said they have capacity to address social barriers, the largest proportion were able to address healthcare access and quality and social and community context.
+Pharmacy personnel management role, geographic location in Midwest or South and independent pharmacy practice setting were all positively associated with the respondent reporting capacity. This finding could be contextualized in the current geographical pharmacy density, in which counties with the lowest pharmacy density were in the West and Southwest regions, suggesting pharmacy density may influence capacity (Berenbrok et al., 2022). Further, independent community pharmacies have been observed to have more full time equivalent (FTE) pharmacists and technicians working in the pharmacy than chain pharmacies (Bond and Raehl, 2001). Additionally, pharmacists working in independent pharmacies were more likely to report higher job satisfaction (Radwan et al., 2022). Both increased staffing and job satisfaction may influence ability and willingness to address SDOH in the pharmacy setting. This finding illustrates that certain factors such as pharmacy practice setting can be leveraged to better facilitate the distribution of services, such as SDOH specialist training or CHW, to support pharmacists in addressing social barriers.
+In addition to adequate staff capacity, access to necessary resources is essential for community pharmacies to address the social barriers experienced by their patients. A qualitative study, found that awareness of pharmacy staff resources to address SDOH positively impacted patient willingness to share their social needs with community pharmacists (Kiles et al., 2022). Our survey identified numerous resources that community pharmacists are currently using; however, many respondents expressed a need for additional resources. In a pilot study assessing pharmacy personnel comfort in screening for social needs, the largest needs to increase staff comfort with screening included improving knowledge of social resources and adequate training (Kiles et al., 2023).
+Our study has notable strengths, including a large, nationally representative sample of community pharmacists in the US, providing a more comprehensive picture of how SDOH are perceived and addressed in pharmacies nationwide. The survey instrument was also carefully developed, drawing from previous validated measures as well as input from an interdisciplinary team of researchers and practitioners. Additionally, the mixed-methods analysis offered a more nuanced understanding of the challenges and resource needs identified by pharmacists. The open-ended responses provide rich, contextual insights that complement the statistical analyses.
+This study also has several limitations to note. Our study used a cross-sectional survey design, which limits our ability for causal inference between pharmacy characteristics and their capacity to address SDOH. The National PharmFIT™ Pharmacist Survey was not a probability-based sample, rather a purposive sample. Thus, the representativeness of this sample in comparison to all pharmacists may be limited—particularly regarding the lower representation of some racial groups in the PharmFIT™ survey. However, the overall demographic characteristics of pharmacists in this study do mirror most demographic characteristics of pharmacists from the American Community Survey (El-Zein, 2024). The data also relies on self-reported perceptions of pharmacists, which may not fully reflect the actual prevalence of social barriers or the pharmacy's true capabilities. Pharmacists may incorrectly estimate the scope of social needs or their ability to address them. Additionally, our survey used a non-probability sampling approach that could introduce selection bias and non-response bias. Finally, this study could not explore specific interventions or outcomes associated with pharmacy-based SDOH programs, an important area for future research. Understanding the effectiveness and impact of different pharmacy-led SDOH initiatives would provide crucial insights to guide program development and implementation.
+4.1. Public health implications
+This study underscores the potential for community pharmacies in the US to play a pivotal role in addressing social determinants of health and advancing health equity. Pharmacies are accessible healthcare settings, uniquely positioned to mitigate health disparities, but significant gaps in resources and capacity hinder their ability to fully address patient social needs. Enhancing pharmacy involvement in SDOH interventions through targeted investments, service reimbursement schema, training, and program development could unlock their tremendous potential to be partners in holistic, community-based approaches to improving population health.
+Funding
+This study is supported by the Centers for Disease Control and Prevention of the U.S. Department of Health and Human Services (HHS), cooperative agreement #U48 DP006400 (MPI: Brenner/Hershey/Wheeler) and a donation by the Safeway Foundation to Fred Hutch (PI: Shah). The manuscript contents are those of the authors and do not necessarily represent the official views of, nor an endorsement by Safeway, Fred Hutch, UNC, CDC/HHS, or the U.S. Government. ARW is supported by the NCI National Research Service Award sponsored by the Lineberger Comprehensive Cancer Center (LCCC) at the University of North Carolina (T32 CA116339).
+AI Use: No generative AI or AI-assisted technologies were used in the writing process of this manuscript.

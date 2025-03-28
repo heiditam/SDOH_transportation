@@ -1,0 +1,354 @@
+Abstract
+Objective
+To investigate 15-year changes in public awareness of the social determinants of health (SDoH) between 2007 and 2023.
+Methods
+A 2007 survey of 1172 Wisconsin, U.S. adults is compared to a 2023 survey of 1631 Wisconsin adults. In both surveys, respondents were asked to rate 16 factors regarding how strongly each impacts health. Regression analyses examine how demographic factors differentiate responses in both survey years.
+Results
+In both 2007 and 2023, the four most highly rated factors affecting health were: personal health practices, stress, health insurance, and access to affordable health care. Between 2007 and 2023, there was little or no increase, and even some decrease, in endorsement of many social determinants of health like income, education, housing, and social support. Older adults, women, and those with lower income were generally more likely to endorse the SDoH in both years. Party identification was the demographic factor that most strongly differentiated responses, with Democrats rating more highly many of the social determinants of health than either Republicans or Independents in both years. This differentiation by party identification was even stronger in 2023 than 2007.
+Conclusions
+Despite consistent research documenting the social determinants of health, growing health care and policy attention to the social determinants of health, and population exposure to a variety of social determinants during the COVID-19 pandemic, there is little or no increase in public recognition of the social determinants of health, and notable increasing partisan divides.
+Previous article in issue
+Next article in issue
+Keywords
+Public opinionSocial determinants of healthHealth disparitiesHealth careSocioeconomic statusPolitical opinion
+1. Introduction
+Health research, policy, and practice have increasingly emphasized the important role of nonmedical factors that affect health, such as income, education, employment, quality of housing, stress, social support, and community environment. These factors are commonly referred to as the social determinants of health (SDoH). The World Health Organization (World Health Organization, 2008) defined SDoH as encompassing all conditions in which people are born, grow, live, work and the wider set of forces and systems shaping the conditions of daily life. There has been a substantial increase in research on the SDoH. Following similar strategies as Braveman and colleagues (Braveman et al., 2011), we searched for studies including the keyword “social determinants” on PubMed. By 2023, publications on SDoH per year surged by around 700 % in the past decade (data not shown). This includes a robust body of literature on strategies for communicating about the SDoH (Niederdeppe et al., 2023). Moreover, attention to the SDoH has moved to health care policy and the health care system (National Academies of Sciences, Engineering, and Medicine, 2019). For example, most hospitals now screen for health-related social needs (Ashe et al., 2023), and the Center for Medicare & Medicaid Services increasingly requires health care systems to screen for and address the SDoH in its value-based care initiatives (Rawal et al., 2024).
+But is the general public aware of the SDoH? In an early study in 2006/2007, a representative sample of Wisconsin adults was asked to rate a variety of factors that might affect health. Respondents rated health practices (e.g., diet, exercise, smoking), health insurance, and access to affordable health care as the three most important factors, while many typical SDoH (e.g., income, housing, social support, education) were ranked among the lowest (Robert et al., 2008). A subsequent survey with a national sample of U.S. adults in 2008/2009 demonstrated similar results (Robert and Booske, 2011). This survey showed that those who rated more highly a variety of SDoH as important to health were more likely to be older, women, non-White or non-Hispanic, less healthy, report having a liberal ideology, and have lower education and income (Robert and Booske, 2011).
+Has public awareness of the SDoH increased since then along with the increased attention in health research, policy, and practice? A few studies have tracked changes over a short period of time. The Robert Wood Johnson Foundation commissioned the American Health Values Survey with data collection in 2015–2016 (Bye and Ghirardelli, 2016) and 2019–2020 (Bye et al., 2021). Comparing these surveys, there was mostly stability in beliefs about the factors most strongly impacting health, with the highest rated factors being health insurance coverage, health care access, stress, and personal health care practices, and lower ratings of most SDoH, like earlier studies (Robert et al., 2008; Robert and Booske, 2011).
+As these surveys were conducted before the Covid-19 pandemic, we might expect that awareness of the SDoH has grown in recent years, not only because of the growth of health research, practice, and policy attention, but also because of the Covid-19 pandemic where many Americans faced financial downturns, job insecurity, social isolation, and challenges accessing food, health services, and social services. The Robert Wood Johnson Foundation commissioned another national survey–the National Survey of Health Attitudes (NSHA; data collection in 2015, 2018, and 2023) (Carman et al., 2016; Carman et al., 2019; Chandra et al., 2024). Comparing the NSHA results between 2015 and 2023, before and after the pandemic, there was some increase in recognition of the SDoH (Carman et al., 2016; Chandra et al., 2024).
+For these national surveys, it is not clear how demographic factors were associated with responses or to changes in responses over time. Given demographic differences noted in the earlier study by Robert and Booske (Robert and Booske, 2011), it is likely that changes in awareness of the determinants of health differ by demographic group.
+There are competing hypotheses about how demographic differences in ratings of factors affecting health might change over time. First, there may be fewer demographic differences in knowledge about the SDoH over time if knowledge is disseminated broadly. Second, there could be greater differences in responses if increased awareness of the SDoH occurred particularly among groups most likely to experience greater challenges during the pandemic–people of color, low-income people, less healthy people, and older adults. Third, there could be greater political and racial differences in responses given evidence that there were partisan and racial divides in response to the Covid-19 epidemic and the highly publicized racial incidents of 2020 (Gollust et al., 2022; Gollust et al., 2024).
+Our study investigates how public awareness of the SDoH have changed over 15 years. This is the only study we know of to examine changes over such a long period of time, and to examine demographic differences in responses. Replicating the 2006–2007 study in Wisconsin, we conducted a 2023 survey with Wisconsin adults to investigate the following questions: 1) How did the public change their views on the important determinants of health between 2007 and 2023? We hypothesize that ratings of the importance of SDoH increased between 2007 and 2023. 2) How do ratings of the factors that influence health vary by demographic characteristics (e.g., age, gender, race/ethnicity, income, education, political identification, and health)? We discussed three competing hypotheses above suggesting either: 1) reductions in demographic differences in responses overall, 2) increased differences by income, age, health, and race/ethnicity, and 3) increased differences by political affiliation and race/ethnicity.
+2. Methods
+Data. The 2007 survey was conducted by phone using random digit dialing (RDD) with Wisconsin adults between September 2006 and February 2007 (referred to as the 2007 survey). The survey response rate was 44 %, for a sample size of 1459. The respondents were representative of the Wisconsin adult population, though slightly more educated (Robert et al., 2008). The 2023 survey was conducted in August 2023 as part of the WisconSays online probability-based panel of Wisconsin adults covering approximately 97 % of the Wisconsin household population (WisconSays, 2024; Assad et al., 2024). Of the 2071 panel members contacted, 1654 completed the survey for a cooperation rate of 79.9 %. The respondents were representative of the Wisconsin adult population, though slightly more educated and older. Both protocols were approved by the UW-Madison IRB.
+Variables. We examine differences in responses by age, gender, race/ethnicity, education, household income, self-rated health, and party identification (see Table 1). For race/ethnicity, we included an “other” category for those not reporting themselves as white non-Hispanic, Black, or Hispanic non-Black. For household income, we include an “NA” category for those who didn't answer the question. We included an “other/NA” category for party identification for those who didn't respond or who gave a party identification other than Democrat, Republican, or Independent.
+Table 1. Demographic Characteristics of participants in 2007 and 2023 surveys of Wisconsin adults.
+
+Empty Cell	2007 (n = 1172)	2023 (n = 1631)
+Empty Cell	Percent	Weighted percent (unweighted percent)a
+Age		
+ 18–44 years	32.6	41.6 (31.2)
+ 45–64 years	45.6	34.4 (32.7)
+ 65 years and older	21.8	24.0 (36.1)
+
+Gender
+ Female	57.3	52.6 (57.3)
+ Male	42.7	47.5 (42.7)
+
+Race/Ethnicity
+ White	93.0	83.1 (90.1)
+ Black	2.9	4.5 (3.1)
+ Hispanic non-Black	2.0	5.0 (1.8)
+ Other	2.0	7.3 (5.0)
+
+Education
+ No high school degree	4.8	2.7 (1.1)
+ High school or trade school degree	29.9	36.7 (16.9)
+ Some college	28.4	16.3 (15.3)
+ College degree and higher	36.9	44.3 (66.7)
+
+Household Income
+ Less than $30,000	22.0	11.8 (12.4)
+ $30,000 - $50,000	23.7	14.3 (14.2)
+ $50,000 - $80,000	19.7	20.4 (23.2)
+ $80,000 - $100,000	11.5	12.0 (14.1)
+ $100,000 or more	12.9	38.3 (32.7)
+ NA	10.2	3.1 (3.3)
+
+Self-Rated Health
+ Good, very good, or excellent	86.6	86.7 (87.6)
+ Fair or poor	13.4	13.3 (12.4)
+
+Party Identification
+ Democrat	31.5	36.2 (40.7)
+ Republican	25.6	25.5 (23.2)
+ Independent	34.5	28.6 (28.0)
+ Other/NA	8.4	9.7 (8.1)
+a
+The 2007 survey was a random sample, hence no weighting necessary. The 2023 sample had oversamples of some groups and was weighted to reflect the Wisconsin population demographics.
+Respondents in both surveys were asked to rate 16 factors (Table 2) that potentially affect people's health on a scale from 0 to 10 where 0 means the factor has no effect on health and 10 means it has a very strong effect. Health insurance and affordable health care are viewed as medical determinants of health (though influenced by the SDoH), and the other factors listed are considered SDoH.
+Table 2. Wisconsin adults' ratings of factors affecting health in 2007 (n = 1172) and 2023 (n = 1631).
+
+Factors that affect health	2007 Percent who rated 8, 9, or 10a	2023 Percent who rated 8, 9, or 10a, b	P value (from chi-Square test)	2007 Mean (SD)	2023 Mean (SD)b	P value (from t-test)
+A person's personal health practices (e.g., what they eat, whether they exercise, or whether they smoke)	86.2	89.4	0.011	8.9 (1.5)	9.2 (1.3)	<0.001
+Whether a person has health insurance	75.3	65.4	<0.001	8.3 (2.1)	7.9 (2.5)	<0.001
+A person's access to affordable health care	72.0	71.8	0.915	8.3 (1.9)	8.3 (2.2)	0.980
+How much stress a person has	67.0	74.8	<0.001	8.0 (1.7)	8.5 (1.6)	<0.001
+The physical environment, such as the quality of the air and water	64.6	69.5	0.007	7.8 (2.1)	8.2 (2.0)	<0.001
+A person's knowledge about health	61.5	60.9	0.752	7.8 (1.8)	7.8 (1.9)	0.434
+Whether a person has a job	54.7	48.9	0.002	7.4 (2.3)	6.9 (2.6)	<0.001
+A person's level of income	52.2	48.3	0.041	7.2 (2.3)	7.1 (2.5)	0.156
+The amount of social support a person has, such as a close circle of friends or family	52.1	51.2	0.621	7.3 (2.0)	7.3 (2.2)	0.465
+How safe a person's community is	41.9	46.5	0.016	6.7 (2.2)	7.0 (2.4)	<0.001
+A person's level of education	34.0	27.1	<0.001	6.3 (2.4)	5.8 (2.7)	<0.001
+A person's childhood experiences	33.9	38.8	0.007	6.2 (2.3)	6.6 (2.5)	<0.001
+The quality of a person's housing	33.7	37.5	0.036	6.4 (2.1)	6.5 (2.5)	0.453
+Whether a person is religious or spiritual	33.6	17.6	<0.001	5.9 (2.8)	4.5 (3.0)	<0.001
+Where a person lives, like in the city or in the country	24.7	35.5	<0.001	5.8 (2.3)	6.4 (2.6)	<0.001
+How supportive a person's neighborhood is	24.0	17.4	<0.001	5.6 (2.4)	5.0 (2.6)	<0.001
+a
+Respondents were asked to rate each factor that potentially affects people's health on a scale from 0 to 10 where 0 means the factor has no effect on health and 10 means it has a very strong effect.
+b
+Weighted results presented for 2023.
+Analysis Plan. We dropped respondents from both surveys who had missing data for age, gender, race/ethnicity, and education, or who didn't answer all questions rating the determinants of health. This resulted in analytic samples of 1172 in 2007 and 1631 in 2023. For all analyses using the 2023 data, weights are applied that account for selection probabilities, match distributions of Wisconsin adults, and trim extreme weighted values (WisconSays, 2024).
+Descriptive analyses present the demographic distributions of both samples. t-tests or chi-square analyses compare differences between 2007 and 2023 responses about how strongly respondents think each factor affects health. OLS regressions are used to examine demographic predictors (simultaneously) of ratings of each factor affecting health, separately for the 2007 and 2023 surveys. For the 2023 survey, standard errors are adjusted in all regression analyses using Taylor Series Linearization to adjust for the design effects of the sampling and weights. In supplemental analyses, we pooled both years of data and tested interactions between survey year and each demographic variable in unweighted regression models, adjusting for demographic variables (Supplemental Tables 1–8).
+3. Results
+Table 1 shows the distribution of demographic variables for the 2007 and 2023 surveys. Small differences in their distributions generally reflect the changes in the Wisconsin population over the last 15 years, with the 2023 sample being slightly younger, more racially/ethnically diverse, and higher income than Wisconsin adults in 2007.
+How did the public change their views on the factors affecting health between 2007 and 2023? Table 2 shows only small changes in the factors rated as top determinants of health. In 2007, factors rated most strongly were a person's personal health practices, whether a person has health insurance, a person's access to affordable health care, and how much stress a person has. In 2023, these remained the top four factors, except stress rose from fourth to second. The number one factor was still a person's personal health practices, with the mean score rising slightly from 8.9 to 9.2. In 2007, the second most highly rated factor was whether a person has health insurance, with 75 % of the respondents rating this factor highly (an 8, 9, or 10), dropping to 65 % in 2023. Rating highly how much stress a person has rose from 67 % of 2007 respondents to 74.8 % of 2023 respondents. In both years, the third most highly rated factor was whether a person has health insurance, staying stable at 71.8 % and 71.7 % rating this factor highly.
+Looking at less frequently endorsed factors, there were small increases over 15 years in high ratings of the following SDoH: the physical environment, how safe a person's community is, a person's childhood experiences, the quality of a person's housing, and where a person lives. However, there were declines in ratings for: whether a person has a job, a person's level of income, education, whether a person is religious or spiritual, and how supportive a person's neighborhood is. There was no statistically significant change over 15 years in the following factors: a person's knowledge about health and amount of social support. Supplemental Table 1 demonstrates that these bivariate trends in changes in opinion hold true after controlling for all demographic variables. Overall, these results do not strongly support our hypothesis that there would be an increased endorsement of the social determinants of health between 2007 and 2023.
+Our second question is whether there are demographic differences in ratings of factors affecting health. Table 3, Table 4 show the results for 2007 and 2023, respectively, of regressing responses about the strength of each perceived factor on age, gender, race/ethnicity, education, household income, self-rated health, and party identification (simultaneously). Results reported below regarding changes between years are also consistent with pooled analyses with interaction terms (Supplemental Tables 2–8).
+Table 3. Demographic differences in perceived factors affecting health–2007 survey of Wisconsin adults (n = 1172)a.
+
+Empty Cell	Personal health practice	Health insurance	Access to healthcare	Stress	Physical environment	Health knowledge
+Age	b (SE)	b (SE)	b (SE)	b (SE)	b (SE)	b (SE)
+ 18–44 years (ref.)						
+ 45–64 years	−0.21 (0.10)*	0.12 (0.14)	−0.07 (0.13)	0.32 (0.12)*	−0.17 (0.14)	0.18 (0.12)
+ 65 years and older	−0.30 (0.12)*	0.04 (0.17)	−0.35 (0.16)*	−0.05 (0.15)	−0.13 (0.18)	0.27 (0.16)
+
+Gender
+ Male (ref. = female)	−0.06 (0.09)	−0.73 (0.12)*	−0.65 (0.11)*	−0.62 (0.10)*	−0.68 (0.13)*	−0.49 (0.11)*
+
+Race/ethnicity
+ White non-Hispanic (ref.)						
+ Black	0.44 (0.25)	0.37 (0.36)	0.41 (0.33)	−0.12 (0.30)	0.42 (0.37)	1.09 (0.32)*
+ Hispanic non-Black	0.61 (0.30)*	0.13 (0.42)	−0.03 (0.38)	0.23 (0.35)	−0.05 (0.43)	0.32 (0.37)
+ Other	−0.22 (0.30)	−0.54 (0.42)	−0.72 (0.38)	−0.34 (0.35)	−0.79 (0.43)	−0.13 (0.37)
+
+Education
+ No high school degree (ref.)						
+ High school or trade school degree	0.11 (0.21)	0.33 (0.30)	0.53 (0.27)	0.29 (0.25)	0.34 (0.31)	0.14 (0.27)
+ Some college	0.10 (0.22)	0.13 (0.30)	0.38 (0.28)	0.19 (0.26)	0.22 (0.31)	−0.06 (0.27)
+ College degree and higher	0.25 (0.22)	0.04 (0.30)	0.28 (0.28)	−0.04 (0.26)	0.01 (0.31)	0.09 (0.27)
+
+Household income
+ <$30,000 (ref.)						
+ $30,000 - $50,000	0.20 (0.13)	−0.26 (0.18)	−0.01 (0.17)	−0.02 (0.16)	0.16 (0.19)	0.07 (0.16)
+ $50,000 - $80,000	0.18 (0.14)	−0.24 (0.20)	−0.18 (0.19)	−0.18 (0.17)	0.05 (0.21)	−0.21 (0.18)
+ $80,000 - $100,000	0.59 (0.17)*	0.05 (0.23)	−0.02 (0.21)	−0.03 (0.20)	0.08 (0.24)	0.24 (0.21)
+ $100,000 or more	0.43 (0.16)*	−0.12 (0.23)	−0.20 (0.21)	−0.20 (0.20)	−0.07 (0.24)	−0.11 (0.21)
+ NA	0.39 (0.16)*	−0.20 (0.23)	−0.26 (0.21)	0.03 (0.20)	0.13 (0.24)	0.09 (0.21)
+
+Self-rated health
+ Fair or poor  (ref. = good/ very good/excellent)	−0.23 (0.13)	0.25 (0.18)	0.17 (0.17)	0.29 (0.15)	−0.05 (0.19)	−0.20 (0.16)
+
+Party identification
+ Democrat (ref.)						
+ Republican	0.18 (0.11)	−1.01 (0.16)*	−0.98 (0.15)*	−0.22 (0.14)	−0.61 (0.16)*	−0.01 (0.14)
+ Independent	0.01 (0.10)	−0.40 (0.15)*	−0.38 (0.13)*	−0.23 (0.12)	−0.27 (0.15)	−0.12 (0.13)
+ Other/NA	−0.13 (0.17)	−0.33 (0.23)	−0.33 (0.22)	−0.23 (0.20)	0.05 (0.24)	−0.20 (0.21)
+
+Empty Cell	Employment	Income	Social support	Community safety	Education
+Age	b (SE)	b (SE)	b (SE)	b (SE)	b (SE)
+ 18–44 years (ref.)					
+ 45–64 years	0.35 (0.15)*	0.37 (0.15)*	0.27 (0.13)*	0.22 (0.15)	0.34 (0.16)*
+ 65 years and older	0.74 (0.19)*	0.65 (0.19)*	0.55 (0.17)*	0.07 (0.19)	0.47 (0.20)*
+
+Gender
+ Male (ref. = female)	−0.40 (0.13)*	−0.63 (0.13)*	−0.80 (0.12)*	−0.54 (0.13)*	−0.40 (0.14)*
+
+Race/ethnicity
+ White non-Hispanic (ref.)					
+ Black	1.42 (0.39)*	1.18 (0.39)*	0.72 (0.34)*	1.15 (0.39)*	1.83 (0.41)*
+ Hispanic non-Black	0.92 (0.45)*	0.56 (0.45)	1.11 (0.40)*	0.19 (0.46)	0.05 (0.48)
+ Other	0.11 (0.45)	−0.57 (0.45)	−1.12 (0.40)*	0.05 (0.46)	−0.11 (0.48)
+
+Education
+ No high school degree (ref.)					
+ High school or trade school degree	0.13 (0.32)	0.31 (0.32)	−0.10 (0.28)	0.36 (0.33)	0.22 (0.34)
+ Some college	−0.04 (0.33)	−0.02 (0.33)	−0.44 (0.29)	0.31 (0.33)	0.48 (0.35)
+ College degree and higher	−0.20 (0.33)	0.08 (0.33)	−0.22 (0.29)	0.34 (0.33)	0.73 (0.35)*
+
+Household income
+ <$30,000 (ref.)					
+ $30,000 - $50,000	0.07 (0.20)	−0.16 (0.20)	0.19 (0.17)	−0.12 (0.20)	−0.09 (0.21)
+ $50,000 - $80,000	0.12 (0.22)	−0.36 (0.22)	−0.23 (0.19)	−0.39 (0.22)	0.11 (0.23)
+ $80,000 - $100,000	0.27 (0.25)	−0.22 (0.25)	0.07 (0.22)	−0.03 (0.26)	0.47 (0.27)
+ $100,000 or more	−0.04 (0.25)	−0.45 (0.25)	−0.17 (0.22)	−0.20 (0.25)	0.38 (0.27)
+ NA	0.08 (0.25)	−0.02 (0.25)	0.16 (0.22)	0.38 (0.25)	0.05 (0.27)
+
+Self-rated health
+ Fair or poor (ref. = good/ very good/excellent)	0.30 (0.20)	0.38 (0.20)	0.04 (0.17)	−0.09 (0.20)	0.29 (0.21)
+
+Party identification
+ Democrat (ref.)					
+ Republican	−0.80 (0.17)*	−0.92 (0.17)*	−0.17 (0.15)	−0.52 (0.17)*	−0.35 (0.18)
+ Independent	−0.66 (0.16)*	−0.60 (0.16)*	−0.24 (0.14)	−0.39 (0.16)*	−0.28 (0.17)
+ Other/NA	−0.15 (0.25)	−0.69 (0.25)*	−0.53 (0.22)*	−0.37 (0.26)	−0.14 (0.27)
+
+Empty Cell	Childhood experience	Religion & spirituality	Housing	Location	Neighborhood support
+Age	b (SE)	b (SE)	b (SE)	b (SE)	b (SE)
+ 18–44 years (ref.)					
+ 45–64 years	<0.01 (0.16)	1.28 (0.18)*	−0.36 (0.14)*	0.58 (0.15)*	0.52 (0.15)*
+ 65 years and older	0.12 (0.20)	1.74 (0.22)*	−0.47 (0.18)*	0.86 (0.20)*	1.08 (0.20)*
+
+Gender
+ Male (ref. = female)	−0.43 (0.14)*	−1.12 (0.16)*	−0.60 (0.13)*	−0.26 (0.14)	−0.54 (0.14)*
+
+Race/ethnicity
+ White non-Hispanic (ref.)					
+ Black	0.80 (0.41)	1.11 (0.46)*	0.72 (0.37)	0.77 (0.41)	1.59 (0.41)*
+ Hispanic non-Black	1.40 (0.48)*	0.29 (0.54)	0.69 (0.43)	0.29 (0.47)	0.79 (0.47)
+ Other	−1.07 (0.48)*	0.71 (0.54)	−0.09 (0.43)	0.22 (0.47)	−0.50 (0.47)
+
+Education
+ No high school degree (ref.)					
+ High school or trade school degree	0.02 (0.34)	−0.23 (0.38)	0.65 (0.30)*	−0.62 (0.34)	−0.11 (0.34)
+ Some college	−0.07 (0.35)	−0.53 (0.39)	0.63 (0.31)*	−1.03 (0.35)*	−0.50 (0.35)
+ College degree or higher	0.07 (0.35)	−0.62 (0.39)	0.48 (0.31)	−0.91 (0.35)*	−0.55 (0.35)
+
+Household income
+ <$30,000 (ref.)					
+ $30,000 - $50,000	0.07 (0.21)	0.15 (0.24)	−0.27 (0.19)	−0.12 (0.21)	−0.04 (0.21)
+ $50,000 - $80,000	−0.19 (0.23)	−0.03 (0.26)	−0.31 (0.21)	−0.40 (0.23)	−0.38 (0.23)
+ $80,000 - $100,000	0.09 (0.27)	0.03 (0.30)	−0.47 (0.24)	−0.47 (0.26)	−0.05 (0.26)
+ $100,000 or more	−0.11 (0.27)	−0.16 (0.30)	−0.49 (0.24)*	−0.42 (0.26)	−0.37 (0.26)
+ NA	0.33 (0.27)	0.48 (0.30)	−0.21 (0.24)	0.01 (0.26)	0.11 (0.26)
+
+Self-rated health
+ Fair or poor (ref. = good/ very good/excellent)	0.05 (0.21)	0.15 (0.23)	0.26 (0.19)	−0.12 (0.21)	−0.20 (0.21)
+
+Party identification
+ Democrat (ref.)					
+ Republican	−0.27 (0.18)	0.95 (0.21)*	−0.61 (0.16)*	0.06 (0.18)	−0.28 (0.18)
+ Independent	−0.35 (0.17)*	0.35 (0.19)	−0.35 (0.15)*	−0.06 (0.17)	−0.12 (0.17)
+ Other/NA	−0.30 (0.27)	0.48 (0.30)	−0.55 (0.24)*	0.07 (0.27)	−0.33 (0.27)
+Abbreviations and symbols: b, unstandardized regression coefficient; SE: standard error. a OLS regressions of each health factor on all demographic factors simultaneously; *p
+.05, **p
+.01, *** p
+.001.
+Table 4. Demographic differences in perceived factors affecting health–2023 survey of Wisconsin adults (n = 1631)a.
+
+Empty Cell	Personal health practice	Health insurance	Access to healthcare	Stress	Physical environment	Health knowledge
+Age	b (SE)	b (SE)	b (SE)	b (SE)	b (SE)	b (SE)
+ 18–44 years (ref.)						
+ 45–64 years	0.18 (0.11)	<0.01 (0.22)	−0.06 (0.2)	−0.01 (0.14)	−0.05 (0.19)	−0.08 (0.16)
+ 65 years and older	0.21 (0.11)	0.41 (0.21)*	0.22 (0.18)	−0.25 (0.15)	−0.12 (0.18)	0.28 (0.16)
+
+Gender
+ Male (ref. = female)	−0.05 (0.11)	−0.76 (0.18)*	−0.74 (0.16)*	−0.49 (0.12)*	−0.27 (0.15)	−0.06 (0.14)
+
+Race/ethnicity
+ White non-Hispanic (ref.)						
+ Black	−0.17 (0.39)	0.34 (0.42)	−0.03 (0.47)	0.25 (0.32)	0.44 (0.36)	0.64 (0.43)
+ Hispanic non-Black	−0.51 (0.52)	−0.30 (0.45)	−0.23 (0.37)	−0.17 (0.38)	−0.56 (0.50)	0.54 (0.36)
+ Other	−0.05 (0.17)	0.07 (0.38)	0.11 (0.33)	0.39 (0.20)*	0.39 (0.25)	0.27 (0.27)
+
+Education
+ No high school degree (ref.)						
+ HS or trade school degree	−0.02 (0.40)	−0.34 (0.69)	−0.58 (0.53)	0.44 (0.36)	−0.31 (0.45)	0.86 (0.61)
+ Some college	0.03 (0.39)	−0.12 (0.69)	−0.20 (0.53)	0.62 (0.37)	0.12 (0.44)	0.84 (0.61)
+ College degree and higher	<0.01 (0.41)	0.13 (0.69)	−0.17 (0.52)	0.31 (0.37)	−0.09 (0.45)	0.60 (0.61)
+
+Household income
+ <$30,000 (ref.)						
+ $30,000 - $50,000	−0.19 (0.22)	0.08 (0.31)	0.37 (0.28)	−0.28 (0.22)	0.11 (0.28)	0.27 (0.28)
+ $50,000 - $80,000	0.29 (0.19)	−0.63 (0.29)*	−0.19 (0.27)	−0.04 (0.19)	−0.05 (0.25)	0.49 (0.25)*
+ $80,000 - $100,000	−0.02 (0.29)	−0.45 (0.35)	−0.19 (0.32)	−0.43 (0.23)	−0.36 (0.30)	0.14 (0.28)
+ $100,000 or more	0.28 (0.18)	−0.75 (0.28)*	−0.48 (0.27)	−0.44 (0.20)*	−0.42 (0.28)	0.24 (0.26)
+ NA	0.04 (0.29)	−0.71 (0.48)	−0.42 (0.40)	0.17 (0.28)	−0.40 (0.69)	0.33 (0.40)
+
+Self-Rated health
+ Fair or poor (ref. = good/ very good/excellent)	−0.19 (0.16)	0.29 (0.24)	0.15 (0.23)	0.02 (0.17)	0.02 (0.25)	−0.23 (0.22)
+
+Party identification
+ Democrat (ref.)						
+ Republican	0.03 (0.12)	−1.77 (0.22)*	−1.78 (0.21)*	−0.25 (0.14)	−0.82 (0.17)*	−0.38 (0.17)*
+ Independent	−0.07 (0.13)	−1.01 (0.20)*	−0.98 (0.19)*	−0.48 (0.15)*	−0.65 (0.19)*	−0.22 (0.17)
+ Other/NA	0.31 (0.15)*	−0.83 (0.40)*	−0.37 (0.24)	−0.06 (0.24)	−0.16 (0.35)	0.32 (0.26)
+
+Empty Cell	Employment	Income	Social support	Community safety	Education
+Age	b (SE)	b (SE)	b (SE)	b (SE)	b (SE)
+ 18–44 years (ref.)					
+ 45–64 years	−0.03 (0.24)	−0.29 (0.23)	−0.63 (0.19)*	<0.01 (0.22)	−0.03 (0.24)
+ 65 years and older	0.50 (0.23)*	0.13 (0.20)	0.06 (0.18)	0.51 (0.20)*	0.48 (0.23)*
+
+Gender
+ Male (ref. = female)	−0.07 (0.20)	−0.35 (0.18)*	−0.39 (0.16)*	−0.49 (0.17)*	0.22 (0.20)
+
+Race/ethnicity
+ White non-Hispanic (ref.)					
+ Black	0.71 (0.71)	0.70 (0.45)	−0.02 (0.50)	−0.21 (0.58)	−0.24 (0.60)
+ Hispanic non-Black	0.99 (0.43)*	0.91 (0.51)	−0.21 (0.47)	−0.72 (0.50)	0.37 (0.67)
+ Other	0.84 (0.41)*	0.59 (0.29)*	0.04 (0.30)	0.61 (0.30)*	−0.27 (0.44)
+
+Education
+ No high school degree (ref.)					
+ High school or trade school degree	0.46 (0.69)	−0.49 (0.52)	−0.13 (0.55)	0.33 (0.66)	0.13 (0.90)
+ Some college	0.10 (0.71)	−0.37 (0.55)	0.23 (0.55)	0.49 (0.65)	0.32 (0.92)
+ College degree and higher	0.44 (0.69)	−0.26 (0.52)	0.09 (0.55)	0.34 (0.65)	1.13 (0.90)
+
+Household income
+ <$30,000 (ref.)					
+ $30,000 - $50,000	0.17 (0.41)	0.33 (0.34)	0.25 (0.30)	0.17 (0.32)	0.05 (0.45)
+ $50,000 - $80,000	0.15 (0.36)	0.51 (0.29)	0.14 (0.29)	−0.33 (0.31)	0.14 (0.37)
+ $80,000 - $100,000	0.35 (0.36)	−0.03 (0.34)	0.14 (0.33)	−0.53 (0.37)	0.19 (0.41)
+ $100,000 or more	−0.20 (0.35)	−0.17 (0.31)	<0.01 (0.29)	−0.71 (0.31)*	−0.30 (0.37)
+ NA	0.10 (0.55)	<0.01 (0.51)	0.60 (0.40)	−1.05 (0.68)	−0.39 (0.68)
+
+Self-rated health
+ Fair or poor (ref. = good/ very good/excellent)	−0.05 (0.32)	0.33 (0.28)	0.14 (0.22)	0.32 (0.25)	−0.04 (0.32)
+
+Party identification
+ Democrat (ref.)					
+ Republican	−0.95 (0.23)*	−1.44 (0.23)*	−0.59 (0.20)*	−1.03 (0.22)*	−1.00 (0.26)*
+ Independent	−0.96 (0.26)*	−1.04 (0.22)*	−0.81 (0.19)*	−0.74 (0.21)*	−0.51 (0.24)*
+ Other/NA	−0.29 (0.37)	−0.12 (0.33)	0.42 (0.29)	−0.55 (0.37)	0.01 (0.41)
+
+Empty Cell	Childhood experience	Religion & spirituality	Housing	Location	Neighborhood support
+Age	b (SE)	b (SE)	b (SE)	b (SE)	b (SE)
+ 18–44 years (ref.)					
+ 45–64 years	−0.78 (0.21)*	0.55 (0.26)*	−0.37 (0.22)	−0.04 (0.23)	−0.24 (0.24)
+ 65 years and older	−0.43 (0.20)*	1.71 (0.25)*	−0.34 (0.21)	0.36 (0.22)	0.65 (0.23)*
+
+Gender
+ Male (ref. = female)	−0.11 (0.18)	−0.40 (0.21)	−0.54 (0.18)*	−0.03 (0.20)	−0.07 (0.19)
+
+Race/ethnicity
+ White non-Hispanic (ref.)					
+ Black	0.75 (0.43)	0.76 (0.50)	0.46 (0.51)	0.70 (0.57)	0.70 (0.67)
+ Hispanic non-Black	1.07 (0.39)*	0.65 (0.62)	−0.18 (0.53)	0.28 (0.53)	−0.10 (0.58)
+ Other	−0.28 (0.46)	0.58 (0.47)	0.51 (0.32)	0.65 (0.41)	0.79 (0.36)*
+
+Education
+ No high school degree (ref.)					
+ High school or trade school degree	0.39 (0.51)	−0.10 (0.69)	−0.15 (0.59)	0.65 (0.58)	−0.40 (0.54)
+ Some college	0.48 (0.51)	<0.01 (0.70)	0.41 (0.60)	0.50 (0.60)	−0.50 (0.54)
+ College degree and higher	0.59 (0.50)	−0.10 (0.69)	0.53 (0.58)	0.68 (0.57)	−0.39 (0.53)
+
+Household income
+ <$30,000 (ref.)					
+ $30,000 - $50,000	−0.11 (0.38)	−0.40 (0.38)	0.09 (0.34)	0.19 (0.38)	−0.39 (0.36)
+ $50,000 - $80,000	0.03 (0.37)	−0.68 (0.39)	−0.26 (0.31)	−0.07 (0.35)	−0.34 (0.36)
+ $80,000 - $100,000	−0.16 (0.37)	−0.71 (0.44)	−0.41 (0.37)	−0.60 (0.42)	−0.69 (0.40)
+ $100,000 or more	−0.18 (0.36)	−1.05 (0.39)*	−0.62 (0.33)	−0.90 (0.35)*	−0.79 (0.34)*
+ NA	−0.42 (0.58)	−0.20 (0.63)	−0.95 (0.50)	−0.47 (0.61)	0.04 (0.46)
+
+Self-rated health
+ Fair or poor (ref. = good/ very good/excellent)	0.14 (0.28)	−0.62 (0.31)*	0.26 (0.30)	0.42 (0.29)	−0.19 (0.29)
+
+Party identification
+ Democrat (ref.)					
+ Republican	−0.64 (0.22)*	1.35 (0.27)*	−1.11 (0.22)*	−0.56 (0.25)*	−0.87 (0.24)*
+ Independent	−0.71 (0.22)*	0.59 (0.25)*	−1.00 (0.22)*	−0.18 (0.23)	−0.97 (0.23)*
+ Other/NA	0.60 (0.33)	1.22 (0.44)*	−0.20 (0.38)	−0.14 (0.41)	−0.29 (0.47)
+Abbreviations and symbols: b, unstandardized regression coefficient; SE: standard error. a OLS regressions of each health factor on all demographic factors simultaneously; *p
+.05, **p
+.01, *** p
+.001.
+Age. In 2007 (Table 3), people ages 65 and older reported weaker ratings than younger adults for personal health practices, access to healthcare, and housing. They reported stronger ratings for employment, income, social support, education, religion and spirituality, location, and neighborhood support. Middle aged adults (45–64) generally fell between the two other age categories in their ratings. Comparing these results to 2023 results (Table 4) shows both similar and different trends. Generally, people ages 65 and older in 2023 have different ratings than both younger and middle-aged groups but now middle-aged groups often fall closer to those in the youngest age group. Older adults rate more highly some of the SDoH–employment, community safety, education, religion and spirituality, and neighborhood support. As with 2007, there are no age differences in ratings of the physical environment and health knowledge. Notably, compared to 2007, in 2023 there are no longer age differences in ratings of personal health practices, access to healthcare, stress, income, and housing as important factors. These results are partly consistent with our first hypothesis in that age becomes a less strong predictor of awareness of the SDoH in 2023 than in 2007. However, there are still some age variations in ratings, consistent with the second hypothesis that older adults will more strongly endorse the SDoH.
+Gender. Table 3 demonstrates consistent gender differences in responses for 2007. For all factors but two, men gave lower scores than women on the strength of each factor affecting health. In 2023 (Table 4), we see a general trend of the same or weakening gender differences in the ratings compared to 2007. Women continue to rate health insurance and access to health care much more highly than men in both 2007 and 2023. But for the SDoH, the gender differences are all reduced in 2023, often to statistically insignificant levels. This provides some support for the first hypothesis that demographic factors will be weaker predictors of responses over time.
+Race/ethnicity. In 2007 (Table 3) Black respondents rated more highly than non-Hispanic Whites many factors including: health knowledge, employment, income, social support, community safety, education, religion and spirituality, and neighborhood support. However, in 2023 (Table 4), there are no Black/White differences in endorsing factors associated with health, except that Black respondents rated employment more highly than White respondents. Table 3 shows that Hispanic non-black respondents in 2007 had higher ratings than Whites for employment, social support, and childhood experiences. In 2023 (Table 4), this was still true for employment and childhood experiences. Otherwise, there were no statistically significant differences in ratings between Hispanic and White respondents for other factors for either year. Overall, racial/ethnic disparities in responses were not consistent across factors and have declined over time for some factors, consistent with our first hypothesis about declining demographic differences.
+Education. In 2007 (Table 3), there were only a few education differences in ratings. Notably, in 2023 (Table 4), there were no statistically significant differences by education in the rating of any factor as a determinant of health, most consistent with our first hypothesis about declines in importance of demographic factors.
+Income. Table 3 shows few income differences in ratings in 2007. However, in 2023, there were more income differences in some ratings. Table 4 shows that those with more income rated health insurance, stress, community safety, religion and spirituality, location, and neighborhood support less strongly as determinants of health than those with less income. This is most consistent with our second hypothesis that those who are more likely to experience challenges with the SDoH are more likely to recognize SDoH as important to health.
+Health. In both 2007 and 2023, self-rated health is not associated with a difference in rating the factors affecting health, except those with fair/poor health rated religion and spirituality less strongly than those with better health in 2023. This is inconsistent with our second hypothesis that suggested that those most vulnerable during the pandemic might increase their recognition of the SDoH in 2023.
+Party identification. In both 2007 and 2023, party identification strongly differentiated respondents' ratings of health factors. In 2007 (Table 3) Republicans and Independents rated less strongly than Democrats the following factors: health insurance, access to healthcare, physical environment, employment, income, community safety, childhood experience, and housing. There were larger differences generally between Democrats and Republicans than Democrats and Independents. Quite notably, in 2023 (Table 4), party identification matters even more than it did in 2007 (including statistically significant changes by year for seven factors in pooled analyses, Supplemental Table 8), with the size of the gap between Democrats and both Republicans and Independents growing in most cases. The exceptions are that there are no party differences in ratings of personal health practices, and that Republicans and Independents are significantly more likely than Democrats to rate highly religion and spirituality as a factor impacting health. This is consistent with our third hypothesis that there may be increasing partisan divides in knowledge of the SDoH over time.
+4. Discussion
+Despite growing health research, policy, and practice highlighting the importance of SDoH, over 15 years Wisconsin adults have not increased their overall recognition of a range of SDoH as being important to health. As in 2007, the top four highly rated factors affecting health in 2023 were a person's personal health practices, how much stress a person has, whether a person has health insurance, and a person's access to affordable health care. These results are similar to those in recent national surveys (Bye et al., 2021; Chandra et al., 2024) as well as with findings in other developed countries, even those with national health care (Abdalla et al., 2022).
+It is notable that a continued emphasis on personal health practices, and indeed universal agreement across demographics in 2023, isn't accompanied by an increased recognition that many SDoH are important as well, given that the SDoH shape people's ability to implement personal health practices.
+The finding that many of the SDoH received lower ratings of importance in 2023 compared to 2007 is not consistent with our hypothesis that they would all rise in importance over 15 years. Most surprising is both the lack of change in believing income is a strong determinant of health, and even a reduction in believing education is a strong determinant of health, given the consistent and growing research on the importance of these two factors to health (Kim et al., 2023; Laveist et al., 2023; Montez and Cheng, 2022).
+We tested three competing hypotheses about how demographic differences in responses change between 2007 and 2023 and found some evidence for each hypothesis. Regarding the first hypothesis that there would be fewer demographic differences in ratings in 2023, we found mixed results. Some demographic variables were less predictive of perceived factors affecting health in 2023 than in 2007, such as level of education, which was a weak predictor in 2007 and no longer a predictor of responses in 2023. Gender differences became slightly weaker in 2023. Age similarly became a somewhat weaker predictor in 2023. However, while Black and non-Black Hispanic respondents rated some of the social determinants of health more highly than White respondents in 2007, this was less true in 2023. It might be expected that if we had seen an overall increase in support for the SDoH, we would see these accompanying decreases in demographic differences in opinions. However, as reported, we did not find an overall increase in endorsement of the SDoH.
+We find some support for the second hypothesis that knowledge about the SDoH would increase primarily for those most likely to experience them, particularly during the pandemic. While in 2007 income was not a consistent predictor of ratings for SDoH, in 2023 those with high household income rated less highly health insurance, stress, community safety, religion and spirituality, location, and neighborhood support compared to those below them in income. The fact that lower income groups are more likely to endorse the SDoH more highly than their higher income counterparts in 2023 is consistent with the idea that those who are more likely to experience these challenges directly, including during the pandemic, are more likely to rate them higher. While age differences in responses did not increase between 2007 and 2023, it is still true that older adults are more likely to rate the SDoH more highly. However, inconsistent with this hypothesis is that there was no increase in health differences in ratings of the SDoH, which is surprising given challenges during the pandemic to those with health conditions. Also inconsistent with this hypothesis is the weaker racial/ethnic differences in responses in 2023.
+This weaker association between race/ethnicity and endorsement of the SDoH in 2023 is inconsistent with our third hypothesis that there would be wider racial/ethnic differences due to backlash from Covid-19 and racial tensions that came to a head in 2020. However, these results are consistent with findings by Gollust and colleagues that there were no racial differences in opinions about income disparities in mortality from Covid-19 (Gollust et al., 2022). We encourage further study on racial/ethnic disparities in opinions on the SDoH, including studies with larger sample sizes of different racial/ethnic groups, as other research finds lasting change in public opinion by race since 2020 (Dunivin et al., 2022).
+Consistent with our third hypothesis, party identification was strongly associated with ratings in 2007 and became even more important in 2023. This finding is consistent with the hypothesis that backlash from Covid-19 and discourse on racial injustice may have widened the partisan divide in recognizing the SDoH. In particular, this finding is consistent with research demonstrating both partisan-based selection of information sources and differential impact of messaging about the SDoH (Gollust et al., 2024; Gollust and Capella, 2014; Niederdeppe et al., 2013).
+Limitations. While the 2007 survey was an RDD phone survey, the 2023 survey was an online panel survey. There may be differential selection bias between the samples as well as survey mode differences. Our racial/ethnic variables and sample size do not allow examination of differences in responses for those other than the three racial/ethnic groups we focused on, and even then, the small sample sizes for non-Hispanic Blacks and Hispanics may impact our generalizations. Despite these limitations, this is the first study to examine change in demographic differences over 15 years in opinions on the factors that affect health.
+Implications. Increasing public understanding of the SDoH and reducing partisan differences in this understanding may be important to gaining public support for policies and programs that address the SDoH (Jones et al., 2017; Pagel et al., 2017). Moreover, the relative lower recognition of the SDoH among those in the highest income group is concerning given the role that high income individuals play in politics and policy. The lack of increased recognition over 15 years of the importance of SDoH among Wisconsin adults suggests continued barriers to knowledge dissemination. Given evidence that presenting research facts does not bridge partisan divides (Kubin et al., 2021), ongoing research is needed on the impact of different messaging interventions by political party and ideology and income on long-term change in knowledge and opinion on the SDoH (Niederdeppe et al., 2023).
